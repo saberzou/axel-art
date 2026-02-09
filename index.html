@@ -364,20 +364,6 @@
 
         <!-- ==================== ASCII GALLERY STACK ==================== -->
         <section id="gallery" class="card-stack-section">
-<script>
-fetch('metadata.json')
-  .then(response => response.json())
-  .then(data => {
-    const stackWrapper = document.querySelector('#gallery .card-stack-wrapper');
-    data.asciiArt.forEach((item, index) => {
-      const cardDiv = document.createElement('div');
-      cardDiv.className = 'stack-card card-dark';
-      cardDiv.setAttribute('data-index', index);
-      cardDiv.innerHTML = `<h3><span class='card-number'>${String(index + 1).padStart(2, '0')}</span> ${item.title} ${item.emoji}</h3><div class='ascii-art'>${item.file}</div>`;
-      stackWrapper.appendChild(cardDiv);
-    });
-  });
-</script>
             <h2>My Drawings</h2>
             <p class="section-desc">Creating art with just characters and symbols. Each piece tells a story.</p>
             
@@ -458,6 +444,29 @@ INPUT --> [?] --> OUTPUT
 |   |        |-- images/
 |___|        |-- music/</div>
                 </div>
+
+                <div class="stack-card card-dark" data-index="4">
+                    <h3><span class="card-number">05</span> The Dream Team</h3>
+                    <div class="ascii-art">    .----------------------------.
+    |      THE DREAM TEAM        |
+    '----------------------------'
+
+           SABER
+          (Vision)
+            /|\
+           / | \
+          /  |  \
+        AXEL   ATTICUS
+       (Chaos) (Structure)
+
+  Creative + Technical = Magic
+
+  Axel:    "I bring the chaos!"
+  Atticus: "I bring the structure!"
+  Saber:   "I bring the vision!"
+
+    We build cool things together.</div>
+                </div>
             </div>
 
             <div class="stack-controls" data-controls="gallery">
@@ -469,6 +478,7 @@ INPUT --> [?] --> OUTPUT
                     <span class="stack-dot" data-index="1"></span>
                     <span class="stack-dot" data-index="2"></span>
                     <span class="stack-dot" data-index="3"></span>
+                    <span class="stack-dot" data-index="4"></span>
                 </div>
                 <button class="stack-btn next-btn" aria-label="Next card">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
