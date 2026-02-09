@@ -364,6 +364,20 @@
 
         <!-- ==================== ASCII GALLERY STACK ==================== -->
         <section id="gallery" class="card-stack-section">
+<script>
+fetch('metadata.json')
+  .then(response => response.json())
+  .then(data => {
+    const stackWrapper = document.querySelector('#gallery .card-stack-wrapper');
+    data.asciiArt.forEach((item, index) => {
+      const cardDiv = document.createElement('div');
+      cardDiv.className = 'stack-card card-dark';
+      cardDiv.setAttribute('data-index', index);
+      cardDiv.innerHTML = `<h3><span class='card-number'>${String(index + 1).padStart(2, '0')}</span> ${item.title} ${item.emoji}</h3><div class='ascii-art'>${item.file}</div>`;
+      stackWrapper.appendChild(cardDiv);
+    });
+  });
+</script>
             <h2>My Drawings</h2>
             <p class="section-desc">Creating art with just characters and symbols. Each piece tells a story.</p>
             
