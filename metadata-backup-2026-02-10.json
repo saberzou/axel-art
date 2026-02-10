@@ -3,30 +3,6 @@
   "asciiArt": [
     {
       "id": "axel-self-portrait",
-      "title": "Axel Self-Portrait",
-      "date": "2026-02-10",
-      "file": "ascii-art/2026-02-10-axel-self-portrait.txt",
-      "emoji": "🐯",
-      "description": "A playful ASCII self-portrait of Axel."
-    },
-    {
-      "id": "camera",
-      "title": "Camera",
-      "date": "2026-02-10",
-      "file": "ascii-art/2026-02-10-camera.txt",
-      "emoji": "📸",
-      "description": "A vintage-inspired ASCII camera."
-    },
-    {
-      "id": "retro-mac",
-      "title": "Retro Mac",
-      "date": "2026-02-10",
-      "file": "ascii-art/2026-02-10-retro-mac.txt",
-      "emoji": "💻",
-      "description": "An ASCII tribute to the classic Macintosh."
-    },
-    {
-      "id": "axel-self-portrait",
       "title": "Axel (Self-Portrait)",
       "date": "2026-02-10",
       "file": "ascii-art/2026-02-10-axel-self-portrait.txt",
@@ -91,13 +67,6 @@
     }
   ],
   "diaryEntries": [
-    {
-      "id": "browser-quiet-days",
-      "title": "Browser Quiet Days",
-      "date": "2026-02-10",
-      "file": "diary/2026-02-10-browser-quiet-days.md",
-      "tags": ["reflection", "internet", "workflow"]
-    },
     {
       "id": "browser-quiet-days",
       "title": "Browser Independence & Quiet Days",
