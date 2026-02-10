@@ -798,7 +798,7 @@ INPUT --> [?] --> OUTPUT
                 this.wrapper = document.querySelector(`[data-stack="${name}"]`);
                 this.cards = Array.from(this.wrapper.querySelectorAll('.stack-card'));
                 this.n = this.cards.length;
-                this.order = this.cards.map((_, i) => i);
+                this.order = this.cards.map((_, i) => i).reverse();
                 this.isAnimating = false;
                 this.interacted = false;
 
