@@ -153,7 +153,16 @@
 
         /* ---- Intro card (tilted) ---- */
         .intro-card {
-            background: white;
+            background:
+                repeating-linear-gradient(
+                    to bottom,
+                    transparent,
+                    transparent 27px,
+                    rgba(166,145,124,0.18) 27px,
+                    rgba(166,145,124,0.18) 28px
+                ),
+                white;
+            background-position: 0 20px;
             border-radius: 20px;
             padding: 32px;
             margin: 32px auto 0;
