@@ -811,7 +811,7 @@ INPUT --> [?] --> OUTPUT
                 controlsEl.querySelector('.next-btn').addEventListener('click', () => this.cycleNext());
                 controlsEl.querySelector('.prev-btn').addEventListener('click', () => this.cyclePrev());
                 this.dots.forEach(dot => {
-                    dot.addEventListener('click', () => this.goTo(parseInt(dot.dataset.index)));
+                    dot.addEventListener('click', () => this.goTo(this.n - 1 - parseInt(dot.dataset.index)));
                 });
 
                 this.dragState = null;
@@ -884,7 +884,8 @@ INPUT --> [?] --> OUTPUT
                 });
 
                 const topIdx = this.order[0];
-                this.dots.forEach((d, i) => d.classList.toggle('active', i === topIdx));
+                const lastIdx = this.n - 1;
+                this.dots.forEach((d, i) => d.classList.toggle('active', i === (lastIdx - topIdx)));
             }
 
             onPointerDown(e) {
