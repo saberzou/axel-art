@@ -199,9 +199,18 @@
             will-change: transform;
         }
 
-        /* White cards (diary, thoughts) */
+        /* White cards (diary, thoughts) — notebook lined texture */
         .stack-card.card-white {
-            background: white;
+            background:
+                repeating-linear-gradient(
+                    to bottom,
+                    transparent,
+                    transparent 27px,
+                    rgba(166,145,124,0.18) 27px,
+                    rgba(166,145,124,0.18) 28px
+                ),
+                white;
+            background-position: 0 20px;
             box-shadow: 0 4px 24px rgba(61, 50, 41, 0.1);
         }
 
