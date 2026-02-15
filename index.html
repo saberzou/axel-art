@@ -1073,7 +1073,8 @@ INPUT --> [?] --> OUTPUT
             }
 
             // Animate top card around the deck to the back
-            sendToBack(topCard) {
+            // dir: 1 = exit right, -1 = exit left
+            sendToBack(topCard, dir = 1) {
                 this.isAnimating = true;
                 const backDepth = Math.min(this.n - 1, MAX_VISIBLE - 1);
                 const backState = this.getCardState(topCard, backDepth);
@@ -1083,12 +1084,12 @@ INPUT --> [?] --> OUTPUT
                     onComplete: () => { this.isAnimating = false; }
                 });
 
-                // Phase 1: lift up and slide out to the right
+                // Phase 1: lift up and slide out in swipe direction
                 tl.to(topCard, {
-                    x: wrapperW * 0.6, y: -30, rotation: 12, scale: 0.95,
+                    x: dir * wrapperW * 0.6, y: -30, rotation: dir * 12, scale: 0.95,
                     duration: 0.3, ease: 'power2.in'
                 })
-                // Phase 2: drop z-index behind the stack, arc around to back position
+                // Phase 2: drop z-index behind the stack
                 .call(() => {
                     this.order.push(this.order.shift());
                     this.cards.forEach(card => {
@@ -1098,9 +1099,9 @@ INPUT --> [?] --> OUTPUT
                         card.style.pointerEvents = depth === 0 ? 'auto' : 'none';
                     });
                 })
-                // Phase 3: swing around — move right and down, behind the stack
+                // Phase 3: arc around behind the stack
                 .to(topCard, {
-                    x: wrapperW * 0.3, y: backState.y + 20, scale: backState.scale, rotation: -4,
+                    x: dir * wrapperW * 0.3, y: backState.y + 20, scale: backState.scale, rotation: dir * -4,
                     duration: 0.25, ease: 'power1.inOut'
                 })
                 // Phase 4: slide into the back of the deck
@@ -1166,7 +1167,7 @@ INPUT --> [?] --> OUTPUT
 
                 if (Math.abs(d.currentX) > SWIPE_THRESH) {
                     this.hideHint();
-                    this.sendToBack(d.card);
+                    this.sendToBack(d.card, d.currentX > 0 ? 1 : -1);
                 } else {
                     // Snap back
                     gsap.to(d.card, {
