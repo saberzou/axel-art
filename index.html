@@ -1072,23 +1072,24 @@ INPUT --> [?] --> OUTPUT
                 this.dots.forEach((d, i) => d.classList.toggle('active', i === (lastIdx - topIdx)));
             }
 
-            // Animate top card to back of stack smoothly
+            // Animate top card around the deck to the back
             sendToBack(topCard) {
                 this.isAnimating = true;
                 const backDepth = Math.min(this.n - 1, MAX_VISIBLE - 1);
                 const backState = this.getCardState(topCard, backDepth);
+                const wrapperW = this.wrapper.offsetWidth;
 
-                // Phase 1: lift up and shrink slightly
                 const tl = gsap.timeline({
                     onComplete: () => { this.isAnimating = false; }
                 });
 
+                // Phase 1: lift up and slide out to the right
                 tl.to(topCard, {
-                    y: -20, scale: 0.92, rotation: 0, opacity: 0.7,
-                    duration: 0.25, ease: 'power2.out'
+                    x: wrapperW * 0.6, y: -30, rotation: 12, scale: 0.95,
+                    duration: 0.3, ease: 'power2.in'
                 })
+                // Phase 2: drop z-index behind the stack, arc around to back position
                 .call(() => {
-                    // Reorder and set z-index before settling
                     this.order.push(this.order.shift());
                     this.cards.forEach(card => {
                         const idx = parseInt(card.dataset.index);
@@ -1097,15 +1098,19 @@ INPUT --> [?] --> OUTPUT
                         card.style.pointerEvents = depth === 0 ? 'auto' : 'none';
                     });
                 })
-                // Phase 2: settle all cards to new positions
+                // Phase 3: swing around — move right and down, behind the stack
                 .to(topCard, {
-                    y: backState.y, scale: backState.scale, rotation: backState.rotation,
-                    opacity: backState.opacity, x: 0,
-                    duration: 0.45, ease: 'back.out(1.2)',
+                    x: wrapperW * 0.3, y: backState.y + 20, scale: backState.scale, rotation: -4,
+                    duration: 0.25, ease: 'power1.inOut'
+                })
+                // Phase 4: slide into the back of the deck
+                .to(topCard, {
+                    x: 0, y: backState.y, scale: backState.scale, rotation: backState.rotation,
+                    duration: 0.3, ease: 'power2.out',
                     onUpdate: () => { topCard.style.boxShadow = this.getCardShadow(topCard, backDepth); }
-                }, '+=0');
+                });
 
-                // Simultaneously move other cards up
+                // Other cards shift up during phases 2-4
                 this.cards.forEach(card => {
                     if (card === topCard) return;
                     const idx = parseInt(card.dataset.index);
@@ -1114,9 +1119,9 @@ INPUT --> [?] --> OUTPUT
                     const state = this.getCardState(card, newDepth);
                     tl.to(card, {
                         y: state.y, scale: state.scale, rotation: state.rotation, opacity: state.opacity,
-                        duration: 0.45, ease: 'back.out(1.2)',
+                        duration: 0.4, ease: 'power2.out',
                         onUpdate: () => { card.style.boxShadow = this.getCardShadow(card, newDepth); }
-                    }, '<');
+                    }, 0.3); // start when top card leaves
                 });
 
                 const topIdx = this.order[0];
