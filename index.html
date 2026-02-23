@@ -485,20 +485,19 @@
             font-family: 'Noto Serif SC', 'PingFang SC', serif;
         }
 
-        /* Entrance animation */
-        @supports (selector(:open)) {
-            .card-detail-modal {
-                opacity: 1;
-                transform: scale(1) translateY(0);
-                transition: opacity 0.3s ease, transform 0.3s ease,
-                            overlay 0.3s allow-discrete, display 0.3s allow-discrete;
-            }
-            @starting-style {
-                .card-detail-modal:open {
-                    opacity: 0;
-                    transform: scale(0.95) translateY(16px);
-                }
-            }
+        @keyframes modal-slide-up {
+            from { opacity: 0; transform: translateY(100%); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes modal-backdrop-in {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .card-detail-modal[open] {
+            animation: modal-slide-up 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .card-detail-modal[open]::backdrop {
+            animation: modal-backdrop-in 0.3s ease;
         }
         
         /* ---- Footer ---- */
