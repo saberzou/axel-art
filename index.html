@@ -414,22 +414,33 @@
 
         .card-detail-modal .modal-inner {
             padding: 40px 32px 32px;
+            padding-bottom: calc(32px + env(safe-area-inset-bottom, 0px));
             overflow-y: auto;
             max-height: 80vh;
             -webkit-overflow-scrolling: touch;
         }
 
+        .card-detail-modal .modal-inner::before {
+            content: '';
+            display: block;
+            width: 36px;
+            height: 4px;
+            border-radius: 2px;
+            background: var(--warm-border);
+            margin: -24px auto 20px;
+        }
+
         .card-detail-modal .modal-close {
             position: absolute;
-            top: 12px;
-            right: 12px;
-            width: 36px;
-            height: 36px;
+            top: 16px;
+            right: 16px;
+            width: 32px;
+            height: 32px;
             border-radius: 50%;
-            border: none;
-            background: var(--warm-bg);
+            border: 1px solid var(--warm-border);
+            background: var(--cream);
             color: var(--brown-light);
-            font-size: 18px;
+            font-size: 16px;
             z-index: 10;
             cursor: pointer;
             display: flex;
