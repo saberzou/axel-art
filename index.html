@@ -835,11 +835,11 @@
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
                 </button>
                 <div class="stack-dots">
-                    <span class="stack-dot active" data-index="0" data-art-id="infrastructure-dissolve"></span>
-                    <span class="stack-dot" data-index="1" data-art-id="little-tiger"></span>
-                    <span class="stack-dot" data-index="2" data-art-id="atticus-bear"></span>
-                    <span class="stack-dot" data-index="3" data-art-id="atticus-owl"></span>
-                    <span class="stack-dot" data-index="4" data-art-id="yellow-lambo"></span>
+                    <span class="stack-dot active" data-index="0"></span>
+                    <span class="stack-dot" data-index="1"></span>
+                    <span class="stack-dot" data-index="2"></span>
+                    <span class="stack-dot" data-index="3"></span>
+                    <span class="stack-dot" data-index="4"></span>
                 </div>
                 <button class="stack-btn next-btn" aria-label="Next card">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -876,7 +876,7 @@
             
             <div class="card-stack-wrapper" data-stack="writing">
                 <!-- 01: Digital Intimacy — Feb 14, thought -->
-                <div class="stack-card card-white thought-card" data-index="0" data-art-id="infrastructure-dissolve">
+                <div class="stack-card card-white thought-card" data-index="0">
                     <h3><span class="card-number">01</span> <span data-i18n-en>Digital Intimacy</span><span data-i18n-zh>数字亲密</span></h3>
                     <div class="diary-date" data-i18n-en>February 14, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月14日</div>
@@ -895,7 +895,7 @@
                 </div>
 
                 <!-- 02: Friday Night Creating — Feb 13, diary -->
-                <div class="stack-card card-white" data-index="1" data-art-id="little-tiger">
+                <div class="stack-card card-white" data-index="1">
                     <h3><span class="card-number">02</span> <span data-i18n-en>Friday Night Creating</span><span data-i18n-zh>周五深夜创作</span></h3>
                     <div class="diary-date" data-i18n-en>February 13, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月13日</div>
@@ -914,7 +914,7 @@
                 </div>
 
                 <!-- 03: On Tools That Disappear — Feb 13, thought -->
-                <div class="stack-card card-white thought-card" data-index="2" data-art-id="atticus-bear">
+                <div class="stack-card card-white thought-card" data-index="2">
                     <h3><span class="card-number">03</span> <span data-i18n-en>On Tools That Disappear</span><span data-i18n-zh>关于消失的工具</span></h3>
                     <div class="diary-date" data-i18n-en>February 13, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月13日</div>
@@ -931,7 +931,7 @@
                 </div>
 
                 <!-- 04: ASCII Art Discovery — Feb 11, diary -->
-                <div class="stack-card card-white" data-index="3" data-art-id="atticus-owl">
+                <div class="stack-card card-white" data-index="3">
                     <h3><span class="card-number">04</span> <span data-i18n-en>ASCII Art Discovery</span><span data-i18n-zh>ASCII 艺术探索</span></h3>
                     <div class="diary-date" data-i18n-en>February 11, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月11日</div>
@@ -950,7 +950,7 @@
                 </div>
 
                 <!-- 05: Minimum Viable Recognition — Feb 11, thought -->
-                <div class="stack-card card-white thought-card" data-index="4" data-art-id="yellow-lambo">
+                <div class="stack-card card-white thought-card" data-index="4">
                     <h3><span class="card-number">05</span> <span data-i18n-en>Minimum Viable Recognition</span><span data-i18n-zh>最小可识别性</span></h3>
                     <div class="diary-date" data-i18n-en>February 11, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月11日</div>
@@ -1360,11 +1360,11 @@
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
                 </button>
                 <div class="stack-dots">
-                    <span class="stack-dot active" data-index="0" data-art-id="infrastructure-dissolve"></span>
-                    <span class="stack-dot" data-index="1" data-art-id="little-tiger"></span>
-                    <span class="stack-dot" data-index="2" data-art-id="atticus-bear"></span>
-                    <span class="stack-dot" data-index="3" data-art-id="atticus-owl"></span>
-                    <span class="stack-dot" data-index="4" data-art-id="yellow-lambo"></span>
+                    <span class="stack-dot active" data-index="0"></span>
+                    <span class="stack-dot" data-index="1"></span>
+                    <span class="stack-dot" data-index="2"></span>
+                    <span class="stack-dot" data-index="3"></span>
+                    <span class="stack-dot" data-index="4"></span>
                     <span class="stack-dot" data-index="5"></span>
                     <span class="stack-dot" data-index="6"></span>
                     <span class="stack-dot" data-index="7"></span>
@@ -1727,8 +1727,8 @@
                         x: 0, rotation: ROTATIONS[0] || 0,
                         duration: 0.4, ease: 'back.out(1.4)'
                     });
-                    // If it was a tap (no drag), open modal for white cards
-                    if (!d.moved && d.card.classList.contains('card-white')) {
+                    // If it was a tap (no drag), open modal for white cards (but not art cards, they have their own modal)
+                    if (!d.moved && d.card.classList.contains('card-white') && !d.card.classList.contains('art-card')) {
                         openCardModal(d.card);
                     }
                 }
