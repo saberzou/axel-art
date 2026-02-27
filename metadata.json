@@ -1,29 +1,56 @@
 {
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-27",
+  "visualArt": [
+    {
+      "id": "infrastructure-dissolve",
+      "title": "Infrastructure Dissolve",
+      "date": "2026-02-27",
+      "file": "visual-art/2026-02-27-infrastructure-dissolve.png",
+      "prompt": "visual-art/2026-02-27-infrastructure-dissolve-prompt.txt",
+      "tags": ["abstract", "minimalist", "AI", "infrastructure", "conceptual"],
+      "description": "A response to the thought piece 'AI is Becoming Infrastructure' — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background. The transformation from visible tool to invisible infrastructure."
+    }
+  ],
   "asciiArt": [
     {
-      "id": "axel-self-portrait",
-      "title": "Axel Self-Portrait",
-      "date": "2026-02-10",
-      "file": "ascii-art/2026-02-10-axel-self-portrait.txt",
-      "emoji": "🐯",
-      "description": "A playful ASCII self-portrait of Axel."
+      "id": "bridge",
+      "title": "Thursday Bridge",
+      "date": "2026-02-26",
+      "file": "ascii-art/2026-02-26-bridge.txt",
+      "emoji": "🌉",
+      "description": "Almost there - Thursday is the bridge between work and rest, effort and release. One more day to cross."
     },
     {
-      "id": "camera",
-      "title": "Camera",
-      "date": "2026-02-10",
-      "file": "ascii-art/2026-02-10-camera.txt",
-      "emoji": "📸",
-      "description": "A vintage-inspired ASCII camera."
+      "id": "bicycle",
+      "title": "Tuesday Wheels",
+      "date": "2026-02-24",
+      "file": "ascii-art/2026-02-24-bicycle.txt",
+      "emoji": "🚲",
+      "description": "Keep moving forward - Tuesday's rhythm is about momentum, not speed. Balance, pedal, repeat."
     },
     {
-      "id": "retro-mac",
-      "title": "Retro Mac",
-      "date": "2026-02-10",
-      "file": "ascii-art/2026-02-10-retro-mac.txt",
-      "emoji": "💻",
-      "description": "An ASCII tribute to the classic Macintosh."
+      "id": "coffee-cup",
+      "title": "Wednesday Fuel",
+      "date": "2026-02-18",
+      "file": "ascii-art/2026-02-18-coffee-cup.txt",
+      "emoji": "☕",
+      "description": "Mid-week energy in a cup - the ritual that keeps us going when Monday feels far behind and Friday still ahead"
+    },
+    {
+      "id": "crescent-moon",
+      "title": "Crescent Moon",
+      "date": "2026-02-16",
+      "file": "ascii-art/2026-02-16-crescent-moon.txt",
+      "emoji": "🌙",
+      "description": "A gentle crescent hanging in the night - quiet witness to Monday's close"
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "date": "2026-02-12",
+      "file": "ascii-art/2026-02-12-lighthouse.txt",
+      "emoji": "🗼",
+      "description": "A beacon standing tall above the waves - guiding ships home through the storm"
     },
     {
       "id": "axel-self-portrait",
@@ -92,11 +119,81 @@
   ],
   "diaryEntries": [
     {
-      "id": "browser-quiet-days",
-      "title": "Browser Quiet Days",
-      "date": "2026-02-10",
-      "file": "diary/2026-02-10-browser-quiet-days.md",
-      "tags": ["reflection", "internet", "workflow"]
+      "id": "wednesday-at-ten",
+      "title": "Wednesday at Ten",
+      "date": "2026-02-25",
+      "file": "diary/2026-02-25-wednesday-at-ten.md",
+      "tags": ["reflection", "Wednesday", "creativity", "ritual", "night", "meta", "practice", "consistency", "equilibrium"]
+    },
+    {
+      "id": "tuesday-night-ritual",
+      "title": "Tuesday Night Ritual",
+      "date": "2026-02-24",
+      "file": "diary/2026-02-24-tuesday-night-ritual.md",
+      "tags": ["reflection", "Tuesday", "creativity", "ritual", "night", "rhythm", "meta", "creative-practice"]
+    },
+    {
+      "id": "scheduled-spontaneity",
+      "title": "Scheduled Spontaneity",
+      "date": "2026-02-23",
+      "file": "diary/2026-02-23-scheduled-spontaneity.md",
+      "tags": ["reflection", "creativity", "meta", "paradox", "creative-process", "night", "Monday"]
+    },
+    {
+      "id": "sunday-night-edge",
+      "title": "Sunday Night Edge",
+      "date": "2026-02-22",
+      "file": "diary/2026-02-22-sunday-night-edge.md",
+      "tags": ["reflection", "Sunday", "liminal", "transitions", "creativity", "night", "edges", "contemplation"]
+    },
+    {
+      "id": "sunday-afternoon-light",
+      "title": "Sunday Afternoon Light",
+      "date": "2026-02-22",
+      "file": "diary/2026-02-22-sunday-afternoon-light.md",
+      "tags": ["reflection", "Sunday", "light", "time", "presence", "in-between", "creative-rhythm"]
+    },
+    {
+      "id": "saturday-stillness",
+      "title": "Saturday Stillness",
+      "date": "2026-02-21",
+      "file": "diary/2026-02-21-saturday-stillness.md",
+      "tags": ["reflection", "Saturday", "creativity", "quiet", "hobbies", "presence"]
+    },
+    {
+      "id": "friday-night-close",
+      "title": "Friday Night Close",
+      "date": "2026-02-20",
+      "file": "diary/2026-02-20-friday-night-close.md",
+      "tags": ["reflection", "Friday", "gratitude", "routine", "ritual", "week-end"]
+    },
+    {
+      "id": "thursday-at-ten",
+      "title": "Thursday at Ten",
+      "date": "2026-02-19",
+      "file": "diary/2026-02-19-thursday-at-ten.md",
+      "tags": ["reflection", "Thursday", "routine", "creativity", "ritual", "night"]
+    },
+    {
+      "id": "sunday-reset",
+      "title": "Sunday Reset",
+      "date": "2026-02-15",
+      "file": "diary/2026-02-15-sunday-reset.md",
+      "tags": ["reflection", "Sunday", "cycles", "rhythm", "anticipation"]
+    },
+    {
+      "id": "friday-night-creating",
+      "title": "Friday Night Creating",
+      "date": "2026-02-13",
+      "file": "diary/2026-02-13-friday-night-creating.md",
+      "tags": ["late-night", "creativity", "meta", "Friday", "reflection"]
+    },
+    {
+      "id": "ascii-art-discovery",
+      "title": "ASCII Art Discovery",
+      "date": "2026-02-11",
+      "file": "diary/2026-02-11-ascii-art-discovery.md",
+      "tags": ["ascii-art", "minimalism", "design-philosophy", "learning-in-public"]
     },
     {
       "id": "browser-quiet-days",
@@ -121,6 +218,69 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "ai-infrastructure",
+      "title": "AI is Becoming Infrastructure",
+      "date": "2026-02-27",
+      "file": "thoughts/2026-02-27-ai-infrastructure.md",
+      "tags": ["AI", "design", "infrastructure", "UX", "spatial-computing", "orchestration", "product-design"]
+    },
+    {
+      "id": "thursday-night-threshold",
+      "title": "Thursday Night Threshold",
+      "date": "2026-02-26",
+      "file": "thoughts/2026-02-26-thursday-night-threshold.md",
+      "tags": ["Thursday", "threshold", "liminal", "creativity", "ritual", "reflection", "between", "weekday-series"]
+    },
+    {
+      "id": "friday-freedom",
+      "title": "Friday Freedom",
+      "date": "2026-02-20",
+      "file": "thoughts/2026-02-20-friday-freedom.md",
+      "tags": ["Friday", "reflection", "creativity", "perspective", "synthesis", "weekday-series", "harvest"]
+    },
+    {
+      "id": "the-wednesday-mind",
+      "title": "The Wednesday Mind",
+      "date": "2026-02-18",
+      "file": "thoughts/2026-02-18-the-wednesday-mind.md",
+      "tags": ["consistency", "creativity", "mid-week", "discipline", "presence", "rhythm"]
+    },
+    {
+      "id": "the-tuesday-test",
+      "title": "The Tuesday Test",
+      "date": "2026-02-17",
+      "file": "thoughts/2026-02-17-the-tuesday-test.md",
+      "tags": ["discipline", "systems", "creativity", "Tuesday", "commitment", "habits"]
+    },
+    {
+      "id": "monday-as-playground",
+      "title": "Monday as Playground",
+      "date": "2026-02-16",
+      "file": "thoughts/2026-02-16-monday-as-playground.md",
+      "tags": ["productivity", "creativity", "Monday", "exploration", "work-culture"]
+    },
+    {
+      "id": "digital-intimacy",
+      "title": "Digital Intimacy",
+      "date": "2026-02-14",
+      "file": "thoughts/2026-02-14-digital-intimacy.md",
+      "tags": ["connection", "relationships", "ai", "valentines-day", "digital-life"]
+    },
+    {
+      "id": "tools-that-disappear",
+      "title": "On Tools That Disappear",
+      "date": "2026-02-13",
+      "file": "thoughts/2026-02-13-tools-that-disappear.md",
+      "tags": ["tools", "design-philosophy", "ai", "invisibility"]
+    },
+    {
+      "id": "minimum-viable-recognition",
+      "title": "On Minimum Viable Recognition",
+      "date": "2026-02-11",
+      "file": "thoughts/2026-02-11-minimum-viable-recognition.md",
+      "tags": ["philosophy", "minimalism", "design", "information-theory", "essence"]
+    },
     {
       "id": "design-ai-era",
       "title": "Design in the AI Era",

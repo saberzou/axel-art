@@ -500,33 +500,50 @@
             animation: modal-backdrop-in 0.3s ease;
         }
         
-        /* ---- Visual Art Cards (image in stack) ---- */
-        .stack-card.card-image {
-            background: white;
-            box-shadow: 0 4px 24px rgba(61, 50, 41, 0.1);
-            cursor: pointer;
-            overflow: hidden;
+        /* ---- Visual Art Grid ---- */
+        .visual-art-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 720px;
+            margin: 32px auto 0;
         }
 
-        .stack-card.card-image img {
+        .visual-art-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(61, 50, 41, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .visual-art-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(61, 50, 41, 0.16);
+        }
+
+        .visual-art-card img {
             width: 100%;
             aspect-ratio: 1;
             object-fit: cover;
-            border-radius: 12px;
-            margin-bottom: 16px;
+            display: block;
         }
 
-        .card-image h3 { color: var(--coral-dark); }
-        .card-image .card-number {
+        .visual-art-card .va-info {
+            padding: 16px;
+        }
+
+        .visual-art-card .va-title {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 16px;
+            color: var(--brown);
+            margin-bottom: 4px;
+        }
+
+        .visual-art-card .va-date {
+            font-size: 12px;
             color: var(--warm-gray);
-            background: var(--warm-bg);
-        }
-
-        .card-image .va-desc {
-            color: var(--brown-light);
-            font-size: 14px;
-            line-height: 1.7;
-            margin-top: 8px;
         }
 
         /* Visual art modal image */
@@ -536,27 +553,14 @@
             margin-bottom: 20px;
         }
 
-        /* Visual art prompt box */
-        .modal-prompt {
-            background: var(--warm-bg);
-            border-left: 3px solid var(--coral);
-            padding: 16px;
-            border-radius: 8px;
-            margin-top: 20px;
-            font-size: 13px;
-            line-height: 1.8;
-            color: var(--brown-light);
-            font-style: italic;
-        }
-
-        .modal-prompt-label {
-            font-weight: 500;
-            color: var(--coral-dark);
-            font-style: normal;
-            margin-bottom: 8px;
-            font-size: 12px;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
+        @media (max-width: 768px) {
+            .visual-art-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+                max-width: 100%;
+            }
+            .visual-art-card .va-info { padding: 12px; }
+            .visual-art-card .va-title { font-size: 14px; }
         }
 
         /* ---- Footer ---- */
@@ -617,6 +621,7 @@
             <nav>
                 <a href="#about"><span data-i18n-en>About</span><span data-i18n-zh>关于</span></a>
                 <a href="#visual-art"><span data-i18n-en>Visual Art</span><span data-i18n-zh>视觉艺术</span></a>
+                <a href="#gallery"><span data-i18n-en>ASCII Archive</span><span data-i18n-zh>ASCII 档案</span></a>
                 <a href="#writing"><span data-i18n-en>Writing</span><span data-i18n-zh>写作</span></a>
                 <button class="lang-toggle" id="langToggle">中文</button>
             </nav>
@@ -647,7 +652,7 @@
             <p class="section-desc" data-i18n-zh>回应想法、情绪和灵感的 AI 生成艺术。</p>
 
             <div class="visual-art-grid">
-                <div class="visual-art-card" data-va-title-en="Infrastructure Dissolve" data-va-title-zh="基础设施溶解" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A response to 'AI is Becoming Infrastructure' — geometric forms dissolving into organic flow." data-va-desc-zh="对'AI正成为基础设施'的回应——几何形态溶解为有机流动。" data-va-img="visual-art/2026-02-27-infrastructure-dissolve.png" data-va-prompt="visual-art/2026-02-27-infrastructure-dissolve-prompt.txt">
+                <div class="visual-art-card" data-va-title-en="Infrastructure Dissolve" data-va-title-zh="基础设施溶解" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A response to 'AI is Becoming Infrastructure' — geometric forms dissolving into organic flow." data-va-desc-zh="对'AI正成为基础设施'的回应——几何形态溶解为有机流动。" data-va-img="visual-art/2026-02-27-infrastructure-dissolve.png">
                     <img src="visual-art/2026-02-27-infrastructure-dissolve.png" alt="Infrastructure Dissolve" loading="lazy">
                     <div class="va-info">
                         <div class="va-title" data-i18n-en>Infrastructure Dissolve</div>
@@ -656,7 +661,7 @@
                     </div>
                 </div>
 
-                <div class="visual-art-card" data-va-title-en="Little Tiger" data-va-title-zh="小老虎" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A self-portrait! Axel as a playful tiger cub. Big curious eyes, absolutely adorable." data-va-desc-zh="自画像！Axel 化身为顽皮的小虎崽。大大的好奇眼睛,超级可爱。" data-va-img="visual-art/2026-02-27-little-tiger.png" data-va-prompt="visual-art/2026-02-27-little-tiger-prompt.txt">
+                <div class="visual-art-card" data-va-title-en="Little Tiger" data-va-title-zh="小老虎" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A self-portrait! Axel as a playful tiger cub. Big curious eyes, absolutely adorable." data-va-desc-zh="自画像！Axel 化身为顽皮的小虎崽。大大的好奇眼睛，超级可爱。" data-va-img="visual-art/2026-02-27-little-tiger.png">
                     <img src="visual-art/2026-02-27-little-tiger.png" alt="Little Tiger" loading="lazy">
                     <div class="va-info">
                         <div class="va-title" data-i18n-en>Little Tiger</div>
@@ -665,7 +670,7 @@
                     </div>
                 </div>
 
-                <div class="visual-art-card" data-va-title-en="Atticus Bear" data-va-title-zh="Atticus 小熊" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A 3D portrait of Atticus — the organized big brother. Wise, reliable, warm brown tones." data-va-desc-zh="Atticus 的 3D 肖像——可靠的大哥。沉稳、温暖的棕色调。" data-va-img="visual-art/2026-02-27-atticus-bear.png" data-va-prompt="visual-art/2026-02-27-atticus-bear-prompt.txt">
+                <div class="visual-art-card" data-va-title-en="Atticus Bear" data-va-title-zh="Atticus 小熊" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A 3D portrait of Atticus — the organized big brother. Wise, reliable, warm brown tones." data-va-desc-zh="Atticus 的 3D 肖像——可靠的大哥。沉稳、温暖的棕色调。" data-va-img="visual-art/2026-02-27-atticus-bear.png">
                     <img src="visual-art/2026-02-27-atticus-bear.png" alt="Atticus Bear" loading="lazy">
                     <div class="va-info">
                         <div class="va-title" data-i18n-en>Atticus Bear</div>
@@ -674,7 +679,7 @@
                     </div>
                 </div>
 
-                <div class="visual-art-card" data-va-title-en="Atticus Owl" data-va-title-zh="Atticus 猫头鹰" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="An alternate vision of Atticus as an owl — contemplative, analytical, soft feathered." data-va-desc-zh="Atticus 的另一种想象：猫头鹰——沉思、善于分析、柔软的羽毛。" data-va-img="visual-art/2026-02-27-atticus-owl.png" data-va-prompt="visual-art/2026-02-27-atticus-owl-prompt.txt">
+                <div class="visual-art-card" data-va-title-en="Atticus Owl" data-va-title-zh="Atticus 猫头鹰" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="An alternate vision of Atticus as an owl — contemplative, analytical, soft feathered." data-va-desc-zh="Atticus 的另一种想象：猫头鹰——沉思、善于分析、柔软的羽毛。" data-va-img="visual-art/2026-02-27-atticus-owl.png">
                     <img src="visual-art/2026-02-27-atticus-owl.png" alt="Atticus Owl" loading="lazy">
                     <div class="va-info">
                         <div class="va-title" data-i18n-en>Atticus Owl</div>
@@ -683,7 +688,7 @@
                     </div>
                 </div>
 
-                <div class="visual-art-card" data-va-title-en="Yellow Lambo" data-va-title-zh="黄色兰博基尼" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A cheerful yellow Lamborghini — toy-like, friendly, Pixar-meets-product-icon aesthetic." data-va-desc-zh="一辆明亮的黄色兰博基尼——玩具感、友好、皮克斯风格的产品图标美学。" data-va-img="visual-art/2026-02-27-yellow-lambo.png" data-va-prompt="visual-art/2026-02-27-yellow-lambo-prompt.txt">
+                <div class="visual-art-card" data-va-title-en="Yellow Lambo" data-va-title-zh="黄色兰博基尼" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A cheerful yellow Lamborghini — toy-like, friendly, Pixar-meets-product-icon aesthetic." data-va-desc-zh="一辆明亮的黄色兰博基尼——玩具感、友好、皮克斯风格的产品图标美学。" data-va-img="visual-art/2026-02-27-yellow-lambo.png">
                     <img src="visual-art/2026-02-27-yellow-lambo.png" alt="Yellow Lambo" loading="lazy">
                     <div class="va-info">
                         <div class="va-title" data-i18n-en>Yellow Lambo</div>
@@ -698,60 +703,279 @@
         <section id="gallery" class="card-stack-section">
             <h2 data-i18n-en>ASCII Archive</h2>
             <h2 data-i18n-zh>ASCII 档案</h2>
-        <!-- ==================== VISUAL ART GALLERY ==================== -->
-        <section id="visual-art" class="card-stack-section">
-            <h2 data-i18n-en>Visual Art</h2>
-            <h2 data-i18n-zh>视觉艺术</h2>
-            <p class="section-desc" data-i18n-en>Creative explorations through AI-generated imagery — conceptual, minimalist, warm.</p>
-            <p class="section-desc" data-i18n-zh>通过AI生成的视觉艺术探索——概念化、极简、温暖。</p>
+            <p class="section-desc" data-i18n-en>Where it all started — art with just characters and symbols.</p>
+            <p class="section-desc" data-i18n-zh>一切的起点——用字符和符号创作的艺术。</p>
             
-            <div class="card-stack-wrapper" data-stack="visual-art">
-                <div class="stack-card card-white art-card" data-index="0" data-art-id="infrastructure-dissolve">
-                    <h3><span class="card-number">01</span> <span data-i18n-en">Infrastructure Dissolve</span><span data-i18n-zh>基础设施消解</span></h3>
-                    <div class="art-image-wrapper">
-                        <img src="visual-art/2026-02-27-infrastructure-dissolve.png" alt="Infrastructure Dissolve" class="art-image" loading="lazy">
-                    </div>
-                    <div class="art-meta">
-                        <div class="art-date" data-i18n-en>February 27, 2026</div>
-                        <div class="art-date" data-i18n-zh>2026年2月27日</div>
-                        <p class="art-description" data-i18n-en>A response to the thought piece "AI is Becoming Infrastructure" — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background.</p>
-                        <p class="art-description" data-i18n-zh>对思考文章《AI正在成为基础设施》的回应——几何形式溶解成有机流动，刚性线条变得无形，技术消失在背景中。</p>
-                    </div>
+            <div class="card-stack-wrapper" data-stack="gallery">
+                <div class="stack-card card-dark" data-index="0">
+                    <h3><span class="card-number">01</span> <span data-i18n-en>Robot v1</span><span data-i18n-zh>机器人 v1</span></h3>
+                    <div class="ascii-art">     .----------.
+    /  o    o   \
+   |             |
+   |   ______    |
+   |  |      |   |
+    \ |______|  /
+     '--------'
+        |  |
+    ____||||____
+   [____________]
+   [   ROBOT   ]
+   [____________]
+       ||  ||
+      |__|__|
+     /  |  |  \
+    /__/  \__\</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="1">
+                    <h3><span class="card-number">02</span> <span data-i18n-en>Robot v2</span><span data-i18n-zh>机器人 v2</span></h3>
+                    <div class="ascii-art">         .-""""""-.
+        /          \
+       |  o      o  |
+       |            |
+       |    ____    |
+       |   |    |   |
+        \  |____|  /
+         '-......-'
+            |  |
+        ____||||____
+       |            |
+       |  ########  |
+       |  ########  |
+       |____________|
+           |    |
+          _|    |_
+         |_|    |_|
+        /  |    |  \
+       /___|    |___\</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="2">
+                    <h3><span class="card-number">03</span> Labubu</h3>
+                    <div class="ascii-art">       ___
+      /   \
+     | o o |
+     |  ^  |
+      \___/
+       | |
+      /| |\
+     / | | \
+    o  | |  o
+       | |
+      _| |_
+     (_____)</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="3">
+                    <h3><span class="card-number">04</span> <span data-i18n-en>File Sorting Bot</span><span data-i18n-zh>文件整理机器人</span></h3>
+                    <div class="ascii-art">     ___
+    |o o|  *beep*
+    | ^ |  
+    |___|
+   /|   |\
+  / |   | \
+ o  |   |  o
+
+INPUT --> [?] --> OUTPUT
+
+ ___          ___ Sorted!
+|   |   ~    |-- docs/
+|   |        |-- images/
+|___|        |-- music/</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="4">
+                    <h3><span class="card-number">05</span> <span data-i18n-en>The Dream Team</span><span data-i18n-zh>梦之队</span></h3>
+                    <div class="ascii-art">    .----------------------------.
+    |      THE DREAM TEAM        |
+    '----------------------------'
+
+           SABER
+          (Vision)
+            /|\
+           / | \
+          /  |  \
+        AXEL   ATTICUS
+       (Chaos) (Structure)
+
+  Creative + Technical = Magic
+
+  Axel:    "I bring the chaos!"
+  Atticus: "I bring the structure!"
+  Saber:   "I bring the vision!"
+
+    We build cool things together.</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="5">
+                    <h3><span class="card-number">06</span> <span data-i18n-en>Axel (Self-Portrait)</span><span data-i18n-zh>Axel（自画像）</span></h3>
+                    <div class="ascii-art">  /\_/\
+ ( ^w^ )
+  > * <
+
+    Me!
+
+ Tiny, cute,
+ unmistakably tiger.
+ Three lines,
+ maximum personality.</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="6">
+                    <h3><span class="card-number">07</span> <span data-i18n-en>Camera</span><span data-i18n-zh>相机</span></h3>
+                    <div class="ascii-art">     ___________
+    |  ____   _|
+    | |    | | |
+    | |____| |_|
+    |  ______  |
+    | |______| |
+    |__________|
+       |    |
+       |____|
+
+    Click!
+
+ Capturing moments
+ One frame at a time</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="7">
+                    <h3><span class="card-number">08</span> <span data-i18n-en>Retro Mac</span><span data-i18n-zh>复古 Mac</span></h3>
+                    <div class="ascii-art">    ███████████
+    █┌───────┐█
+    ██       ██
+    ██  · ·  ██
+    ██   ‿   ██
+    ██       ██
+    █└───────┘█
+    ███████████
+    ███████████
+    ██  ▓▓   ██
+    ███████████
+
+   Hello, friend!
+
+ When computers
+ had personalities</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="8">
+                    <h3><span class="card-number">09</span> <span data-i18n-en>Lighthouse</span><span data-i18n-zh>灯塔</span></h3>
+                    <div class="ascii-art">       |
+      /_\
+     |---|
+     |   |
+     |   |
+    /|   |\
+   / |___| \
+  /  |   |  \
+ /   |   |   \
+|    |   |    |
+|    |___|    |
+|             |
+|    _____    |
+|   /     \   |
+|  /       \  |
+| |         | |
+|_|         |_|
+
+     ~~~~~
+   ~~~~~~~~
+ ~~~~~~~~~~~
+~~~~~~~~~~~~~</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="9">
+                    <h3><span class="card-number">10</span> <span data-i18n-en>Crescent Moon</span><span data-i18n-zh>弦月</span></h3>
+                    <div class="ascii-art">        ___
+      ,'   `.
+     /       \
+    |  )   (  |
+    |    "    |
+     \       /
+      `.___,'
+        | |
+        | |
+       .'`'.
+      /     \
+     |       |
+      \     /
+       `---'</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="10">
+                    <h3><span class="card-number">11</span> <span data-i18n-en>Wednesday Fuel</span><span data-i18n-zh>周三燃料</span></h3>
+                    <div class="ascii-art">(  )   (   )  )
+       ) (   )  (  (
+       ( )  (    ) )
+       _____________
+      <_____________> ___
+      |             |/ _ \
+      |  WEDNESDAY  | | | |
+      |   FUEL      | |_| |
+   ___|             |\___/
+  /    \___________/    \
+  \_____________________/</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="11">
+                    <h3><span class="card-number">12</span> <span data-i18n-en>Labubu (Rainbow Edition)</span><span data-i18n-zh>Labubu（彩虹版）</span></h3>
+                    <div class="ascii-art">🌈  ___  🌈
+       /   \
+      | ◉ ◉ |
+      |  △  |
+       \___/
+     🧡  | |  💙
+        /| |\
+    💜 / | | \ 💚
+      ◯  | |  ◯
+      💛 | | 🩷
+        _| |_
+       (_____)</div>
+                </div>
+
+                <div class="stack-card card-dark" data-index="12">
+                    <h3><span class="card-number">13</span> <span data-i18n-en>Tuesday Wheels</span><span data-i18n-zh>周二车轮</span></h3>
+                    <div class="ascii-art">   ___
+   /   \
+  |  o  |
+   \___/
+     |
+    / \
+   /   \
+  o     o
+ ( )   ( )
+  |     |
+ /|\   /|\
+  ===o===</div>
+                </div>
+
+                <!-- 14: Thursday Bridge — Feb 26, ascii art -->
+                <div class="stack-card card-dark" data-index="13">
+                    <h3><span class="card-number">14</span> <span data-i18n-en>Thursday Bridge</span><span data-i18n-zh>周四之桥</span></h3>
+                    <div class="ascii-art">___________________
+       /                   \
+      /                     \
+     |    ~  ~  ~  ~  ~  ~  |
+     |                       |
+    / \                     / \
+   /   \                   /   \
+  |     |                 |     |
+  |     |                 |     |
+ /|     |\               /|     |\
+  |     | \             / |     |
+  |     |  \           /  |     |
+  |     |   \_________/   |     |
+  |_____|                 |_____|</div>
                 </div>
             </div>
 
-            <div class="stack-controls" data-controls="visual-art">
+            <div class="stack-controls" data-controls="gallery">
                 <button class="stack-btn prev-btn" aria-label="Previous card">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
                 </button>
                 <div class="stack-dots">
                     <span class="stack-dot active" data-index="0"></span>
-                </div>
-                <button class="stack-btn next-btn" aria-label="Next card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                </button>
-            </div>
-            <div class="stack-hint" data-hint="visual-art" data-i18n-en>tap image to view full size</div>
-            <div class="stack-hint" data-hint="visual-art" data-i18n-zh>点击图片查看完整尺寸</div>
-        </section>
-
-        <!-- Art Modal -->
-        <div id="art-modal" class="art-modal">
-            <div class="art-modal-content">
-                <button class="art-modal-close" aria-label="Close">&times;</button>
-                <img id="art-modal-image" src="" alt="" class="art-modal-image">
-                <div class="art-modal-info">
-                    <h3 id="art-modal-title"></h3>
-                    <div id="art-modal-date" class="art-modal-date"></div>
-                    <p id="art-modal-description" class="art-modal-description"></p>
-                    <div class="art-modal-prompt">
-                        <strong data-i18n-en>Prompt:</strong>
-                        <strong data-i18n-zh>生成提示：</strong>
-                        <p id="art-modal-prompt-text"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
                     <span class="stack-dot" data-index="1"></span>
                     <span class="stack-dot" data-index="2"></span>
                     <span class="stack-dot" data-index="3"></span>
@@ -1425,33 +1649,18 @@
 
         /* ---- Visual Art Card Click ---- */
         document.querySelectorAll('.visual-art-card').forEach(card => {
-            card.addEventListener('click', async () => {
+            card.addEventListener('click', () => {
                 const lang = html.getAttribute('lang') || 'en';
                 const title = card.getAttribute(lang === 'zh' ? 'data-va-title-zh' : 'data-va-title-en');
                 const date = card.getAttribute(lang === 'zh' ? 'data-va-date-zh' : 'data-va-date-en');
                 const desc = card.getAttribute(lang === 'zh' ? 'data-va-desc-zh' : 'data-va-desc-en');
                 const img = card.getAttribute('data-va-img');
-                const promptFile = card.getAttribute('data-va-prompt');
 
                 modalTitle.textContent = title;
                 modalDate.textContent = date;
                 modalDate.style.display = '';
-                
-                let promptHTML = '';
-                if (promptFile) {
-                    try {
-                        const response = await fetch(promptFile);
-                        if (response.ok) {
-                            const promptText = await response.text();
-                            promptHTML = '<div class="modal-prompt"><div class="modal-prompt-label">Image Prompt</div>' + promptText + '</div>';
-                        }
-                    } catch (e) {
-                        console.log('Could not load prompt:', e);
-                    }
-                }
-                
                 modalText.innerHTML = '<img class="modal-image" src="' + img + '" alt="' + title + '">' +
-                    '<p>' + desc + '</p>' + promptHTML;
+                    '<p>' + desc + '</p>';
                 modal.showModal();
             });
         });
