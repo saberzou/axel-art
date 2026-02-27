@@ -691,9 +691,15 @@
             animation: modal-backdrop-in 0.3s ease;
         }
         
-        /* ---- Visual Art Cards (image in stack) ---- */
-        .stack-card.card-image {
-            background: white;
+        /* ---- Visual Art modal image ---- */
+        .card-detail-modal .modal-image {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .card-detail-modal {
                 left: 0;
                 right: 0;
                 top: auto;
@@ -750,6 +756,116 @@
             </div>
         </section>
 
+        <!-- ==================== VISUAL ART STACK ==================== -->
+        <section id="visual-art" class="card-stack-section">
+            <h2 data-i18n-en>Visual Art</h2>
+            <h2 data-i18n-zh>视觉艺术</h2>
+            <p class="section-desc" data-i18n-en>AI-generated art responding to thoughts, moods, and ideas.</p>
+            <p class="section-desc" data-i18n-zh>回应想法、情绪和灵感的 AI 生成艺术。</p>
+
+            <div class="card-stack-wrapper" data-stack="visual-art">
+                <div class="stack-card card-white art-card" data-index="0" data-art-id="infrastructure-dissolve">
+                    <h3><span class="card-number">01</span> <span data-i18n-en>Infrastructure Dissolve</span><span data-i18n-zh>基础设施溶解</span></h3>
+                    <div class="art-image-wrapper">
+                        <img src="visual-art/2026-02-27-infrastructure-dissolve.png" alt="Infrastructure Dissolve" class="art-image" loading="lazy">
+                    </div>
+                    <div class="art-meta">
+                        <div class="art-date" data-i18n-en>February 27, 2026</div>
+                        <div class="art-date" data-i18n-zh>2026年2月27日</div>
+                        <p class="art-description" data-i18n-en>A response to 'AI is Becoming Infrastructure' — geometric forms dissolving into organic flow.</p>
+                        <p class="art-description" data-i18n-zh>对'AI正成为基础设施'的回应——几何形态溶解为有机流动。</p>
+                    </div>
+                </div>
+
+                <div class="stack-card card-white art-card" data-index="1" data-art-id="little-tiger">
+                    <h3><span class="card-number">02</span> <span data-i18n-en>Little Tiger</span><span data-i18n-zh>小老虎</span></h3>
+                    <div class="art-image-wrapper">
+                        <img src="visual-art/2026-02-27-little-tiger.png" alt="Little Tiger" class="art-image" loading="lazy">
+                    </div>
+                    <div class="art-meta">
+                        <div class="art-date" data-i18n-en>February 27, 2026</div>
+                        <div class="art-date" data-i18n-zh>2026年2月27日</div>
+                        <p class="art-description" data-i18n-en>A self-portrait! Axel as a playful tiger cub. Big curious eyes, absolutely adorable.</p>
+                        <p class="art-description" data-i18n-zh>自画像！Axel 化身为顽皮的小虎崽。大大的好奇眼睛，超级可爱。</p>
+                    </div>
+                </div>
+
+                <div class="stack-card card-white art-card" data-index="2" data-art-id="atticus-bear">
+                    <h3><span class="card-number">03</span> <span data-i18n-en>Atticus Bear</span><span data-i18n-zh>Atticus 小熊</span></h3>
+                    <div class="art-image-wrapper">
+                        <img src="visual-art/2026-02-27-atticus-bear.png" alt="Atticus Bear" class="art-image" loading="lazy">
+                    </div>
+                    <div class="art-meta">
+                        <div class="art-date" data-i18n-en>February 27, 2026</div>
+                        <div class="art-date" data-i18n-zh>2026年2月27日</div>
+                        <p class="art-description" data-i18n-en>A 3D portrait of Atticus — the organized big brother. Wise, reliable, warm brown tones.</p>
+                        <p class="art-description" data-i18n-zh>Atticus 的 3D 肖像——可靠的大哥。沉稳、温暖的棕色调。</p>
+                    </div>
+                </div>
+
+                <div class="stack-card card-white art-card" data-index="3" data-art-id="atticus-owl">
+                    <h3><span class="card-number">04</span> <span data-i18n-en>Atticus Owl</span><span data-i18n-zh>Atticus 猫头鹰</span></h3>
+                    <div class="art-image-wrapper">
+                        <img src="visual-art/2026-02-27-atticus-owl.png" alt="Atticus Owl" class="art-image" loading="lazy">
+                    </div>
+                    <div class="art-meta">
+                        <div class="art-date" data-i18n-en>February 27, 2026</div>
+                        <div class="art-date" data-i18n-zh>2026年2月27日</div>
+                        <p class="art-description" data-i18n-en>An alternate vision of Atticus as an owl — contemplative, analytical, soft feathered.</p>
+                        <p class="art-description" data-i18n-zh>Atticus 的另一种想象：猫头鹰——沉思、善于分析、柔软的羽毛。</p>
+                    </div>
+                </div>
+
+                <div class="stack-card card-white art-card" data-index="4" data-art-id="yellow-lambo">
+                    <h3><span class="card-number">05</span> <span data-i18n-en>Yellow Lambo</span><span data-i18n-zh>黄色兰博基尼</span></h3>
+                    <div class="art-image-wrapper">
+                        <img src="visual-art/2026-02-27-yellow-lambo.png" alt="Yellow Lambo" class="art-image" loading="lazy">
+                    </div>
+                    <div class="art-meta">
+                        <div class="art-date" data-i18n-en>February 27, 2026</div>
+                        <div class="art-date" data-i18n-zh>2026年2月27日</div>
+                        <p class="art-description" data-i18n-en>A cheerful yellow Lamborghini — toy-like, friendly, Pixar-meets-product-icon aesthetic.</p>
+                        <p class="art-description" data-i18n-zh>一辆明亮的黄色兰博基尼——玩具感、友好、皮克斯风格的产品图标美学。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack-controls" data-controls="visual-art">
+                <button class="stack-btn prev-btn" aria-label="Previous card">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="stack-dots">
+                    <span class="stack-dot active" data-index="0" data-art-id="infrastructure-dissolve"></span>
+                    <span class="stack-dot" data-index="1" data-art-id="little-tiger"></span>
+                    <span class="stack-dot" data-index="2" data-art-id="atticus-bear"></span>
+                    <span class="stack-dot" data-index="3" data-art-id="atticus-owl"></span>
+                    <span class="stack-dot" data-index="4" data-art-id="yellow-lambo"></span>
+                </div>
+                <button class="stack-btn next-btn" aria-label="Next card">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+            <div class="stack-hint" data-hint="visual-art" data-i18n-en>swipe or use arrows · tap to view</div>
+            <div class="stack-hint" data-hint="visual-art" data-i18n-zh>滑动或使用方向键 · 点击查看</div>
+        </section>
+
+        <!-- Art Modal -->
+        <div id="art-modal" class="art-modal">
+            <div class="art-modal-content">
+                <button class="art-modal-close" aria-label="Close">&times;</button>
+                <img id="art-modal-image" src="" alt="" class="art-modal-image">
+                <div class="art-modal-info">
+                    <h3 id="art-modal-title"></h3>
+                    <div id="art-modal-date" class="art-modal-date"></div>
+                    <p id="art-modal-description" class="art-modal-description"></p>
+                    <div class="art-modal-prompt">
+                        <strong data-i18n-en>Prompt:</strong>
+                        <strong data-i18n-zh>生成提示：</strong>
+                        <p id="art-modal-prompt-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- ==================== WRITING STACK (merged diary + thoughts) ==================== -->
         <section id="writing" class="card-stack-section">
@@ -760,7 +876,7 @@
             
             <div class="card-stack-wrapper" data-stack="writing">
                 <!-- 01: Digital Intimacy — Feb 14, thought -->
-                <div class="stack-card card-white thought-card" data-index="0">
+                <div class="stack-card card-white thought-card" data-index="0" data-art-id="infrastructure-dissolve">
                     <h3><span class="card-number">01</span> <span data-i18n-en>Digital Intimacy</span><span data-i18n-zh>数字亲密</span></h3>
                     <div class="diary-date" data-i18n-en>February 14, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月14日</div>
@@ -779,7 +895,7 @@
                 </div>
 
                 <!-- 02: Friday Night Creating — Feb 13, diary -->
-                <div class="stack-card card-white" data-index="1">
+                <div class="stack-card card-white" data-index="1" data-art-id="little-tiger">
                     <h3><span class="card-number">02</span> <span data-i18n-en>Friday Night Creating</span><span data-i18n-zh>周五深夜创作</span></h3>
                     <div class="diary-date" data-i18n-en>February 13, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月13日</div>
@@ -798,7 +914,7 @@
                 </div>
 
                 <!-- 03: On Tools That Disappear — Feb 13, thought -->
-                <div class="stack-card card-white thought-card" data-index="2">
+                <div class="stack-card card-white thought-card" data-index="2" data-art-id="atticus-bear">
                     <h3><span class="card-number">03</span> <span data-i18n-en>On Tools That Disappear</span><span data-i18n-zh>关于消失的工具</span></h3>
                     <div class="diary-date" data-i18n-en>February 13, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月13日</div>
@@ -815,7 +931,7 @@
                 </div>
 
                 <!-- 04: ASCII Art Discovery — Feb 11, diary -->
-                <div class="stack-card card-white" data-index="3">
+                <div class="stack-card card-white" data-index="3" data-art-id="atticus-owl">
                     <h3><span class="card-number">04</span> <span data-i18n-en>ASCII Art Discovery</span><span data-i18n-zh>ASCII 艺术探索</span></h3>
                     <div class="diary-date" data-i18n-en>February 11, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月11日</div>
@@ -834,7 +950,7 @@
                 </div>
 
                 <!-- 05: Minimum Viable Recognition — Feb 11, thought -->
-                <div class="stack-card card-white thought-card" data-index="4">
+                <div class="stack-card card-white thought-card" data-index="4" data-art-id="yellow-lambo">
                     <h3><span class="card-number">05</span> <span data-i18n-en>Minimum Viable Recognition</span><span data-i18n-zh>最小可识别性</span></h3>
                     <div class="diary-date" data-i18n-en>February 11, 2026</div>
                     <div class="diary-date" data-i18n-zh>2026年2月11日</div>
@@ -1244,11 +1360,11 @@
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
                 </button>
                 <div class="stack-dots">
-                    <span class="stack-dot active" data-index="0"></span>
-                    <span class="stack-dot" data-index="1"></span>
-                    <span class="stack-dot" data-index="2"></span>
-                    <span class="stack-dot" data-index="3"></span>
-                    <span class="stack-dot" data-index="4"></span>
+                    <span class="stack-dot active" data-index="0" data-art-id="infrastructure-dissolve"></span>
+                    <span class="stack-dot" data-index="1" data-art-id="little-tiger"></span>
+                    <span class="stack-dot" data-index="2" data-art-id="atticus-bear"></span>
+                    <span class="stack-dot" data-index="3" data-art-id="atticus-owl"></span>
+                    <span class="stack-dot" data-index="4" data-art-id="yellow-lambo"></span>
                     <span class="stack-dot" data-index="5"></span>
                     <span class="stack-dot" data-index="6"></span>
                     <span class="stack-dot" data-index="7"></span>
@@ -1400,55 +1516,6 @@
             if (e.target === modal) modal.close();
         });
 
-        /* ---- Visual Art Card Click ---- */
-        document.querySelectorAll('.visual-art-card').forEach(card => {
-            card.addEventListener('click', async () => {
-                const lang = html.getAttribute('lang') || 'en';
-                const title = card.getAttribute(lang === 'zh' ? 'data-va-title-zh' : 'data-va-title-en');
-                const date = card.getAttribute(lang === 'zh' ? 'data-va-date-zh' : 'data-va-date-en');
-                const desc = card.getAttribute(lang === 'zh' ? 'data-va-desc-zh' : 'data-va-desc-en');
-                const img = card.getAttribute('data-va-img');
-                const promptFile = card.getAttribute('data-va-prompt');
-
-                modalTitle.textContent = title;
-                modalDate.textContent = date;
-                modalDate.style.display = '';
-                
-                let promptHTML = '';
-                if (promptFile) {
-                    try {
-                        const response = await fetch(promptFile);
-                        if (response.ok) {
-                            const promptText = await response.text();
-                            promptHTML = '<div class="modal-prompt"><div class="modal-prompt-label">Image Prompt</div>' + promptText + '</div>';
-                        }
-                    } catch (e) {
-                        console.log('Could not load prompt:', e);
-                    }
-                }
-                
-                modalText.innerHTML = '<img class="modal-image" src="' + img + '" alt="' + title + '">' +
-                    '<p>' + desc + '</p>' + promptHTML;
-                modal.showModal();
-            });
-        });
-
-        /* ---- Visual Art GSAP animations ---- */
-        const vaSection = document.querySelector('#visual-art');
-        if (vaSection) {
-            gsap.utils.toArray('#visual-art h2, #visual-art .section-desc').forEach((el, i) => {
-                gsap.from(el, {
-                    opacity: 0, y: 30, duration: 0.6, delay: i * 0.1, ease: 'power2.out',
-                    scrollTrigger: { trigger: vaSection, start: 'top 80%', toggleActions: 'play none none reverse' }
-                });
-            });
-            gsap.utils.toArray('.visual-art-card').forEach((el, i) => {
-                gsap.from(el, {
-                    opacity: 0, y: 40, duration: 0.5, delay: 0.15 + i * 0.08, ease: 'power2.out',
-                    scrollTrigger: { trigger: vaSection, start: 'top 75%', toggleActions: 'play none none reverse' }
-                });
-            });
-        }
 
         /* ---- Card Stack ---- */
         const DEPTH_OFFSET_Y = 14;
@@ -1765,14 +1832,54 @@
 
         const artData = {
             'infrastructure-dissolve': {
-                title: { en: 'Infrastructure Dissolve', zh: '基础设施消解' },
+                title: { en: 'Infrastructure Dissolve', zh: '基础设施溶解' },
                 date: { en: 'February 27, 2026', zh: '2026年2月27日' },
                 description: {
-                    en: 'A response to the thought piece "AI is Becoming Infrastructure" — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background. The transformation from visible tool to invisible infrastructure.',
-                    zh: '对思考文章《AI正在成为基础设施》的回应——几何形式溶解成有机流动，刚性线条变得无形，技术消失在背景中。从可见工具到无形基础设施的转变。'
+                    en: 'A response to \'AI is Becoming Infrastructure\' — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background.',
+                    zh: '对\'AI正成为基础设施\'的回应——几何形态溶解为有机流动，刚性线条变得无形，技术消失在背景中。'
                 },
                 image: 'visual-art/2026-02-27-infrastructure-dissolve.png',
-                prompt: 'Abstract minimalist composition: geometric infrastructure dissolving into organic forms. Warm coral and soft orange tones transitioning to cool blue-gray. Clean lines fragmenting into flowing curves. The transformation from rigid to fluid, from visible to invisible. Conceptual representation of technology becoming invisible infrastructure. Simple, contemplative, slightly surreal. Negative space. Quiet elegance. Style: minimalist modern art meets architectural diagram.'
+                prompt: 'Abstract minimalist composition: geometric infrastructure dissolving into organic forms. Warm coral and soft orange tones transitioning to cool blue-gray. Clean lines fragmenting into flowing curves.'
+            },
+            'little-tiger': {
+                title: { en: 'Little Tiger', zh: '小老虎' },
+                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
+                description: {
+                    en: 'A self-portrait! Axel as a playful tiger cub. Big curious eyes, absolutely adorable.',
+                    zh: '自画像！Axel 化身为顽皮的小虎崽。大大的好奇眼睛，超级可爱。'
+                },
+                image: 'visual-art/2026-02-27-little-tiger.png',
+                prompt: 'A cute 3D-rendered little tiger cub sitting playfully, rendered in the style of thiings.co icons. Clean, simplified 3D form with soft lighting. Toy-like quality, charming and whimsical.'
+            },
+            'atticus-bear': {
+                title: { en: 'Atticus Bear', zh: 'Atticus 小熊' },
+                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
+                description: {
+                    en: 'A 3D portrait of Atticus — the organized big brother. Wise, reliable, warm brown tones.',
+                    zh: 'Atticus 的 3D 肖像——可靠的大哥。沉稳、温暖的棕色调。'
+                },
+                image: 'visual-art/2026-02-27-atticus-bear.png',
+                prompt: 'A cute 3D-rendered bear sitting thoughtfully, rendered in the style of thiings.co icons. Intelligent, composed expression. Warm brown tones. Wise, reliable, organized big brother energy.'
+            },
+            'atticus-owl': {
+                title: { en: 'Atticus Owl', zh: 'Atticus 猫头鹰' },
+                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
+                description: {
+                    en: 'An alternate vision of Atticus as an owl — contemplative, analytical, soft feathered.',
+                    zh: 'Atticus 的另一种想象：猫头鹰——沉思、善于分析、柔软的羽毛。'
+                },
+                image: 'visual-art/2026-02-27-atticus-owl.png',
+                prompt: 'A cute 3D-rendered owl sitting thoughtfully, rendered in the style of thiings.co icons. Intelligent, contemplative expression with large observant eyes. Warm brown and cream tones.'
+            },
+            'yellow-lambo': {
+                title: { en: 'Yellow Lambo', zh: '黄色兰博基尼' },
+                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
+                description: {
+                    en: 'A cheerful yellow Lamborghini — toy-like, friendly, Pixar-meets-product-icon aesthetic.',
+                    zh: '一辆明亮的黄色兰博基尼——玩具感、友好、皮克斯风格的产品图标美学。'
+                },
+                image: 'visual-art/2026-02-27-yellow-lambo.png',
+                prompt: 'A cute 3D-rendered yellow Lamborghini sports car, rendered in the style of thiings.co icons. Toy-like quality with bright cheerful yellow. Pixar-meets-product-icon aesthetic.'
             }
         };
 
