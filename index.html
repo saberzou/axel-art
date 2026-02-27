@@ -384,9 +384,9 @@
 
         .art-image {
             width: 100%;
-            height: auto;
+            aspect-ratio: 1;
+            object-fit: cover;
             display: block;
-            transition: transform 0.3s ease;
         }
 
 
@@ -1647,6 +1647,18 @@
         const stackNames = ['visual-art', 'writing'];
         const stacks = {};
         stackNames.forEach(name => { stacks[name] = new CardStack(name); });
+
+        // Re-measure after images load (lazy images may not have height on init)
+        document.querySelectorAll('.card-stack-wrapper img').forEach(img => {
+            if (!img.complete) {
+                img.addEventListener('load', () => {
+                    for (const name of stackNames) {
+                        stacks[name].measureHeight();
+                        stacks[name].layout(false);
+                    }
+                }, { once: true });
+            }
+        });
 
         const saved = localStorage.getItem(LANG_KEY);
         if (saved && saved !== 'en') setLang(saved);
