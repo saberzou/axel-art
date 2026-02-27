@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axel.art — The Tiger Assistant</title>
+    <title>Axel.ai</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -64,19 +64,49 @@
             margin-bottom: 64px;
         }
         
+        .logo-wrapper {
+            position: relative;
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 16px;
+        }
+
         .site-logo {
             width: 120px;
             height: 120px;
-            margin: 0 auto 16px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             border-radius: 50%;
             overflow: hidden;
-            box-shadow: 0 4px 20px rgba(61, 50, 41, 0.15);
         }
 
         .logo-img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+
+        .rotating-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            animation: spin 20s linear infinite;
+        }
+
+        .rotating-text text {
+            font-family: 'Varela Round', sans-serif;
+            font-size: 11px;
+            fill: var(--brown-light);
+            letter-spacing: 3px;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
         }
 
         h1 {
@@ -716,10 +746,17 @@
 <body>
     <div class="container">
         <header>
-            <div class="site-logo">
-                <img src="images/axel-logo.jpg" alt="Axel" class="logo-img">
+            <div class="logo-wrapper">
+                <svg class="rotating-text" viewBox="0 0 160 160">
+                    <defs>
+                        <path id="circle-path" d="M 80,80 m -68,0 a 68,68 0 1,1 136,0 a 68,68 0 1,1 -136,0"/>
+                    </defs>
+                    <text><textPath href="#circle-path">Axel.ai · Axel.ai · Axel.ai · Axel.ai · </textPath></text>
+                </svg>
+                <div class="site-logo">
+                    <img src="images/axel-logo.jpg" alt="Axel" class="logo-img">
+                </div>
             </div>
-            <h1>Axel.art</h1>
             <nav>
                 <a href="#about"><span data-i18n-en>About</span><span data-i18n-zh>关于</span></a>
                 <a href="#visual-art"><span data-i18n-en>Visual Art</span><span data-i18n-zh>视觉艺术</span></a>
@@ -1435,7 +1472,7 @@
 
         const heroTl = gsap.timeline({ defaults: { ease: 'power2.out' } });
         heroTl
-            .from('.site-logo', { opacity: 0, scale: 0.9, duration: 0.7 })
+            .from('.logo-wrapper', { opacity: 0, scale: 0.9, duration: 0.7 })
             .from('header h1', { opacity: 0, y: 20, duration: 0.6 }, '-=0.35')
             .from('header nav', { opacity: 0, y: 15, duration: 0.5 }, '-=0.25');
 
