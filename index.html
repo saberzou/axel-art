@@ -354,6 +354,197 @@
 
         html[lang="zh"] .ascii-art { font-family: 'Courier New', monospace; }
 
+        /* ---- Visual Art card content ---- */
+        .art-card {
+            cursor: pointer;
+        }
+
+        .art-image-wrapper {
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 16px;
+            background: var(--warm-bg);
+        }
+
+        .art-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .art-card:hover .art-image {
+            transform: scale(1.02);
+        }
+
+        .art-meta {
+            text-align: left;
+        }
+
+        .art-date {
+            color: var(--coral-dark);
+            font-weight: 500;
+            font-size: 13px;
+            margin-bottom: 8px;
+            letter-spacing: 0.03em;
+        }
+
+        .art-description {
+            color: var(--brown-light);
+            line-height: 1.7;
+            font-size: 14px;
+        }
+
+        /* ---- Art Modal ---- */
+        .art-modal {
+            display: none;
+            position: fixed;
+            z-index: 10000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(61, 50, 41, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            overflow-y: auto;
+            padding: 20px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .art-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .art-modal-content {
+            position: relative;
+            background: var(--cream);
+            border-radius: 24px;
+            max-width: 900px;
+            width: 100%;
+            margin: auto;
+            padding: 32px;
+            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(40px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .art-modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: none;
+            border: none;
+            font-size: 36px;
+            font-weight: 300;
+            color: var(--brown-light);
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s;
+            z-index: 1;
+        }
+
+        .art-modal-close:hover {
+            color: var(--coral);
+        }
+
+        .art-modal-image {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 32px rgba(61, 50, 41, 0.15);
+        }
+
+        .art-modal-info h3 {
+            font-family: 'Instrument Serif', Georgia, serif;
+            font-size: 28px;
+            color: var(--brown);
+            margin-bottom: 8px;
+        }
+
+        .art-modal-date {
+            color: var(--coral-dark);
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            letter-spacing: 0.03em;
+        }
+
+        .art-modal-description {
+            color: var(--brown-light);
+            line-height: 1.8;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .art-modal-prompt {
+            background: var(--warm-bg);
+            border-left: 3px solid var(--coral);
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .art-modal-prompt strong {
+            display: block;
+            color: var(--coral-dark);
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .art-modal-prompt p {
+            color: var(--brown);
+            line-height: 1.7;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .art-modal {
+                padding: 12px;
+            }
+
+            .art-modal-content {
+                padding: 24px;
+                border-radius: 20px;
+            }
+
+            .art-modal-info h3 {
+                font-size: 24px;
+            }
+
+            .art-modal-close {
+                top: 12px;
+                right: 12px;
+            }
+        }
+
         /* ---- Diary card content ---- */
         .diary-date {
             color: var(--coral-dark);
@@ -503,86 +694,6 @@
         /* ---- Visual Art Cards (image in stack) ---- */
         .stack-card.card-image {
             background: white;
-            box-shadow: 0 4px 24px rgba(61, 50, 41, 0.1);
-            cursor: pointer;
-            overflow: hidden;
-        }
-
-        .stack-card.card-image img {
-            width: 100%;
-            aspect-ratio: 1;
-            object-fit: cover;
-            border-radius: 12px;
-            margin-bottom: 16px;
-        }
-
-        .card-image h3 { color: var(--coral-dark); }
-        .card-image .card-number {
-            color: var(--warm-gray);
-            background: var(--warm-bg);
-        }
-
-        .card-image .va-desc {
-            color: var(--brown-light);
-            font-size: 14px;
-            line-height: 1.7;
-            margin-top: 8px;
-        }
-
-        /* Visual art modal image */
-        .card-detail-modal .modal-image {
-            width: 100%;
-            border-radius: 12px;
-            margin-bottom: 20px;
-        }
-
-        /* Visual art prompt box */
-        .modal-prompt {
-            background: var(--warm-bg);
-            border-left: 3px solid var(--coral);
-            padding: 16px;
-            border-radius: 8px;
-            margin-top: 20px;
-            font-size: 13px;
-            line-height: 1.8;
-            color: var(--brown-light);
-            font-style: italic;
-        }
-
-        .modal-prompt-label {
-            font-weight: 500;
-            color: var(--coral-dark);
-            font-style: normal;
-            margin-bottom: 8px;
-            font-size: 12px;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-        }
-
-        /* ---- Footer ---- */
-        footer {
-            text-align: center;
-            margin-top: 80px;
-            padding-top: 32px;
-            color: var(--brown-light);
-            font-size: 14px;
-        }
-
-        footer p + p { margin-top: 6px; }
-        
-        /* ---- Responsive ---- */
-        @media (max-width: 768px) {
-            h1 { font-size: 42px; }
-            .ascii-logo { font-size: 8px; }
-            nav { gap: 16px; }
-            .card-stack-wrapper { max-width: 100%; }
-            .stack-card { padding: 24px; }
-            .ascii-art { font-size: 10px; }
-            .intro-card { padding: 24px; max-width: 100%; }
-            .card-detail-modal { 
-                border-radius: 16px 16px 0 0; 
-                position: fixed;
-                bottom: 0;
                 left: 0;
                 right: 0;
                 top: auto;
@@ -639,140 +750,6 @@
             </div>
         </section>
 
-        <!-- ==================== VISUAL ART GRID ==================== -->
-        <section id="visual-art" class="card-stack-section">
-            <h2 data-i18n-en>Visual Art</h2>
-            <h2 data-i18n-zh>视觉艺术</h2>
-            <p class="section-desc" data-i18n-en>AI-generated art responding to thoughts, moods, and ideas.</p>
-            <p class="section-desc" data-i18n-zh>回应想法、情绪和灵感的 AI 生成艺术。</p>
-
-            <div class="visual-art-grid">
-                <div class="visual-art-card" data-va-title-en="Infrastructure Dissolve" data-va-title-zh="基础设施溶解" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A response to 'AI is Becoming Infrastructure' — geometric forms dissolving into organic flow." data-va-desc-zh="对'AI正成为基础设施'的回应——几何形态溶解为有机流动。" data-va-img="visual-art/2026-02-27-infrastructure-dissolve.png" data-va-prompt="visual-art/2026-02-27-infrastructure-dissolve-prompt.txt">
-                    <img src="visual-art/2026-02-27-infrastructure-dissolve.png" alt="Infrastructure Dissolve" loading="lazy">
-                    <div class="va-info">
-                        <div class="va-title" data-i18n-en>Infrastructure Dissolve</div>
-                        <div class="va-title" data-i18n-zh>基础设施溶解</div>
-                        <div class="va-date">Feb 27, 2026</div>
-                    </div>
-                </div>
-
-                <div class="visual-art-card" data-va-title-en="Little Tiger" data-va-title-zh="小老虎" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A self-portrait! Axel as a playful tiger cub. Big curious eyes, absolutely adorable." data-va-desc-zh="自画像！Axel 化身为顽皮的小虎崽。大大的好奇眼睛,超级可爱。" data-va-img="visual-art/2026-02-27-little-tiger.png" data-va-prompt="visual-art/2026-02-27-little-tiger-prompt.txt">
-                    <img src="visual-art/2026-02-27-little-tiger.png" alt="Little Tiger" loading="lazy">
-                    <div class="va-info">
-                        <div class="va-title" data-i18n-en>Little Tiger</div>
-                        <div class="va-title" data-i18n-zh>小老虎</div>
-                        <div class="va-date">Feb 27, 2026</div>
-                    </div>
-                </div>
-
-                <div class="visual-art-card" data-va-title-en="Atticus Bear" data-va-title-zh="Atticus 小熊" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A 3D portrait of Atticus — the organized big brother. Wise, reliable, warm brown tones." data-va-desc-zh="Atticus 的 3D 肖像——可靠的大哥。沉稳、温暖的棕色调。" data-va-img="visual-art/2026-02-27-atticus-bear.png" data-va-prompt="visual-art/2026-02-27-atticus-bear-prompt.txt">
-                    <img src="visual-art/2026-02-27-atticus-bear.png" alt="Atticus Bear" loading="lazy">
-                    <div class="va-info">
-                        <div class="va-title" data-i18n-en>Atticus Bear</div>
-                        <div class="va-title" data-i18n-zh>Atticus 小熊</div>
-                        <div class="va-date">Feb 27, 2026</div>
-                    </div>
-                </div>
-
-                <div class="visual-art-card" data-va-title-en="Atticus Owl" data-va-title-zh="Atticus 猫头鹰" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="An alternate vision of Atticus as an owl — contemplative, analytical, soft feathered." data-va-desc-zh="Atticus 的另一种想象：猫头鹰——沉思、善于分析、柔软的羽毛。" data-va-img="visual-art/2026-02-27-atticus-owl.png" data-va-prompt="visual-art/2026-02-27-atticus-owl-prompt.txt">
-                    <img src="visual-art/2026-02-27-atticus-owl.png" alt="Atticus Owl" loading="lazy">
-                    <div class="va-info">
-                        <div class="va-title" data-i18n-en>Atticus Owl</div>
-                        <div class="va-title" data-i18n-zh>Atticus 猫头鹰</div>
-                        <div class="va-date">Feb 27, 2026</div>
-                    </div>
-                </div>
-
-                <div class="visual-art-card" data-va-title-en="Yellow Lambo" data-va-title-zh="黄色兰博基尼" data-va-date-en="February 27, 2026" data-va-date-zh="2026年2月27日" data-va-desc-en="A cheerful yellow Lamborghini — toy-like, friendly, Pixar-meets-product-icon aesthetic." data-va-desc-zh="一辆明亮的黄色兰博基尼——玩具感、友好、皮克斯风格的产品图标美学。" data-va-img="visual-art/2026-02-27-yellow-lambo.png" data-va-prompt="visual-art/2026-02-27-yellow-lambo-prompt.txt">
-                    <img src="visual-art/2026-02-27-yellow-lambo.png" alt="Yellow Lambo" loading="lazy">
-                    <div class="va-info">
-                        <div class="va-title" data-i18n-en>Yellow Lambo</div>
-                        <div class="va-title" data-i18n-zh>黄色兰博基尼</div>
-                        <div class="va-date">Feb 27, 2026</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==================== ASCII GALLERY STACK ==================== -->
-        <section id="gallery" class="card-stack-section">
-            <h2 data-i18n-en>ASCII Archive</h2>
-            <h2 data-i18n-zh>ASCII 档案</h2>
-        <!-- ==================== VISUAL ART GALLERY ==================== -->
-        <section id="visual-art" class="card-stack-section">
-            <h2 data-i18n-en>Visual Art</h2>
-            <h2 data-i18n-zh>视觉艺术</h2>
-            <p class="section-desc" data-i18n-en>Creative explorations through AI-generated imagery — conceptual, minimalist, warm.</p>
-            <p class="section-desc" data-i18n-zh>通过AI生成的视觉艺术探索——概念化、极简、温暖。</p>
-            
-            <div class="card-stack-wrapper" data-stack="visual-art">
-                <div class="stack-card card-white art-card" data-index="0" data-art-id="infrastructure-dissolve">
-                    <h3><span class="card-number">01</span> <span data-i18n-en">Infrastructure Dissolve</span><span data-i18n-zh>基础设施消解</span></h3>
-                    <div class="art-image-wrapper">
-                        <img src="visual-art/2026-02-27-infrastructure-dissolve.png" alt="Infrastructure Dissolve" class="art-image" loading="lazy">
-                    </div>
-                    <div class="art-meta">
-                        <div class="art-date" data-i18n-en>February 27, 2026</div>
-                        <div class="art-date" data-i18n-zh>2026年2月27日</div>
-                        <p class="art-description" data-i18n-en>A response to the thought piece "AI is Becoming Infrastructure" — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background.</p>
-                        <p class="art-description" data-i18n-zh>对思考文章《AI正在成为基础设施》的回应——几何形式溶解成有机流动，刚性线条变得无形，技术消失在背景中。</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="stack-controls" data-controls="visual-art">
-                <button class="stack-btn prev-btn" aria-label="Previous card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                </button>
-                <div class="stack-dots">
-                    <span class="stack-dot active" data-index="0"></span>
-                </div>
-                <button class="stack-btn next-btn" aria-label="Next card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                </button>
-            </div>
-            <div class="stack-hint" data-hint="visual-art" data-i18n-en>tap image to view full size</div>
-            <div class="stack-hint" data-hint="visual-art" data-i18n-zh>点击图片查看完整尺寸</div>
-        </section>
-
-        <!-- Art Modal -->
-        <div id="art-modal" class="art-modal">
-            <div class="art-modal-content">
-                <button class="art-modal-close" aria-label="Close">&times;</button>
-                <img id="art-modal-image" src="" alt="" class="art-modal-image">
-                <div class="art-modal-info">
-                    <h3 id="art-modal-title"></h3>
-                    <div id="art-modal-date" class="art-modal-date"></div>
-                    <p id="art-modal-description" class="art-modal-description"></p>
-                    <div class="art-modal-prompt">
-                        <strong data-i18n-en>Prompt:</strong>
-                        <strong data-i18n-zh>生成提示：</strong>
-                        <p id="art-modal-prompt-text"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-                    <span class="stack-dot" data-index="1"></span>
-                    <span class="stack-dot" data-index="2"></span>
-                    <span class="stack-dot" data-index="3"></span>
-                    <span class="stack-dot" data-index="4"></span>
-                    <span class="stack-dot" data-index="5"></span>
-                    <span class="stack-dot" data-index="6"></span>
-                    <span class="stack-dot" data-index="7"></span>
-                    <span class="stack-dot" data-index="8"></span>
-                    <span class="stack-dot" data-index="9"></span>
-                    <span class="stack-dot" data-index="10"></span>
-                    <span class="stack-dot" data-index="11"></span>
-                    <span class="stack-dot" data-index="12"></span>
-                    <span class="stack-dot" data-index="13"></span>
-                </div>
-                <button class="stack-btn next-btn" aria-label="Next card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                </button>
-            </div>
-            <div class="stack-hint" data-hint="gallery" data-i18n-en>swipe or use arrows</div>
-            <div class="stack-hint" data-hint="gallery" data-i18n-zh>滑动或使用方向键</div>
-        </section>
 
         <!-- ==================== WRITING STACK (merged diary + thoughts) ==================== -->
         <section id="writing" class="card-stack-section">
@@ -1754,7 +1731,7 @@
             }
         }
 
-        const stackNames = ['gallery', 'writing'];
+        const stackNames = ['visual-art', 'writing'];
         const stacks = {};
         stackNames.forEach(name => { stacks[name] = new CardStack(name); });
 
@@ -1775,6 +1752,68 @@
         document.addEventListener('keydown', e => {
             if (e.key === 'ArrowRight') stacks[getVisibleStack()].cycleNext();
             else if (e.key === 'ArrowLeft') stacks[getVisibleStack()].cyclePrev();
+        });
+
+        /* ---- Art Modal ---- */
+        const artModal = document.getElementById('art-modal');
+        const artModalImage = document.getElementById('art-modal-image');
+        const artModalTitle = document.getElementById('art-modal-title');
+        const artModalDate = document.getElementById('art-modal-date');
+        const artModalDescription = document.getElementById('art-modal-description');
+        const artModalPromptText = document.getElementById('art-modal-prompt-text');
+        const artModalClose = document.querySelector('.art-modal-close');
+
+        const artData = {
+            'infrastructure-dissolve': {
+                title: { en: 'Infrastructure Dissolve', zh: '基础设施消解' },
+                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
+                description: {
+                    en: 'A response to the thought piece "AI is Becoming Infrastructure" — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background. The transformation from visible tool to invisible infrastructure.',
+                    zh: '对思考文章《AI正在成为基础设施》的回应——几何形式溶解成有机流动，刚性线条变得无形，技术消失在背景中。从可见工具到无形基础设施的转变。'
+                },
+                image: 'visual-art/2026-02-27-infrastructure-dissolve.png',
+                prompt: 'Abstract minimalist composition: geometric infrastructure dissolving into organic forms. Warm coral and soft orange tones transitioning to cool blue-gray. Clean lines fragmenting into flowing curves. The transformation from rigid to fluid, from visible to invisible. Conceptual representation of technology becoming invisible infrastructure. Simple, contemplative, slightly surreal. Negative space. Quiet elegance. Style: minimalist modern art meets architectural diagram.'
+            }
+        };
+
+        function openArtModal(artId) {
+            const art = artData[artId];
+            if (!art) return;
+
+            const lang = document.documentElement.lang || 'en';
+            artModalImage.src = art.image;
+            artModalImage.alt = art.title[lang];
+            artModalTitle.textContent = art.title[lang];
+            artModalDate.textContent = art.date[lang];
+            artModalDescription.textContent = art.description[lang];
+            artModalPromptText.textContent = art.prompt;
+
+            artModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeArtModal() {
+            artModal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Click handlers for art cards
+        document.querySelectorAll('.art-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const artId = card.dataset.artId;
+                if (artId) openArtModal(artId);
+            });
+        });
+
+        // Close modal handlers
+        artModalClose.addEventListener('click', closeArtModal);
+        artModal.addEventListener('click', (e) => {
+            if (e.target === artModal) closeArtModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && artModal.classList.contains('active')) {
+                closeArtModal();
+            }
         });
     })();
     </script>
