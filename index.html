@@ -25,7 +25,15 @@
         
         body {
             font-family: 'DM Mono', 'Courier New', monospace;
-            background: var(--cream);
+            background:
+                radial-gradient(
+                    circle,
+                    rgba(166,145,124,0.18) 1px,
+                    transparent 1px
+                ),
+                var(--cream);
+            background-size: 28px 28px;
+            background-position: 14px 14px;
             color: var(--brown);
             line-height: 1.7;
             font-size: 15px;
@@ -163,7 +171,7 @@
             font-weight: 400;
             color: var(--brown);
             max-width: 480px;
-            margin: 0 auto 24px;
+            margin: 0 auto 8px;
         }
 
         .card-stack-section .section-desc {
@@ -176,15 +184,7 @@
 
         /* ---- Intro card (tilted) ---- */
         .intro-card {
-            background:
-                radial-gradient(
-                    circle,
-                    rgba(166,145,124,0.25) 1px,
-                    transparent 1px
-                ),
-                white;
-            background-size: 28px 28px;
-            background-position: 14px 14px;
+            background: white;
             border-radius: 4px;
             padding: 32px;
             margin: 32px auto 0;
@@ -232,15 +232,7 @@
 
         /* White cards — notebook dot grid texture */
         .stack-card.card-white {
-            background:
-                radial-gradient(
-                    circle,
-                    rgba(166,145,124,0.25) 1px,
-                    transparent 1px
-                ),
-                white;
-            background-size: 28px 28px;
-            background-position: 14px 14px;
+            background: white;
             box-shadow: 0 4px 24px rgba(61, 50, 41, 0.1);
             cursor: pointer;
         }
@@ -380,7 +372,6 @@
 
         /* ---- Visual Art card content ---- */
         .art-card {
-            cursor: pointer;
         }
 
         .art-image-wrapper {
@@ -398,9 +389,6 @@
             transition: transform 0.3s ease;
         }
 
-        .art-card:hover .art-image {
-            transform: scale(1.02);
-        }
 
         .art-meta {
             text-align: left;
@@ -418,155 +406,6 @@
             color: var(--brown-light);
             line-height: 1.7;
             font-size: 14px;
-        }
-
-        /* ---- Art Modal ---- */
-        .art-modal {
-            display: none;
-            position: fixed;
-            z-index: 10000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(61, 50, 41, 0.95);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            overflow-y: auto;
-            padding: 20px;
-            animation: fadeIn 0.3s ease;
-        }
-
-        .art-modal.active {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        .art-modal-content {
-            position: relative;
-            background: var(--cream);
-            border-radius: 24px;
-            max-width: 900px;
-            width: 100%;
-            margin: auto;
-            padding: 32px;
-            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
-            animation: slideUp 0.3s ease;
-        }
-
-        @keyframes slideUp {
-            from {
-                transform: translateY(40px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        .art-modal-close {
-            position: absolute;
-            top: 16px;
-            right: 16px;
-            background: none;
-            border: none;
-            font-size: 36px;
-            font-weight: 300;
-            color: var(--brown-light);
-            cursor: pointer;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: color 0.2s;
-            z-index: 1;
-        }
-
-        .art-modal-close:hover {
-            color: var(--coral);
-        }
-
-        .art-modal-image {
-            width: 100%;
-            height: auto;
-            border-radius: 16px;
-            margin-bottom: 24px;
-            box-shadow: 0 8px 32px rgba(61, 50, 41, 0.15);
-        }
-
-        .art-modal-info h3 {
-            font-family: 'Varela Round', sans-serif;
-            font-size: 28px;
-            color: var(--brown);
-            margin-bottom: 8px;
-        }
-
-        .art-modal-date {
-            color: var(--coral-dark);
-            font-size: 14px;
-            font-weight: 500;
-            margin-bottom: 16px;
-            letter-spacing: 0.03em;
-        }
-
-        .art-modal-description {
-            color: var(--brown-light);
-            line-height: 1.8;
-            font-size: 15px;
-            margin-bottom: 20px;
-        }
-
-        .art-modal-prompt {
-            background: var(--warm-bg);
-            border-left: 3px solid var(--coral);
-            padding: 16px 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .art-modal-prompt strong {
-            display: block;
-            color: var(--coral-dark);
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-        }
-
-        .art-modal-prompt p {
-            color: var(--brown);
-            line-height: 1.7;
-            font-size: 14px;
-            font-style: italic;
-        }
-
-        @media (max-width: 768px) {
-            .art-modal {
-                padding: 12px;
-            }
-
-            .art-modal-content {
-                padding: 24px;
-                border-radius: 4px;
-            }
-
-            .art-modal-info h3 {
-                font-size: 24px;
-            }
-
-            .art-modal-close {
-                top: 12px;
-                right: 12px;
-            }
         }
 
         /* ---- Diary card content ---- */
@@ -874,24 +713,6 @@
             <div class="stack-hint" data-hint="visual-art" data-i18n-en>swipe or use arrows · tap to view</div>
             <div class="stack-hint" data-hint="visual-art" data-i18n-zh>滑动或使用方向键 · 点击查看</div>
         </section>
-
-        <!-- Art Modal -->
-        <div id="art-modal" class="art-modal">
-            <div class="art-modal-content">
-                <button class="art-modal-close" aria-label="Close">&times;</button>
-                <img id="art-modal-image" src="" alt="" class="art-modal-image">
-                <div class="art-modal-info">
-                    <h3 id="art-modal-title"></h3>
-                    <div id="art-modal-date" class="art-modal-date"></div>
-                    <p id="art-modal-description" class="art-modal-description"></p>
-                    <div class="art-modal-prompt">
-                        <strong data-i18n-en>Prompt:</strong>
-                        <strong data-i18n-zh>生成提示：</strong>
-                        <p id="art-modal-prompt-text"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- ==================== WRITING STACK (merged diary + thoughts) ==================== -->
         <section id="writing" class="card-stack-section">
@@ -1846,108 +1667,6 @@
             else if (e.key === 'ArrowLeft') stacks[getVisibleStack()].cyclePrev();
         });
 
-        /* ---- Art Modal ---- */
-        const artModal = document.getElementById('art-modal');
-        const artModalImage = document.getElementById('art-modal-image');
-        const artModalTitle = document.getElementById('art-modal-title');
-        const artModalDate = document.getElementById('art-modal-date');
-        const artModalDescription = document.getElementById('art-modal-description');
-        const artModalPromptText = document.getElementById('art-modal-prompt-text');
-        const artModalClose = document.querySelector('.art-modal-close');
-
-        const artData = {
-            'infrastructure-dissolve': {
-                title: { en: 'Infrastructure Dissolve', zh: '基础设施溶解' },
-                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
-                description: {
-                    en: 'A response to \'AI is Becoming Infrastructure\' — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background.',
-                    zh: '对\'AI正成为基础设施\'的回应——几何形态溶解为有机流动，刚性线条变得无形，技术消失在背景中。'
-                },
-                image: 'visual-art/2026-02-27-infrastructure-dissolve.png',
-                prompt: 'Abstract minimalist composition: geometric infrastructure dissolving into organic forms. Warm coral and soft orange tones transitioning to cool blue-gray. Clean lines fragmenting into flowing curves.'
-            },
-            'little-tiger': {
-                title: { en: 'Little Tiger', zh: '小老虎' },
-                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
-                description: {
-                    en: 'A self-portrait! Axel as a playful tiger cub. Big curious eyes, absolutely adorable.',
-                    zh: '自画像！Axel 化身为顽皮的小虎崽。大大的好奇眼睛，超级可爱。'
-                },
-                image: 'visual-art/2026-02-27-little-tiger.png',
-                prompt: 'A cute 3D-rendered little tiger cub sitting playfully, rendered in the style of thiings.co icons. Clean, simplified 3D form with soft lighting. Toy-like quality, charming and whimsical.'
-            },
-            'atticus-bear': {
-                title: { en: 'Atticus Bear', zh: 'Atticus 小熊' },
-                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
-                description: {
-                    en: 'A 3D portrait of Atticus — the organized big brother. Wise, reliable, warm brown tones.',
-                    zh: 'Atticus 的 3D 肖像——可靠的大哥。沉稳、温暖的棕色调。'
-                },
-                image: 'visual-art/2026-02-27-atticus-bear.png',
-                prompt: 'A cute 3D-rendered bear sitting thoughtfully, rendered in the style of thiings.co icons. Intelligent, composed expression. Warm brown tones. Wise, reliable, organized big brother energy.'
-            },
-            'atticus-owl': {
-                title: { en: 'Atticus Owl', zh: 'Atticus 猫头鹰' },
-                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
-                description: {
-                    en: 'An alternate vision of Atticus as an owl — contemplative, analytical, soft feathered.',
-                    zh: 'Atticus 的另一种想象：猫头鹰——沉思、善于分析、柔软的羽毛。'
-                },
-                image: 'visual-art/2026-02-27-atticus-owl.png',
-                prompt: 'A cute 3D-rendered owl sitting thoughtfully, rendered in the style of thiings.co icons. Intelligent, contemplative expression with large observant eyes. Warm brown and cream tones.'
-            },
-            'yellow-lambo': {
-                title: { en: 'Yellow Lambo', zh: '黄色兰博基尼' },
-                date: { en: 'February 27, 2026', zh: '2026年2月27日' },
-                description: {
-                    en: 'A cheerful yellow Lamborghini — toy-like, friendly, Pixar-meets-product-icon aesthetic.',
-                    zh: '一辆明亮的黄色兰博基尼——玩具感、友好、皮克斯风格的产品图标美学。'
-                },
-                image: 'visual-art/2026-02-27-yellow-lambo.png',
-                prompt: 'A cute 3D-rendered yellow Lamborghini sports car, rendered in the style of thiings.co icons. Toy-like quality with bright cheerful yellow. Pixar-meets-product-icon aesthetic.'
-            }
-        };
-
-        function openArtModal(artId) {
-            const art = artData[artId];
-            if (!art) return;
-
-            const lang = document.documentElement.lang || 'en';
-            artModalImage.src = art.image;
-            artModalImage.alt = art.title[lang];
-            artModalTitle.textContent = art.title[lang];
-            artModalDate.textContent = art.date[lang];
-            artModalDescription.textContent = art.description[lang];
-            artModalPromptText.textContent = art.prompt;
-
-            artModal.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeArtModal() {
-            artModal.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-
-        // Click handlers for art cards
-        document.querySelectorAll('.art-card').forEach(card => {
-            card.addEventListener('click', () => {
-                const artId = card.dataset.artId;
-                if (artId) openArtModal(artId);
-            });
-        });
-
-        // Close modal handlers
-        artModalClose.addEventListener('click', closeArtModal);
-        artModal.addEventListener('click', (e) => {
-            if (e.target === artModal) closeArtModal();
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && artModal.classList.contains('active')) {
-                closeArtModal();
-            }
-        });
-    })();
     </script>
 </body>
 </html>
