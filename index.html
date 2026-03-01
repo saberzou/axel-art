@@ -219,7 +219,8 @@
         @media (min-width: 768px) {
             .card-stack-wrapper {
                 max-width: 960px;
-                height: 420px;
+                height: auto;
+                min-height: 300px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -1679,7 +1680,10 @@
             // ---- DESKTOP: Fan layout ----
             initFan() {
                 this.wrapper.style.maxWidth = '960px';
-                this.wrapper.style.height = '420px';
+                // Set wrapper height based on tallest card + arc offset
+                let maxCardH = 0;
+                this.cards.forEach(c => maxCardH = Math.max(maxCardH, c.offsetHeight));
+                this.wrapper.style.height = (maxCardH + 40) + 'px';
 
                 this.cards.forEach(card => {
                     card.style.minHeight = '';
