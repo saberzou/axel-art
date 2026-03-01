@@ -61,10 +61,9 @@
         }
         
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 48px 24px;
-            overflow: visible;
         }
         
         /* ---- Header ---- */
@@ -186,8 +185,7 @@
 
         /* ---- Intro card (tilted) ---- */
         .intro-card {
-            margin: 32px auto 0;
-            max-width: 800px;
+            margin: 32px 0 0;
         }
 
         .intro-card p {
@@ -214,8 +212,11 @@
                 text-align: left;
             }
             .card-stack-wrapper {
-                margin-left: auto;
-                margin-right: auto;
+                max-width: 960px;
+                width: 100vw;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
             }
         }
 
