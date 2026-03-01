@@ -1463,10 +1463,10 @@
             modalDate.textContent = dateEl ? dateEl.textContent : '';
             modalDate.style.display = dateEl ? '' : 'none';
 
-            // Get full content (clone the card-body without line-clamp)
+            // Get full content (use stored full HTML if truncated)
             const bodyEl = card.querySelector(`.card-body[${attr}]`);
             if (bodyEl) {
-                modalText.innerHTML = bodyEl.innerHTML;
+                modalText.innerHTML = bodyEl.dataset.fullHtml || bodyEl.innerHTML;
             }
 
             modal.showModal();
@@ -1658,10 +1658,10 @@
                     card.style.top = '0';
                     card.style.left = '0';
 
-                    // Restore full text for mobile
+                    // Restore full content for mobile
                     const textEls = card.querySelectorAll('.art-description, .diary-content, .card-body, .thought-card p:not(.diary-date)');
                     textEls.forEach(el => {
-                        if (el.dataset.fullText) el.textContent = el.dataset.fullText;
+                        if (el.dataset.fullHtml) el.innerHTML = el.dataset.fullHtml;
                     });
                 });
                 this.wrapper.style.height = (maxH + DEPTH_Y * (MAX_VISIBLE - 1)) + 'px';
@@ -1705,6 +1705,7 @@
                     const maxChars = this.name === 'writing' ? 240 : 120;
                     const textEls = card.querySelectorAll('.art-description, .diary-content, .card-body, .thought-card p:not(.diary-date)');
                     textEls.forEach(el => {
+                        if (!el.dataset.fullHtml) el.dataset.fullHtml = el.innerHTML;
                         if (!el.dataset.fullText) el.dataset.fullText = el.textContent;
                         const full = el.dataset.fullText;
                         if (full.length > maxChars) {
