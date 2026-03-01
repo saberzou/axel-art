@@ -218,11 +218,20 @@
             margin: 40px auto 0;
         }
 
+        @media (min-width: 768px) {
+            .card-stack-section h2,
+            .card-stack-section .section-desc {
+                text-align: center;
+            }
+        }
+
         /* Desktop fan mode — wider container */
         @media (min-width: 768px) {
             .card-stack-wrapper {
-                max-width: 720px;
+                max-width: 960px;
                 height: 380px;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
 
@@ -1673,7 +1682,7 @@
 
             // ---- DESKTOP: Fan layout ----
             initFan() {
-                this.wrapper.style.maxWidth = '720px';
+                this.wrapper.style.maxWidth = '960px';
                 this.wrapper.style.height = '380px';
 
                 this.cards.forEach(card => {
@@ -1690,8 +1699,8 @@
 
             getFanPositions() {
                 const n = this.n;
-                const maxFan = Math.min(n, 7); // show at most 7 cards in fan
-                const spacing = Math.min(120, 500 / maxFan);
+                const maxFan = Math.min(n, 7);
+                const spacing = Math.min(180, 800 / maxFan);
                 const positions = [];
 
                 for (let i = 0; i < n; i++) {
