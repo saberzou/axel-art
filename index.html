@@ -1703,19 +1703,18 @@
             getFanPositions() {
                 const n = this.n;
                 const maxFan = Math.min(n, 7);
-                const spacing = 110;
+                const spacing = 160;
                 const positions = [];
 
                 for (let i = 0; i < n; i++) {
                     const cardIdx = this.order[i];
                     if (i < maxFan) {
-                        // Hand-of-cards: fan from bottom center
                         const center = (maxFan - 1) / 2;
-                        const offset = i - center; // -2..+2 for 5 cards
+                        const offset = i - center;
                         const x = offset * spacing;
-                        const rotation = offset * 8; // dramatic rotation like interfacecraft
-                        const y = -(Math.pow(offset, 2) * 15); // arc: center higher, edges lower
-                        const zIndex = maxFan - Math.abs(Math.round(offset)); // center on top
+                        const rotation = offset * 6;
+                        const y = -(Math.pow(offset, 2) * 3); // very subtle arc
+                        const zIndex = maxFan - Math.abs(Math.round(offset));
                         positions.push({ cardIdx, x, y, rotation, scale: 1, opacity: 1, zIndex });
                     } else {
                         positions.push({ cardIdx, x: 0, y: 0, rotation: 0, scale: 0.9, opacity: 0, zIndex: 0 });
