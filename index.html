@@ -151,7 +151,7 @@
             cursor: pointer;
             user-select: none;
             border: 1px solid var(--warm-border);
-            border-radius: 4px;
+            border-radius: 24px;
             padding: 4px 12px;
             transition: all 0.2s;
             background: none;
@@ -186,7 +186,7 @@
         /* ---- Intro card (tilted) ---- */
         .intro-card {
             background: white;
-            border-radius: 4px;
+            border-radius: 24px;
             padding: 32px;
             margin: 32px auto 0;
             max-width: 480px;
@@ -229,7 +229,7 @@
         @media (min-width: 768px) {
             .card-stack-wrapper {
                 max-width: 960px;
-                height: 360px;
+                height: 420px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -237,7 +237,7 @@
 
         .stack-card {
             position: absolute;
-            border-radius: 4px;
+            border-radius: 24px;
             padding: 32px;
             user-select: none;
             touch-action: pan-y;
@@ -255,10 +255,8 @@
         /* Desktop: fixed card size for fan */
         @media (min-width: 768px) {
             .stack-card {
-                width: 200px;
-                max-height: 260px;
-                overflow: hidden;
-                padding: 14px;
+                width: 240px;
+                padding: 16px;
                 top: auto;
                 bottom: 0;
                 left: 50%;
@@ -267,15 +265,15 @@
             .stack-card .art-image {
                 aspect-ratio: 1;
             }
-            .stack-card h3 { font-size: 15px; margin-bottom: 6px; }
-            .stack-card .art-date,
-            .stack-card .diary-date { font-size: 10px; margin-bottom: 4px; }
-            .stack-card .art-description,
-            .stack-card .diary-content,
-            .stack-card .card-body { font-size: 11px; line-height: 1.5; }
-            .stack-card .art-image-wrapper { border-radius: 4px; margin-bottom: 8px; }
+            .stack-card h3 { font-size: 13px; margin-bottom: 6px; }
             .stack-card .card-number { width: 20px; height: 20px; font-size: 10px; }
             .stack-card .card-read-more { display: none; }
+            .stack-card .art-date,
+            .stack-card .diary-date { font-size: 10px; margin-bottom: 4px; color: var(--coral); }
+            .stack-card .art-description,
+            .stack-card .diary-content,
+            .stack-card .card-body { font-size: 11px; line-height: 1.5; color: var(--brown); }
+            .stack-card .art-image-wrapper { border-radius: 16px; margin-bottom: 8px; }
         }
 
         /* White cards — notebook dot grid texture */
@@ -295,8 +293,8 @@
 
         .stack-card h3 {
             font-family: 'Varela Round', sans-serif;
-            font-size: 22px;
-            margin-bottom: 16px;
+            font-size: 18px;
+            margin-bottom: 10px;
             display: flex;
             align-items: center;
             gap: 8px;
@@ -393,7 +391,7 @@
         .stack-dot.active {
             background: var(--coral);
             width: 24px;
-            border-radius: 4px;
+            border-radius: 24px;
         }
 
         .stack-hint {
@@ -494,7 +492,7 @@
            ============================================= */
         .card-detail-modal {
             border: none;
-            border-radius: 4px;
+            border-radius: 24px;
             padding: 0;
             max-width: 560px;
             width: calc(100% - 32px);
@@ -1685,13 +1683,13 @@
             // ---- DESKTOP: Fan layout ----
             initFan() {
                 this.wrapper.style.maxWidth = '960px';
-                this.wrapper.style.height = '360px';
+                this.wrapper.style.height = '420px';
 
                 this.cards.forEach(card => {
                     card.style.minHeight = '';
                     card.style.position = 'absolute';
                     card.style.visibility = '';
-                    card.style.width = '200px';
+                    card.style.width = '240px';
                     card.style.top = 'auto';
                     card.style.bottom = '0';
                     card.style.left = '50%';
@@ -1702,7 +1700,7 @@
 
             getFanPositions() {
                 const n = this.n;
-                const maxFan = Math.min(n, 7);
+                const maxFan = Math.min(n, 5);
                 const spacing = 160;
                 const positions = [];
 
