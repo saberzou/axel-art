@@ -256,8 +256,6 @@
         @media (min-width: 768px) {
             .stack-card {
                 width: 240px;
-                height: 320px;
-                overflow: hidden;
                 padding: 16px;
                 top: auto;
                 bottom: 0;
@@ -1658,6 +1656,12 @@
                     card.style.width = '100%';
                     card.style.top = '0';
                     card.style.left = '0';
+
+                    // Restore full text for mobile
+                    const textEls = card.querySelectorAll('.art-description, .diary-content, .card-body, .thought-card p:not(.diary-date)');
+                    textEls.forEach(el => {
+                        if (el.dataset.fullText) el.textContent = el.dataset.fullText;
+                    });
                 });
                 this.wrapper.style.height = (maxH + DEPTH_Y * (MAX_VISIBLE - 1)) + 'px';
                 this.wrapper.style.maxWidth = '480px';
@@ -1695,6 +1699,17 @@
                     card.style.top = 'auto';
                     card.style.bottom = '0';
                     card.style.left = '50%';
+
+                    // Truncate text for consistent card heights in fan
+                    const maxChars = 120;
+                    const textEls = card.querySelectorAll('.art-description, .diary-content, .card-body, .thought-card p:not(.diary-date)');
+                    textEls.forEach(el => {
+                        if (!el.dataset.fullText) el.dataset.fullText = el.textContent;
+                        const full = el.dataset.fullText;
+                        if (full.length > maxChars) {
+                            el.textContent = full.slice(0, maxChars).trimEnd() + '…';
+                        }
+                    });
                 });
 
                 this.layoutFan(false);
