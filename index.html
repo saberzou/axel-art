@@ -229,7 +229,7 @@
         @media (min-width: 768px) {
             .card-stack-wrapper {
                 max-width: 960px;
-                height: 380px;
+                height: 360px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -256,14 +256,16 @@
         @media (min-width: 768px) {
             .stack-card {
                 width: 200px;
-                max-height: 280px;
+                max-height: 260px;
                 overflow: hidden;
                 padding: 14px;
-                top: 50%;
+                top: auto;
+                bottom: 0;
                 left: 50%;
+                transform-origin: center bottom;
             }
             .stack-card .art-image {
-                aspect-ratio: 4/3;
+                aspect-ratio: 1;
             }
             .stack-card h3 { font-size: 15px; margin-bottom: 6px; }
             .stack-card .art-date,
@@ -1683,14 +1685,15 @@
             // ---- DESKTOP: Fan layout ----
             initFan() {
                 this.wrapper.style.maxWidth = '960px';
-                this.wrapper.style.height = '380px';
+                this.wrapper.style.height = '360px';
 
                 this.cards.forEach(card => {
                     card.style.minHeight = '';
                     card.style.position = 'absolute';
                     card.style.visibility = '';
-                    card.style.width = '260px';
-                    card.style.top = '50%';
+                    card.style.width = '200px';
+                    card.style.top = 'auto';
+                    card.style.bottom = '0';
                     card.style.left = '50%';
                 });
 
@@ -1700,27 +1703,29 @@
             getFanPositions() {
                 const n = this.n;
                 const maxFan = Math.min(n, 7);
-                const spacing = Math.min(180, 800 / maxFan);
+                const spacing = 110;
                 const positions = [];
 
                 for (let i = 0; i < n; i++) {
                     const cardIdx = this.order[i];
                     if (i < maxFan) {
-                        const x = (i - (maxFan - 1) / 2) * spacing;
-                        const y = -140 + Math.abs(i - (maxFan - 1) / 2) * 8;
-                        const rotation = (i - (maxFan - 1) / 2) * 3.5;
-                        const zIndex = maxFan - i;
+                        // Hand-of-cards: fan from bottom center
+                        const center = (maxFan - 1) / 2;
+                        const offset = i - center; // -2..+2 for 5 cards
+                        const x = offset * spacing;
+                        const rotation = offset * 8; // dramatic rotation like interfacecraft
+                        const y = -(Math.pow(offset, 2) * 15); // arc: center higher, edges lower
+                        const zIndex = maxFan - Math.abs(Math.round(offset)); // center on top
                         positions.push({ cardIdx, x, y, rotation, scale: 1, opacity: 1, zIndex });
                     } else {
-                        // Hidden behind the fan
-                        positions.push({ cardIdx, x: 0, y: -120, rotation: 0, scale: 0.9, opacity: 0, zIndex: 0 });
+                        positions.push({ cardIdx, x: 0, y: 0, rotation: 0, scale: 0.9, opacity: 0, zIndex: 0 });
                     }
                 }
-                // Bring the top card forward
+                // Bring the active (top) card slightly forward
                 const topPos = positions[0];
-                topPos.y -= 10;
                 topPos.zIndex = maxFan + 1;
-                topPos.scale = 1.04;
+                topPos.scale = 1.05;
+                topPos.y -= 15;
 
                 return positions;
             }
