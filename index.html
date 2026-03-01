@@ -1710,53 +1710,54 @@
                     });
                 });
 
+                // Hover: scale up + bring to front
+                this.cards.forEach((card, i) => {
+                    card.addEventListener('mouseenter', () => {
+                        if (!this.isDesktop) return;
+                        card.style.zIndex = 100;
+                        card.style.transition = 'transform 0.25s ease';
+                        const cur = card.style.transform.replace(/scale\([^)]*\)/, '').trim();
+                        card.style.transform = cur + ' scale(1.1)';
+                    });
+                    card.addEventListener('mouseleave', () => {
+                        if (!this.isDesktop) return;
+                        card.style.transition = 'transform 0.25s ease';
+                        const cur = card.style.transform.replace(/scale\([^)]*\)/, '').trim();
+                        card.style.transform = cur + ' scale(1)';
+                        // Restore z-index after a short delay
+                        setTimeout(() => {
+                            this.layoutFan(false);
+                        }, 250);
+                    });
+                });
+
                 this.layoutFan(false);
             }
 
             getFanPositions() {
                 const n = this.n;
                 const maxFan = Math.min(n, 5);
-                const spacing = 200;
                 const positions = [];
+
+                // Fixed scattered positions (inspired by interfacecraft.dev)
+                // Each card gets a unique hand-crafted x, y, rotation
+                const fanSlots = [
+                    { x: -380, y: -20, rotation: -7 },
+                    { x: -190, y: 10, rotation: 3 },
+                    { x: 0,    y: -30, rotation: -1 },
+                    { x: 190,  y: 5,   rotation: 4 },
+                    { x: 370,  y: -15, rotation: -5 },
+                ];
 
                 for (let i = 0; i < n; i++) {
                     const cardIdx = this.order[i];
                     if (i < maxFan) {
-                        const center = (maxFan - 1) / 2;
-                        const offset = i - center;
-                        const x = offset * spacing;
-                        const rotation = offset * 4;
-                        const y = -(Math.pow(offset, 2) * 3); // very subtle arc
-                        const zIndex = maxFan - Math.abs(Math.round(offset));
-                        positions.push({ cardIdx, x, y, rotation, scale: 1, opacity: 1, zIndex });
+                        const slot = fanSlots[i];
+                        positions.push({ cardIdx, x: slot.x, y: slot.y, rotation: slot.rotation, scale: 1, opacity: 1, zIndex: i + 1 });
                     } else {
                         positions.push({ cardIdx, x: 0, y: 0, rotation: 0, scale: 0.9, opacity: 0, zIndex: 0 });
                     }
                 }
-                // Bring the active (top) card slightly forward
-                const topPos = positions[0];
-                topPos.zIndex = maxFan + 1;
-                topPos.y -= 15;
-
-                // Calculate visual center offset to truly center the fan
-                // Each card: center at x, width = 240 * scale, rotation adds ~width*sin(angle)
-                const cardW = 240;
-                let minLeft = Infinity, maxRight = -Infinity;
-                positions.forEach(pos => {
-                    if (pos.opacity === 0) return;
-                    const w = cardW * pos.scale;
-                    const rad = Math.abs(pos.rotation) * Math.PI / 180;
-                    const extraW = w * Math.cos(rad) + 320 * pos.scale * Math.sin(rad); // approx bbox width (320 = card height est)
-                    const left = pos.x - extraW / 2;
-                    const right = pos.x + extraW / 2;
-                    if (left < minLeft) minLeft = left;
-                    if (right > maxRight) maxRight = right;
-                });
-                const visualCenter = (minLeft + maxRight) / 2;
-                // Shift all visible positions so visual center = 0
-                positions.forEach(pos => {
-                    if (pos.opacity > 0) pos.x -= visualCenter;
-                });
 
                 return positions;
             }
@@ -1793,11 +1794,6 @@
                     // On desktop, clicking a card brings it to front
                     const card = e.target.closest('.stack-card');
                     if (card) {
-                        const idx = parseInt(card.dataset.index);
-                        if (this.order[0] !== idx) {
-                            this.hideHint();
-                            this.bringToFront(idx);
-                        }
                         openCardModal(card);
                     }
                     return;
