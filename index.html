@@ -268,6 +268,7 @@
             .stack-card h3 { font-size: 13px; margin-bottom: 6px; }
             .stack-card .card-number { width: 20px; height: 20px; font-size: 10px; }
             .stack-card .card-read-more { display: none; }
+            [data-stack="writing"] .stack-card { padding-bottom: 60px; }
             .stack-card .art-date,
             .stack-card .diary-date { font-size: 10px; margin-bottom: 4px; color: var(--coral); }
             .stack-card .art-description,
@@ -1780,9 +1781,8 @@
                         if (this.order[0] !== idx) {
                             this.hideHint();
                             this.bringToFront(idx);
-                        } else if (card.classList.contains('card-white') && !card.classList.contains('art-card')) {
-                            openCardModal(card);
                         }
+                        openCardModal(card);
                     }
                     return;
                 }
