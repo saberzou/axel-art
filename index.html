@@ -447,6 +447,7 @@
             color: var(--brown-light);
             line-height: 1.7;
             font-size: 14px;
+            display: none;
         }
 
         /* ---- Diary card content ---- */
@@ -1353,6 +1354,7 @@
         <dialog class="card-detail-modal" id="cardDetailModal">
             <div class="modal-inner">
                 <button class="modal-close" aria-label="Close">✕</button>
+                <img class="modal-image" id="modalImage" style="display:none" />
                 <h3 id="modalTitle"></h3>
                 <div class="modal-date" id="modalDate"></div>
                 <div class="modal-text" id="modalText"></div>
@@ -1440,6 +1442,7 @@
         const modalTitle = document.getElementById('modalTitle');
         const modalDate = document.getElementById('modalDate');
         const modalText = document.getElementById('modalText');
+        const modalImage = document.getElementById('modalImage');
         const modalClose = modal.querySelector('.modal-close');
 
         function openCardModal(card) {
@@ -1456,10 +1459,26 @@
             modalDate.textContent = dateEl ? dateEl.textContent : '';
             modalDate.style.display = dateEl ? '' : 'none';
 
-            // Get full content (use stored full HTML if truncated)
-            const bodyEl = card.querySelector(`.card-body[${attr}]`);
-            if (bodyEl) {
-                modalText.innerHTML = bodyEl.dataset.fullHtml || bodyEl.innerHTML;
+            // Art card: show image + description in modal
+            const isArt = card.classList.contains('art-card');
+            if (isArt) {
+                const img = card.querySelector('.art-image');
+                if (img) {
+                    modalImage.src = img.src;
+                    modalImage.alt = img.alt || '';
+                    modalImage.style.display = '';
+                } else {
+                    modalImage.style.display = 'none';
+                }
+                const descEl = card.querySelector(`.art-description[${attr}]`);
+                modalText.textContent = descEl ? descEl.textContent : '';
+            } else {
+                modalImage.style.display = 'none';
+                // Get full content (use stored full HTML if truncated)
+                const bodyEl = card.querySelector(`.card-body[${attr}]`);
+                if (bodyEl) {
+                    modalText.innerHTML = bodyEl.dataset.fullHtml || bodyEl.innerHTML;
+                }
             }
 
             modal.showModal();
