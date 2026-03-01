@@ -1701,7 +1701,7 @@
                     card.style.left = '50%';
 
                     // Truncate text for consistent card heights in fan
-                    const maxChars = 120;
+                    const maxChars = this.name === 'writing' ? 240 : 120;
                     const textEls = card.querySelectorAll('.art-description, .diary-content, .card-body, .thought-card p:not(.diary-date)');
                     textEls.forEach(el => {
                         if (!el.dataset.fullText) el.dataset.fullText = el.textContent;
