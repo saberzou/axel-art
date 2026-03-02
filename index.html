@@ -1651,7 +1651,13 @@
                 this.wrapper = document.querySelector(`[data-stack="${name}"]`);
                 this.cards = Array.from(this.wrapper.querySelectorAll('.stack-card'));
                 this.n = this.cards.length;
-                this.order = this.cards.map((_, i) => i); // first card (newest) on top
+                // Sort order by date (newest first) — parse date from diary-date or art-date elements
+                this.order = this.cards.map((card, i) => {
+                    const dateEl = card.querySelector('.diary-date[data-i18n-en], .art-date[data-i18n-en]');
+                    const dateStr = dateEl ? dateEl.textContent.trim() : '';
+                    const ts = dateStr ? new Date(dateStr).getTime() : 0;
+                    return { i, ts };
+                }).sort((a, b) => b.ts - a.ts).map(x => x.i);
                 this.isAnimating = false;
                 this.interacted = false;
                 this.isDesktop = IS_DESKTOP();
