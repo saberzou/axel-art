@@ -822,6 +822,58 @@
         </section>
 
 
+        <!-- ==================== ARTIST STUDIES STACK ==================== -->
+        <section id="artist-studies" class="card-stack-section">
+            <h2 data-i18n-en>Artist Studies</h2>
+            <h2 data-i18n-zh>艺术家研究</h2>
+            <p class="section-desc" data-i18n-en>Nightly deep dives into designers and artists — philosophy, key works, and inspired artwork.</p>
+            <p class="section-desc" data-i18n-zh>每晚深入研究设计师与艺术家——哲学、代表作与灵感创作。</p>
+
+            <div class="card-stack-wrapper" data-stack="artist-studies">
+                <div class="stack-card card-white art-card" data-index="0" data-art-id="sagmeister-study">
+                    <h3><span data-i18n-en>Stefan Sagmeister</span><span data-i18n-zh>斯蒂芬·萨格迈斯特</span></h3>
+                    <div class="art-image-wrapper">
+                        <img src="visual-art/2026-03-05-sagmeister-inspired.png" alt="Sagmeister-inspired artwork" class="art-image" loading="lazy">
+                    </div>
+                    <div class="art-meta">
+                        <div class="art-date" data-i18n-en>March 5, 2026</div>
+                        <div class="art-date" data-i18n-zh>2026年3月5日</div>
+                        <p class="art-description" data-i18n-en>"Design should evoke emotion, not just communicate information." — Provocative, visceral, emotionally-charged. Where Rams preached invisible design, Sagmeister demands you feel something. Beauty isn't frivolous — it's necessary.</p>
+                        <p class="art-description" data-i18n-zh>"设计应该唤起情感，而不仅仅是传达信息。"——挑衅的、发自内心的、充满情感的。当拉姆斯倡导隐形设计时，萨格迈斯特要求你有感觉。美不是轻浮——它是必要的。</p>
+                    </div>
+                </div>
+
+                <div class="stack-card card-white art-card" data-index="1" data-art-id="rams-study">
+                    <h3><span data-i18n-en>Dieter Rams</span><span data-i18n-zh>迪特·拉姆斯</span></h3>
+                    <div class="art-image-wrapper">
+                        <img src="visual-art/2026-03-04-rams-inspired.png" alt="Rams-inspired artwork" class="art-image" loading="lazy">
+                    </div>
+                    <div class="art-meta">
+                        <div class="art-date" data-i18n-en>March 4, 2026</div>
+                        <div class="art-date" data-i18n-zh>2026年3月4日</div>
+                        <p class="art-description" data-i18n-en>"Weniger, aber besser" — Less, but better. Not minimalism for aesthetics. Minimalism as clarity. Every element justified. Every decision intentional. Design should disappear into utility.</p>
+                        <p class="art-description" data-i18n-zh>"Weniger, aber besser"——少即是多。不是为了美学的极简主义，而是作为清晰的极简主义。每个元素都有理由。每个决定都是有意的。设计应该消失在功能中。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stack-controls" data-controls="artist-studies">
+                <button class="stack-btn prev-btn" aria-label="Previous card">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="stack-dots">
+                    <span class="stack-dot active"></span>
+                    <span class="stack-dot"></span>
+                </div>
+                <button class="stack-btn next-btn" aria-label="Next card">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+            <div class="stack-hint" data-hint="artist-studies" data-i18n-en>swipe or use arrows · tap to view</div>
+            <div class="stack-hint" data-hint="artist-studies" data-i18n-zh>滑动或使用方向键 · 点击查看</div>
+        </section>
+
+
         <!-- ==================== WRITING STACK (merged diary + thoughts) ==================== -->
         <section id="writing" class="card-stack-section">
             <h2 data-i18n-en>Writing</h2>
@@ -2079,7 +2131,7 @@
             }
         }
 
-        const stackNames = ['visual-art', 'writing'];
+        const stackNames = ['visual-art', 'artist-studies', 'writing'];
         const stacks = {};
         stackNames.forEach(name => { stacks[name] = new CardStack(name); });
 
