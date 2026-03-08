@@ -1938,9 +1938,11 @@
                 });
 
                 // Hover: scale up + bring to front
+                this._hoveredIdx = -1;
                 this.cards.forEach((card, i) => {
                     card.addEventListener('mouseenter', () => {
                         if (!this.isDesktop) return;
+                        this._hoveredIdx = i;
                         card.style.zIndex = 100;
                         card.style.transition = 'transform 0.25s ease';
                         const cur = card.style.transform.replace(/scale\([^)]*\)/, '').trim();
@@ -1948,13 +1950,16 @@
                     });
                     card.addEventListener('mouseleave', () => {
                         if (!this.isDesktop) return;
+                        this._hoveredIdx = -1;
                         card.style.transition = 'transform 0.25s ease';
-                        const cur = card.style.transform.replace(/scale\([^)]*\)/, '').trim();
-                        card.style.transform = cur + ' scale(1)';
-                        // Restore z-index after a short delay
-                        setTimeout(() => {
-                            this.layoutFan(false);
-                        }, 250);
+                        const idx = parseInt(card.dataset.index);
+                        const depth = this.order.indexOf(idx);
+                        const positions = this.getFanPositions();
+                        const pos = positions.find(p => p.cardIdx === idx);
+                        if (pos) {
+                            card.style.zIndex = pos.zIndex;
+                            card.style.transform = `translateX(${pos.x}px) translateY(${pos.y}px) rotate(${pos.rotation}deg) scale(${pos.scale})`;
+                        }
                     });
                 });
 
@@ -1993,6 +1998,7 @@
                 const positions = this.getFanPositions();
                 positions.forEach(pos => {
                     const card = this.cards[pos.cardIdx];
+                    if (pos.cardIdx === this._hoveredIdx) return; // don't reset hovered card
                     card.style.zIndex = pos.zIndex;
                     card.style.pointerEvents = 'auto'; // all cards clickable in fan
                     if (animate) {
