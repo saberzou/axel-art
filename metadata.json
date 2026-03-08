@@ -39,6 +39,19 @@
         "inspired-artwork"
       ],
       "description": " Kusama's central idea is **self-obliteration** — dissolving the boundary between self and universe through repetition. The dots, the nets, the mirrors — they all serve the same function: multiplying a single gesture until individuality disappears and you become part of the infinite continuum.  "
+    },
+    {
+      "id": "saul-bass",
+      "title": "Saul Bass",
+      "date": "2026-03-09",
+      "file": "visual-art/2026-03-09-saul-bass-inspired.png",
+      "prompt": "visual-art/2026-03-09-saul-bass-inspired-prompt.txt",
+      "tags": [
+        "artist-study",
+        "research",
+        "inspired-artwork"
+      ],
+      "description": ""
     }
   ],
   "asciiArt": [
