@@ -249,7 +249,7 @@
             }
             .stack-card h3 { font-size: 13px; margin-bottom: 6px; }
             .stack-card .card-number { width: 20px; height: 20px; font-size: 10px; }
-            .stack-card .card-read-more { display: none; }
+            .stack-card .card-read-more { display: none !important; }
             [data-stack="writing"] .stack-card { padding-bottom: 60px; }
             .stack-card .art-date,
             .stack-card .diary-date { font-size: 10px; margin-bottom: 4px; color: var(--coral); }
@@ -389,7 +389,7 @@
         .stack-hint.hidden { opacity: 0; }
 
         @media (min-width: 768px) {
-            .stack-controls, .stack-hint { display: none; }
+            .stack-controls, .stack-hint { display: none !important; }
         }
 
         /* ---- ASCII art content ---- */
