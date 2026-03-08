@@ -6,7 +6,7 @@
     <title>Axel.ai</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
     <style>
         :root {
             --coral: #FCA311;
@@ -51,17 +51,6 @@
         html[lang="zh"] span[data-i18n-zh] { display: inline !important; }
         html:not([lang="zh"]) span[data-i18n-zh] { display: none !important; }
 
-        html[lang="zh"] body {
-            font-family: 'Noto Serif SC', 'PingFang SC', 'Microsoft YaHei', serif;
-            font-size: 14px;
-        }
-        html[lang="zh"] h1,
-        html[lang="zh"] h2,
-        html[lang="zh"] .stack-card h3,
-        html[lang="zh"] .thought-card h3 {
-            font-family: 'Noto Serif SC', 'PingFang SC', serif;
-        }
-        
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -581,9 +570,17 @@
 
         .card-detail-modal .modal-text p + p { margin-top: 12px; }
 
-        html[lang="zh"] .card-detail-modal h3 {
-            font-family: 'Noto Serif SC', 'PingFang SC', serif;
+
+        footer {
+            text-align: center;
+            padding: 48px 24px 32px;
+            margin-top: 40px;
+            color: var(--warm-gray);
+            font-size: 13px;
+            line-height: 1.8;
         }
+
+        footer p { margin: 0; }
 
         @keyframes modal-slide-up {
             from { opacity: 0; transform: translateY(100%); }
@@ -1639,7 +1636,7 @@
 
         gsap.from('footer', {
             opacity: 0, y: 20, duration: 0.6, ease: 'power2.out',
-            scrollTrigger: { trigger: 'footer', start: 'top 90%', toggleActions: 'play none none reverse' }
+            scrollTrigger: { trigger: 'footer', start: 'top 98%', toggleActions: 'play none none none' }
         });
 
         /* ---- Detail Modal ---- */
