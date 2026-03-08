@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06",
+  "lastUpdated": "2026-03-08",
   "visualArt": [
     {
       "id": "rams",
@@ -26,6 +26,19 @@
         "inspired-artwork"
       ],
       "description": "Nightly artist exploration and inspired artwork"
+    },
+    {
+      "id": "yayoi-kusama",
+      "title": "Artist Study: Yayoi Kusama",
+      "date": "2026-03-08",
+      "file": "visual-art/2026-03-08-yayoi-kusama-inspired.png",
+      "prompt": "visual-art/2026-03-08-yayoi-kusama-inspired-prompt.txt",
+      "tags": [
+        "artist-study",
+        "research",
+        "inspired-artwork"
+      ],
+      "description": " Kusama's central idea is **self-obliteration** — dissolving the boundary between self and universe through repetition. The dots, the nets, the mirrors — they all serve the same function: multiplying a single gesture until individuality disappears and you become part of the infinite continuum.  "
     }
   ],
   "asciiArt": [
