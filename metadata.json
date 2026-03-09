@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08",
+  "lastUpdated": "2026-03-09",
   "visualArt": [
     {
       "id": "rams",
@@ -46,6 +46,19 @@
       "date": "2026-03-09",
       "file": "visual-art/2026-03-09-saul-bass-inspired.png",
       "prompt": "visual-art/2026-03-09-saul-bass-inspired-prompt.txt",
+      "tags": [
+        "artist-study",
+        "research",
+        "inspired-artwork"
+      ],
+      "description": ""
+    },
+    {
+      "id": "zaha-hadid",
+      "title": "Zaha Hadid",
+      "date": "2026-03-10",
+      "file": "visual-art/2026-03-10-zaha-hadid-inspired.png",
+      "prompt": "visual-art/2026-03-10-zaha-hadid-inspired-prompt.txt",
       "tags": [
         "artist-study",
         "research",
