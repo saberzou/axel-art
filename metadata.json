@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08",
+  "lastUpdated": "2026-03-10",
   "visualArt": [
     {
       "id": "rams",
@@ -67,188 +67,17 @@
       "description": ""
     },
     {
-      "id": "slowness",
-      "title": "Slowness",
-      "date": "2026-03-08",
-      "file": "visual-art/2026-03-08-slowness.png",
-      "prompt": "visual-art/2026-03-08-slowness-prompt.txt",
+      "id": "aphex-twin",
+      "title": "Artist Study: Aphex Twin (Richard D. James)",
+      "date": "2026-03-11",
+      "file": "visual-art/2026-03-11-aphex-twin-inspired.png",
+      "prompt": "visual-art/2026-03-11-aphex-twin-inspired-prompt.txt",
       "tags": [
-        "minimalist",
-        "wabi-sabi",
-        "restraint",
-        "empty-space",
-        "Sunday",
-        "night",
-        "contemplative",
-        "silence",
-        "meditation",
-        "intentional"
+        "artist-study",
+        "research",
+        "inspired-artwork"
       ],
-      "description": "Sunday 10pm — a vast expanse of warm off-white space with a single small mark in the corner. After days of creating and filling, tonight is about restraint. About what happens when you choose silence. The space between notes is what makes the music. Not absence, but intentional emptiness. The art is in what isn't drawn."
-    },
-    {
-      "id": "saturday-play",
-      "title": "Saturday Play",
-      "date": "2026-03-07",
-      "file": "visual-art/2026-03-07-saturday-play.png",
-      "prompt": "visual-art/2026-03-07-saturday-play-prompt.txt",
-      "tags": [
-        "minimalist",
-        "abstract",
-        "warm",
-        "playful",
-        "Saturday",
-        "night",
-        "gesture",
-        "freedom",
-        "experimental",
-        "curve"
-      ],
-      "description": "Saturday 10pm — a single curved line breaking through perfect geometry, warm coral gradient with soft grain. The feeling of Saturday night when structure becomes optional and play is the only purpose. Not productivity, not progress. Just the joy of making a mark because you can. The doodle on the edge of perfection."
-    },
-    {
-      "id": "the-smallest-light",
-      "title": "The Smallest Light",
-      "date": "2026-03-06",
-      "file": "visual-art/2026-03-06-the-smallest-light.png",
-      "prompt": "visual-art/2026-03-06-the-smallest-light-prompt.txt",
-      "tags": [
-        "minimalist",
-        "conceptual",
-        "warm",
-        "pixel",
-        "existence",
-        "impermanence",
-        "Friday",
-        "night",
-        "digital",
-        "solitude"
-      ],
-      "description": "Friday 10pm — a single glowing pixel suspended in vast gradient space, coral warmth dissolving into darkness. The smallest unit of digital existence, still somehow mattering. A meditation on impermanence and presence: even the tiniest light changes what surrounds it. We're all just pixels in the end, but we glow anyway."
-    },
-    {
-      "id": "quiet-momentum",
-      "title": "Quiet Momentum",
-      "date": "2026-03-05",
-      "file": "visual-art/2026-03-05-quiet-momentum.png",
-      "prompt": "visual-art/2026-03-05-quiet-momentum-prompt.txt",
-      "tags": [
-        "minimalist",
-        "abstract",
-        "warm",
-        "night",
-        "momentum",
-        "solitude",
-        "focus",
-        "Thursday",
-        "contemplative"
-      ],
-      "description": "Thursday 10pm — a single warm orange light glowing in darkness, geometric forms suggesting forward motion. The peaceful energy of late-night focus, when progress happens quietly and the world feels small enough to hold in your hands. Not the loud productivity of daylight, but the sustained momentum of someone still working, still creating, still moving forward in the gentle solitude of night."
-    },
-    {
-      "id": "midweek-grip",
-      "title": "Midweek Grip",
-      "date": "2026-03-04",
-      "file": "visual-art/2026-03-04-midweek-grip.png",
-      "prompt": "visual-art/2026-03-04-midweek-grip-prompt.txt",
-      "tags": [
-        "minimalist",
-        "photography",
-        "worn",
-        "persistence",
-        "Wednesday",
-        "night",
-        "warm",
-        "momentum",
-        "texture"
-      ],
-      "description": "Wednesday 10pm — worn climbing shoes resting on concrete, shot from above with warm golden lighting and photographic grain. The quiet persistence of midweek momentum. Not fresh like Monday, not relieved like Friday. Just sustained grip, worn rubber, the kind of effort that doesn't announce itself but keeps going anyway."
-    },
-    {
-      "id": "night-window",
-      "title": "Night Window",
-      "date": "2026-03-03",
-      "file": "visual-art/2026-03-03-night-window.png",
-      "prompt": "visual-art/2026-03-03-night-window-prompt.txt",
-      "tags": [
-        "minimalist",
-        "architecture",
-        "night",
-        "solitude",
-        "warm",
-        "cinematic",
-        "urban",
-        "contemplative"
-      ],
-      "description": "Late Tuesday night — a single illuminated window in darkness, that universal symbol of human presence in the vast night. Warm amber light against deep blue shadows, the intimate glow that says someone is awake, thinking, creating. The peaceful loneliness of late-night work, the quiet company of other night owls across the city."
-    },
-    {
-      "id": "liminal-ember",
-      "title": "Liminal Ember",
-      "date": "2026-03-02",
-      "file": "visual-art/2026-03-02-liminal-ember.png",
-      "prompt": "visual-art/2026-03-02-liminal-ember-prompt.txt",
-      "tags": [
-        "minimalist",
-        "abstract",
-        "warm",
-        "contemplative",
-        "night",
-        "liminal",
-        "solitude",
-        "ember"
-      ],
-      "description": "Late Monday night — a single ember glowing in darkness, the quiet moment between end and beginning. The peaceful solitude of 10pm creation, when one day dissolves into the next and ideas emerge from the space in between."
-    },
-    {
-      "id": "threshold",
-      "title": "Threshold",
-      "date": "2026-03-01",
-      "file": "visual-art/2026-03-01-threshold.png",
-      "prompt": "visual-art/2026-03-01-threshold-prompt.txt",
-      "tags": [
-        "minimalist",
-        "abstract",
-        "warm",
-        "transition",
-        "March",
-        "doorway",
-        "liminal",
-        "renewal"
-      ],
-      "description": "First day of March — a doorway of warm coral light dissolving into darkness, gold particles catching the edge between day and night. The visual feeling of crossing from one month into another, standing at the threshold between what was and what will be."
-    },
-    {
-      "id": "winter-window",
-      "title": "Winter Window",
-      "date": "2026-02-27",
-      "file": "visual-art/2026-02-27-winter-window.png",
-      "prompt": "visual-art/2026-02-27-winter-window-prompt.txt",
-      "tags": [
-        "minimalist",
-        "warm",
-        "contemplative",
-        "twilight",
-        "winter",
-        "solitude",
-        "atmospheric"
-      ],
-      "description": "A single window glows with warm amber light against the deep twilight blue of a late winter Friday evening. Simple geometric forms and muted warm tones create an atmosphere of quiet solitude and gentle introspection — the feeling of someone inside, contemplating as the week draws to a close."
-    },
-    {
-      "id": "infrastructure-dissolve",
-      "title": "Infrastructure Dissolve",
-      "date": "2026-02-27",
-      "file": "visual-art/2026-02-27-infrastructure-dissolve.png",
-      "prompt": "visual-art/2026-02-27-infrastructure-dissolve-prompt.txt",
-      "tags": [
-        "abstract",
-        "minimalist",
-        "AI",
-        "infrastructure",
-        "conceptual"
-      ],
-      "description": "A response to the thought piece 'AI is Becoming Infrastructure' — geometric forms dissolving into organic flow, rigid lines becoming invisible, technology fading into the background. The transformation from visible tool to invisible infrastructure."
+      "description": ""
     }
   ],
   "asciiArt": [
