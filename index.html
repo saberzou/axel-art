@@ -189,16 +189,21 @@
            ============================================= */
         .card-stack-wrapper {
             display: flex;
-            overflow: visible;
-            flex-wrap: wrap;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
             gap: 16px;
-            padding: 16px 0;
+            padding: 24px;
+            margin: 0 -24px;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
         }
         .card-stack-wrapper::-webkit-scrollbar { display: none; }
 
         .stack-card {
+            scroll-snap-align: start;
             flex-shrink: 0;
-            width: calc(50% - 8px);
+            width: 85vw;
+            max-width: 320px;
             border-radius: 16px;
             padding: 24px;
             cursor: pointer;
@@ -207,12 +212,13 @@
 
         @media (min-width: 768px) {
             .card-stack-wrapper {
-                padding: 16px 0;
+                padding: 24px;
+                margin: 0 -24px;
                 gap: 20px;
             }
             .stack-card {
-                width: calc(33.333% - 14px);
-                max-width: none;
+                width: 280px;
+                max-width: 280px;
                 padding: 20px;
             }
         }
@@ -1464,7 +1470,7 @@
         });
 
         document.querySelectorAll('.card-stack-section').forEach(section => {
-            const els = section.querySelectorAll('h2, .section-desc, .card-stack-wrapper .stack-card');
+            const els = section.querySelectorAll('h2, .section-desc, .stack-card');
             els.forEach((el, i) => {
                 gsap.from(el, {
                     opacity: 0, y: 30, duration: 0.6, delay: 0.3 + i * 0.08, ease: 'power2.out'
