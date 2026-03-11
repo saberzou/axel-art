@@ -185,78 +185,42 @@
         .intro-card p + p { margin-top: 12px; }
 
         /* =============================================
-           CARD STACK
+           CARD CAROUSEL (scroll-snap)
            ============================================= */
         .card-stack-wrapper {
-            position: relative;
-            width: 100%;
-            max-width: 480px;
-            margin: 40px auto 0;
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 16px;
+            padding: 16px 24px;
+            margin: 24px -24px 0;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
         }
-
-        @media (min-width: 768px) {
-            .card-stack-section h2,
-            .card-stack-section .section-desc {
-                text-align: left;
-            }
-            .card-stack-wrapper {
-                max-width: 960px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-
-        /* Desktop fan mode — wider container */
-        @media (min-width: 768px) {
-            .card-stack-wrapper {
-                max-width: 960px;
-                height: auto;
-                min-height: 300px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
+        .card-stack-wrapper::-webkit-scrollbar { display: none; }
 
         .stack-card {
-            position: absolute;
+            scroll-snap-align: start;
+            flex-shrink: 0;
+            width: 85vw;
+            max-width: 320px;
             border-radius: 16px;
-            padding: 32px;
+            padding: 24px;
+            cursor: pointer;
             user-select: none;
-            touch-action: pan-y;
-            transform-origin: center center;
-            will-change: transform;
         }
 
-        /* Mobile: full width stacked */
-        .stack-card {
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-
-        /* Desktop: fixed card size for fan */
         @media (min-width: 768px) {
+            .card-stack-wrapper {
+                margin: 24px -24px 0;
+                padding: 16px 24px;
+                gap: 20px;
+            }
             .stack-card {
-                width: 240px;
-                padding: 16px;
-                top: auto;
-                bottom: 0;
-                left: 50%;
-                transform-origin: center bottom;
+                width: 280px;
+                max-width: 280px;
+                padding: 20px;
             }
-            .stack-card .art-image {
-                aspect-ratio: 1;
-            }
-            .stack-card h3 { font-size: 13px; margin-bottom: 6px; }
-            .stack-card .card-number { width: 20px; height: 20px; font-size: 10px; }
-            .stack-card .card-read-more { display: none !important; }
-            [data-stack="writing"] .stack-card { padding-bottom: 60px; }
-            .stack-card .art-date,
-            .stack-card .diary-date { font-size: 10px; margin-bottom: 4px; color: var(--coral); }
-            .stack-card .art-description,
-            .stack-card .diary-content,
-            .stack-card .card-body { font-size: 11px; line-height: 1.5; color: var(--brown); }
-            .stack-card .art-image-wrapper { border-radius: 16px; margin-bottom: 8px; }
         }
 
         /* White cards — notebook dot grid texture */
@@ -287,28 +251,6 @@
         .card-white h3 { color: var(--coral-dark); }
         .card-dark h3 { color: var(--coral-light); }
 
-        .stack-card .card-number {
-            font-size: 14px;
-            font-weight: 700;
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
-
-        .card-white .card-number {
-            color: var(--warm-gray);
-            background: var(--warm-bg);
-        }
-
-        .card-dark .card-number {
-            color: var(--brown-light);
-            background: rgba(255,255,255,0.1);
-        }
-
         /* ---- Card text truncation ---- */
         .card-white .card-body {
             display: -webkit-box;
@@ -327,70 +269,6 @@
         }
 
         .card-white:hover .card-read-more { opacity: 1; }
-
-        /* Stack controls */
-        .stack-controls {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 16px;
-            max-width: 480px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .stack-btn {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            border: 2px solid var(--warm-border);
-            background: white;
-            color: var(--brown-light);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.2s;
-            flex-shrink: 0;
-        }
-
-        .stack-btn:hover {
-            border-color: var(--coral);
-            color: var(--coral);
-            transform: scale(1.1);
-        }
-
-        .stack-dots { display: none; }
-
-        .stack-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--warm-border);
-            transition: all 0.3s;
-            cursor: pointer;
-        }
-
-        .stack-dot.active {
-            background: var(--coral);
-            width: 24px;
-            border-radius: 24px;
-        }
-
-        .stack-hint {
-            text-align: center;
-            margin-top: 12px;
-            font-size: 14px;
-            color: var(--warm-gray);
-            transition: opacity 0.5s;
-        }
-
-        .stack-hint.hidden { opacity: 0; }
-
-        @media (min-width: 768px) {
-            .stack-controls, .stack-hint { display: none !important; }
-        }
 
         /* ---- ASCII art content ---- */
         .ascii-art {
@@ -848,28 +726,6 @@
                 </div>
             </div>
 
-            <div class="stack-controls" data-controls="visual-art">
-                <button class="stack-btn prev-btn" aria-label="Previous card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                </button>
-                <div class="stack-dots">
-                    <span class="stack-dot active" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                    <span class="stack-dot" PLACEHOLDER_INDEX></span>
-                </div>
-                <button class="stack-btn next-btn" aria-label="Next card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                </button>
-            </div>
-            <div class="stack-hint" data-hint="visual-art" data-i18n-en>swipe or use arrows · tap to view</div>
-            <div class="stack-hint" data-hint="visual-art" data-i18n-zh>滑动或使用方向键 · 点击查看</div>
         </section>
 
 
@@ -921,21 +777,6 @@
                 </div>
             </div>
 
-            <div class="stack-controls" data-controls="artist-studies">
-                <button class="stack-btn prev-btn" aria-label="Previous card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                </button>
-                <div class="stack-dots">
-                    <span class="stack-dot active"></span>
-                    <span class="stack-dot"></span>
-                    <span class="stack-dot"></span>
-                </div>
-                <button class="stack-btn next-btn" aria-label="Next card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                </button>
-            </div>
-            <div class="stack-hint" data-hint="artist-studies" data-i18n-en>swipe or use arrows · tap to view</div>
-            <div class="stack-hint" data-hint="artist-studies" data-i18n-zh>滑动或使用方向键 · 点击查看</div>
         </section>
 
 
@@ -1567,49 +1408,6 @@
                 </div>
             </div>
 
-            <div class="stack-controls" data-controls="writing">
-                <button class="stack-btn prev-btn" aria-label="Previous card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                </button>
-                <div class="stack-dots">
-                    <span class="stack-dot active" data-index="30"></span>
-                    <span class="stack-dot" data-index="31"></span>
-                    <span class="stack-dot" data-index="32"></span>
-                    <span class="stack-dot" data-index="33"></span>
-                    <span class="stack-dot" data-index="34"></span>
-                    <span class="stack-dot" data-index="35"></span>
-                    <span class="stack-dot" data-index="36"></span>
-                    <span class="stack-dot" data-index="37"></span>
-                    <span class="stack-dot" data-index="38"></span>
-                    <span class="stack-dot" data-index="39"></span>
-                    <span class="stack-dot" data-index="40"></span>
-                    <span class="stack-dot" data-index="41"></span>
-                    <span class="stack-dot" data-index="42"></span>
-                    <span class="stack-dot" data-index="43"></span>
-                    <span class="stack-dot" data-index="44"></span>
-                    <span class="stack-dot" data-index="45"></span>
-                    <span class="stack-dot" data-index="46"></span>
-                    <span class="stack-dot" data-index="47"></span>
-                    <span class="stack-dot" data-index="48"></span>
-                    <span class="stack-dot" data-index="49"></span>
-                    <span class="stack-dot" data-index="50"></span>
-                    <span class="stack-dot" data-index="51"></span>
-                    <span class="stack-dot" data-index="52"></span>
-                    <span class="stack-dot" data-index="53"></span>
-                    <span class="stack-dot" data-index="54"></span>
-                    <span class="stack-dot" data-index="55"></span>
-                    <span class="stack-dot" data-index="56"></span>
-                    <span class="stack-dot" data-index="57"></span>
-                    <span class="stack-dot" data-index="58"></span>
-                    <span class="stack-dot" data-index="59"></span>
-                    <span class="stack-dot" data-index="60"></span>
-                </div>
-                <button class="stack-btn next-btn" aria-label="Next card">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                </button>
-            </div>
-            <div class="stack-hint" data-hint="writing" data-i18n-en>swipe or use arrows · tap to read full entry</div>
-            <div class="stack-hint" data-hint="writing" data-i18n-zh>滑动或使用方向键 · 点击阅读全文</div>
         </section>
 
         <!-- Detail modal -->
@@ -1646,10 +1444,6 @@
             html.setAttribute('lang', lang);
             btn.textContent = lang === 'zh' ? 'EN' : '中文';
             localStorage.setItem(LANG_KEY, lang);
-            Object.values(stacks).forEach(s => {
-                s.measureHeight();
-                s.layout(false);
-            });
         }
 
         btn.addEventListener('click', () => {
@@ -1684,14 +1478,6 @@
                     scrollTrigger: { trigger: section, start: 'top 80%', toggleActions: 'play none none reverse' }
                 });
             });
-
-            const controls = section.querySelector('.stack-controls');
-            if (controls) {
-                gsap.from(controls, {
-                    opacity: 0, duration: 0.5, delay: 0.3, ease: 'power2.out',
-                    scrollTrigger: { trigger: section, start: 'top 80%', toggleActions: 'play none none reverse' }
-                });
-            }
         });
 
         gsap.from('footer', {
@@ -1711,17 +1497,14 @@
             const lang = html.getAttribute('lang') || 'en';
             const attr = lang === 'zh' ? 'data-i18n-zh' : 'data-i18n-en';
 
-            // Get title text (from h3, excluding card-number)
             const h3 = card.querySelector('h3');
-            const titleSpan = h3.querySelector(`span[${attr}]`) || h3.querySelector('span:not(.card-number)');
-            modalTitle.textContent = titleSpan ? titleSpan.textContent : h3.textContent.replace(/^\d+\s*/, '');
+            const titleSpan = h3.querySelector('span[' + attr + ']') || h3.querySelector('span');
+            modalTitle.textContent = titleSpan ? titleSpan.textContent : h3.textContent;
 
-            // Get date
-            const dateEl = card.querySelector(`.diary-date[${attr}]`);
+            const dateEl = card.querySelector('.diary-date[' + attr + '], .art-date[' + attr + ']');
             modalDate.textContent = dateEl ? dateEl.textContent : '';
             modalDate.style.display = dateEl ? '' : 'none';
 
-            // Art card: show image + description in modal
             const isArt = card.classList.contains('art-card');
             if (isArt) {
                 const img = card.querySelector('.art-image');
@@ -1732,14 +1515,13 @@
                 } else {
                     modalImage.style.display = 'none';
                 }
-                const descEl = card.querySelector(`.art-description[${attr}]`);
+                const descEl = card.querySelector('.art-description[' + attr + ']');
                 modalText.textContent = descEl ? descEl.textContent : '';
             } else {
                 modalImage.style.display = 'none';
-                // Get full content (use stored full HTML if truncated)
-                const bodyEl = card.querySelector(`.card-body[${attr}]`);
+                const bodyEl = card.querySelector('.card-body[' + attr + ']');
                 if (bodyEl) {
-                    modalText.innerHTML = bodyEl.dataset.fullHtml || bodyEl.innerHTML;
+                    modalText.innerHTML = bodyEl.innerHTML;
                 }
             }
 
@@ -1751,526 +1533,14 @@
             if (e.target === modal) modal.close();
         });
 
-
-        /* ---- Card Stack (Spring Physics + Dual Mode) ---- */
-
-        // Spring solver — critically damped / underdamped spring
-        function springValue(from, to, velocity, stiffness, damping, mass, dt) {
-            const force = -stiffness * (from - to);
-            const dampForce = -damping * velocity;
-            const accel = (force + dampForce) / mass;
-            const newVel = velocity + accel * dt;
-            const newVal = from + newVel * dt;
-            return { value: newVal, velocity: newVel };
-        }
-
-        class SpringAnimator {
-            constructor(stiffness = 200, damping = 20, mass = 1) {
-                this.stiffness = stiffness;
-                this.damping = damping;
-                this.mass = mass;
-                this.animations = new Map();
-                this.rafId = null;
-                this.lastTime = null;
-            }
-
-            animate(id, el, targets, onDone) {
-                const current = {};
-                const velocity = {};
-                for (const key in targets) {
-                    const val = this._getCurrentValue(el, key);
-                    current[key] = val;
-                    velocity[key] = 0;
-                }
-                this.animations.set(id, { el, targets, current, velocity, onDone });
-                if (!this.rafId) this._tick();
-            }
-
-            stop(id) {
-                this.animations.delete(id);
-            }
-
-            stopAll() {
-                this.animations.clear();
-                if (this.rafId) { cancelAnimationFrame(this.rafId); this.rafId = null; }
-                this.lastTime = null;
-            }
-
-            _getCurrentValue(el, key) {
-                const t = new DOMMatrix(getComputedStyle(el).transform);
-                switch (key) {
-                    case 'x': return t.m41;
-                    case 'y': return t.m42;
-                    case 'rotation': return Math.atan2(t.m21, t.m11) * (180 / Math.PI);
-                    case 'scale': return Math.sqrt(t.m11 * t.m11 + t.m21 * t.m21);
-                    case 'opacity': return parseFloat(getComputedStyle(el).opacity);
-                    default: return 0;
-                }
-            }
-
-            _tick() {
-                this.rafId = requestAnimationFrame(now => {
-                    if (!this.lastTime) { this.lastTime = now; this.rafId = null; this._tick(); return; }
-                    const dt = Math.min((now - this.lastTime) / 1000, 0.032); // cap at ~30fps min
-                    this.lastTime = now;
-
-                    const done = [];
-                    for (const [id, anim] of this.animations) {
-                        let allSettled = true;
-                        for (const key in anim.targets) {
-                            const result = springValue(
-                                anim.current[key], anim.targets[key],
-                                anim.velocity[key],
-                                this.stiffness, this.damping, this.mass, dt
-                            );
-                            anim.current[key] = result.value;
-                            anim.velocity[key] = result.velocity;
-                            if (Math.abs(result.value - anim.targets[key]) > 0.1 || Math.abs(result.velocity) > 0.1) {
-                                allSettled = false;
-                            }
-                        }
-                        // Apply transform
-                        const c = anim.current;
-                        const x = c.x ?? 0, y = c.y ?? 0, r = c.rotation ?? 0, s = c.scale ?? 1;
-                        anim.el.style.transform = `translateX(${x}px) translateY(${y}px) rotate(${r}deg) scale(${s})`;
-                        if ('opacity' in c) anim.el.style.opacity = c.opacity;
-
-                        if (allSettled) {
-                            // Snap to final values
-                            for (const key in anim.targets) anim.current[key] = anim.targets[key];
-                            const fc = anim.current;
-                            anim.el.style.transform = `translateX(${fc.x??0}px) translateY(${fc.y??0}px) rotate(${fc.rotation??0}deg) scale(${fc.scale??1})`;
-                            if ('opacity' in fc) anim.el.style.opacity = fc.opacity;
-                            done.push(id);
-                        }
-                    }
-                    done.forEach(id => {
-                        const anim = this.animations.get(id);
-                        this.animations.delete(id);
-                        if (anim?.onDone) anim.onDone();
-                    });
-                    if (this.animations.size > 0) this._tick();
-                    else { this.rafId = null; this.lastTime = null; }
-                });
-            }
-        }
-
-        // Shared spring instances
-        const springSnappy = new SpringAnimator(300, 26, 1);   // snappy for interactions
-        const springGentle = new SpringAnimator(120, 18, 1);   // gentle for layout
-
-        const IS_DESKTOP = () => window.innerWidth >= 768;
-        const SWIPE_THRESH = 60;
-        const MAX_VISIBLE = 4;
-
-        class CardStack {
-            constructor(name) {
-                this.name = name;
-                this.wrapper = document.querySelector(`[data-stack="${name}"]`);
-                this.cards = Array.from(this.wrapper.querySelectorAll('.stack-card'));
-                this.n = this.cards.length;
-                // Sort order by date (newest first) — parse date from diary-date or art-date elements
-                this.order = this.cards.map((card, i) => {
-                    const dateEl = card.querySelector('.diary-date[data-i18n-en], .art-date[data-i18n-en]');
-                    const dateStr = dateEl ? dateEl.textContent.trim() : '';
-                    const ts = dateStr ? new Date(dateStr).getTime() : 0;
-                    return { i, ts };
-                }).sort((a, b) => b.ts - a.ts).map(x => x.i);
-                this.isAnimating = false;
-                this.interacted = false;
-                this.isDesktop = IS_DESKTOP();
-
-                const controlsEl = document.querySelector(`[data-controls="${name}"]`);
-                this.dots = controlsEl.querySelectorAll('.stack-dot');
-                this.hintEn = document.querySelector(`[data-hint="${name}"][data-i18n-en]`);
-                this.hintZh = document.querySelector(`[data-hint="${name}"][data-i18n-zh]`);
-
-                controlsEl.querySelector('.next-btn').addEventListener('click', () => this.cycleNext());
-                controlsEl.querySelector('.prev-btn').addEventListener('click', () => this.cyclePrev());
-                this.dots.forEach(dot => {
-                    dot.addEventListener('click', () => this.goTo(this.n - 1 - parseInt(dot.dataset.index)));
-                });
-
-                // Pointer events for swipe (mobile) and click (desktop)
-                this.dragState = null;
-                this.wrapper.addEventListener('pointerdown', e => this.onPointerDown(e));
-                this.wrapper.addEventListener('pointermove', e => this.onPointerMove(e));
-                this.wrapper.addEventListener('pointerup', e => this.onPointerUp(e));
-                this.wrapper.addEventListener('pointercancel', e => this.onPointerUp(e));
-
-                this.init();
-                window.addEventListener('resize', () => {
-                    this.isDesktop = IS_DESKTOP();
-                    this.init();
-                });
-            }
-
-            init() {
-                if (this.isDesktop) {
-                    this.initFan();
-                } else {
-                    this.initStack();
-                }
-            }
-
-            // ---- MOBILE: Vertical stack ----
-            initStack() {
-                // Measure tallest card
-                let maxH = 0;
-                this.cards.forEach(card => {
-                    card.style.minHeight = '';
-                    card.style.position = 'relative';
-                    card.style.visibility = 'hidden';
-                    card.style.transform = 'none';
-                    card.style.width = '';
-                    card.style.top = '';
-                    card.style.left = '';
-                });
-                this.wrapper.offsetHeight;
-                this.cards.forEach(card => maxH = Math.max(maxH, card.offsetHeight));
-
-                const DEPTH_Y = 14;
-                this.cards.forEach(card => {
-                    card.style.minHeight = maxH + 'px';
-                    card.style.position = 'absolute';
-                    card.style.visibility = '';
-                    card.style.width = '100%';
-                    card.style.top = '0';
-                    card.style.left = '0';
-
-                    // Restore full content for mobile
-                    const textEls = card.querySelectorAll('.art-description, .diary-content, .card-body, .thought-card p:not(.diary-date)');
-                    textEls.forEach(el => {
-                        if (el.dataset.fullHtml) el.innerHTML = el.dataset.fullHtml;
-                    });
-                });
-                this.wrapper.style.height = (maxH + DEPTH_Y * (MAX_VISIBLE - 1)) + 'px';
-                this.wrapper.style.maxWidth = '480px';
-
-                // Layout
-                const ROTATIONS = [0, 2.5, -1.8, 1.2, -2.2];
-                this.cards.forEach(card => {
-                    const idx = parseInt(card.dataset.index);
-                    const depth = this.order.indexOf(idx);
-                    const visible = depth < MAX_VISIBLE;
-                    card.style.zIndex = visible ? MAX_VISIBLE - depth : 0;
-                    card.style.pointerEvents = depth === 0 ? 'auto' : 'none';
-                    card.style.opacity = visible ? 1 : 0;
-                    const scale = 1 - depth * 0.04;
-                    const y = depth * DEPTH_Y;
-                    const r = ROTATIONS[depth] || 0;
-                    card.style.transform = `translateX(0px) translateY(${y}px) rotate(${r}deg) scale(${scale})`;
-                    card.style.boxShadow = depth === 0
-                        ? '0 8px 40px rgba(61,50,41,0.15)'
-                        : `0 ${4-depth}px ${20-depth*4}px rgba(61,50,41,${Math.max(0, 0.1-depth*0.02)})`;
-                });
-                this.updateDots();
-            }
-
-            // ---- DESKTOP: Fan layout ----
-            initFan() {
-                this.wrapper.style.maxWidth = '960px';
-                // Set wrapper height based on tallest card + arc offset
-                let maxCardH = 0;
-                this.cards.forEach(c => maxCardH = Math.max(maxCardH, c.offsetHeight));
-                this.wrapper.style.height = (maxCardH + 40) + 'px';
-
-                this.cards.forEach(card => {
-                    card.style.minHeight = '';
-                    card.style.position = 'absolute';
-                    card.style.visibility = '';
-                    card.style.width = '240px';
-                    card.style.top = 'auto';
-                    card.style.bottom = '0';
-                    card.style.left = '50%';
-
-                    // Truncate text for consistent card heights in fan
-                    const maxChars = this.name === 'writing' ? 240 : 120;
-                    const textEls = card.querySelectorAll('.art-description, .diary-content, .card-body, .thought-card p:not(.diary-date)');
-                    textEls.forEach(el => {
-                        if (!el.dataset.fullHtml) el.dataset.fullHtml = el.innerHTML;
-                        if (!el.dataset.fullText) el.dataset.fullText = el.textContent;
-                        const full = el.dataset.fullText;
-                        if (full.length > maxChars) {
-                            el.textContent = full.slice(0, maxChars).trimEnd() + '…';
-                        }
-                    });
-                });
-
-                // Hover: scale up + bring to front
-                this._hoveredIdx = -1;
-                this.cards.forEach((card, i) => {
-                    card.addEventListener('mouseenter', () => {
-                        if (!this.isDesktop) return;
-                        this._hoveredIdx = i;
-                        card.style.zIndex = 100;
-                        card.style.transition = 'transform 0.25s ease';
-                        const cur = card.style.transform.replace(/scale\([^)]*\)/, '').trim();
-                        card.style.transform = cur + ' scale(1.1)';
-                    });
-                    card.addEventListener('mouseleave', () => {
-                        if (!this.isDesktop) return;
-                        this._hoveredIdx = -1;
-                        card.style.transition = 'transform 0.25s ease';
-                        const idx = parseInt(card.dataset.index);
-                        const depth = this.order.indexOf(idx);
-                        const positions = this.getFanPositions();
-                        const pos = positions.find(p => p.cardIdx === idx);
-                        if (pos) {
-                            card.style.zIndex = pos.zIndex;
-                            card.style.transform = `translateX(${pos.x}px) translateY(${pos.y}px) rotate(${pos.rotation}deg) scale(${pos.scale})`;
-                        }
-                    });
-                });
-
-                this.layoutFan(false);
-            }
-
-            getFanPositions() {
-                const n = this.n;
-                const maxFan = Math.min(n, 5);
-                const positions = [];
-
-                // Fixed scattered positions (inspired by interfacecraft.dev)
-                // Each card gets a unique hand-crafted x, y, rotation
-                const fanSlots = [
-                    { x: -475, y: -20, rotation: -7 },
-                    { x: -285, y: 10, rotation: 3 },
-                    { x: -95,  y: -30, rotation: -1 },
-                    { x: 95,   y: 5,   rotation: 4 },
-                    { x: 275,  y: -15, rotation: -5 },
-                ];
-
-                for (let i = 0; i < n; i++) {
-                    const cardIdx = this.order[i];
-                    if (i < maxFan) {
-                        const slot = fanSlots[i];
-                        positions.push({ cardIdx, x: slot.x, y: slot.y, rotation: slot.rotation, scale: 1, opacity: 1, zIndex: i + 1 });
-                    } else {
-                        positions.push({ cardIdx, x: 0, y: 0, rotation: 0, scale: 0.9, opacity: 0, zIndex: 0 });
-                    }
-                }
-
-                return positions;
-            }
-
-            layoutFan(animate = true) {
-                const positions = this.getFanPositions();
-                positions.forEach(pos => {
-                    const card = this.cards[pos.cardIdx];
-                    if (pos.cardIdx === this._hoveredIdx) return; // don't reset hovered card
-                    card.style.zIndex = pos.zIndex;
-                    card.style.pointerEvents = 'auto'; // all cards clickable in fan
-                    if (animate) {
-                        springSnappy.animate(`fan-${this.name}-${pos.cardIdx}`, card, {
-                            x: pos.x, y: pos.y, rotation: pos.rotation, scale: pos.scale, opacity: pos.opacity
-                        });
-                    } else {
-                        card.style.transform = `translateX(${pos.x}px) translateY(${pos.y}px) rotate(${pos.rotation}deg) scale(${pos.scale})`;
-                        card.style.opacity = pos.opacity;
-                    }
-                    card.style.boxShadow = '0 8px 30px rgba(61,50,41,0.12)';
-                });
-                this.updateDots();
-            }
-
-            // ---- Shared methods ----
-            updateDots() {
-                const topIdx = this.order[0];
-                const lastIdx = this.n - 1;
-                this.dots.forEach((d, i) => d.classList.toggle('active', i === (lastIdx - topIdx)));
-            }
-
-            onPointerDown(e) {
-                if (this.isAnimating) return;
-                if (this.isDesktop) {
-                    // On desktop, clicking a card brings it to front
-                    const card = e.target.closest('.stack-card');
-                    if (card) {
-                        openCardModal(card);
-                    }
-                    return;
-                }
-                // Mobile: swipe
-                const topCard = this.cards[this.order[0]];
-                this.dragState = {
-                    startX: e.clientX, startY: e.clientY,
-                    currentX: 0, card: topCard,
-                    pointerId: e.pointerId, moved: false
-                };
-                this.wrapper.setPointerCapture(e.pointerId);
-            }
-
-            onPointerMove(e) {
-                if (this.isDesktop) return;
-                const d = this.dragState;
-                if (!d || d.pointerId !== e.pointerId) return;
-                const dx = e.clientX - d.startX;
-                const dy = e.clientY - d.startY;
-                if (!d.moved && Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 10) {
-                    this.dragState = null;
-                    return;
-                }
-                if (Math.abs(dx) > 5) d.moved = true;
-                d.currentX = dx;
-                d.card.style.transform = `translateX(${dx}px) translateY(0px) rotate(${dx * 0.08}deg) scale(1)`;
-            }
-
-            onPointerUp(e) {
-                if (this.isDesktop) return;
-                const d = this.dragState;
-                if (!d) return;
-                this.dragState = null;
-                try { this.wrapper.releasePointerCapture(d.pointerId); } catch (_) {}
-
-                if (Math.abs(d.currentX) > SWIPE_THRESH) {
-                    this.hideHint();
-                    this.sendToBackMobile(d.card, d.currentX > 0 ? 1 : -1);
-                } else {
-                    // Snap back with spring
-                    springSnappy.animate(`snap-${this.name}`, d.card, {
-                        x: 0, y: 0, rotation: 0, scale: 1
-                    });
-                    if (!d.moved && d.card.classList.contains('card-white') && !d.card.classList.contains('art-card')) {
-                        openCardModal(d.card);
-                    }
-                }
-            }
-
-            sendToBackMobile(topCard, dir = 1) {
-                this.isAnimating = true;
-                const wrapperW = this.wrapper.offsetWidth;
-                const DEPTH_Y = 14;
-                const ROTATIONS = [0, 2.5, -1.8, 1.2, -2.2];
-
-                // Reorder immediately so remaining cards start moving in parallel
-                this.order.push(this.order.shift());
-
-                // Fling top card off screen, then snap it to back
-                springSnappy.animate(`fling-${this.name}`, topCard, {
-                    x: dir * wrapperW * 0.8, y: -30, rotation: dir * 15, scale: 0.9, opacity: 0
-                }, () => {
-                    // Reset to back position instantly (card is invisible)
-                    const depth = Math.min(this.n - 1, MAX_VISIBLE - 1);
-                    topCard.style.transform = `translateX(0px) translateY(${depth * DEPTH_Y}px) rotate(0deg) scale(${1 - depth * 0.04})`;
-                    topCard.style.opacity = depth < MAX_VISIBLE ? '1' : '0';
-                    topCard.style.zIndex = 0;
-                    topCard.style.pointerEvents = 'none';
-                });
-
-                // Simultaneously spring remaining cards to new positions
-                this.cards.forEach(card => {
-                    if (card === topCard) return;
-                    const idx = parseInt(card.dataset.index);
-                    const d = this.order.indexOf(idx);
-                    const visible = d < MAX_VISIBLE;
-                    card.style.zIndex = visible ? MAX_VISIBLE - d : 0;
-                    card.style.pointerEvents = d === 0 ? 'auto' : 'none';
-                    const scale = 1 - d * 0.04;
-                    const y = d * DEPTH_Y;
-                    const r = ROTATIONS[d] || 0;
-                    springSnappy.animate(`settle-${this.name}-${idx}`, card, {
-                        x: 0, y, rotation: r, scale, opacity: visible ? 1 : 0
-                    });
-                    card.style.boxShadow = d === 0
-                        ? '0 8px 40px rgba(61,50,41,0.15)'
-                        : `0 ${4-d}px ${20-d*4}px rgba(61,50,41,${Math.max(0, 0.1-d*0.02)})`;
-                });
-                this.updateDots();
-                // Allow next swipe after fling duration
-                setTimeout(() => { this.isAnimating = false; }, 300);
-            }
-
-            bringToFront(targetIdx) {
-                const pos = this.order.indexOf(targetIdx);
-                if (pos <= 0) return;
-                this.order.splice(pos, 1);
-                this.order.unshift(targetIdx);
-                this.layoutFan(true);
-            }
-
-            cycleNext() {
-                if (this.isAnimating) return;
-                this.hideHint();
-                if (this.isDesktop) {
-                    this.order.push(this.order.shift());
-                    this.layoutFan(true);
-                } else {
-                    this.sendToBackMobile(this.cards[this.order[0]]);
-                }
-            }
-
-            cyclePrev() {
-                if (this.isAnimating) return;
-                this.hideHint();
-                if (this.isDesktop) {
-                    this.order.unshift(this.order.pop());
-                    this.layoutFan(true);
-                } else {
-                    // Bring back card to front with spring
-                    const backIdx = this.order.pop();
-                    this.order.unshift(backIdx);
-                    this.initStack();
-                    // Animate from off-screen
-                    const incoming = this.cards[backIdx];
-                    incoming.style.transform = `translateX(-80px) translateY(-20px) rotate(-8deg) scale(0.92)`;
-                    incoming.style.opacity = '0';
-                    springSnappy.animate(`prev-${this.name}`, incoming, {
-                        x: 0, y: 0, rotation: 0, scale: 1, opacity: 1
-                    });
-                }
-            }
-
-            goTo(targetIdx) {
-                if (this.isAnimating || this.order[0] === targetIdx) return;
-                this.hideHint();
-                const pos = this.order.indexOf(targetIdx);
-                this.order = [...this.order.slice(pos), ...this.order.slice(0, pos)];
-                if (this.isDesktop) {
-                    this.layoutFan(true);
-                } else {
-                    this.initStack();
-                }
-            }
-
-            hideHint() {
-                if (!this.interacted) {
-                    this.interacted = true;
-                    if (this.hintEn) this.hintEn.classList.add('hidden');
-                    if (this.hintZh) this.hintZh.classList.add('hidden');
-                }
-            }
-        }
-
-        const stackNames = ['visual-art', 'artist-studies', 'writing'];
-        const stacks = {};
-        stackNames.forEach(name => { stacks[name] = new CardStack(name); });
-
-        // Re-measure after all images load (mobile stack height)
-        window.addEventListener('load', () => {
-            for (const name of stackNames) {
-                stacks[name].init();
-            }
+        /* ---- Card click → modal ---- */
+        document.querySelectorAll('.stack-card').forEach(card => {
+            card.addEventListener('click', () => openCardModal(card));
         });
 
+        /* ---- Restore saved language ---- */
         const saved = localStorage.getItem(LANG_KEY);
         if (saved && saved !== 'en') setLang(saved);
-
-        function getVisibleStack() {
-            let best = null, bestDist = Infinity;
-            for (const name of stackNames) {
-                const rect = stacks[name].wrapper.getBoundingClientRect();
-                const center = rect.top + rect.height / 2;
-                const dist = Math.abs(center - window.innerHeight / 2);
-                if (dist < bestDist) { bestDist = dist; best = name; }
-            }
-            return best;
-        }
-
-        document.addEventListener('keydown', e => {
-            if (e.key === 'ArrowRight') stacks[getVisibleStack()].cycleNext();
-            else if (e.key === 'ArrowLeft') stacks[getVisibleStack()].cyclePrev();
-        });
 
     })();
     </script>
