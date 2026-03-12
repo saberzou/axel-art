@@ -2004,21 +2004,25 @@
                         if (!this.isDesktop) return;
                         this._hoveredIdx = i;
                         card.style.zIndex = 100;
-                        card.style.transition = 'transform 0.25s ease';
-                        const cur = card.style.transform.replace(/scale\([^)]*\)/, '').trim();
-                        card.style.transform = cur + ' scale(1.1)';
+                        const positions = this.getFanPositions();
+                        const pos = positions.find(p => p.cardIdx === i);
+                        if (pos) {
+                            springSnappy.animate(`fan-${this.name}-${i}`, card, {
+                                x: pos.x, y: pos.y - 10, rotation: pos.rotation, scale: 1.08, opacity: 1
+                            });
+                        }
                     });
                     card.addEventListener('mouseleave', () => {
                         if (!this.isDesktop) return;
                         this._hoveredIdx = -1;
-                        card.style.transition = 'transform 0.25s ease';
                         const idx = parseInt(card.dataset.index);
-                        const depth = this.order.indexOf(idx);
                         const positions = this.getFanPositions();
                         const pos = positions.find(p => p.cardIdx === idx);
                         if (pos) {
                             card.style.zIndex = pos.zIndex;
-                            card.style.transform = `translateX(${pos.x}px) translateY(${pos.y}px) rotate(${pos.rotation}deg) scale(${pos.scale})`;
+                            springSnappy.animate(`fan-${this.name}-${idx}`, card, {
+                                x: pos.x, y: pos.y, rotation: pos.rotation, scale: pos.scale, opacity: pos.opacity
+                            });
                         }
                     });
                 });
