@@ -2036,7 +2036,7 @@
                 // Layout
                 const ROTATIONS = [0, 2.5, -1.8, 1.2, -2.2];
                 this.cards.forEach(card => {
-                    const idx = parseInt(card.dataset.index);
+                    const idx = this.cards.indexOf(card);
                     const depth = this.order.indexOf(idx);
                     const visible = depth < MAX_VISIBLE;
                     card.style.zIndex = visible ? MAX_VISIBLE - depth : 0;
@@ -2101,7 +2101,7 @@
                     card.addEventListener('mouseleave', () => {
                         if (!this.isDesktop) return;
                         this._hoveredIdx = -1;
-                        const idx = parseInt(card.dataset.index);
+                        const idx = this.cards.indexOf(card);
                         const positions = this.getFanPositions();
                         const pos = positions.find(p => p.cardIdx === idx);
                         if (pos) {
@@ -2256,7 +2256,7 @@
                 // Simultaneously spring remaining cards to new positions
                 this.cards.forEach(card => {
                     if (card === topCard) return;
-                    const idx = parseInt(card.dataset.index);
+                    const idx = this.cards.indexOf(card);
                     const d = this.order.indexOf(idx);
                     const visible = d < MAX_VISIBLE;
                     card.style.zIndex = visible ? MAX_VISIBLE - d : 0;
