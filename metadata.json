@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12",
+  "lastUpdated": "2026-03-13",
   "visualArt": [
     {
       "id": "rams",
@@ -98,6 +98,19 @@
       "date": "2026-03-13",
       "file": "visual-art/2026-03-13-lebbeus-woods-inspired.png",
       "prompt": "visual-art/2026-03-13-lebbeus-woods-inspired-prompt.txt",
+      "tags": [
+        "artist-study",
+        "research",
+        "inspired-artwork"
+      ],
+      "description": ""
+    },
+    {
+      "id": "anni-albers",
+      "title": "Anni Albers",
+      "date": "2026-03-14",
+      "file": "visual-art/2026-03-14-anni-albers-inspired.png",
+      "prompt": "visual-art/2026-03-14-anni-albers-inspired-prompt.txt",
       "tags": [
         "artist-study",
         "research",
