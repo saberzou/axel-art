@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16",
+  "lastUpdated": "2026-03-17",
   "visualArt": [
     {
       "id": "rams",
@@ -137,6 +137,19 @@
       "date": "2026-03-17",
       "file": "visual-art/2026-03-17-tadanori-yokoo-inspired.png",
       "prompt": "visual-art/2026-03-17-tadanori-yokoo-inspired-prompt.txt",
+      "tags": [
+        "artist-study",
+        "research",
+        "inspired-artwork"
+      ],
+      "description": ""
+    },
+    {
+      "id": "zaha-hadid",
+      "title": "Zaha Hadid (1950–2016)",
+      "date": "2026-03-18",
+      "file": "visual-art/2026-03-18-zaha-hadid-inspired.png",
+      "prompt": "visual-art/2026-03-18-zaha-hadid-inspired-prompt.txt",
       "tags": [
         "artist-study",
         "research",
