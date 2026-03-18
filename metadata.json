@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17",
+  "lastUpdated": "2026-03-18",
   "visualArt": [
     {
       "id": "rams",
@@ -150,6 +150,19 @@
       "date": "2026-03-18",
       "file": "visual-art/2026-03-18-zaha-hadid-inspired.png",
       "prompt": "visual-art/2026-03-18-zaha-hadid-inspired-prompt.txt",
+      "tags": [
+        "artist-study",
+        "research",
+        "inspired-artwork"
+      ],
+      "description": ""
+    },
+    {
+      "id": "lebbeus-woods",
+      "title": "Lebbeus Woods",
+      "date": "2026-03-19",
+      "file": "visual-art/2026-03-19-lebbeus-woods-inspired.png",
+      "prompt": "visual-art/2026-03-19-lebbeus-woods-inspired-prompt.txt",
       "tags": [
         "artist-study",
         "research",
