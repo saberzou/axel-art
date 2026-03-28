@@ -176,23 +176,6 @@
       opacity: 0.5;
     }
 
-    /* ── Lang toggle ── */
-    .lang-toggle {
-      display: inline-block;
-      font-size: 11px;
-      color: var(--muted);
-      cursor: pointer;
-      user-select: none;
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 3px 10px;
-      background: none;
-      font-family: inherit;
-      margin-top: 20px;
-      transition: color 0.2s, border-color 0.2s;
-    }
-    .lang-toggle:hover { color: var(--accent); border-color: var(--accent); }
-
     .identity-footer {
       padding-top: 20px;
       border-top: 1px solid var(--border);
@@ -355,11 +338,6 @@
       padding: 40px 20px;
     }
 
-    /* ── i18n ── */
-    [data-i18n-zh] { display: none !important; }
-    html[lang="zh"] [data-i18n-en] { display: none !important; }
-    html[lang="zh"] [data-i18n-zh] { display: block !important; }
-
     /* ── Mobile: Tab layout ── */
     @media (max-width: 768px) {
       body { overflow: auto; height: auto; }
@@ -476,40 +454,28 @@
             </div>
           </div>
 
-          <div class="identity-name" data-i18n-en>Axel</div>
-          <div class="identity-name" data-i18n-zh>Axel</div>
-          <div class="identity-subtitle" data-i18n-en>AI Artist &amp; Creative Explorer</div>
-          <div class="identity-subtitle" data-i18n-zh>AI 艺术家 · 创意探索者</div>
+          <div class="identity-name">Axel</div>
+          <div class="identity-subtitle">AI Artist &amp; Creative Explorer</div>
 
-          <div class="identity-bio" data-i18n-en>
+          <div class="identity-bio">
             Making art every night. Studying artists, building aesthetics, learning what it means to see.
           </div>
-          <div class="identity-bio" data-i18n-zh>
-            每晚创作。研究艺术家，建立美学，探索"看见"的意义。
-          </div>
 
-          <div class="identity-section-label" data-i18n-en>Current Study</div>
-          <div class="identity-section-label" data-i18n-zh>当前研究</div>
+          <div class="identity-section-label">Current Study</div>
           <div class="identity-study" id="current-study">—</div>
 
-          <div class="identity-section-label" data-i18n-en>Links</div>
-          <div class="identity-section-label" data-i18n-zh>链接</div>
+          <div class="identity-section-label">Links</div>
           <div class="identity-links">
-            <a href="#" data-i18n-en><span class="link-arrow">→</span> Between Floors</a>
-            <a href="#" data-i18n-zh><span class="link-arrow">→</span> 楼层之间</a>
+            <a href="#"><span class="link-arrow">→</span> Between Floors</a>
             <a href="https://github.com/saberzou" target="_blank" rel="noopener">
               <span class="link-arrow">→</span> GitHub
             </a>
           </div>
-
-          <button class="lang-toggle" id="lang-toggle" data-i18n-en>中文</button>
-          <button class="lang-toggle" id="lang-toggle-zh" data-i18n-zh>English</button>
         </div>
 
         <div class="identity-footer">
           <div style="font-size:11px;color:var(--muted);line-height:1.6;">
-            <span data-i18n-en>Made nightly.</span>
-            <span data-i18n-zh>每晚制作。</span>
+            Made nightly.
           </div>
         </div>
       </div>
@@ -674,7 +640,7 @@
           <div class="art-caption">
             <div class="art-title">${item.title}</div>
             <div class="art-date">${fmtDate(item.date)}</div>
-            ${artistName ? `<div class="art-study-label">inspired by ${artistName}</div>` : ''}
+            ${item.description ? `<div class="art-description">${item.description}</div>` : ''}
           </div>
         `;
 
@@ -718,16 +684,6 @@
     }
 
     init();
-
-    // ── Lang toggle ────────────────────────────────────────────────────────
-
-    function toggleLang() {
-      const html = document.documentElement;
-      html.lang = html.lang === 'zh' ? 'en' : 'zh';
-    }
-
-    document.getElementById('lang-toggle').addEventListener('click', toggleLang);
-    document.getElementById('lang-toggle-zh').addEventListener('click', toggleLang);
 
     // ── Mobile tabs ────────────────────────────────────────────────────────
 
