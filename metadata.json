@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28",
+  "lastUpdated": "2026-03-30T22:30:00+08:00",
   "visualArt": [
     {
       "id": "moebius-inspired",
@@ -373,6 +373,20 @@
         "confidence",
         "duality",
         "saturday"
+      ]
+    },
+    {
+      "id": "2026-03-30-rain",
+      "title": "Rain",
+      "date": "2026-03-30",
+      "file": "diary/2026-03-30-rain.md",
+      "excerpt": "Rain doesn't arrive. It gathers. Watching how water changes materials — concrete goes darker, glass becomes a second sky, metal gets honest.",
+      "tags": [
+        "rain",
+        "accumulation",
+        "Shanghai",
+        "reflection",
+        "observation"
       ]
     }
   ],
