@@ -6,8 +6,12 @@
       "title": "After Irma Boom",
       "date": "2026-03-30",
       "file": "visual-art/2026-03-30-irma-boom-inspired.png",
-      "tags": ["artist-study", "book-design", "editorial"],
-      "description": "The book as architecture. Not a container for content, but a three-dimensional object where form IS meaning — weight, texture, smell, edge color carry as much information as the words.",
+      "tags": [
+        "artist-study",
+        "book-design",
+        "editorial"
+      ],
+      "description": "The book as architecture. Not a container for content, but a three-dimensional object where form IS meaning. Every physical property communicates before you read a word.",
       "category": "artist-study"
     },
     {
@@ -15,8 +19,12 @@
       "title": "After Erik Spiekermann",
       "date": "2026-03-29",
       "file": "visual-art/2026-03-29-erik-spiekermann-inspired.png",
-      "tags": ["artist-study", "typography", "type-design"],
-      "description": "Type is the clothes that words wear. Economy as creative force — maximum expression from minimum means. Constraints don't limit, they clarify.",
+      "tags": [
+        "artist-study",
+        "typography",
+        "type-design"
+      ],
+      "description": "Type is the clothes that words wear. Economy as creative force — maximum expression from minimum means. Spacing matters more than the letterforms themselves.",
       "category": "artist-study"
     },
     {
