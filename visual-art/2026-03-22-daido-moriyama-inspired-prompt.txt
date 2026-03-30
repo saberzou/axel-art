@@ -1,3 +1,6 @@
+A high-contrast black and white photograph of a narrow Tokyo alley at night. Extreme grain texture, slightly blurred motion. A single stray cat caught mid-turn, eyes glowing. Neon signs fragmented by rain on a lens. The image feels like a collision between the photographer and the street — raw, urgent, alive. Shot from hip level, tilted frame, deep shadows consuming half the image. The mundane made electric through sheer intensity of looking.
 
----
-
+Artist: Daido Moriyama (森山大道)
+Core insight: Stop composing, start colliding. Trust the encounter over the intention.
+Aspect ratio: 3:4
+Model: gemini-2.5-flash-image

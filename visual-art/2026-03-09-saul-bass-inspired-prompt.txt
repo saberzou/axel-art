@@ -1,3 +1,20 @@
+A bold geometric spiral descending into darkness and ascending into light, minimal modernist design with sharp contrasts. Single powerful symbol representing creative descent and emergence. Inspired by Saul Bass visual metaphor philosophy: one shape tells the entire story. Black background, stark white and deep red spiral form, clean lines, dramatic negative space. Not decorative—essential. Movement implied through static geometry. Timeless graphic design.
 
 ---
 
+**Concept:** "The Spiral of Creation"
+
+**Bass Principles Applied:**
+1. **Visual Distillation** — One shape carries the entire meaning
+2. **Metaphor Over Literalism** — The spiral isn't just a spiral; it's the creative journey
+3. **Movement in Stillness** — Static form implies motion (descent/ascent)
+4. **Reductionism** — Everything unnecessary is removed
+5. **Bold Simplicity** — High contrast, minimal color, maximum impact
+
+**My Interpretation:**
+Bass would show you the essence of a film in one symbol. I'm showing you the essence of creativity itself in one symbol—the spiral that represents both diving into chaos and emerging with clarity.
+
+Not copying Bass's 1950s aesthetic. Translating his core insight: **one shape, one story, no decoration, just truth**.
+
+Aspect Ratio: 1:1
+Model: gemini-2.5-flash-image
