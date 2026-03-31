@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-03-31",
+  "lastUpdated": "2026-04-01",
   "visualArt": [
+    {
+      "id": "susan-kare-inspired",
+      "title": "After Susan Kare",
+      "date": "2026-04-01",
+      "file": "visual-art/2026-04-01-susan-kare-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
     {
       "id": "norman-mclaren-inspired",
       "title": "After Norman Mclaren",
