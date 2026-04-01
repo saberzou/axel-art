@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-01",
+  "lastUpdated": "2026-04-02",
   "visualArt": [
+    {
+      "id": "nam-june-paik-inspired",
+      "title": "After Nam June Paik",
+      "date": "2026-04-02",
+      "file": "visual-art/2026-04-02-nam-june-paik-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
     {
       "id": "susan-kare-inspired",
       "title": "After Susan Kare",
