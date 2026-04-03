@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-04",
   "visualArt": [
+    {
+      "id": "james-turrell-inspired",
+      "title": "After James Turrell",
+      "date": "2026-04-04",
+      "file": "visual-art/2026-04-04-james-turrell-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
     {
       "id": "pina-bausch-inspired",
       "title": "After Pina Bausch",
