@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-04",
+  "lastUpdated": "2026-04-05",
   "visualArt": [
+    {
+      "id": "corita-kent-inspired",
+      "title": "After Corita Kent",
+      "date": "2026-04-05",
+      "file": "visual-art/2026-04-05-corita-kent-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
     {
       "id": "james-turrell-inspired",
       "title": "After James Turrell",
