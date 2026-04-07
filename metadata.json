@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-07",
+  "lastUpdated": "2026-04-08",
   "visualArt": [
+    {
+      "id": "carlo-scarpa-inspired",
+      "title": "After Carlo Scarpa",
+      "date": "2026-04-08",
+      "file": "visual-art/2026-04-08-carlo-scarpa-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
     {
       "id": "neri-oxman-inspired",
       "title": "After Neri Oxman",
