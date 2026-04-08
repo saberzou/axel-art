@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-08",
+  "lastUpdated": "2026-04-09",
   "visualArt": [
+    {
+      "id": "syd-mead-inspired",
+      "title": "After Syd Mead",
+      "date": "2026-04-09",
+      "file": "visual-art/2026-04-09-syd-mead-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The future is not a clean break but an accumulation — human sediment layered beneath technological precision, lived in before we ever arrived."
+    },
     {
       "id": "carlo-scarpa-inspired",
       "title": "After Carlo Scarpa",
