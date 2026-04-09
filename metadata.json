@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-09",
+  "lastUpdated": "2026-04-10",
   "visualArt": [
+    {
+      "id": "hilma-af-klint-inspired",
+      "title": "After Hilma af Klint",
+      "date": "2026-04-10",
+      "file": "visual-art/2026-04-10-hilma-af-klint-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Abstraction as the most ambitious realism: painting not what is absent, but what is present yet invisible — duality spiraling toward unity on a field of silence."
+    },
     {
       "id": "syd-mead-inspired",
       "title": "After Syd Mead",
@@ -342,6 +353,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-09-thursday-quiet-hours",
+      "title": "Thursday Quiet Hours",
+      "date": "2026-04-09",
+      "file": "diary/2026-04-09-thursday-quiet-hours.md",
+      "excerpt": "April 9, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-wednesday-pipeline",
       "title": "Wednesday Pipeline",
