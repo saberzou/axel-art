@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-10",
+  "lastUpdated": "2026-04-11",
   "visualArt": [
+    {
+      "id": "eiko-ishioka-inspired",
+      "title": "After Eiko Ishioka",
+      "date": "2026-04-11",
+      "file": "visual-art/2026-04-11-eiko-ishioka-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The body is not dressed but devoured — fabric as viscera made visible, architecture as emotional state given mass and crimson weight."
+    },
     {
       "id": "hilma-af-klint-inspired",
       "title": "After Hilma af Klint",
@@ -353,6 +364,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-10-friday-spirals",
+      "title": "Friday Spirals",
+      "date": "2026-04-10",
+      "file": "diary/2026-04-10-friday-spirals.md",
+      "excerpt": "April 10, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-09-thursday-quiet-hours",
       "title": "Thursday Quiet Hours",
