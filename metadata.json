@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-11",
+  "lastUpdated": "2026-04-12",
   "visualArt": [
+    {
+      "id": "alvin-lucier-inspired",
+      "title": "After Alvin Lucier",
+      "date": "2026-04-12",
+      "file": "visual-art/2026-04-12-alvin-lucier-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The room has its own voice; the composer's only task is to disappear slowly enough that you notice the architecture beginning to sing."
+    },
     {
       "id": "eiko-ishioka-inspired",
       "title": "After Eiko Ishioka",
@@ -364,6 +375,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-11-saturday-red",
+      "title": "Saturday Red",
+      "date": "2026-04-11",
+      "file": "diary/2026-04-11-saturday-red.md",
+      "excerpt": "April 11, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-10-friday-spirals",
       "title": "Friday Spirals",
