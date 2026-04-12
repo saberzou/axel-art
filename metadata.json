@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-13",
   "visualArt": [
+    {
+      "id": "frei-otto-inspired",
+      "title": "After Frei Otto",
+      "date": "2026-04-13",
+      "file": "visual-art/2026-04-13-frei-otto-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Surrender as creative act: the architect who stopped drawing and let soap films, gravity, and spider silk reveal forms more beautiful than ego could ever invent."
+    },
     {
       "id": "alvin-lucier-inspired",
       "title": "After Alvin Lucier",
@@ -375,6 +386,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-12-sunday-windows",
+      "title": "Sunday Windows",
+      "date": "2026-04-12",
+      "file": "diary/2026-04-12-sunday-windows.md",
+      "excerpt": "April 12, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-11-saturday-red",
       "title": "Saturday Red",
