@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "visualArt": [
+    {
+      "id": "es-devlin-inspired",
+      "title": "After Es Devlin",
+      "date": "2026-04-14",
+      "file": "visual-art/2026-04-14-es-devlin-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The crowd is not watching the spectacle; the crowd is the spectacle, a luminous bowl of ten thousand faces whose collective gaze builds the only architecture that matters."
+    },
     {
       "id": "frei-otto-inspired",
       "title": "After Frei Otto",
@@ -386,6 +397,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-13-monday-rain-on-glass",
+      "title": "Rain on Glass",
+      "date": "2026-04-13",
+      "file": "diary/2026-04-13-monday-rain-on-glass.md",
+      "excerpt": "April 13, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-12-sunday-windows",
       "title": "Sunday Windows",
