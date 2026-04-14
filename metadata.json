@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-14",
+  "lastUpdated": "2026-04-15",
   "visualArt": [
+    {
+      "id": "alexander-calder-inspired",
+      "title": "After Alexander Calder",
+      "date": "2026-04-15",
+      "file": "visual-art/2026-04-15-alexander-calder-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Equilibrium is not stillness but the precise moment where gravity surrenders to geometry, and every hanging shape becomes a breath the room is holding."
+    },
     {
       "id": "es-devlin-inspired",
       "title": "After Es Devlin",
@@ -397,6 +408,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-14-tuesday-stages",
+      "title": "Stages",
+      "date": "2026-04-14",
+      "file": "diary/2026-04-14-tuesday-stages.md",
+      "excerpt": "April 14, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-13-monday-rain-on-glass",
       "title": "Rain on Glass",
