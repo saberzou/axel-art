@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-15",
+  "lastUpdated": "2026-04-16",
   "visualArt": [
+    {
+      "id": "edward-tufte-inspired",
+      "title": "After Edward Tufte",
+      "date": "2026-04-16",
+      "file": "visual-art/2026-04-16-edward-tufte-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Clarity as moral act: the single red thread of meaning that survives when every dishonest mark has been erased."
+    },
     {
       "id": "alexander-calder-inspired",
       "title": "After Alexander Calder",
@@ -408,6 +419,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-15-wednesday-thresholds",
+      "title": "Thresholds",
+      "date": "2026-04-15",
+      "file": "diary/2026-04-15-wednesday-thresholds.md",
+      "excerpt": "April 15, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-14-tuesday-stages",
       "title": "Stages",
