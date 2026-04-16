@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-17",
   "visualArt": [
+    {
+      "id": "magdalena-abakanowicz-inspired",
+      "title": "After Magdalena Abakanowicz",
+      "date": "2026-04-17",
+      "file": "visual-art/2026-04-17-magdalena-abakanowicz-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Repetition without sameness: the crowd becomes a mirror, and what's missing — the face, the name, the self — is the only thing that matters."
+    },
     {
       "id": "edward-tufte-inspired",
       "title": "After Edward Tufte",
@@ -419,6 +430,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-16-thursday-leftovers",
+      "title": "Leftovers",
+      "date": "2026-04-16",
+      "file": "diary/2026-04-16-thursday-leftovers.md",
+      "excerpt": "April 16, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-15-wednesday-thresholds",
       "title": "Thresholds",
