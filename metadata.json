@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-04-18",
   "visualArt": [
+    {
+      "id": "ryuichi-sakamoto-inspired",
+      "title": "After Ryuichi Sakamoto",
+      "date": "2026-04-18",
+      "file": "visual-art/2026-04-18-ryuichi-sakamoto-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Sound already exists before the composer arrives; the most honest music is the kind that admits it will end."
+    },
     {
       "id": "magdalena-abakanowicz-inspired",
       "title": "After Magdalena Abakanowicz",
@@ -430,6 +441,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-17-friday-frequencies",
+      "title": "Frequencies",
+      "date": "2026-04-17",
+      "file": "diary/2026-04-17-friday-frequencies.md",
+      "excerpt": "April 17, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-16-thursday-leftovers",
       "title": "Leftovers",
