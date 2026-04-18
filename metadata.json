@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-18",
+  "lastUpdated": "2026-04-19",
   "visualArt": [
+    {
+      "id": "piranesi-inspired",
+      "title": "After Giovanni Battista Piranesi",
+      "date": "2026-04-19",
+      "file": "visual-art/2026-04-19-piranesi-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Every stone block precise, every connection impossible — the architecture of systems too vast to resolve, where darkness hides the logic that would set you free."
+    },
     {
       "id": "ryuichi-sakamoto-inspired",
       "title": "After Ryuichi Sakamoto",
@@ -441,6 +452,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-18-saturday-decay",
+      "title": "Decay",
+      "date": "2026-04-18",
+      "file": "diary/2026-04-18-saturday-decay.md",
+      "excerpt": "April 18, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-17-friday-frequencies",
       "title": "Frequencies",
