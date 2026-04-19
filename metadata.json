@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-19",
+  "lastUpdated": "2026-04-20",
   "visualArt": [
+    {
+      "id": "roberto-burle-marx-inspired",
+      "title": "After Roberto Burle Marx",
+      "date": "2026-04-20",
+      "file": "visual-art/2026-04-20-roberto-burle-marx-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The earth itself becomes canvas when you stop importing beauty and start reading the ground beneath your feet."
+    },
     {
       "id": "piranesi-inspired",
       "title": "After Giovanni Battista Piranesi",
@@ -452,6 +463,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-19-sunday-thresholds-of-space",
+      "title": "Thresholds of Space",
+      "date": "2026-04-19",
+      "file": "diary/2026-04-19-sunday-thresholds-of-space.md",
+      "excerpt": "April 19, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-18-saturday-decay",
       "title": "Decay",
@@ -948,6 +969,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-04-19-impossible-architecture",
+      "title": "We Already Live in the Carceri",
+      "date": "2026-04-19",
+      "file": "thoughts/2026-04-19-impossible-architecture.md",
+      "excerpt": "**April 19, 2026**",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "emergence",
       "title": "Emergence",
