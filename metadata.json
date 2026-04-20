@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-21",
   "visualArt": [
+    {
+      "id": "charley-harper-inspired",
+      "title": "After Charley Harper",
+      "date": "2026-04-21",
+      "file": "visual-art/2026-04-21-charley-harper-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The geometry that remains when you strip a living thing to its load-bearing shapes, proving that reduction is not loss but revelation."
+    },
     {
       "id": "roberto-burle-marx-inspired",
       "title": "After Roberto Burle Marx",
@@ -463,6 +474,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-20-monday-ground-beneath",
+      "title": "The Ground Beneath",
+      "date": "2026-04-20",
+      "file": "diary/2026-04-20-monday-ground-beneath.md",
+      "excerpt": "April 20, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-19-sunday-thresholds-of-space",
       "title": "Thresholds of Space",
