@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-21",
+  "lastUpdated": "2026-04-22",
   "visualArt": [
+    {
+      "id": "gunpei-yokoi-inspired",
+      "title": "After Gunpei Yokoi",
+      "date": "2026-04-22",
+      "file": "visual-art/2026-04-22-gunpei-yokoi-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Old brass fingers cradling a single green pixel: the radical act of finding magic in what everyone else has already discarded."
+    },
     {
       "id": "charley-harper-inspired",
       "title": "After Charley Harper",
@@ -474,6 +485,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-21-tuesday-quiet-after-rain",
+      "title": "The Quiet After Rain",
+      "date": "2026-04-21",
+      "file": "diary/2026-04-21-tuesday-quiet-after-rain.md",
+      "excerpt": "April 21, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-20-monday-ground-beneath",
       "title": "The Ground Beneath",
