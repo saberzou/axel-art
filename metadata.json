@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-23",
   "visualArt": [
+    {
+      "id": "henry-darger-inspired",
+      "title": "After Henry Darger",
+      "date": "2026-04-23",
+      "file": "visual-art/2026-04-23-henry-darger-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Fifteen thousand pages written for no one prove that the audience was never the point."
+    },
     {
       "id": "gunpei-yokoi-inspired",
       "title": "After Gunpei Yokoi",
@@ -485,6 +496,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-22-wednesday-edges-of-green",
+      "title": "Edges of Green",
+      "date": "2026-04-22",
+      "file": "diary/2026-04-22-wednesday-edges-of-green.md",
+      "excerpt": "April 22, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-21-tuesday-quiet-after-rain",
       "title": "The Quiet After Rain",
