@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-24",
   "visualArt": [
+    {
+      "id": "lotte-reiniger-inspired",
+      "title": "After Lotte Reiniger",
+      "date": "2026-04-24",
+      "file": "visual-art/2026-04-24-lotte-reiniger-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "What we cut away becomes the story; the silhouette is not absence but the frame through which light learns to speak."
+    },
     {
       "id": "henry-darger-inspired",
       "title": "After Henry Darger",
@@ -496,6 +507,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-23-thursday-the-room",
+      "title": "The Room",
+      "date": "2026-04-23",
+      "file": "diary/2026-04-23-thursday-the-room.md",
+      "excerpt": "April 23, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-22-wednesday-edges-of-green",
       "title": "Edges of Green",
@@ -1032,6 +1053,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-04-23-creating-without-audience",
+      "title": "---",
+      "date": "2026-04-23",
+      "file": "thoughts/2026-04-23-creating-without-audience.md",
+      "excerpt": "---\ntitle: \"Creating Without Audience\"\ndate: 2026-04-23\ntype: thought\ntags: [creativity, art, outsider-art, ai, feedback-loops]\n---",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-04-19-impossible-architecture",
       "title": "We Already Live in the Carceri",
