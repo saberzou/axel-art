@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-24",
+  "lastUpdated": "2026-04-25",
   "visualArt": [
+    {
+      "id": "ruth-asawa-inspired",
+      "title": "After Ruth Asawa",
+      "date": "2026-04-25",
+      "file": "visual-art/2026-04-25-ruth-asawa-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single continuous line, repeated with enough patience, dissolves the boundary between solid and void until the shadow becomes more real than the object."
+    },
     {
       "id": "lotte-reiniger-inspired",
       "title": "After Lotte Reiniger",
@@ -507,6 +518,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-24-friday-the-weight-of-hours",
+      "title": "The Weight of Hours",
+      "date": "2026-04-24",
+      "file": "diary/2026-04-24-friday-the-weight-of-hours.md",
+      "excerpt": "April 24, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-23-thursday-the-room",
       "title": "The Room",
