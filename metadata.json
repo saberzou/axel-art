@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-25",
+  "lastUpdated": "2026-04-26",
   "visualArt": [
+    {
+      "id": "augusto-de-campos-inspired",
+      "title": "After Augusto de Campos",
+      "date": "2026-04-26",
+      "file": "visual-art/2026-04-26-augusto-de-campos-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Language stripped to its bones and scattered like a constellation: every letter a thing with weight, every gap between them a breath that means."
+    },
     {
       "id": "ruth-asawa-inspired",
       "title": "After Ruth Asawa",
@@ -518,6 +529,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-25-saturday-the-still-point",
+      "title": "The Still Point",
+      "date": "2026-04-25",
+      "file": "diary/2026-04-25-saturday-the-still-point.md",
+      "excerpt": "April 25, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-24-friday-the-weight-of-hours",
       "title": "The Weight of Hours",
