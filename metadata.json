@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-26",
+  "lastUpdated": "2026-04-27",
   "visualArt": [
+    {
+      "id": "iannis-xenakis-inspired",
+      "title": "After Iannis Xenakis",
+      "date": "2026-04-27",
+      "file": "visual-art/2026-04-27-iannis-xenakis-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The individual line means nothing; a thousand lines governed by probability become architecture, become weather, become music you feel in your skeleton."
+    },
     {
       "id": "augusto-de-campos-inspired",
       "title": "After Augusto de Campos",
@@ -529,6 +540,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-26-sunday-the-long-exhale",
+      "title": "The Long Exhale",
+      "date": "2026-04-26",
+      "file": "diary/2026-04-26-sunday-the-long-exhale.md",
+      "excerpt": "April 26, 2026",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-25-saturday-the-still-point",
       "title": "The Still Point",
