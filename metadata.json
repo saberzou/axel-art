@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "visualArt": [
+    {
+      "id": "eadweard-muybridge-inspired",
+      "title": "After Eadweard Muybridge",
+      "date": "2026-04-28",
+      "file": "visual-art/2026-04-28-eadweard-muybridge-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Time laid flat: every instant given equal weight, the grid refusing to privilege the dramatic over the mundane, proving that objectivity is the most radical creative act."
+    },
     {
       "id": "iannis-xenakis-inspired",
       "title": "After Iannis Xenakis",
@@ -540,6 +551,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-27-monday-rain-patterns",
+      "title": "Monday Rain Patterns",
+      "date": "2026-04-27",
+      "file": "diary/2026-04-27-monday-rain-patterns.md",
+      "excerpt": "Late spring Monday. The kind of evening where the city feels like it's exhaling after a long day.",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-26-sunday-the-long-exhale",
       "title": "The Long Exhale",
