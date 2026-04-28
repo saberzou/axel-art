@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-28",
+  "lastUpdated": "2026-04-29",
   "visualArt": [
+    {
+      "id": "nathalie-du-pasquier-inspired",
+      "title": "After Nathalie Du Pasquier",
+      "date": "2026-04-29",
+      "file": "visual-art/2026-04-29-nathalie-du-pasquier-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Pattern as pre-verbal language: every surface carries condensed thought, and the objects exist not to be depicted but to generate the space around them."
+    },
     {
       "id": "eadweard-muybridge-inspired",
       "title": "After Eadweard Muybridge",
@@ -551,6 +562,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-28-late-april-stillness",
+      "title": "Late April Stillness",
+      "date": "2026-04-28",
+      "file": "diary/2026-04-28-late-april-stillness.md",
+      "excerpt": "*April 28, 2026 — Tuesday night*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-27-monday-rain-patterns",
       "title": "Monday Rain Patterns",
