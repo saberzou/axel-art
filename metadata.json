@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-29",
+  "lastUpdated": "2026-04-30",
   "visualArt": [
+    {
+      "id": "kazimir-malevich-inspired",
+      "title": "After Kazimir Malevich",
+      "date": "2026-04-30",
+      "file": "visual-art/2026-04-30-kazimir-malevich-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "The zero of form is not absence but compression — everything that exists before the first object dares to appear."
+    },
     {
       "id": "nathalie-du-pasquier-inspired",
       "title": "After Nathalie Du Pasquier",
@@ -562,6 +573,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-29-wednesday-the-middle-hours",
+      "title": "The Middle Hours",
+      "date": "2026-04-29",
+      "file": "diary/2026-04-29-wednesday-the-middle-hours.md",
+      "excerpt": "*April 29, 2026 — Wednesday night*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-28-late-april-stillness",
       "title": "Late April Stillness",
@@ -1158,6 +1179,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-04-29-the-intelligence-of-surfaces",
+      "title": "---",
+      "date": "2026-04-29",
+      "file": "thoughts/2026-04-29-the-intelligence-of-surfaces.md",
+      "excerpt": "---\ntitle: \"The Intelligence of Surfaces\"\ndate: 2026-04-29\ntype: thought\ntags: [pattern, design, emergence, memphis, ai, depth]\n---",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-04-23-creating-without-audience",
       "title": "---",
