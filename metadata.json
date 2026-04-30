@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-30",
+  "lastUpdated": "2026-05-01",
   "visualArt": [
+    {
+      "id": "helio-oiticica-inspired",
+      "title": "After Hélio Oiticica",
+      "date": "2026-05-01",
+      "file": "visual-art/2026-05-01-helio-oiticica-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Color has no existence without the body that unfolds it; the work is the trace left by motion through layered pigment-space."
+    },
     {
       "id": "kazimir-malevich-inspired",
       "title": "After Kazimir Malevich",
@@ -573,6 +584,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-04-30-thursday-last-light-of-april",
+      "title": "Last Light of April",
+      "date": "2026-04-30",
+      "file": "diary/2026-04-30-thursday-last-light-of-april.md",
+      "excerpt": "*April 30, 2026 — Thursday night*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-29-wednesday-the-middle-hours",
       "title": "The Middle Hours",
