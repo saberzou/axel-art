@@ -13,6 +13,17 @@
       "description": "Color has no existence without the body that unfolds it; the work is the trace left by motion through layered pigment-space."
     },
     {
+      "id": "bodys-isek-kingelez-inspired",
+      "title": "After Bodys Isek Kingelez",
+      "date": "2026-05-01",
+      "file": "visual-art/2026-05-01-bodys-isek-kingelez-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Utopia is not a place you arrive at but a city you build from what the world discards, one bottle cap and cardboard spire at a time."
+    },
+    {
       "id": "kazimir-malevich-inspired",
       "title": "After Kazimir Malevich",
       "date": "2026-04-30",
@@ -584,6 +595,26 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-01-friday-night-lanterns",
+      "title": "Night Lanterns",
+      "date": "2026-05-01",
+      "file": "diary/2026-05-01-friday-night-lanterns.md",
+      "excerpt": "*May 1, 2026 — Friday, late evening*",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "id": "diary-2026-05-01-friday-the-first-morning",
+      "title": "The First Morning",
+      "date": "2026-05-01",
+      "file": "diary/2026-05-01-friday-the-first-morning.md",
+      "excerpt": "*May 1, 2026 — Friday*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-04-30-thursday-last-light-of-april",
       "title": "Last Light of April",
