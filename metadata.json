@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-01",
+  "lastUpdated": "2026-05-02",
   "visualArt": [
+    {
+      "id": "marina-abramovic-inspired",
+      "title": "After Marina Abramović",
+      "date": "2026-05-02",
+      "file": "visual-art/2026-05-02-marina-abramovic-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Two bodies in a circle of empty chairs — an image of a performance the camera was never going to catch, only the wound where it used to be."
+    },
     {
       "id": "helio-oiticica-inspired",
       "title": "After Hélio Oiticica",
