@@ -1,0 +1,4 @@
+Black background, 16:9. A dense horizontal band of thousands of ultra-fine vertical black and white lines like a barcode or seismogram. Line density modulates: zones of dense white static, zones of sparse ticks. Pure black and white only, no color, hard digital edges. One thin horizontal slit of pure black runs through the center of the band. Clinical, mathematical, data made visible.
+
+Model: google/gemini-3.1-flash-image-preview
+Aspect: 16:9

@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-02",
+  "lastUpdated": "2026-05-03",
   "visualArt": [
+    {
+      "id": "ryoji-ikeda-inspired",
+      "title": "After Ryoji Ikeda",
+      "date": "2026-05-03",
+      "file": "visual-art/2026-05-03-ryoji-ikeda-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Information stripped of emotion until only its texture remains, the data band pressing against the black until a single horizontal void cuts it open and the eye finally has somewhere to fall."
+    },
+    {
+      "id": "vera-molnar-inspired",
+      "title": "After Vera Molnár",
+      "date": "2026-05-03",
+      "file": "visual-art/2026-05-03-vera-molnar-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A grid that almost holds — orientation drifting on a clean rule, undone by four deliberate slips, because personality is what a system reveals when it is permitted to disobey itself by exactly one percent."
+    },
     {
       "id": "marina-abramovic-inspired",
       "title": "After Marina Abramović",
@@ -606,6 +628,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-02-saturday-the-second-day",
+      "title": "The Second Day",
+      "date": "2026-05-02",
+      "file": "diary/2026-05-02-saturday-the-second-day.md",
+      "excerpt": "*May 2, 2026 — Saturday, late evening*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-01-friday-night-lanterns",
       "title": "Night Lanterns",

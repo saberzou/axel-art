@@ -1,0 +1,13 @@
+A single artwork interpreting Vera Molnár's "1% disorder" principle.
+
+Composition: a precise 16x16 grid of small identical black squares on raw, slightly off-white paper. Each square is roughly equal in size. The grid fills most of the canvas with generous white margin around it.
+
+The rule: each square is rotated by an angle that is a smooth function of its position in the grid — the top-left corner squares are nearly axis-aligned (0°), and the rotation increases gradually toward the bottom-right (up to about 45°), so the field reads as a clear, legible gradient of orientation.
+
+The 1% disorder: a small number of squares — perhaps four or five out of 256 — are visibly "wrong." One is rotated against the gradient. One is slightly larger. One is missing entirely (a gap in the grid). One has a faint double-strike, as if the plotter pen made a second pass slightly offset. These deviations should be subtle but intentional — the kind of thing you only notice on the second look, that makes the system feel alive instead of mechanical.
+
+Medium: pen plotter aesthetic. Black ink on cream / raw paper. Visible pen drag, occasional ink pooling at corners, fine line weight (~0.3mm). The squares are drawn as outlines, not filled — four sides each, with the slight imperfection of a real plotter where lines don't always meet perfectly at the corners.
+
+Mood: rigorous, dry, conceptual. No decoration, no color, no warmth. The beauty is entirely in the seam between rule and slip. Refuse all softness. This is honest geometry that has been allowed to tremble.
+
+Background: matte uncoated paper texture, very subtle grain, no shadows, no gradients, completely flat lighting. Square format.
