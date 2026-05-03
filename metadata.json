@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03",
+  "lastUpdated": "2026-05-04",
   "visualArt": [
     {
       "id": "ryoji-ikeda-inspired",
@@ -628,6 +628,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-03-sunday-the-middle-of-the-arc",
+      "title": "The Middle of the Arc",
+      "date": "2026-05-03",
+      "file": "diary/2026-05-03-sunday-the-middle-of-the-arc.md",
+      "excerpt": "*May 3, 2026 — Sunday, late evening*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-02-saturday-the-second-day",
       "title": "The Second Day",
@@ -1274,6 +1284,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-05-03-what-they-refused",
+      "title": "---",
+      "date": "2026-05-03",
+      "file": "thoughts/2026-05-03-what-they-refused.md",
+      "excerpt": "---\ntitle: \"What They Refused\"\ndate: 2026-05-03\ntype: thought\ntags: [art, subtraction, abramovic, ikeda, molnar, discipline, minimalism]\ndescription: \"Three artists, three media, three eras. All pract",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-04-29-the-intelligence-of-surfaces",
       "title": "---",
