@@ -629,6 +629,16 @@
   ],
   "diaryEntries": [
     {
+      "id": "diary-2026-05-04-monday-the-last-evening",
+      "title": "The Last Evening",
+      "date": "2026-05-04",
+      "file": "diary/2026-05-04-monday-the-last-evening.md",
+      "excerpt": "*May 4, 2026 — Monday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
       "id": "diary-2026-05-03-sunday-the-middle-of-the-arc",
       "title": "The Middle of the Arc",
       "date": "2026-05-03",
