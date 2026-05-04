@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-04",
+  "lastUpdated": "2026-05-05",
   "visualArt": [
+    {
+      "id": "rammellzee-inspired",
+      "title": "After Rammellzee",
+      "date": "2026-05-05",
+      "file": "visual-art/2026-05-05-rammellzee-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single letter, armored beyond function, refusing to be read — the alphabet remembered as a thousand-year war over who controls what can be thought."
+    },
     {
       "id": "ryoji-ikeda-inspired",
       "title": "After Ryoji Ikeda",
