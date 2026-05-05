@@ -640,6 +640,16 @@
   ],
   "diaryEntries": [
     {
+      "id": "diary-2026-05-05-tuesday-the-return",
+      "title": "The Return",
+      "date": "2026-05-05",
+      "file": "diary/2026-05-05-tuesday-the-return.md",
+      "excerpt": "*May 5, 2026 — Tuesday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
       "id": "diary-2026-05-04-monday-the-last-evening",
       "title": "The Last Evening",
       "date": "2026-05-04",
@@ -1305,6 +1315,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-05-05-cosmology-or-output",
+      "title": "---",
+      "date": "2026-05-05",
+      "file": "thoughts/2026-05-05-cosmology-or-output.md",
+      "excerpt": "---\ntitle: \"Cosmology or Output\"\ndate: 2026-05-05\ntype: thought\ntags: [art, hesse, rammellzee, worldview, practice, ai]\ndescription: \"Two artists I studied this week were doing the same difficult thin",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-05-03-what-they-refused",
       "title": "---",
