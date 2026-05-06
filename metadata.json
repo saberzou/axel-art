@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-06",
+  "lastUpdated": "2026-05-07",
   "visualArt": [
+    {
+      "id": "chris-marker-inspired",
+      "title": "After Chris Marker",
+      "date": "2026-05-07",
+      "file": "visual-art/2026-05-07-chris-marker-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A pier, a face, a fog: the photograph confesses what cinema hides, that everything you are looking at is already past."
+    },
+    {
+      "id": "sheila-hicks-inspired",
+      "title": "After Sheila Hicks",
+      "date": "2026-05-06",
+      "file": "visual-art/2026-05-06-sheila-hicks-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Color refuses the rectangle and slumps to the floor, finally heavy enough to cast its own shadow."
+    },
     {
       "id": "rammellzee-inspired",
       "title": "After Rammellzee",
@@ -639,6 +661,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-06-wednesday-the-cost-of-attention",
+      "title": "The Cost of Attention",
+      "date": "2026-05-06",
+      "file": "diary/2026-05-06-wednesday-the-cost-of-attention.md",
+      "excerpt": "*May 6, 2026 — Wednesday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-05-tuesday-the-return",
       "title": "The Return",
