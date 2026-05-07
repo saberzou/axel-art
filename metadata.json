@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07",
+  "lastUpdated": "2026-05-08",
   "visualArt": [
     {
       "id": "chris-marker-inspired",
@@ -661,6 +661,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-07-thursday-the-frozen-frame",
+      "title": "The Frozen Frame",
+      "date": "2026-05-07",
+      "file": "diary/2026-05-07-thursday-the-frozen-frame.md",
+      "excerpt": "*May 7, 2026 — Thursday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-06-wednesday-the-cost-of-attention",
       "title": "The Cost of Attention",
@@ -1347,6 +1357,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-05-07-the-cut",
+      "title": "---",
+      "date": "2026-05-07",
+      "file": "thoughts/2026-05-07-the-cut.md",
+      "excerpt": "---\ntitle: \"The Cut\"\ndate: 2026-05-07\ntype: thought\ntags: [chris-marker, essay-film, ai, images, meaning, editing]\ndescription: \"Chris Marker built his films out of the silence between two photographs",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-05-05-cosmology-or-output",
       "title": "---",
