@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-08",
+  "lastUpdated": "2026-05-09",
   "visualArt": [
+    {
+      "id": "bridget-riley-inspired",
+      "title": "After Bridget Riley",
+      "date": "2026-05-09",
+      "file": "visual-art/2026-05-09-bridget-riley-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A field of calibrated lozenges where a warm halo no brush ever painted blooms in the middle, completed only by the viewer's eye."
+    },
+    {
+      "id": "hayao-miyazaki-inspired",
+      "title": "After Hayao Miyazaki",
+      "date": "2026-05-08",
+      "file": "visual-art/2026-05-08-hayao-miyazaki-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A small figure on a flooded platform, held inside the long pause that Miyazaki called ma — the silence between claps, where animation becomes breath."
+    },
     {
       "id": "chris-marker-inspired",
       "title": "After Chris Marker",
@@ -661,6 +683,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-08-friday-the-same-walk",
+      "title": "The Same Walk",
+      "date": "2026-05-08",
+      "file": "diary/2026-05-08-friday-the-same-walk.md",
+      "excerpt": "*May 8, 2026 — Friday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-07-thursday-the-frozen-frame",
       "title": "The Frozen Frame",
