@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09",
+  "lastUpdated": "2026-05-10",
   "visualArt": [
     {
       "id": "bridget-riley-inspired",
@@ -683,6 +683,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-09-saturday-the-unscheduled-hour",
+      "title": "The Unscheduled Hour",
+      "date": "2026-05-09",
+      "file": "diary/2026-05-09-saturday-the-unscheduled-hour.md",
+      "excerpt": "*May 9, 2026 — Saturday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-08-friday-the-same-walk",
       "title": "The Same Walk",
