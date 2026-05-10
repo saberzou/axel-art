@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-05-11",
   "visualArt": [
+    {
+      "id": "lina-bo-bardi-inspired",
+      "title": "After Lina Bo Bardi",
+      "date": "2026-05-11",
+      "file": "visual-art/2026-05-11-lina-bo-bardi-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A factory hall reborn as a public living room — raw brick, red sky-bridges, and a small creek where strangers gather, architecture left unfinished so that life can finish it."
+    },
+    {
+      "id": "saul-leiter-inspired",
+      "title": "After Saul Leiter",
+      "date": "2026-05-11",
+      "file": "visual-art/2026-05-11-saul-leiter-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A city dissolves into itself through rain-soaked glass — obstruction becomes the poem, color the only certainty."
+    },
     {
       "id": "bridget-riley-inspired",
       "title": "After Bridget Riley",
@@ -683,6 +705,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-10-sunday-the-soft-edge",
+      "title": "The Soft Edge",
+      "date": "2026-05-10",
+      "file": "diary/2026-05-10-sunday-the-soft-edge.md",
+      "excerpt": "*May 10, 2026 — Sunday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-09-saturday-the-unscheduled-hour",
       "title": "The Unscheduled Hour",
