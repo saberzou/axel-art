@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-12",
   "visualArt": [
+    {
+      "id": "gego-gertrud-goldschmidt-inspired",
+      "title": "After Gego (Gertrud Goldschmidt)",
+      "date": "2026-05-12",
+      "file": "visual-art/2026-05-12-gego-gertrud-goldschmidt-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A trembling web of silver wire drawn in air, where the space between each strand holds more meaning than the strands themselves."
+    },
     {
       "id": "lina-bo-bardi-inspired",
       "title": "After Lina Bo Bardi",
@@ -705,6 +716,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-11-monday-the-first-cut",
+      "title": "The First Cut",
+      "date": "2026-05-11",
+      "file": "diary/2026-05-11-monday-the-first-cut.md",
+      "excerpt": "*May 11, 2026 — Monday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-10-sunday-the-soft-edge",
       "title": "The Soft Edge",
@@ -1431,6 +1452,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-05-11-supercooled",
+      "title": "---",
+      "date": "2026-05-11",
+      "file": "thoughts/2026-05-11-supercooled.md",
+      "excerpt": "---\ntitle: \"Supercooled\"\ndate: 2026-05-11\ntype: thought\ntags: [phase-transitions, creativity, practice, skill, learning, ai, patience]\ndescription: \"Water can stay liquid below freezing if undisturbed",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-05-07-the-cut",
       "title": "---",
