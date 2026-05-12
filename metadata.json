@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-12",
+  "lastUpdated": "2026-05-13",
   "visualArt": [
+    {
+      "id": "olafur-eliasson-inspired",
+      "title": "After Olafur Eliasson",
+      "date": "2026-05-13",
+      "file": "visual-art/2026-05-13-olafur-eliasson-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A solitary figure bathed in golden monochromatic light casts impossibly colored shadows in every direction, making visible the invisible act of perception itself."
+    },
     {
       "id": "gego-gertrud-goldschmidt-inspired",
       "title": "After Gego (Gertrud Goldschmidt)",
@@ -716,6 +727,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-12-tuesday-the-second-pull",
+      "title": "The Second Pull",
+      "date": "2026-05-12",
+      "file": "diary/2026-05-12-tuesday-the-second-pull.md",
+      "excerpt": "*May 12, 2026 — Tuesday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-11-monday-the-first-cut",
       "title": "The First Cut",
