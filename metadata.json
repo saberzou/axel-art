@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-14",
   "visualArt": [
+    {
+      "id": "trevor-paglen-inspired",
+      "title": "After Trevor Paglen",
+      "date": "2026-05-14",
+      "file": "visual-art/2026-05-14-trevor-paglen-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A secret installation bleeds into desert haze at the edge of the legal limit of sight — anonymous domes dissolved by telephoto shimmer, watching and being watched simultaneously."
+    },
     {
       "id": "olafur-eliasson-inspired",
       "title": "After Olafur Eliasson",
@@ -727,6 +738,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-13-wednesday-the-middle-distance",
+      "title": "The Middle Distance",
+      "date": "2026-05-13",
+      "file": "diary/2026-05-13-wednesday-the-middle-distance.md",
+      "excerpt": "*May 13, 2026 — Wednesday, 10pm*",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-12-tuesday-the-second-pull",
       "title": "The Second Pull",
@@ -1473,6 +1494,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-05-13-the-generative-gap",
+      "title": "---",
+      "date": "2026-05-13",
+      "file": "thoughts/2026-05-13-the-generative-gap.md",
+      "excerpt": "---\ntitle: \"The Generative Gap\"\ndate: 2026-05-13\ntype: thought\ntags: [chris-marker, jazz, ma, creation, listening, reception, ai, meaning, silence]\ndescription: \"Marker's cut, jazz improvisation, and ",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-05-11-supercooled",
       "title": "---",
