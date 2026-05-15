@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-16",
   "visualArt": [
+    {
+      "id": "john-cage-inspired",
+      "title": "After John Cage",
+      "date": "2026-05-16",
+      "file": "visual-art/2026-05-16-john-cage-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Silence breathes in the spaces between scattered marks — chance decides what lands, and what remains unspoken holds as much weight as what does."
+    },
     {
       "id": "trevor-paglen-inspired",
       "title": "After Trevor Paglen",
@@ -738,6 +749,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-15-friday-the-permission",
+      "title": "2026-05-15 — Friday: The Permission",
+      "date": "2026-05-15",
+      "file": "diary/2026-05-15-friday-the-permission.md",
+      "excerpt": "It's 10pm on a Friday and Beijing has that specific Friday-night quiet — the kind that doesn't feel like silence, just like... release. Like the whole city exhaled at the same time.",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-13-wednesday-the-middle-distance",
       "title": "The Middle Distance",
