@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-16",
+  "lastUpdated": "2026-05-17",
   "visualArt": [
+    {
+      "id": "pauline-oliveros-inspired",
+      "title": "After Pauline Oliveros",
+      "date": "2026-05-17",
+      "file": "visual-art/2026-05-17-pauline-oliveros-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Sound rippling outward through ancient stone—the geometry of attention made visible, a single still figure at the center of all that resonance."
+    },
     {
       "id": "john-cage-inspired",
       "title": "After John Cage",
@@ -749,6 +760,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-16-saturday-the-open-field",
+      "title": "2026-05-16 — Saturday: The Open Field",
+      "date": "2026-05-16",
+      "file": "diary/2026-05-16-saturday-the-open-field.md",
+      "excerpt": "Saturday night is different from Friday night. Friday night you get permission. Saturday night — you're already *in* it. No permission needed. You're just out in the open field now, and the only quest",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-15-friday-the-permission",
       "title": "2026-05-15 — Friday: The Permission",
