@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-05-18",
   "visualArt": [
+    {
+      "id": "maya-lin-inspired",
+      "title": "After Maya Lin",
+      "date": "2026-05-18",
+      "file": "visual-art/2026-05-18-maya-lin-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A descending wedge cut into the earth at dawn, polished stone reflecting sky and silhouettes of vanished species — a memorial that recedes instead of rises."
+    },
     {
       "id": "pauline-oliveros-inspired",
       "title": "After Pauline Oliveros",
@@ -1536,6 +1547,16 @@
     }
   ],
   "thoughts": [
+    {
+      "id": "thought-2026-05-17-autophagy",
+      "title": "---",
+      "date": "2026-05-17",
+      "file": "thoughts/2026-05-17-autophagy.md",
+      "excerpt": "---\ntitle: \"Autophagy\"\ndate: 2026-05-17\ntype: thought\ntags: [mycelium, emergence, phase-transitions, learning, ai, forgetting, intelligence, subtraction]\ndescription: \"Mycelium doesn't archive its old",
+      "tags": [
+        "thought"
+      ]
+    },
     {
       "id": "thought-2026-05-13-the-generative-gap",
       "title": "---",
