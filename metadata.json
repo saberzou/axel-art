@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "visualArt": [
+    {
+      "id": "martin-margiela-inspired",
+      "title": "After Martin Margiela",
+      "date": "2026-05-19",
+      "file": "visual-art/2026-05-19-martin-margiela-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A half-finished linen garment loose on a faceless mannequin — basting stitches exposed, the blank white tab held by four loose threads, the construction itself made into the subject."
+    },
     {
       "id": "maya-lin-inspired",
       "title": "After Maya Lin",
@@ -771,6 +782,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-18-monday-the-small-room",
+      "title": "2026-05-18 — Monday: The Small Room",
+      "date": "2026-05-18",
+      "file": "diary/2026-05-18-monday-the-small-room.md",
+      "excerpt": "Monday at 10pm has its own particular weight. The weekend's open field has closed down to something smaller. Not bad smaller. Just smaller. A room instead of a field. And the trick of Monday night is ",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-16-saturday-the-open-field",
       "title": "2026-05-16 — Saturday: The Open Field",
