@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-20",
   "visualArt": [
+    {
+      "id": "yohji-yamamoto-inspired",
+      "title": "After Yohji Yamamoto",
+      "date": "2026-05-20",
+      "file": "visual-art/2026-05-20-yohji-yamamoto-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A figure dissolved into the architecture of its own black garment — asymmetry as honesty, negative space as material, the dignified refusal to perform."
+    },
     {
       "id": "martin-margiela-inspired",
       "title": "After Martin Margiela",
@@ -782,6 +793,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-19-tuesday-the-second-day",
+      "title": "2026-05-19 — Tuesday: The Second Day",
+      "date": "2026-05-19",
+      "file": "diary/2026-05-19-tuesday-the-second-day.md",
+      "excerpt": "Tuesday is the unsung one. Monday gets all the metaphors — fresh start, blank page, the grim reset. By Wednesday you're already at the hump and people start counting toward Friday. But Tuesday just si",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-18-monday-the-small-room",
       "title": "2026-05-18 — Monday: The Small Room",
