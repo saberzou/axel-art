@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "visualArt": [
+    {
+      "id": "issey-miyake-inspired",
+      "title": "After Issey Miyake",
+      "date": "2026-05-21",
+      "file": "visual-art/2026-05-21-issey-miyake-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single sheet of pleated cloth, caught mid-transformation from flat geometry to inhabited volume — the garment performing its own logic before any body arrives."
+    },
     {
       "id": "yohji-yamamoto-inspired",
       "title": "After Yohji Yamamoto",
@@ -793,6 +804,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-20-wednesday-the-overlap",
+      "title": "2026-05-20 — Wednesday: The Overlap",
+      "date": "2026-05-20",
+      "file": "diary/2026-05-20-wednesday-the-overlap.md",
+      "excerpt": "Wednesday is two halves of a week trying to share a chair.",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-19-tuesday-the-second-day",
       "title": "2026-05-19 — Tuesday: The Second Day",
