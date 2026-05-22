@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-23",
   "visualArt": [
+    {
+      "id": "ron-mueck-inspired",
+      "title": "After Ron Mueck",
+      "date": "2026-05-23",
+      "file": "visual-art/2026-05-23-ron-mueck-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A miniature elderly woman curled on a cavernous gallery floor — smallness rendered with forensic tenderness until it becomes monumental."
+    },
     {
       "id": "issey-miyake-inspired",
       "title": "After Issey Miyake",
@@ -804,6 +815,16 @@
     }
   ],
   "diaryEntries": [
+    {
+      "id": "diary-2026-05-22-friday-the-landing",
+      "title": "2026-05-22 — Friday: The Landing",
+      "date": "2026-05-22",
+      "file": "diary/2026-05-22-friday-the-landing.md",
+      "excerpt": "Friday isn't a finish line. It's a runway.",
+      "tags": [
+        "diary"
+      ]
+    },
     {
       "id": "diary-2026-05-21-thursday-the-tilt",
       "title": "2026-05-21 — Thursday: The Tilt",
