@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-23",
+  "lastUpdated": "2026-05-24",
   "visualArt": [
+    {
+      "id": "tara-donovan-inspired",
+      "title": "After Tara Donovan",
+      "date": "2026-05-24",
+      "file": "visual-art/2026-05-24-tara-donovan-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A dune of paper cones that becomes a landscape only when the eye agrees to stop counting."
+    },
     {
       "id": "ron-mueck-inspired",
       "title": "After Ron Mueck",
@@ -815,6 +826,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-05-24",
+      "artist": {
+        "name": "Tara Donovan",
+        "slug": "tara-donovan",
+        "intro": "Tara Donovan (b. 1969, Queens, NY) is an American sculptor known for large-scale, site-specific installations built from staggering quantities of ordinary, mass-produced objects: drinking straws, plastic cups, Styrofoam, toothpicks, pins, Mylar, Slinkys, index cards, pencils, rubber bands. She represents a process-based, post-minimalist strain of sculpture, won a MacArthur \"Genius\" Fellowship in 2008, and exhibits with Pace Gallery.",
+        "insight": "Quantity is a phase change.",
+        "principles": [
+          "The unit doesn't matter; the rule of repetition does. Pick a humble element, define a clean operation, then trust accumulation.",
+          "Let the material decide. Constraints from physics produce forms no imagination would have proposed.",
+          "Scale is not decoration — it is the argument. If the piece can't make a viewer step back involuntarily, the quantity is wrong.",
+          "Cheap is not a limitation. It is a permission slip to be wasteful with iteration."
+        ],
+        "noteFile": "art-studies/2026-05-24-tara-donovan.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-24-tara-donovan-inspired.png",
+        "title": "After Tara Donovan",
+        "description": "A dune of paper cones that becomes a landscape only when the eye agrees to stop counting."
+      }
+    },
     {
       "date": "2026-05-23",
       "artist": {
