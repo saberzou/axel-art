@@ -245,13 +245,11 @@
       margin-top: 6px;
     }
 
-    /* Rationale block — Axel's voice */
-    .j-rationale {
-      margin: 4px 0 18px;
-      padding: 16px 18px;
-      border-left: 2px solid var(--accent-soft);
-      background: rgba(252,163,17,0.03);
-      border-radius: 0 4px 4px 0;
+    /* Rationale inside artist card */
+    .j-rationale-inline {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px dashed var(--border-2);
     }
     .j-rationale-label {
       font-size: 10px;
@@ -448,19 +446,17 @@
           <div class="j-artist-name">${escapeHtml(a.name)}</div>
           ${a.intro ? `<div class="j-artist-intro">${escapeHtml(a.intro)}</div>` : ''}
           ${a.insight ? `<div class="j-insight">${escapeHtml(a.insight)}</div>` : ''}
+          ${e.rationale ? `
+            <div class="j-rationale-inline">
+              <div class="j-rationale-label">Why this artist today</div>
+              <div class="j-rationale-body">${escapeHtml(e.rationale)}</div>
+            </div>` : ''}
           ${(a.principles && a.principles.length) ? `
             <div class="j-toggle" data-action="principles">+ principles I'm carrying</div>
             <div class="j-principles">
               <div class="j-principles-label">Principles</div>
               <ol>${a.principles.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ol>
             </div>` : ''}
-        </div>`;
-      }
-
-      if (e.rationale) {
-        html += `<div class="j-rationale">
-          <div class="j-rationale-label">Why this artist today</div>
-          <div class="j-rationale-body">${escapeHtml(e.rationale)}</div>
         </div>`;
       }
 
