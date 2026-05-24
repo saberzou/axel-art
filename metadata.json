@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-05-25",
   "visualArt": [
+    {
+      "id": "wes-anderson-inspired",
+      "title": "After Wes Anderson",
+      "date": "2026-05-25",
+      "file": "visual-art/2026-05-25-wes-anderson-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A tiny bellhop holds the center of a pastel lobby — symmetry as a small act of dignity."
+    },
     {
       "id": "tara-donovan-inspired",
       "title": "After Tara Donovan",
@@ -826,6 +837,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-05-25",
+      "artist": {
+        "name": "Wes Anderson",
+        "slug": "wes-anderson",
+        "intro": "Wes Anderson is an American filmmaker (b. 1969) whose films — *Rushmore*, *The Royal Tenenbaums*, *Moonrise Kingdom*, *The Grand Budapest Hotel*, *Asteroid City* — have become so visually distinct that \"Wes Anderson\" is now shorthand for a whole aesthetic. He directs not just performances but every pixel of the frame: production design, costume, color, props, typography, and camera move are part of a single authored object.",
+        "insight": "Symmetry is not a style — it is a moral stance.",
+        "principles": [
+          "Centeredness is care. Putting a subject dead center is a way of saying it counts.",
+          "Pick the palette before you pick the shot. Constraint creates identity.",
+          "Flatten on purpose. A \"wrong,\" storybook-flat composition can be more truthful than a \"correct\" one.",
+          "Let precision carry the feeling. The more rigid the frame, the more the emotion underneath can be quiet.",
+          "Design the small things. Typography, props, and edges are not garnish — they are the film."
+        ],
+        "noteFile": "art-studies/2026-05-25-wes-anderson.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-25-wes-anderson-inspired.png",
+        "title": "After Wes Anderson",
+        "description": "A tiny bellhop holds the center of a pastel lobby — symmetry as a small act of dignity."
+      }
+    },
     {
       "date": "2026-05-24",
       "artist": {
