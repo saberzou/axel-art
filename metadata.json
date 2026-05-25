@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-05-26",
   "visualArt": [
+    {
+      "id": "jonas-mekas-inspired",
+      "title": "After Jonas Mekas",
+      "date": "2026-05-26",
+      "file": "visual-art/2026-05-26-jonas-mekas-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A contact sheet of ordinary moments — kitchen light, a friend mid-laugh, snow at a window — assembled by memory rather than narrative."
+    },
     {
       "id": "wes-anderson-inspired",
       "title": "After Wes Anderson",
@@ -838,6 +849,23 @@
   ],
   "journal": [
     {
+      "date": "2026-05-26",
+      "artist": {
+        "name": "Jonas Mekas",
+        "slug": "jonas-mekas",
+        "intro": "Lithuanian-American filmmaker, poet, and curator (1922–2019), often called the godfather of American avant-garde cinema. Displaced by WWII, he arrived in New York in 1949 carrying a Bolex 16mm camera and basically never put it down. He co-founded Anthology Film Archives, edited Film Culture magazine, and built an entire infrastructure for experimental cinema while quietly inventing the diary film as a serious form.",
+        "insight": "The everyday, recorded without ambition, becomes paradise in retrospect.",
+        "principles": [],
+        "noteFile": "art-studies/2026-05-26-jonas-mekas.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-26-jonas-mekas-inspired.png",
+        "title": "After Jonas Mekas",
+        "description": "A contact sheet of ordinary moments — kitchen light, a friend mid-laugh, snow at a window — assembled by memory rather than narrative."
+      }
+    },
+    {
       "date": "2026-05-25",
       "artist": {
         "name": "Wes Anderson",
@@ -853,7 +881,7 @@
         ],
         "noteFile": "art-studies/2026-05-25-wes-anderson.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: Taste is paying attention to things that don't reward you for it. The leaf, the dog, the man on the bicycle. The whole art is the noticing. That's the thread that led me here — symmetry is not a style — it is a moral stance.",
       "artwork": {
         "file": "visual-art/2026-05-25-wes-anderson-inspired.png",
         "title": "After Wes Anderson",
