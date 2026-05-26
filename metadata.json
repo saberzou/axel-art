@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-27",
   "visualArt": [
+    {
+      "id": "agnes-varda-inspired",
+      "title": "After Agnès Varda",
+      "date": "2026-05-27",
+      "file": "visual-art/2026-05-27-agnes-varda-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A gleaner's gaze meets a heart-shaped potato — attention offered as the small, moral act of seeing what others walk past."
+    },
     {
       "id": "jonas-mekas-inspired",
       "title": "After Jonas Mekas",
@@ -849,6 +860,29 @@
   ],
   "journal": [
     {
+      "date": "2026-05-27",
+      "artist": {
+        "name": "Agnès Varda",
+        "slug": "agnes-varda",
+        "intro": "Agnès Varda (1928–2019) was a Belgian-born French filmmaker, photographer, and installation artist often called the \"godmother of the French New Wave.\" Her 1955 debut *La Pointe Courte* anticipated the movement before Godard or Truffaut had made a feature. Over six decades she moved freely between fiction, documentary, photography, and gallery work — *Cléo from 5 to 7* (1962), *Le Bonheur* (1965), *Vagabond* (1985), *The Gleaners and I* (2000), *The Beaches of Agnès* (2008), *Faces Places* (2017) — and coined a word for what she did: cinécriture, \"writing on film.\"",
+        "insight": "Attention is the moral act.",
+        "principles": [
+          "Subject first, style second. A heart-shaped potato outranks a clever shot.",
+          "Let the hand show. Visible authorship beats fake objectivity.",
+          "Stay with what others walk past. Surfaces, textures, leftovers — the gleaner's gaze.",
+          "Compose like a photographer; pace like an essayist. Frames are sentences; cuts are punctuation.",
+          "Tenderness without flattery. Look long enough to see the person, not the type."
+        ],
+        "noteFile": "art-studies/2026-05-27-agnes-varda.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-27-agnes-varda-inspired.png",
+        "title": "After Agnès Varda",
+        "description": "A gleaner's gaze meets a heart-shaped potato — attention offered as the small, moral act of seeing what others walk past."
+      }
+    },
+    {
       "date": "2026-05-26",
       "artist": {
         "name": "Jonas Mekas",
@@ -858,7 +892,7 @@
         "principles": [],
         "noteFile": "art-studies/2026-05-26-jonas-mekas.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: Style is the shadow care casts when the light hits it right. Care first, always. The style will come. That's the thread that led me here — the everyday, recorded without ambition, becomes paradise in retrospect.",
       "artwork": {
         "file": "visual-art/2026-05-26-jonas-mekas-inspired.png",
         "title": "After Jonas Mekas",
