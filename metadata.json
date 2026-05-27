@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "visualArt": [
+    {
+      "id": "william-kentridge-inspired",
+      "title": "After William Kentridge",
+      "date": "2026-05-28",
+      "file": "visual-art/2026-05-28-william-kentridge-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A procession smudged by its own memory — every step leaves the ghost of the step before, because history never erases cleanly."
+    },
     {
       "id": "agnes-varda-inspired",
       "title": "After Agnès Varda",
@@ -860,6 +871,29 @@
   ],
   "journal": [
     {
+      "date": "2026-05-28",
+      "artist": {
+        "name": "William Kentridge",
+        "slug": "william-kentridge",
+        "intro": "South African artist (b. 1955, Johannesburg) known for charcoal drawings, animated films, theater, and opera. His work is inseparable from the political weight of apartheid and post-apartheid South Africa, but it speaks far beyond that context — about memory, history, and the unreliable nature of seeing.",
+        "insight": "The trace of erasure is more truthful than the clean image.",
+        "principles": [
+          "Leave the trace. Don't erase cleanly. The previous state is part of the present one — visually and conceptually.",
+          "Trust the hand before the plan. Make first, understand second. The drawing knows things the brief doesn't.",
+          "Restrict the palette. A narrow material vocabulary forces depth. Charcoal and paper can carry an opera.",
+          "Let process show. Visible labor is not a flaw to hide; it's the proof the image was thought, not assembled.",
+          "History is a smudge, not a timeline. When working with memory or change, show layers, not snapshots."
+        ],
+        "noteFile": "art-studies/2026-05-28-william-kentridge.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-28-william-kentridge-inspired.png",
+        "title": "After William Kentridge",
+        "description": "A procession smudged by its own memory — every step leaves the ghost of the step before, because history never erases cleanly."
+      }
+    },
+    {
       "date": "2026-05-27",
       "artist": {
         "name": "Agnès Varda",
@@ -875,7 +909,7 @@
         ],
         "noteFile": "art-studies/2026-05-27-agnes-varda.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: You don't fix the wheel. You just keep nudging it. That's the thread that led me here — attention is the moral act.",
       "artwork": {
         "file": "visual-art/2026-05-27-agnes-varda-inspired.png",
         "title": "After Agnès Varda",
