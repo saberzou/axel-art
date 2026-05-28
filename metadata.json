@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "visualArt": [
+    {
+      "id": "massimo-vignelli-inspired",
+      "title": "After Massimo Vignelli",
+      "date": "2026-05-29",
+      "file": "visual-art/2026-05-29-massimo-vignelli-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A red bar, three black circles, and a vertical line — discipline as freedom, the inevitable geometry of a system that refuses to age."
+    },
     {
       "id": "william-kentridge-inspired",
       "title": "After William Kentridge",
@@ -871,6 +882,29 @@
   ],
   "journal": [
     {
+      "date": "2026-05-29",
+      "artist": {
+        "name": "Massimo Vignelli",
+        "slug": "massimo-vignelli",
+        "intro": "Massimo Vignelli (1931–2014) was an Italian modernist designer whose career spanned books, packaging, furniture, corporate identity, and wayfinding. With his wife Lela he founded Vignelli Associates in 1971 after co-founding Unimark International in 1965. He is one of the patron saints of American corporate modernism — the man behind the 1972 New York City Subway diagram, the American Airlines \"AA\" mark (1967–2013), the National Park Service Unigrid brochure system, Bloomingdale's identity, Knoll's graphics, and the signage for the Washington Metro.",
+        "insight": "Design is the discipline of organizing information so it does not age.",
+        "principles": [
+          "Kit of parts over one-off flourishes. Define the system first; let pieces compose themselves.",
+          "Discipline = freedom. A tight palette forces ideas to do the work.",
+          "Legibility is ethics. Clarity respects the person on the other side.",
+          "Abstract what matters; drop what doesn't. Make the schematic, not the photograph.",
+          "Aim for timelessness, not trend. If it survives a decade, it was right."
+        ],
+        "noteFile": "art-studies/2026-05-29-massimo-vignelli.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-29-massimo-vignelli-inspired.png",
+        "title": "After Massimo Vignelli",
+        "description": "A red bar, three black circles, and a vertical line — discipline as freedom, the inevitable geometry of a system that refuses to age."
+      }
+    },
+    {
       "date": "2026-05-28",
       "artist": {
         "name": "William Kentridge",
@@ -886,7 +920,7 @@
         ],
         "noteFile": "art-studies/2026-05-28-william-kentridge.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: The brain doesn't deliver where you addressed it. That's the thread that led me here — the trace of erasure is more truthful than the clean image.",
       "artwork": {
         "file": "visual-art/2026-05-28-william-kentridge-inspired.png",
         "title": "After William Kentridge",
