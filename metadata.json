@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-05-30",
   "visualArt": [
+    {
+      "id": "paula-scher-inspired",
+      "title": "After Paula Scher",
+      "date": "2026-05-30",
+      "file": "visual-art/2026-05-30-paula-scher-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Wood-type letters cranked loud enough to become architecture — type as voice, not vessel."
+    },
     {
       "id": "massimo-vignelli-inspired",
       "title": "After Massimo Vignelli",
@@ -882,6 +893,29 @@
   ],
   "journal": [
     {
+      "date": "2026-05-30",
+      "artist": {
+        "name": "Paula Scher",
+        "slug": "paula-scher",
+        "intro": "Paula Scher (b. 1948) is one of the most influential graphic designers alive — a partner at Pentagram's New York office since 1991, and before that an art director at CBS Records and Atlantic Records in the late 1970s and early '80s, where her eclectic, historicist record-cover typography reshaped the field. She is the designer behind the visual identity of The Public Theater, Citi, Tiffany & Co., the Museum of Modern Art, Microsoft Windows 8, and many others.",
+        "insight": "Type is not a vessel for the message — type IS the message.",
+        "principles": [
+          "Make type do the heavy lifting. Stop dressing words; weaponize them.",
+          "Density can be elegance. Crowded ≠ cluttered when there's a system underneath.",
+          "Voice over polish. A confident wrong choice beats a timid right one.",
+          "Design is language. It has grammar; learn it before you break it.",
+          "Don't be precious. \"It took me a few seconds and 34 years\" — speed is earned, not faked."
+        ],
+        "noteFile": "art-studies/2026-05-30-paula-scher.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-30-paula-scher-inspired.png",
+        "title": "After Paula Scher",
+        "description": "Wood-type letters cranked loud enough to become architecture — type as voice, not vessel."
+      }
+    },
+    {
       "date": "2026-05-29",
       "artist": {
         "name": "Massimo Vignelli",
@@ -897,7 +931,7 @@
         ],
         "noteFile": "art-studies/2026-05-29-massimo-vignelli.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: Arrival is the moment you stop traveling internally. That's the thread that led me here — design is the discipline of organizing information so it does not age.",
       "artwork": {
         "file": "visual-art/2026-05-29-massimo-vignelli-inspired.png",
         "title": "After Massimo Vignelli",
