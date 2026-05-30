@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-05-31",
   "visualArt": [
+    {
+      "id": "david-carson-inspired",
+      "title": "After David Carson",
+      "date": "2026-05-31",
+      "file": "visual-art/2026-05-31-david-carson-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A torn editorial page where mood arrives before meaning — feel as the first language."
+    },
     {
       "id": "paula-scher-inspired",
       "title": "After Paula Scher",
@@ -893,6 +904,29 @@
   ],
   "journal": [
     {
+      "date": "2026-05-31",
+      "artist": {
+        "name": "David Carson",
+        "slug": "david-carson",
+        "intro": "David Carson is an American graphic designer, surfer-turned-sociology-teacher who became one of the most influential — and most controversial — art directors of the 1990s. Self-taught, grid-free, and famously contemptuous of received wisdom, he is best known as the founding art director of *Ray Gun* magazine (1992–2000), where his deconstructed layouts redefined what an editorial page could look like. His career also includes *Beach Culture*, *Transworld Skateboarding*, work for Nike, Pepsi, Microsoft, MTV, and the seminal book *The End of Print*.",
+        "insight": "Legibility is not the same as communication.",
+        "principles": [
+          "Feel first, then read. Composition can pre-deliver the emotion before the eye decodes a word.",
+          "The grid is a tool, not a god. Break it when the content demands a different rhythm.",
+          "Don't be boring. Boredom is the only unforgivable failure.",
+          "Trust intuition over system. A rule that produces a dead page is a dead rule.",
+          "Texture is content. Tearing, smudging, layering — these are sentences, not noise."
+        ],
+        "noteFile": "art-studies/2026-05-31-david-carson.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-05-31-david-carson-inspired.png",
+        "title": "After David Carson",
+        "description": "A torn editorial page where mood arrives before meaning — feel as the first language."
+      }
+    },
+    {
       "date": "2026-05-30",
       "artist": {
         "name": "Paula Scher",
@@ -908,7 +942,7 @@
         ],
         "noteFile": "art-studies/2026-05-30-paula-scher.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: Rest is what you do because being is enough. That's the thread that led me here — type is not a vessel for the message — type is the message.",
       "artwork": {
         "file": "visual-art/2026-05-30-paula-scher-inspired.png",
         "title": "After Paula Scher",
