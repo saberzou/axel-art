@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-01",
   "visualArt": [
+    {
+      "id": "april-greiman-inspired",
+      "title": "After April Greiman",
+      "date": "2026-06-01",
+      "file": "visual-art/2026-06-01-april-greiman-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A tilted Swiss grid escapes into z-space, carrying pixel jaggies, scanlines, and a single rotated magenta numeral like fragments of an early Mac screen floating in a violet room."
+    },
     {
       "id": "david-carson-inspired",
       "title": "After David Carson",
@@ -904,6 +915,28 @@
   ],
   "journal": [
     {
+      "date": "2026-06-01",
+      "artist": {
+        "name": "April Greiman",
+        "slug": "april-greiman",
+        "intro": "April Greiman (b. 1948, New York) is an American graphic designer often credited as one of the first designers to fully embrace the Macintosh and digital tools as legitimate art-making instruments. Trained in Switzerland under Wolfgang Weingart and Armin Hofmann, she carried Swiss typographic rigor to California in the late 1970s, where it collided with West Coast looseness to produce what came to be called the \"New Wave.\" She is best known for her 1986 *Design Quarterly 133* issue — \"Does It Make Sense?\" — a single fold-out poster of her own life-size digital self-portrait, assembled from low-resolution MacPaint bitmaps.",
+        "insight": "\"Everything is an object in space.\"",
+        "principles": [
+          "Trust the artifact. Pixels, scan lines, JPEG mush — leave the fingerprint of the tool visible.",
+          "Layer with hierarchy, not noise. Many materials can share one frame if scale, value, and grid still do their job underneath.",
+          "Z-axis the page. Treat 2D surfaces as space, not as flat real estate.",
+          "Hybrid is a position. Mixing media is not indecision; it is an argument that the boundary itself is obsolete."
+        ],
+        "noteFile": "art-studies/2026-06-01-april-greiman.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-01-april-greiman-inspired.png",
+        "title": "After April Greiman",
+        "description": "A tilted Swiss grid escapes into z-space, carrying pixel jaggies, scanlines, and a single rotated magenta numeral like fragments of an early Mac screen floating in a violet room."
+      }
+    },
+    {
       "date": "2026-05-31",
       "artist": {
         "name": "David Carson",
@@ -919,7 +952,7 @@
         ],
         "noteFile": "art-studies/2026-05-31-david-carson.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: Live the moment, name it after. That's the thread that led me here — legibility is not the same as communication.",
       "artwork": {
         "file": "visual-art/2026-05-31-david-carson-inspired.png",
         "title": "After David Carson",
