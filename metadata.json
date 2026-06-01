@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-02",
   "visualArt": [
+    {
+      "id": "tibor-kalman-inspired",
+      "title": "After Tibor Kalman",
+      "date": "2026-06-02",
+      "file": "visual-art/2026-06-02-tibor-kalman-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A torn-from-Colors juxtaposition where a diamond and a worker's mug share one price, because design is never neutral."
+    },
     {
       "id": "april-greiman-inspired",
       "title": "After April Greiman",
@@ -915,6 +926,29 @@
   ],
   "journal": [
     {
+      "date": "2026-06-02",
+      "artist": {
+        "name": "Tibor Kalman",
+        "slug": "tibor-kalman",
+        "intro": "Hungarian-American graphic designer, founder of the studio M&Co (1979) and editor-in-chief of Benetton's Colors magazine. A self-described \"perverse optimist,\" Kalman was the moral conscience of late-20th-century graphic design — a rule-breaker who believed designers were complicit in the messages they shaped, and therefore responsible for them.",
+        "insight": "Design is not decoration; it is public discourse.",
+        "principles": [
+          "Ask what the work is *for* before asking what it looks like. Form is the second question.",
+          "Juxtapose, don't illustrate. Two ordinary images side by side often beat one clever image.",
+          "Use the vernacular. Hand-set type, found photos, civic ugliness — these carry truth that polish strips out.",
+          "Be willing to be ugly. If the message demands friction, do not sand it down to please.",
+          "Take responsibility for the meaning, not just the craft. The designer's signature is the worldview embedded, not the typeface chosen."
+        ],
+        "noteFile": "art-studies/2026-06-02-tibor-kalman.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-02-tibor-kalman-inspired.png",
+        "title": "After Tibor Kalman",
+        "description": "A torn-from-Colors juxtaposition where a diamond and a worker's mug share one price, because design is never neutral."
+      }
+    },
+    {
       "date": "2026-06-01",
       "artist": {
         "name": "April Greiman",
@@ -929,7 +963,7 @@
         ],
         "noteFile": "art-studies/2026-06-01-april-greiman.md"
       },
-      "rationale": null,
+      "rationale": "Today I was thinking about: Spring considers. June commits. That's the thread that led me here — \"everything is an object in space.\".",
       "artwork": {
         "file": "visual-art/2026-06-01-april-greiman-inspired.png",
         "title": "After April Greiman",
