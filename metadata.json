@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "visualArt": [
+    {
+      "id": "dieter-roth-inspired",
+      "title": "After Dieter Roth",
+      "date": "2026-06-03",
+      "file": "visual-art/2026-06-03-dieter-roth-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A chocolate-paged book bloomed with sugar frost and mould, a plaster-crusted yoghurt jar, a browning pear — decay invited to the table as collaborator, not failure."
+    },
     {
       "id": "tibor-kalman-inspired",
       "title": "After Tibor Kalman",
@@ -925,6 +936,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-03",
+      "artist": {
+        "name": "Dieter Roth",
+        "slug": "dieter-roth",
+        "intro": "Dieter Roth (1930–1998) was a Swiss-German artist, poet, and bookmaker who treated the artist's book as a sculptural, temporal object rather than a stable container of pages. Trained as a graphic designer, he spent decades cutting, sausage-stuffing, mouldering, and self-archiving his way out of the cult of the pristine edition. He worked across printmaking, music, video, and installation, but his deepest signature lives in works that visibly age — chocolate busts, cheese suitcases, and the hundreds of binders of his *Flat Waste* archive.",
+        "insight": "Decay is not a failure mode of art. It is the medium.",
+        "principles": [
+          "Let time finish the work. Pick at least one variable you do not control.",
+          "Archive the garbage, not the highlights. The honest record is in the residue.",
+          "Refuse the pristine edition. Multiplicity and instability beat the precious one-off.",
+          "Use materials that mean what they do. Chocolate already knows about decay; don't paint a metaphor when you can use the thing.",
+          "The artist is also decaying. Don't pretend otherwise — let the work admit it."
+        ],
+        "noteFile": "art-studies/2026-06-03-dieter-roth.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-03-dieter-roth-inspired.png",
+        "title": "After Dieter Roth",
+        "description": "A chocolate-paged book bloomed with sugar frost and mould, a plaster-crusted yoghurt jar, a browning pear — decay invited to the table as collaborator, not failure."
+      }
+    },
     {
       "date": "2026-06-02",
       "artist": {
