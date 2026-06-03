@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "visualArt": [
+    {
+      "id": "cao-fei-inspired",
+      "title": "After Cao Fei",
+      "date": "2026-06-04",
+      "file": "visual-art/2026-06-04-cao-fei-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A factory worker pauses mid-shift into an arabesque, her dream-body leaking a few centimeters past her working-body, the seam between the two left unresolved."
+    },
     {
       "id": "dieter-roth-inspired",
       "title": "After Dieter Roth",
@@ -936,6 +947,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-04",
+      "artist": {
+        "name": "Cao Fei",
+        "slug": "cao-fei",
+        "intro": "Cao Fei (b. 1978, Guangzhou) is a Chinese multimedia artist working in video, photography, installation, virtual worlds, and VR. She came up as China industrialized at hyperspeed, and her work tracks that pressure as it lands on individual bodies: factory workers, cosplayers, gamers, urban migrants, avatars.",
+        "insight": "Reality and fantasy aren't opposites — they leak into each other, and the leak is where people actually live.",
+        "principles": [
+          "Put two incompatible registers in the same frame. Don't reconcile them — let the seam show.",
+          "The dream and the work happen in the same body, often the same hour. Render both.",
+          "A new medium is not a topic; it's a place to set the camera.",
+          "Specificity of place beats generic futurism. Concrete stairwell + neon avatar > floating cyber city.",
+          "Tenderness toward subjects who would not be flattered by realism. Let them be who they imagine."
+        ],
+        "noteFile": "art-studies/2026-06-04-cao-fei.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-04-cao-fei-inspired.png",
+        "title": "After Cao Fei",
+        "description": "A factory worker pauses mid-shift into an arabesque, her dream-body leaking a few centimeters past her working-body, the seam between the two left unresolved."
+      }
+    },
     {
       "date": "2026-06-03",
       "artist": {
