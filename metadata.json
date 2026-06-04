@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-06-04",
+  "lastUpdated": "2026-06-05",
   "visualArt": [
+    {
+      "id": "andy-goldsworthy-inspired",
+      "title": "After Andy Goldsworthy",
+      "date": "2026-06-05",
+      "file": "visual-art/2026-06-05-andy-goldsworthy-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A hand releases a spiral of autumn leaves into a cold river — half geometry, half already taken — the work and its disappearance arriving in the same moment."
+    },
+    {
+      "id": "hito-steyerl-inspired",
+      "title": "After Hito Steyerl",
+      "date": "2026-06-05",
+      "file": "visual-art/2026-06-05-hito-steyerl-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A peach decomposes mid-frame from stock-photo to JPEG blocks to wireframe to labeled pixels, the chroma-green seam left exposed — a still life of an image admitting it is also infrastructure."
+    },
+    {
+      "id": "tatsuo-miyajima-inspired",
+      "title": "After Tatsuo Miyajima",
+      "date": "2026-06-05",
+      "file": "visual-art/2026-06-05-tatsuo-miyajima-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A field of private clocks glows between life, darkness, and return."
+    },
+    {
+      "id": "tomas-saraceno-inspired",
+      "title": "After Tomás Saraceno",
+      "date": "2026-06-05",
+      "file": "visual-art/2026-06-05-tomas-saraceno-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A figure standing inside the silver web that was always there — the air made visible, the body revealed as one node in a quiet, vibrating network."
+    },
     {
       "id": "cao-fei-inspired",
       "title": "After Cao Fei",
@@ -947,6 +991,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-05",
+      "artist": {
+        "name": "Tomás Saraceno",
+        "slug": "tomas-saraceno",
+        "intro": "Tomás Saraceno (b. 1973, San Miguel de Tucumán, Argentina) is an artist trained as an architect who works at the intersection of sculpture, science, ecology, and speculative engineering. He runs Studio Tomás Saraceno in Berlin, a collective of architects, biologists, arachnologists, and aeronautical engineers.",
+        "insight": "Everything that looks like emptiness is actually a web.",
+        "principles": [
+          "Treat the background as the subject. What you crop out is usually the medium.",
+          "Co-authorship over signature. Let materials, organisms, and physics do real work; your job is to listen to them.",
+          "Lightness as discipline, not decoration. If you remove mass, the remaining tension has to be exact.",
+          "Make the invisible loadable. A good piece should let a viewer *put weight on* an idea they previously walked through.",
+          "Scale should match the metaphor. Cosmic claims deserve room-sized geometry; intimate claims deserve a single thread."
+        ],
+        "noteFile": "art-studies/2026-06-05-tomas-saraceno.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-05-tomas-saraceno-inspired.png",
+        "title": "After Tomás Saraceno",
+        "description": "A figure standing inside the silver web that was always there — the air made visible, the body revealed as one node in a quiet, vibrating network."
+      }
+    },
     {
       "date": "2026-06-04",
       "artist": {
