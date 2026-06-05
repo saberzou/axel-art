@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-06",
   "visualArt": [
+    {
+      "id": "richard-long-inspired",
+      "title": "After Richard Long",
+      "date": "2026-06-06",
+      "file": "visual-art/2026-06-06-richard-long-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single footworn line crosses a misted moor toward a small circle of slate — sculpture as the trace of a body that has already moved on."
+    },
     {
       "id": "andy-goldsworthy-inspired",
       "title": "After Andy Goldsworthy",
@@ -991,6 +1002,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-06",
+      "artist": {
+        "name": "Richard Long",
+        "slug": "richard-long",
+        "intro": "Richard Long (b. 1945, Bristol, England) is a British sculptor and conceptual artist who, since the late 1960s, has redefined sculpture by making the simple act of walking his primary medium. While still a student at Saint Martin's, he made *A Line Made by Walking* (1967) at age 22 — pacing back and forth across a grass field until his footsteps left a visible line, then photographing it.",
+        "insight": "Walking itself is the sculpture.",
+        "principles": [
+          "The process is the piece. What you do is the work; the artifact is just proof.",
+          "Use what the place gives you. Don't import; gather.",
+          "Trust simple geometry. A line, a circle, a cross — primal shapes hold more than ornament.",
+          "Let time do the heavy lifting. Duration is a material.",
+          "Leave lightly. Restraint is a form of respect."
+        ],
+        "noteFile": "art-studies/2026-06-06-richard-long.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-06-richard-long-inspired.png",
+        "title": "After Richard Long",
+        "description": "A single footworn line crosses a misted moor toward a small circle of slate — sculpture as the trace of a body that has already moved on."
+      }
+    },
     {
       "date": "2026-06-05",
       "artist": {
