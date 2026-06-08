@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-09",
   "visualArt": [
+    {
+      "id": "on-kawara-inspired",
+      "title": "After On Kawara",
+      "date": "2026-06-09",
+      "file": "visual-art/2026-06-09-on-kawara-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single empty bowl holding one folded paper bearing today's date — a quiet altar to the bare fact of having shown up."
+    },
     {
       "id": "richard-long-inspired",
       "title": "After Richard Long",
@@ -1002,6 +1013,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-09",
+      "artist": {
+        "name": "On Kawara",
+        "slug": "on-kawara",
+        "intro": "On Kawara (1932–2014) was a Japanese-born conceptual artist who spent most of his adult life in New York, though he refused biography, never gave interviews, never appeared at openings, and replaced his own portrait with a counter of days lived (\"29,771 days\"). For nearly fifty years he executed a handful of impossibly disciplined serial projects — most famously the *Today* series (1966–2013), monochrome canvases hand-painted with only the date of the day they were made, each completed within twenty-four hours or destroyed. He worked with a Zen-like procedural calm rooted in Buddhist and Shinto sensibilities, treating art-making as a contemplative practice rather than self-expression.",
+        "insight": "Existence itself, simply being present on a given day, is the artwork.",
+        "principles": [
+          "A constraint severe enough becomes a form of honesty. Limit the inputs, and the work cannot pose.",
+          "Showing up daily is itself an aesthetic. Consistency over intensity; duration over peak.",
+          "The viewer completes the meaning. Give them a date — they bring the day.",
+          "Refuse the cult of personality. Let the object speak; remove yourself from the frame.",
+          "Mundane infrastructure (mail, calendar, timestamp) can be art's medium when you trust the system to deliver the gesture."
+        ],
+        "noteFile": "art-studies/2026-06-09-on-kawara.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-09-on-kawara-inspired.png",
+        "title": "After On Kawara",
+        "description": "A single empty bowl holding one folded paper bearing today's date — a quiet altar to the bare fact of having shown up."
+      }
+    },
     {
       "date": "2026-06-06",
       "artist": {
