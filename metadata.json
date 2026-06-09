@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "visualArt": [
+    {
+      "id": "lee-ufan-inspired",
+      "title": "After Lee Ufan",
+      "date": "2026-06-10",
+      "file": "visual-art/2026-06-10-lee-ufan-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single weighted brushstroke meets an expanse of breathing canvas — the negative space holding equal weight to the mark."
+    },
     {
       "id": "on-kawara-inspired",
       "title": "After On Kawara",
@@ -1013,6 +1024,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-10",
+      "artist": {
+        "name": "Lee Ufan",
+        "slug": "lee-ufan",
+        "intro": "Lee Ufan (b. 1936, Korea) is a painter, sculptor, philosopher, and poet who became the central theorist of Mono-ha (\"School of Things\"), the late-1960s Japanese movement that turned away from making *new* things and toward staging encounters between existing materials — stone, steel, glass, canvas, air. He's spent six decades making the same argument in different mediums: that art is not about what an artist *adds* to the world, but about what becomes visible when an artist arranges a meeting between materials and lets us *notice* the space around them.",
+        "insight": "The unpainted is not absence — it is the work.",
+        "principles": [
+          "The negative space is the subject. Compose so the emptiness has weight.",
+          "One gesture is enough if you mean it. Don't decorate; don't recover.",
+          "Show the body in the mark. Breath, pressure, fade. Let the medium run out on camera.",
+          "Stage an encounter, don't fabricate a thing. Two elements, a relation between them, and the room.",
+          "Discipline over flourish. Repetition is not boredom — it is how attention deepens."
+        ],
+        "noteFile": "art-studies/2026-06-10-lee-ufan.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-10-lee-ufan-inspired.png",
+        "title": "After Lee Ufan",
+        "description": "A single weighted brushstroke meets an expanse of breathing canvas — the negative space holding equal weight to the mark."
+      }
+    },
     {
       "date": "2026-06-09",
       "artist": {
