@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "visualArt": [
+    {
+      "id": "sofu-teshigahara-inspired",
+      "title": "After Sōfu Teshigahara",
+      "date": "2026-06-11",
+      "file": "visual-art/2026-06-11-sofu-teshigahara-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A charred branch and a slab of rusted iron held in tense, asymmetric silence — the material allowed to speak, with a single sprig of green as the only argument."
+    },
     {
       "id": "lee-ufan-inspired",
       "title": "After Lee Ufan",
@@ -1024,6 +1035,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-11",
+      "artist": {
+        "name": "Sōfu Teshigahara",
+        "slug": "sofu-teshigahara",
+        "intro": "Sōfu Teshigahara (1900–1979) was the Japanese artist who detonated ikebana out of its rigid temple-school traditions and rebuilt it as a contemporary, sculptural, deeply personal art form. In 1927 he broke from his father's classical school and founded the Sogetsu School (\"Grass Moon\") in Tokyo, declaring that ikebana could be made \"anytime, anywhere, by anyone, with any material.\" By the 1950s he was exhibiting alongside the international avant-garde — TIME magazine, in 1955, called him the \"Picasso of Flowers.\" He worked equally fluently in calligraphy and large iron and wood sculpture; flowers were never the boundary of his practice, only one of his languages.",
+        "insight": "The material is a collaborator, not a subject.",
+        "principles": [],
+        "noteFile": "art-studies/2026-06-11-sofu-teshigahara.md"
+      },
+      "rationale": null,
+      "artwork": {
+        "file": "visual-art/2026-06-11-sofu-teshigahara-inspired.png",
+        "title": "After Sōfu Teshigahara",
+        "description": "A charred branch and a slab of rusted iron held in tense, asymmetric silence — the material allowed to speak, with a single sprig of green as the only argument."
+      }
+    },
     {
       "date": "2026-06-10",
       "artist": {
