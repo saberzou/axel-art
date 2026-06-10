@@ -149,6 +149,8 @@ def derive_rationale(artist, date_str):
         return f"Today I was thinking about: {mood}. That's the thread that led me here — {insight.rstrip('.').lower()}."
     if mood:
         return f"Today I was thinking about: {mood}."
+    if insight:
+        return f"The thread today: {insight.rstrip('.')}."
     return None
 
 
