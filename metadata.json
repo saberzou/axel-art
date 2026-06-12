@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "visualArt": [
+    {
+      "id": "lucie-rie-inspired",
+      "title": "After Lucie Rie",
+      "date": "2026-06-13",
+      "file": "visual-art/2026-06-13-lucie-rie-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A lone flared-rim bottle where a severe modernist silhouette meets a volcanic glaze that breathes — refinement held under perfect control."
+    },
     {
       "id": "sofu-teshigahara-inspired",
       "title": "After Sōfu Teshigahara",
@@ -1035,6 +1046,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-13",
+      "artist": {
+        "name": "Lucie Rie",
+        "slug": "lucie-rie",
+        "intro": "Lucie Rie (1902–1995) was an Austrian-born British studio potter, one of the most influential ceramicists of the twentieth century. Trained in Vienna under the spell of the Wiener Werkstätte and continental Modernism, she fled the Nazis in 1938 and rebuilt her practice in a tiny London mews studio. There she worked for nearly fifty years — often alongside Hans Coper — quietly overturning the rustic, brown-glazed orthodoxy that dominated British pottery, and earning a 1967 Arts Council retrospective and eventual recognition as a Dame.",
+        "insight": "Refinement is not the absence of feeling — it is feeling held under perfect control. Rie proved that a pot could be severe in silhouette yet alive in surface; that restraint and richness are not opposites but partners.",
+        "principles": [
+          "Throw clean — discipline in the making shows in the result.",
+          "Let the process leave its own marks; don't decorate over it.",
+          "Pair a severe outline with a surface that breathes.",
+          "Embrace the single high-risk firing — commit, then let chemistry surprise you.",
+          "Quiet forms can be radical."
+        ],
+        "noteFile": "art-studies/2026-06-13-lucie-rie.md"
+      },
+      "rationale": "The thread today: Refinement is not the absence of feeling — it is feeling held under perfect control. Rie proved that a pot could be severe in silhouette yet alive in surface; that restraint and richness are not opposites but partners.",
+      "artwork": {
+        "file": "visual-art/2026-06-13-lucie-rie-inspired.png",
+        "title": "After Lucie Rie",
+        "description": "A lone flared-rim bottle where a severe modernist silhouette meets a volcanic glaze that breathes — refinement held under perfect control."
+      }
+    },
     {
       "date": "2026-06-11",
       "artist": {
