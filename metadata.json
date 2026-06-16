@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "visualArt": [
+    {
+      "id": "saul-steinberg-inspired",
+      "title": "After Saul Steinberg",
+      "date": "2026-06-16",
+      "file": "visual-art/2026-06-16-saul-steinberg-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "One unbroken pen line rises from a lone figure and becomes an entire bureaucratic city of thought, the self drawing itself into existence."
+    },
     {
       "id": "sori-yanagi-inspired",
       "title": "After Sori Yanagi",
@@ -1057,6 +1068,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-16",
+      "artist": {
+        "name": "Saul Steinberg",
+        "slug": "saul-steinberg",
+        "intro": "Saul Steinberg (1914–1999) was a Romanian-born American artist, trained as an architect in Milan before fleeing fascism and remaking himself in New York. For roughly six decades he was the defining draughtsman of *The New Yorker*, producing 85 covers and 642 interior drawings. He famously called himself \"a writer who draws\" — refusing the categories of cartoonist, illustrator, or fine artist while quietly inhabiting all three.",
+        "insight": "The line itself is the idea.",
+        "principles": [
+          "A line should carry meaning, not just describe shape. Make every stroke load-bearing.",
+          "Wit beats the gag line. Build the idea into the structure so it needs no caption.",
+          "Draw like a child aiming at adult ideas — directness is a tool, not naivety.",
+          "One distorted perspective can become a universal metaphor. Exaggerate the local truth until it reflects everyone.",
+          "Refuse a single signature style. Let the idea pick the mark."
+        ],
+        "noteFile": "art-studies/2026-06-16-saul-steinberg.md"
+      },
+      "rationale": "The thread today: The line itself is the idea.",
+      "artwork": {
+        "file": "visual-art/2026-06-16-saul-steinberg-inspired.png",
+        "title": "After Saul Steinberg",
+        "description": "One unbroken pen line rises from a lone figure and becomes an entire bureaucratic city of thought, the self drawing itself into existence."
+      }
+    },
     {
       "date": "2026-06-15",
       "artist": {
