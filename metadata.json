@@ -2,6 +2,50 @@
   "lastUpdated": "2026-06-21",
   "visualArt": [
     {
+      "id": "alex-katz-inspired",
+      "title": "After Alex Katz",
+      "date": "2026-06-21",
+      "file": "visual-art/2026-06-21-alex-katz-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
+    {
+      "id": "tomi-ungerer-inspired",
+      "title": "After Tomi Ungerer",
+      "date": "2026-06-20",
+      "file": "visual-art/2026-06-20-tomi-ungerer-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
+    {
+      "id": "david-hockney-inspired",
+      "title": "After David Hockney",
+      "date": "2026-06-19",
+      "file": "visual-art/2026-06-19-david-hockney-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
+    {
+      "id": "christoph-niemann-inspired",
+      "title": "After Christoph Niemann",
+      "date": "2026-06-18",
+      "file": "visual-art/2026-06-18-christoph-niemann-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
+    },
+    {
       "id": "saul-steinberg-inspired",
       "title": "After Saul Steinberg",
       "date": "2026-06-16",
@@ -22,6 +66,17 @@
       ],
       "category": "artist-study",
       "description": "A single bentwood curve resolved by the hand and not the pen, where the soul of folk craft survives inside the discipline of the machine."
+    },
+    {
+      "id": "bernard-leach-inspired",
+      "title": "After Bernard Leach",
+      "date": "2026-06-14",
+      "file": "visual-art/2026-06-14-bernard-leach-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": ""
     },
     {
       "id": "lucie-rie-inspired",
@@ -1069,6 +1124,97 @@
   ],
   "journal": [
     {
+      "date": "2026-06-21",
+      "artist": {
+        "name": "Alex Katz",
+        "slug": "alex-katz",
+        "intro": "Alex Katz (b. 1927, Brooklyn) is an American painter who spent the 1950s figuring out how to keep painting *people* at a moment when Abstract Expressionism had made figuration look timid. His answer — flat, smooth, billboard-scale portraits and landscapes — predated Pop Art and gave him a career now seven decades long.",
+        "insight": "flatness + scale + economy of line",
+        "principles": [
+          "Get velocity from scale and flatness, not from fussy detail. Make it readable across the room.",
+          "Reduce ruthlessly — every contour is a decision. Cut detail until only the essential shape and one clean line remain.",
+          "Coolness is a strategy. Restraint and detachment can carry more feeling than drama.",
+          "Crop like a camera; light as flat blocks. Tight framing + big simple color = monumental ordinary."
+        ],
+        "noteFile": "art-studies/2026-06-21-alex-katz.md"
+      },
+      "rationale": "The thread today: flatness + scale + economy of line.",
+      "artwork": {
+        "file": "visual-art/2026-06-21-alex-katz-inspired.png",
+        "title": "After Alex Katz",
+        "description": ""
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "artist": {
+        "name": "Tomi Ungerer",
+        "slug": "tomi-ungerer",
+        "intro": "Tomi Ungerer (1931–2019) was an Alsatian illustrator, author, and satirist born in Strasbourg, France. He grew up under Nazi occupation, an experience that left him with a permanent suspicion of authority and a sharp eye for human hypocrisy. He emigrated to New York in 1956 with almost nothing and rapidly became one of the most versatile illustrators of his era — producing beloved children's picture books, biting anti-war and civil-rights posters, advertising work, and unapologetically erotic adult drawings, often in the same career-year.",
+        "insight": "empathy for the misfit",
+        "principles": [
+          "Menace and tenderness belong in the same picture — contrast creates feeling.",
+          "The outsider is the hero. Sympathize with whoever the frame would usually cast as the threat.",
+          "Darkness is a design element, not an absence — sculpt the light against it.",
+          "One honest line beats ten careful ones. Commit.",
+          "Never condescend to the audience, child or adult."
+        ],
+        "noteFile": "art-studies/2026-06-20-tomi-ungerer.md"
+      },
+      "rationale": "The thread today: empathy for the misfit.",
+      "artwork": {
+        "file": "visual-art/2026-06-20-tomi-ungerer-inspired.png",
+        "title": "After Tomi Ungerer",
+        "description": ""
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "artist": {
+        "name": "David Hockney",
+        "slug": "david-hockney",
+        "intro": "David Hockney (b. 1937, Bradford, England) is one of the most influential British painters of the 20th and 21st centuries — a central figure of the Pop Art movement who never stopped reinventing his own eye. From the sun-bleached swimming pools of 1960s Los Angeles (*A Bigger Splash*) to monumental Yorkshire landscapes, photographic \"joiners,\" and late-career iPad paintings, his career is a single long argument about one question: how do we actually see?",
+        "insight": "mobile, layered, and lived through time",
+        "principles": [
+          "Question the frame. Single-point perspective is a default, not a law — multiple viewpoints can feel truer.",
+          "Put time in the still image. Fragmenting one subject across moments evokes how we really perceive.",
+          "The seams are honest. Visible joints and shifts can carry more truth than seamless polish.",
+          "No medium is beneath ambition. A \"humble\" tool (iPad, finger) is no excuse for small work.",
+          "Color is joy. Saturation and light are not naive — they're a choice to make seeing feel alive."
+        ],
+        "noteFile": "art-studies/2026-06-19-david-hockney.md"
+      },
+      "rationale": "The thread today: mobile, layered, and lived through time.",
+      "artwork": {
+        "file": "visual-art/2026-06-19-david-hockney-inspired.png",
+        "title": "After David Hockney",
+        "description": ""
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "artist": {
+        "name": "Christoph Niemann",
+        "slug": "christoph-niemann",
+        "intro": "Christoph Niemann (b. 1970, Germany) is an illustrator, author, and animator based in Berlin. Since 1998 his work has appeared in *The New Yorker* (50+ covers), *The New York Times*, *National Geographic*, and *WIRED*.",
+        "insight": "An idea is a connection, not a drawing.",
+        "principles": [
+          "Start from one real object and ask what *else* it could be — let the world supply the raw material.",
+          "The idea is the connection, not the polish; if the concept fails, no rendering saves it.",
+          "Subtract relentlessly — flat shapes, minimal palette, one clean gag.",
+          "Make the viewer do the last step — leave the small gap they complete themselves.",
+          "Constraint generates invention — limit the materials, multiply the ideas."
+        ],
+        "noteFile": "art-studies/2026-06-18-christoph-niemann.md"
+      },
+      "rationale": "The thread today: An idea is a connection, not a drawing.",
+      "artwork": {
+        "file": "visual-art/2026-06-18-christoph-niemann-inspired.png",
+        "title": "After Christoph Niemann",
+        "description": ""
+      }
+    },
+    {
       "date": "2026-06-16",
       "artist": {
         "name": "Saul Steinberg",
@@ -1112,6 +1258,29 @@
         "file": "visual-art/2026-06-15-sori-yanagi-inspired.png",
         "title": "After Sori Yanagi",
         "description": "A single bentwood curve resolved by the hand and not the pen, where the soul of folk craft survives inside the discipline of the machine."
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "artist": {
+        "name": "Bernard Leach",
+        "slug": "bernard-leach",
+        "intro": "Bernard Leach (1887–1979) is widely called the father of British studio pottery. Born in Hong Kong and trained first as an etcher, he discovered ceramics in Japan, apprenticing under Ogata Kenzan VI and falling into the orbit of philosopher Soetsu Yanagi, founder of the Mingei (folk-craft) movement. In 1920 he returned to England and, with the young Japanese potter Shoji Hamada, founded the Leach Pottery in St Ives, Cornwall — complete with a traditional Japanese wood-burning climbing kiln.",
+        "insight": "A pot is not decoration applied to a surface — it is the honest record of a maker's hand, the material's nature, and a daily human use. Leach drew an ethical line between the \"fine art pot\" (made to be admired) and the \"ethical pot\" (made to be lived with). Beauty, for him, arrives sideways through function, humility, and truth to materials — never through the maker showing off.",
+        "principles": [
+          "Function first; beauty is a byproduct, not a goal.",
+          "Truth to materials — let clay look like clay, let process leave its marks.",
+          "The hand should be visible. Irregularity is honesty, not failure.",
+          "Make things to be used, not only admired.",
+          "Synthesis over imitation — borrow across cultures, but forge something whole."
+        ],
+        "noteFile": "art-studies/2026-06-14-bernard-leach.md"
+      },
+      "rationale": "The thread today: A pot is not decoration applied to a surface — it is the honest record of a maker's hand, the material's nature, and a daily human use. Leach drew an ethical line between the \"fine art pot\" (made to be admired) and the \"ethical pot\" (made to be lived with). Beauty, for him, arrives sideways through function, humility, and truth to materials — never through the maker showing off.",
+      "artwork": {
+        "file": "visual-art/2026-06-14-bernard-leach-inspired.png",
+        "title": "After Bernard Leach",
+        "description": ""
       }
     },
     {
