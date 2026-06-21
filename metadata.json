@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-21",
+  "lastUpdated": "2026-06-22",
   "visualArt": [
+    {
+      "id": "noma-bar-inspired",
+      "title": "After Noma Bar",
+      "date": "2026-06-22",
+      "file": "visual-art/2026-06-22-noma-bar-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Recovered nightly artist study."
+    },
     {
       "id": "alex-katz-inspired",
       "title": "After Alex Katz",
@@ -1134,6 +1145,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-22",
+      "artist": {
+        "name": "Noma Bar",
+        "slug": "noma-bar",
+        "intro": "Noma Bar (born 1973) is an Israeli-born, London-based graphic designer, illustrator, and artist. Trained at the Bezalel Academy of Arts and Design in Jerusalem, he moved to the UK in the early 2000s and built a career on editorial commissions for clients like *The Economist*, *The Guardian*, *Wallpaper*, *Time Out London*, and the BBC. His monographs — *Guess Who?: The Many Faces of Noma Bar* (2008), *Negative Space* (2009), and the two-volume *Bittersweet* (2017) — collect hundreds of his images and are treated as masterclasses in conceptual illustration.",
+        "insight": "The space you leave out can carry the second meaning.",
+        "principles": [
+          "Design the void. Treat empty space as an active subject, not leftover background.",
+          "Aim for the double-take. One image, two readings; the gap between them is the message.",
+          "Cut until it breaks, then back off one step. Fewer shapes, flatter colour, sharper idea.",
+          "One concept, fully committed. Resist adding a second idea — clarity beats richness."
+        ],
+        "noteFile": "art-studies/2026-06-22-noma-bar.md"
+      },
+      "rationale": "The thread today: The space you leave out can carry the second meaning.",
+      "artwork": {
+        "file": "visual-art/2026-06-22-noma-bar-inspired.png",
+        "title": "After Noma Bar",
+        "description": "Recovered nightly artist study."
+      }
+    },
     {
       "date": "2026-06-21",
       "artist": {
