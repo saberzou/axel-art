@@ -46,6 +46,17 @@
       "description": ""
     },
     {
+      "id": "maira-kalman-inspired",
+      "title": "After Maira Kalman",
+      "date": "2026-06-17",
+      "file": "visual-art/2026-06-17-maira-kalman-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Wonder in the overlooked — ordinary objects made luminous, word and image breathing as one."
+    },
+    {
       "id": "saul-steinberg-inspired",
       "title": "After Saul Steinberg",
       "date": "2026-06-16",
@@ -1212,6 +1223,29 @@
         "file": "visual-art/2026-06-18-christoph-niemann-inspired.png",
         "title": "After Christoph Niemann",
         "description": ""
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "artist": {
+        "name": "Maira Kalman",
+        "slug": "maira-kalman",
+        "intro": "Maira Kalman (b. 1949, Tel Aviv) is an American illustrator, author, and\npainter who moved to New York at age four and has been embodying that city's\noddball soul ever since. She is best known for her *New Yorker* covers\n(including the famous 2001 \"New Yorkistan\" with Rick Meyerowitz), her\nillustrated edition of Strunk & White's *The Elements of Style*, and her\nmonthly *New York Times* column-turned-book *The Principles of Uncertainty*.",
+        "insight": "Documentation is a natural filter for wonder.",
+        "principles": [
+          "Notice the overlooked object — a sponge, a chair, a cake deserves a portrait.",
+          "Let the looking be inward too — my reaction *is* the subject.",
+          "Word and image as one breathing object, not caption beneath picture.",
+          "Keep the hand wobbly and bright — naïveté disarms; polish distances.",
+          "Stay uncertain on purpose — paint to remain curious, not to conclude."
+        ],
+        "noteFile": "art-studies/2026-06-17-maira-kalman.md"
+      },
+      "rationale": "The thread today: Documentation is a natural filter for wonder.",
+      "artwork": {
+        "file": "visual-art/2026-06-17-maira-kalman-inspired.png",
+        "title": "After Maira Kalman",
+        "description": "Wonder in the overlooked — ordinary objects made luminous, word and image breathing as one."
       }
     },
     {
