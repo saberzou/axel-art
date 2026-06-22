@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "visualArt": [
+    {
+      "id": "wayne-thiebaud-inspired",
+      "title": "After Wayne Thiebaud",
+      "date": "2026-06-23",
+      "file": "visual-art/2026-06-23-wayne-thiebaud-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Three diner creamers stacked on a pale counter, their edges buzzing with rainbow halation — the overlooked rendered luminous."
+    },
     {
       "id": "noma-bar-inspired",
       "title": "After Noma Bar",
@@ -1145,6 +1156,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-23",
+      "artist": {
+        "name": "Wayne Thiebaud",
+        "slug": "wayne-thiebaud",
+        "intro": "Wayne Thiebaud (1920–2021) was an American painter best known for his luscious still lifes of everyday confections — cakes, pies, gumball machines, ice cream cones, lipsticks — alongside vertiginous San Francisco streetscapes and aerial California landscapes. He started as a commercial illustrator and cartoonist (including a stint at Disney), and that grounding in display, signage, and clean shapes never left him. Though endlessly grouped with Pop Art in the 1960s, he rejected the label: where Warhol was cool and ironic, Thiebaud was warm, humane, and quietly devotional toward his subjects.",
+        "insight": "Ordinary things, looked at with enough love and craft, become luminous.",
+        "principles": [
+          "Pick a humble, overlooked subject and treat it with total seriousness.",
+          "Let edges *glow* — colored halation around forms instead of flat black outlines.",
+          "Make the rendering embody the feeling (texture = sweetness).",
+          "Give objects room to breathe on a clean field; trust shadow and space.",
+          "Warmth and nostalgia beat irony when the craft underneath is honest."
+        ],
+        "noteFile": "art-studies/2026-06-23-wayne-thiebaud.md"
+      },
+      "rationale": "The thread today: Ordinary things, looked at with enough love and craft, become luminous.",
+      "artwork": {
+        "file": "visual-art/2026-06-23-wayne-thiebaud-inspired.png",
+        "title": "After Wayne Thiebaud",
+        "description": "Three diner creamers stacked on a pale counter, their edges buzzing with rainbow halation — the overlooked rendered luminous."
+      }
+    },
     {
       "date": "2026-06-22",
       "artist": {
