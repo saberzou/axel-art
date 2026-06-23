@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-06-24",
   "visualArt": [
+    {
+      "id": "quentin-blake-inspired",
+      "title": "After Quentin Blake",
+      "date": "2026-06-24",
+      "file": "visual-art/2026-06-24-quentin-blake-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A lanky postman sprints through bare white paper as his letters scatter on the wind, the whole street told in a few quivering, deliberately wobbling ink strokes and washes that drift past their lines."
+    },
     {
       "id": "wayne-thiebaud-inspired",
       "title": "After Wayne Thiebaud",
@@ -1156,6 +1167,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-24",
+      "artist": {
+        "name": "Quentin Blake",
+        "slug": "quentin-blake",
+        "intro": "Sir Quentin Saxby Blake (b. 1932) is an English illustrator, cartoonist, and caricaturist who has illustrated over 300 books across a seven-decade career. He is inseparable in the public mind from Roald Dahl — he illustrated 18 of Dahl's titles (*The BFG*, *Matilda*, *The Twits*, *Charlie and the Chocolate Factory*, *James and the Giant Peach*) — but his own authored books and his work with writers like John Yeoman, Russell Hoban, and Michael Rosen are equally vital.",
+        "insight": "Looseness is not carelessness — it is control performed at speed.",
+        "principles": [
+          "Earn the loose line. Spontaneity is rehearsed, not accidental — redraw to recover energy.",
+          "Let the gesture tell the story. A pose beats a detailed face.",
+          "Subtract the background. A few marks + a wash imply more than a full scene.",
+          "Color outside the lines. Washes that drift off the ink keep an image breathing.",
+          "Draw even the grotesque with warmth."
+        ],
+        "noteFile": "art-studies/2026-06-24-quentin-blake.md"
+      },
+      "rationale": "The thread today: Looseness is not carelessness — it is control performed at speed.",
+      "artwork": {
+        "file": "visual-art/2026-06-24-quentin-blake-inspired.png",
+        "title": "After Quentin Blake",
+        "description": "A lanky postman sprints through bare white paper as his letters scatter on the wind, the whole street told in a few quivering, deliberately wobbling ink strokes and washes that drift past their lines."
+      }
+    },
     {
       "date": "2026-06-23",
       "artist": {
