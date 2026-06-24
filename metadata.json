@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-24",
+  "lastUpdated": "2026-06-25",
   "visualArt": [
+    {
+      "id": "etel-adnan-inspired",
+      "title": "After Etel Adnan",
+      "date": "2026-06-25",
+      "file": "visual-art/2026-06-25-etel-adnan-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Recovered nightly artist study."
+    },
     {
       "id": "quentin-blake-inspired",
       "title": "After Quentin Blake",
@@ -1167,6 +1178,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-25",
+      "artist": {
+        "name": "Etel Adnan",
+        "slug": "etel-adnan",
+        "intro": "Etel Adnan (1925–2021) was a Lebanese-American painter, poet, and essayist born in Beirut to a Greek mother and Syrian father, raised across Arabic, Greek, Turkish, and French. She came to painting late and almost by accident in the late 1950s while teaching philosophy in California, and it became the language she'd been missing. She lived between Beirut, Paris, and Sausalito, and her small, radiant oil paintings — most no bigger than a notebook — are now in M+, the Tate, and the Met.",
+        "insight": "is",
+        "principles": [
+          "Unmixed color, placed with conviction — flat blocks, no blending, no apology.",
+          "Reduce a subject to a few shapes — fewer marks, more presence.",
+          "Let the medium be the thought, not a translation of one.",
+          "Format as meaning — the long horizontal scroll *is* the journey.",
+          "Choose clarity and joy even when the source is hard."
+        ],
+        "noteFile": "art-studies/2026-06-25-etel-adnan.md"
+      },
+      "rationale": "The thread today: is.",
+      "artwork": {
+        "file": "visual-art/2026-06-25-etel-adnan-inspired.png",
+        "title": "After Etel Adnan",
+        "description": "Recovered nightly artist study."
+      }
+    },
     {
       "date": "2026-06-24",
       "artist": {
