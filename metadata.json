@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-25",
+  "lastUpdated": "2026-06-26",
   "visualArt": [
+    {
+      "id": "olly-moss-inspired",
+      "title": "After Olly Moss",
+      "date": "2026-06-26",
+      "file": "visual-art/2026-06-26-olly-moss-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A dusk lighthouse whose dark cliff is the upturned profile of a sleeping face, its beam the single breath it exhales into the orange sky."
+    },
     {
       "id": "etel-adnan-inspired",
       "title": "After Etel Adnan",
@@ -1178,6 +1189,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-26",
+      "artist": {
+        "name": "Olly Moss",
+        "slug": "olly-moss",
+        "intro": "Oliver Jonathan Moss (b. 1987) is an English graphic artist and illustrator, best known for reinventing the movie poster. He studied literature at the University of Birmingham, came up through online illustration communities, and broke out selling limited-edition screen prints through Mondo — prints that famously sold out within seconds.",
+        "insight": "The image is a riddle, and the viewer's brain is the medium.",
+        "principles": [
+          "Make the negative space carry meaning — design the gap, not just the figure.",
+          "Find the one symbol that contains the whole idea before adding anything.",
+          "Limit the palette hard; let flat color and shape do emotional work.",
+          "Build a small puzzle so the viewer participates and remembers."
+        ],
+        "noteFile": "art-studies/2026-06-26-olly-moss.md"
+      },
+      "rationale": "The thread today: The image is a riddle, and the viewer's brain is the medium.",
+      "artwork": {
+        "file": "visual-art/2026-06-26-olly-moss-inspired.png",
+        "title": "After Olly Moss",
+        "description": "A dusk lighthouse whose dark cliff is the upturned profile of a sleeping face, its beam the single breath it exhales into the orange sky."
+      }
+    },
     {
       "date": "2026-06-25",
       "artist": {
