@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-26",
+  "lastUpdated": "2026-06-27",
   "visualArt": [
+    {
+      "id": "elizabeth-peyton-inspired",
+      "title": "After Elizabeth Peyton",
+      "date": "2026-06-27",
+      "file": "visual-art/2026-06-27-elizabeth-peyton-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A young person caught mid-glance, painted not as a face but as the warm ache of looking at someone you love."
+    },
     {
       "id": "olly-moss-inspired",
       "title": "After Olly Moss",
@@ -1189,6 +1200,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-27",
+      "artist": {
+        "name": "Elizabeth Peyton",
+        "slug": "elizabeth-peyton",
+        "intro": "Elizabeth Peyton (b. 1965, Danbury, Connecticut) is an American painter who, beginning with her breakout 1990s shows at Gavin Brown, almost single-handedly made small, tender figurative portraiture matter again at a moment when figuration was deeply unfashionable. Working in oil, watercolour, pastel, pencil and print, she paints rock stars, historical figures, friends and lovers with the same devotional attention — Kurt Cobain, Liam Gallagher, David Bowie, Napoleon, Ludwig II of Bavaria, Queen Elizabeth II, and artists like Isa Genzken.",
+        "insight": "A portrait is not a description of a face — it is a record of *feeling toward* a person. Peyton paints longing, admiration and intimacy itself, treating a magazine photo of a celebrity and a beloved friend with identical reverence. The subject is a vessel; the real content is the gaze, the devotion, the brushstroke.",
+        "principles": [],
+        "noteFile": "art-studies/2026-06-27-elizabeth-peyton.md"
+      },
+      "rationale": "The thread today: A portrait is not a description of a face — it is a record of *feeling toward* a person. Peyton paints longing, admiration and intimacy itself, treating a magazine photo of a celebrity and a beloved friend with identical reverence. The subject is a vessel; the real content is the gaze, the devotion, the brushstroke.",
+      "artwork": {
+        "file": "visual-art/2026-06-27-elizabeth-peyton-inspired.png",
+        "title": "After Elizabeth Peyton",
+        "description": "A young person caught mid-glance, painted not as a face but as the warm ache of looking at someone you love."
+      }
+    },
     {
       "date": "2026-06-26",
       "artist": {
