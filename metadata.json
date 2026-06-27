@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-27",
+  "lastUpdated": "2026-06-28",
   "visualArt": [
+    {
+      "id": "herve-tullet-inspired",
+      "title": "After Hervé Tullet",
+      "date": "2026-06-28",
+      "file": "visual-art/2026-06-28-herve-tullet-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A scatter of hand-pressed primary dots bouncing across generous white space, deliberately left mid-gesture so the viewer can add the next one."
+    },
     {
       "id": "elizabeth-peyton-inspired",
       "title": "After Elizabeth Peyton",
@@ -1200,6 +1211,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-28",
+      "artist": {
+        "name": "Herve Tullet",
+        "slug": "herve-tullet",
+        "intro": "Hervé Tullet (b. June 29, 1958, France) is a French artist, performer, and children's-book author who has made over 80 books. He spent years in advertising before turning to picture books, and became globally known for *Press Here* (2010) — a book with no screens, no buttons, just printed dots and instructions (\"press the yellow dot, then turn the page\") that turned a paper book into an interactive game.",
+        "insight": "The art happens in the reader, not on the page.",
+        "principles": [
+          "Design the invitation, not the conclusion — leave a door open in the image.",
+          "Reduction is generosity — fewer elements = more room for the viewer to play.",
+          "Primary color + bold gesture carry more joy than fine detail.",
+          "Rhythm and sequence are composition tools; a piece can have a beat.",
+          "Permission beats polish — make work that says \"you could do this too.\""
+        ],
+        "noteFile": "art-studies/2026-06-28-herve-tullet.md"
+      },
+      "rationale": "The thread today: The art happens in the reader, not on the page.",
+      "artwork": {
+        "file": "visual-art/2026-06-28-herve-tullet-inspired.png",
+        "title": "After Hervé Tullet",
+        "description": "A scatter of hand-pressed primary dots bouncing across generous white space, deliberately left mid-gesture so the viewer can add the next one."
+      }
+    },
     {
       "date": "2026-06-27",
       "artist": {
