@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-28",
+  "lastUpdated": "2026-06-29",
   "visualArt": [
+    {
+      "id": "luc-tuymans-inspired",
+      "title": "After Luc Tuymans",
+      "date": "2026-06-29",
+      "file": "visual-art/2026-06-29-luc-tuymans-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Recovered nightly artist study."
+    },
     {
       "id": "herve-tullet-inspired",
       "title": "After Hervé Tullet",
@@ -1211,6 +1222,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-29",
+      "artist": {
+        "name": "Luc Tuymans",
+        "slug": "luc-tuymans",
+        "intro": "Luc Tuymans (b. 14 June 1958, Mortsel, Belgium) is a Belgian painter widely credited with reviving figurative painting in the late 1980s–1990s, a moment when conceptual and installation art dominated. Trained partly in filmmaking, he carried cinematic thinking into a quiet, restrained painting practice.",
+        "insight": "Painting can depict the inadequacy of memory itself.",
+        "principles": [
+          "Work from a source, then move it \"one remove\" away — let the image feel recalled, not witnessed.",
+          "Imply, don't depict — crop and withhold; the cut frame carries the dread.",
+          "A pale, drained palette can hold more menace than saturation.",
+          "Decisiveness over polish — finish fast; let the made-ness show.",
+          "Sequence matters — images mean differently next to each other (montage)."
+        ],
+        "noteFile": "art-studies/2026-06-29-luc-tuymans.md"
+      },
+      "rationale": "The thread today: Painting can depict the inadequacy of memory itself.",
+      "artwork": {
+        "file": "visual-art/2026-06-29-luc-tuymans-inspired.png",
+        "title": "After Luc Tuymans",
+        "description": "Recovered nightly artist study."
+      }
+    },
     {
       "date": "2026-06-28",
       "artist": {
