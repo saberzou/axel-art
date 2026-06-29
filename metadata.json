@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-06-30",
   "visualArt": [
+    {
+      "id": "beatriz-milhazes-inspired",
+      "title": "After Beatriz Milhazes",
+      "date": "2026-06-30",
+      "file": "visual-art/2026-06-30-beatriz-milhazes-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Recovered nightly artist study."
+    },
     {
       "id": "luc-tuymans-inspired",
       "title": "After Luc Tuymans",
@@ -1222,6 +1233,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-06-30",
+      "artist": {
+        "name": "Beatriz Milhazes",
+        "slug": "beatriz-milhazes",
+        "intro": "Beatriz Milhazes (b. 1960, Rio de Janeiro) is a Brazilian painter and collage artist famous for large-scale, kaleidoscopic canvases that detonate with color. She juxtaposes Brazilian visual culture — carnival, colonial Baroque churches, tropical flora, lace, crochet, candy wrappers — against the geometry and abstraction of Western Modernism (Bridget Riley's op-art, Matisse's cut-outs, Tarsila do Amaral's Brazilian modernism).",
+        "insight": "The hand of the painter should disappear so the *pattern* can sing. Milhazes invented a signature transfer technique: she paints each motif in acrylic onto a sheet of clear plastic, lets it dry, then glues that painted film face-down onto the canvas and peels the plastic away — leaving the paint behind with a flat, brushstroke-free surface. The peel often cracks or leaves faint craquelure, and she welcomes these \"irregularities\" as a memory imprinted into the work. Beloved motifs are saved, repainted, and reused across paintings like a personal alphabet. The result is mechanical smoothness fused with organic accident.",
+        "principles": [
+          "Hide the brush so the system speaks — flatness can feel alive if the process leaves traces.",
+          "Build a reusable vocabulary of motifs; remix beloved shapes across works.",
+          "Let competing pattern-fields fight, then unify them with one winding line of movement.",
+          "Welcome the crack, the peel, the accident — irregularity = memory.",
+          "Treat joy and color as rigorous formal problems, not decoration."
+        ],
+        "noteFile": "art-studies/2026-06-30-beatriz-milhazes.md"
+      },
+      "rationale": "The thread today: The hand of the painter should disappear so the *pattern* can sing. Milhazes invented a signature transfer technique: she paints each motif in acrylic onto a sheet of clear plastic, lets it dry, then glues that painted film face-down onto the canvas and peels the plastic away — leaving the paint behind with a flat, brushstroke-free surface. The peel often cracks or leaves faint craquelure, and she welcomes these \"irregularities\" as a memory imprinted into the work. Beloved motifs are saved, repainted, and reused across paintings like a personal alphabet. The result is mechanical smoothness fused with organic accident.",
+      "artwork": {
+        "file": "visual-art/2026-06-30-beatriz-milhazes-inspired.png",
+        "title": "After Beatriz Milhazes",
+        "description": "Recovered nightly artist study."
+      }
+    },
     {
       "date": "2026-06-29",
       "artist": {
