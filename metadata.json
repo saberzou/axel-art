@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-30",
+  "lastUpdated": "2026-07-01",
   "visualArt": [
+    {
+      "id": "andre-francois-inspired",
+      "title": "After Andre Francois",
+      "date": "2026-07-01",
+      "file": "visual-art/2026-07-01-andre-francois-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Recovered nightly artist study."
+    },
     {
       "id": "beatriz-milhazes-inspired",
       "title": "After Beatriz Milhazes",
@@ -1233,6 +1244,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-01",
+      "artist": {
+        "name": "Andre Francois",
+        "slug": "andre-francois",
+        "intro": "André François (1915–2005) was a Romanian-born French illustrator, cartoonist, painter, and poster designer — one of the most quietly influential graphic artists of the 20th century. Born in Timișoara, he studied at the Budapest Academy, then moved to Paris in 1934 to apprentice under the legendary poster master A.M. Cassandre.",
+        "insight": "Wit is a drawing tool, not a caption.",
+        "principles": [
+          "Let the line carry the joke. Don't draw an idea and add wit — make the mark itself the witty thought.",
+          "Earn your roughness. A \"naive\" hand is a discipline, not an accident. Control the imperfection.",
+          "One clear paradox beats ten clever details. Strip to the single visual twist.",
+          "Charm and unease can share a frame. The friendliest line can deliver the sharpest cut."
+        ],
+        "noteFile": "art-studies/2026-07-01-andre-francois.md"
+      },
+      "rationale": "The thread today: Wit is a drawing tool, not a caption.",
+      "artwork": {
+        "file": "visual-art/2026-07-01-andre-francois-inspired.png",
+        "title": "After Andre Francois",
+        "description": "Recovered nightly artist study."
+      }
+    },
     {
       "date": "2026-06-30",
       "artist": {
