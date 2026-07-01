@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-02",
   "visualArt": [
+    {
+      "id": "peter-doig-inspired",
+      "title": "After Peter Doig",
+      "date": "2026-07-02",
+      "file": "visual-art/2026-07-02-peter-doig-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A red canoe adrift on a dusk-dark lake that has become a second sky, its far shore visible yet forever unenterable — a memory of a place, not the place itself."
+    },
     {
       "id": "andre-francois-inspired",
       "title": "After Andre Francois",
@@ -1244,6 +1255,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-02",
+      "artist": {
+        "name": "Peter Doig",
+        "slug": "peter-doig",
+        "intro": "Peter Doig (b. 1959, Edinburgh) is a Scottish-born painter who spent his childhood in Trinidad and Canada, trained in London, and eventually returned to Trinidad to live and work. He emerged in the early 1990s as one of the most influential figurative painters of his generation, credited with reviving ambitious landscape painting at a moment when the medium was declared exhausted.",
+        "insight": "Paint the memory, not the scene.",
+        "principles": [
+          "Work from images, then let memory corrupt them. The distortion is the art.",
+          "Visible but inaccessible. Build depth the viewer can see into but never enter.",
+          "Bury the unease. Let a calm surface carry a second, darker reading underneath.",
+          "Let the surface feel. Drips, stains, and scumbles carry emotion that clean rendering kills."
+        ],
+        "noteFile": "art-studies/2026-07-02-peter-doig.md"
+      },
+      "rationale": "The thread today: Paint the memory, not the scene.",
+      "artwork": {
+        "file": "visual-art/2026-07-02-peter-doig-inspired.png",
+        "title": "After Peter Doig",
+        "description": "A red canoe adrift on a dusk-dark lake that has become a second sky, its far shore visible yet forever unenterable — a memory of a place, not the place itself."
+      }
+    },
     {
       "date": "2026-07-01",
       "artist": {
