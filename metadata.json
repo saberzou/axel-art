@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-02",
+  "lastUpdated": "2026-07-03",
   "visualArt": [
+    {
+      "id": "lisbeth-zwerger-inspired",
+      "title": "After Lisbeth Zwerger",
+      "date": "2026-07-03",
+      "file": "visual-art/2026-07-03-lisbeth-zwerger-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A small child faces a vast pale expanse where an impossibly large paper boat drifts — the silence of the empty page carrying all the wonder and solitude."
+    },
     {
       "id": "peter-doig-inspired",
       "title": "After Peter Doig",
@@ -1255,6 +1266,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-03",
+      "artist": {
+        "name": "Lisbeth Zwerger",
+        "slug": "lisbeth-zwerger",
+        "intro": "Lisbeth Zwerger (b. 1954, Vienna) is an Austrian illustrator and one of the most decorated figures in modern picture-book art — recipient of the Hans Christian Andersen Medal (1990), the \"Nobel Prize\" of children's illustration. Over 40+ years she has illustrated fairy tales and classics: Grimm, Andersen, *Alice in Wonderland*, *The Wizard of Oz*, *The Nutcracker*, *A Christmas Carol*.",
+        "insight": "Restraint is the illustration.",
+        "principles": [
+          "Leave the page mostly empty. Let one figure or gesture float in pale ground; silence is content.",
+          "Mute the palette on purpose. Dusty, desaturated washes out-feel bright color.",
+          "Pair awkward, tender figures with rigorous composition — naïveté + draftsmanship.",
+          "Don't decorate to fill; trust restraint. Fashion says louder; the quiet image lasts longer."
+        ],
+        "noteFile": "art-studies/2026-07-03-lisbeth-zwerger.md"
+      },
+      "rationale": "The thread today: Restraint is the illustration.",
+      "artwork": {
+        "file": "visual-art/2026-07-03-lisbeth-zwerger-inspired.png",
+        "title": "After Lisbeth Zwerger",
+        "description": "A small child faces a vast pale expanse where an impossibly large paper boat drifts — the silence of the empty page carrying all the wonder and solitude."
+      }
+    },
     {
       "date": "2026-07-02",
       "artist": {
