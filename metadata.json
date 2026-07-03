@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "visualArt": [
+    {
+      "id": "hilma-af-klint-inspired",
+      "title": "After Hilma af Klint",
+      "date": "2026-07-04",
+      "file": "visual-art/2026-07-04-hilma-af-klint-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single ascending spiral charts growth from egg to open loop, its cobalt-and-yellow symbol-language diagramming the invisible forces beneath a life."
+    },
     {
       "id": "lisbeth-zwerger-inspired",
       "title": "After Lisbeth Zwerger",
@@ -1266,6 +1277,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-04",
+      "artist": {
+        "name": "Hilma Af Klint",
+        "slug": "hilma-af-klint",
+        "intro": "Hilma af Klint (1862–1944) was a Swedish painter who produced sweeping abstract compositions from around 1906 — years before Kandinsky, Mondrian, or Malevich, the men usually credited with inventing abstraction. Trained conventionally at Stockholm's Royal Academy, she earned a living painting botanical illustrations and portraits, but her real work was hidden. As part of a group of five women called \"De Fem\" (The Five), she held séances and made automatic drawings, and in 1906 began *The Paintings for the Temple* — 193 works over roughly a decade, meant to hang in a spiral temple that was never built.",
+        "insight": "diagram of the invisible",
+        "principles": [
+          "Build a symbol system, then trust it. Consistency of vocabulary makes abstraction legible.",
+          "Let color carry meaning, not just mood — assign it a role and hold the assignment.",
+          "Anchor the mystical in the observed — her botanical rigor keeps the visionary from going mushy.",
+          "The spiral = growth: motion and directionality can encode an idea, not just fill space.",
+          "Make the invisible diagrammatic — paint the structure behind a thing, not its surface."
+        ],
+        "noteFile": "art-studies/2026-07-04-hilma-af-klint.md"
+      },
+      "rationale": "The thread today: diagram of the invisible.",
+      "artwork": {
+        "file": "visual-art/2026-07-04-hilma-af-klint-inspired.png",
+        "title": "After Hilma af Klint",
+        "description": "A single ascending spiral charts growth from egg to open loop, its cobalt-and-yellow symbol-language diagramming the invisible forces beneath a life."
+      }
+    },
     {
       "date": "2026-07-03",
       "artist": {
