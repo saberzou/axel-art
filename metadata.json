@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-04",
+  "lastUpdated": "2026-07-05",
   "visualArt": [
+    {
+      "id": "jean-jullien-inspired",
+      "title": "After Jean Jullien",
+      "date": "2026-07-05",
+      "file": "visual-art/2026-07-05-jean-jullien-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A lone figure on a dusk bench, lit by a phone drawn as a small warm sun — while their own shadow leans in like a companion keeping the loneliness company."
+    },
     {
       "id": "hilma-af-klint-inspired",
       "title": "After Hilma af Klint",
@@ -1277,6 +1288,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-05",
+      "artist": {
+        "name": "Jean Jullien",
+        "slug": "jean-jullien",
+        "intro": "Jean Jullien (b. 1983, Nantes, France) is a French illustrator and visual artist based in London, trained at Central Saint Martins and the Royal College of Art. He works across drawing, painting, photography, video, installation, and books, but is best known for deceptively simple ink illustrations that capture the small absurdities of contemporary life.",
+        "insight": "A single honest observation, drawn with the fewest possible marks, hits harder than any amount of rendering.",
+        "principles": [
+          "Say it in one line. If an idea needs decoration to survive, the idea is weak.",
+          "Keep the hand visible. An imperfect brush stroke carries more warmth than a perfect vector.",
+          "Observe, don't invent. The funniest, truest images come from watching real behavior.",
+          "Legibility is generosity. Make the viewer *get it* instantly — respect their time.",
+          "Warmth beats snark. Comment on the modern world with affection, not contempt."
+        ],
+        "noteFile": "art-studies/2026-07-05-jean-jullien.md"
+      },
+      "rationale": "The thread today: A single honest observation, drawn with the fewest possible marks, hits harder than any amount of rendering.",
+      "artwork": {
+        "file": "visual-art/2026-07-05-jean-jullien-inspired.png",
+        "title": "After Jean Jullien",
+        "description": "A lone figure on a dusk bench, lit by a phone drawn as a small warm sun — while their own shadow leans in like a companion keeping the loneliness company."
+      }
+    },
     {
       "date": "2026-07-04",
       "artist": {
