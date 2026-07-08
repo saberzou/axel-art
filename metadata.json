@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-09",
   "visualArt": [
+    {
+      "id": "marlene-dumas-inspired",
+      "title": "After Marlene Dumas",
+      "date": "2026-07-09",
+      "file": "visual-art/2026-07-09-marlene-dumas-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A face surfaces from wet paint and slips back under, one side tenderly held and the other abandoned mid-stroke, likeness withheld so only the feeling remains."
+    },
     {
       "id": "jean-jullien-inspired",
       "title": "After Jean Jullien",
@@ -1288,6 +1299,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-09",
+      "artist": {
+        "name": "Marlene Dumas",
+        "slug": "marlene-dumas",
+        "intro": "Marlene Dumas (b. 1953, Cape Town, South Africa) is one of the most influential and highest-valued living painters. She left apartheid-era South Africa for the Netherlands in the 1970s and has spent over 40 years making figurative work — almost exclusively portraits and the human body.",
+        "insight": "She paints from second-hand images but delivers first-hand emotion.",
+        "principles": [
+          "Source ≠ subject. Start from a found image, but make the feeling first-hand — don't just reproduce it.",
+          "Let the medium stay wet and risky. Bleeds, blooms, and stains carry emotion that clean edges kill.",
+          "Blur is expression. Dissolve the specific to reach the universal.",
+          "Hold the contradiction. Tender and brutal, sharp and smeared — don't resolve; let the tension be the point.",
+          "Color sets the psychology, not the accuracy."
+        ],
+        "noteFile": "art-studies/2026-07-09-marlene-dumas.md"
+      },
+      "rationale": "The thread today: She paints from second-hand images but delivers first-hand emotion.",
+      "artwork": {
+        "file": "visual-art/2026-07-09-marlene-dumas-inspired.png",
+        "title": "After Marlene Dumas",
+        "description": "A face surfaces from wet paint and slips back under, one side tenderly held and the other abandoned mid-stroke, likeness withheld so only the feeling remains."
+      }
+    },
     {
       "date": "2026-07-05",
       "artist": {
