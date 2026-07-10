@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-07-11",
   "visualArt": [
+    {
+      "id": "edward-gorey-inspired",
+      "title": "Edward Gorey — Study (2026-07-10)",
+      "date": "2026-07-10",
+      "file": "visual-art/2026-07-10-edward-gorey-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Edward Gorey (1925–2000) was an American writer-illustrator who wrote and illustrated over 100 small books — plus pop-ups and famously tiny editions — including *The Gashlycrumb Tinies* (1963), *The Doubtful Guest*, and *The Curious Sofa*. "
+    },
     {
       "id": "marlene-dumas-inspired",
       "title": "After Marlene Dumas",
@@ -1343,6 +1354,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-10",
+      "artist": {
+        "name": "Edward Gorey",
+        "slug": "edward-gorey",
+        "intro": "Edward Gorey (1925–2000) was an American writer-illustrator who wrote and illustrated over 100 small books — plus pop-ups and famously tiny editions — including *The Gashlycrumb Tinies* (1963), *The Doubtful Guest*, and *The Curious Sofa*. He also designed the Tony-winning 1977 Broadway *Dracula* and the animated title sequence for PBS *Mystery!*. A private, cat-loving obsessive who attended nearly every New York City Ballet performance for decades, he built an unmistakable world of Edwardian gloom, deadpan mischief, and elegant dread.",
+        "insight": "Horror is funnier — and more haunting — when it is drawn with total decorum.",
+        "principles": [
+          "Withhold the payload. Imply the event; never depict it. The unseen is stronger.",
+          "Deadpan tone over emotional pleading. Calm captions make dark content sing.",
+          "Build value from honest marks. Hatching, not fills — texture earns belief.",
+          "Give figures a big, quiet stage. Negative space and stillness create dread.",
+          "Discipline is a style. A tight palette and repeated framing read as a whole voice."
+        ],
+        "noteFile": "art-studies/2026-07-10-edward-gorey.md"
+      },
+      "rationale": "The thread today: Horror is funnier — and more haunting — when it is drawn with total decorum.",
+      "artwork": {
+        "file": "visual-art/2026-07-10-edward-gorey-inspired.png",
+        "title": "Edward Gorey — Study (2026-07-10)",
+        "description": "Edward Gorey (1925–2000) was an American writer-illustrator who wrote and illustrated over 100 small books — plus pop-ups and famously tiny editions — including *The Gashlycrumb Tinies* (1963), *The Doubtful Guest*, and *The Curious Sofa*. "
+      }
+    },
     {
       "date": "2026-07-09",
       "artist": {
