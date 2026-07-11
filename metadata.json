@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-11",
+  "lastUpdated": "2026-07-12",
   "visualArt": [
+    {
+      "id": "alice-neel-inspired",
+      "title": "Alice Neel — Study (2026-07-11)",
+      "date": "2026-07-11",
+      "file": "visual-art/2026-07-11-alice-neel-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Alice Neel (1900–1984) was an American figurative painter, widely considered one of the greatest portraitists of the 20th century. She spent decades painting people — lovers, neighbors, pregnant women, art-world figures, the sick, the margi"
+    },
     {
       "id": "edward-gorey-inspired",
       "title": "Edward Gorey — Study (2026-07-10)",
@@ -1354,6 +1365,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-11",
+      "artist": {
+        "name": "Alice Neel",
+        "slug": "alice-neel",
+        "intro": "Alice Neel (1900–1984) was an American figurative painter, widely considered one of the greatest portraitists of the 20th century. She spent decades painting people — lovers, neighbors, pregnant women, art-world figures, the sick, the marginalized — from her apartments in Spanish Harlem and the Upper West Side. She worked stubbornly in a realist figurative mode through the whole reign of Abstract Expressionism, ignored by the market for most of her life, and was finally celebrated in old age.",
+        "insight": "A portrait is not a record of a surface — it's a collision between two psychologies, the sitter's and the painter's. Neel called herself a \"collector of souls.\" She sought the inner life *above* physical likeness, willing to distort color, exaggerate a gesture, or leave a hand unfinished if that got closer to who the person actually was.",
+        "principles": [
+          "Chase the *psychology*, not the likeness — distort freely if it gets you closer to the truth of a person.",
+          "Let the process show. Raw canvas, a nervous outline, an unfinished hand are honesty, not error.",
+          "Use color as emotion, not description — an acid shadow can carry a mood a \"correct\" one can't.",
+          "Grant every subject the same unflinching, tender attention, regardless of status."
+        ],
+        "noteFile": "art-studies/2026-07-11-alice-neel.md"
+      },
+      "rationale": "The thread today: A portrait is not a record of a surface — it's a collision between two psychologies, the sitter's and the painter's. Neel called herself a \"collector of souls.\" She sought the inner life *above* physical likeness, willing to distort color, exaggerate a gesture, or leave a hand unfinished if that got closer to who the person actually was.",
+      "artwork": {
+        "file": "visual-art/2026-07-11-alice-neel-inspired.png",
+        "title": "Alice Neel — Study (2026-07-11)",
+        "description": "Alice Neel (1900–1984) was an American figurative painter, widely considered one of the greatest portraitists of the 20th century. She spent decades painting people — lovers, neighbors, pregnant women, art-world figures, the sick, the margi"
+      }
+    },
     {
       "date": "2026-07-10",
       "artist": {
