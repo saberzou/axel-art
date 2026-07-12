@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-12",
+  "lastUpdated": "2026-07-13",
   "visualArt": [
+    {
+      "id": "brecht-evens-inspired",
+      "title": "Brecht Evens",
+      "date": "2026-07-12",
+      "file": "visual-art/2026-07-12-brecht-evens-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Brecht Evens (b. 1986, Belgium) is a Flemish illustrator and graphic novelist who broke conventions of European comics with a fully painterly, ink-line-free approach. His debut *The Wrong Place* (Ergens waar je niet wil zijn, 2009) won the "
+    },
     {
       "id": "alice-neel-inspired",
       "title": "Alice Neel — Study (2026-07-11)",
@@ -1365,6 +1376,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-12",
+      "artist": {
+        "name": "Brecht Evens",
+        "slug": "brecht-evens",
+        "intro": "Brecht Evens (b. 1986, Belgium) is a Flemish illustrator and graphic novelist who broke conventions of European comics with a fully painterly, ink-line-free approach. His debut *The Wrong Place* (Ergens waar je niet wil zijn, 2009) won the inaugural Willy Vandersteen Prize and earned an Eisner nomination in the Best Painter category.",
+        "insight": "transparent, overlapping washes of watercolor and ink",
+        "principles": [
+          "Let color define form — try building a subject from overlapping transparent shapes instead of outlines.",
+          "Overlap is meaning — where washes cross, a new color appears; use it to show relationship, crowd, intimacy.",
+          "No black line needed — depth and separation can come from value and temperature alone.",
+          "Luminosity through layering — many thin washes read as glowing light, not opaque paint.",
+          "Chaos, controlled — a scene can feel loose and improvised yet still be perfectly legible."
+        ],
+        "noteFile": "art-studies/2026-07-12-brecht-evens.md"
+      },
+      "rationale": "The thread today: transparent, overlapping washes of watercolor and ink.",
+      "artwork": {
+        "file": "visual-art/2026-07-12-brecht-evens-inspired.png",
+        "title": "Brecht Evens",
+        "description": "Brecht Evens (b. 1986, Belgium) is a Flemish illustrator and graphic novelist who broke conventions of European comics with a fully painterly, ink-line-free approach. His debut *The Wrong Place* (Ergens waar je niet wil zijn, 2009) won the "
+      }
+    },
     {
       "date": "2026-07-11",
       "artist": {
