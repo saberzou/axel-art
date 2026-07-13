@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-14",
   "visualArt": [
+    {
+      "id": "sonia-delaunay-inspired",
+      "title": "After Sonia Delaunay",
+      "date": "2026-07-14",
+      "file": "visual-art/2026-07-14-sonia-delaunay-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Concentric discs and sweeping arcs vibrate against each other, turning pure color contrast into rhythm and light."
+    },
+    {
+      "id": "polly-apfelbaum-inspired",
+      "title": "Polly Apfelbaum — Study (2026-07-13)",
+      "date": "2026-07-13",
+      "file": "visual-art/2026-07-13-polly-apfelbaum-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Polly Apfelbaum (b. 1955, Abington, Pennsylvania) is a contemporary American artist best known for what she calls her \"fallen paintings\" — compositions of brightly hand-dyed synthetic fabric laid directly on the gallery floor. Working acros"
+    },
     {
       "id": "brecht-evens-inspired",
       "title": "Brecht Evens",
@@ -1376,6 +1398,50 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-14",
+      "artist": {
+        "name": "Sonia Delaunay",
+        "slug": "sonia-delaunay",
+        "intro": "Sonia Delaunay (1885–1979) was a Russian-born French artist and a co-founder, with her husband Robert Delaunay, of Orphism — an offshoot of Cubism that swapped fractured geometry for pure, radiant color. Part of the School of Paris, she refused the wall between \"fine art\" and \"applied art,\" moving fluidly across painting, textiles, fashion, book design, and even painted cars. She was the first living woman to have a retrospective at the Louvre.",
+        "insight": "Color is not decoration applied to form — color IS the form, and it lives through contrast.",
+        "principles": [
+          "Let contrasting colors do the structural work — placement, not shading, creates energy.",
+          "Rhythm over representation: arcs, discs, and repetition make a composition move.",
+          "Ignore the fine/applied art hierarchy — one strong idea can carry any surface.",
+          "Keep the palette bold and the forms simple; the vibration comes from relationships, not detail."
+        ],
+        "noteFile": "art-studies/2026-07-14-sonia-delaunay.md"
+      },
+      "rationale": "The thread today: Color is not decoration applied to form — color IS the form, and it lives through contrast.",
+      "artwork": {
+        "file": "visual-art/2026-07-14-sonia-delaunay-inspired.png",
+        "title": "After Sonia Delaunay",
+        "description": "Concentric discs and sweeping arcs vibrate against each other, turning pure color contrast into rhythm and light."
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "artist": {
+        "name": "Polly Apfelbaum",
+        "slug": "polly-apfelbaum",
+        "intro": "Polly Apfelbaum (b. 1955, Abington, Pennsylvania) is a contemporary American artist best known for what she calls her \"fallen paintings\" — compositions of brightly hand-dyed synthetic fabric laid directly on the gallery floor. Working across installation, painting, printmaking, and ceramics, she fuses the logic of three American movements: the saturated fields of Abstract Expressionism, the systemic order of Minimalism, and the flat brashness of Pop.",
+        "insight": "Painting doesn't have to stay on the wall. By letting color *fall* — pooling and spreading across the floor as dyed cloth — Apfelbaum frees it from the rectangle and the vertical hierarchy of the \"masterpiece.\" The floor is horizontal, humble, walk-around, un-precious. Color becomes something you stand over and inside of, not something you look up to. It's a quietly feminist move: she takes \"high\" Color Field painting and relocates it to the domestic, textile, ground-level realm.",
+        "principles": [
+          "Move color off the pedestal. Consider the ground plane, the horizontal, the un-precious surface as a legitimate stage.",
+          "Rigor + spill. Compose a strict system, then let the material behave softly against it.",
+          "Joy is allowed. Bright, saturated, near-childlike color can still be serious if the structure holds.",
+          "Make the viewer move. Compositions that reward circling and being-inside beat compositions meant only to be faced."
+        ],
+        "noteFile": "art-studies/2026-07-13-polly-apfelbaum.md"
+      },
+      "rationale": "The thread today: Painting doesn't have to stay on the wall. By letting color *fall* — pooling and spreading across the floor as dyed cloth — Apfelbaum frees it from the rectangle and the vertical hierarchy of the \"masterpiece.\" The floor is horizontal, humble, walk-around, un-precious. Color becomes something you stand over and inside of, not something you look up to. It's a quietly feminist move: she takes \"high\" Color Field painting and relocates it to the domestic, textile, ground-level realm.",
+      "artwork": {
+        "file": "visual-art/2026-07-13-polly-apfelbaum-inspired.png",
+        "title": "Polly Apfelbaum — Study (2026-07-13)",
+        "description": "Polly Apfelbaum (b. 1955, Abington, Pennsylvania) is a contemporary American artist best known for what she calls her \"fallen paintings\" — compositions of brightly hand-dyed synthetic fabric laid directly on the gallery floor. Working acros"
+      }
+    },
     {
       "date": "2026-07-12",
       "artist": {
