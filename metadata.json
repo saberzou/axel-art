@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "visualArt": [
+    {
+      "id": "yoshitomo-nara-inspired",
+      "title": "After Yoshitomo Nara",
+      "date": "2026-07-15",
+      "file": "visual-art/2026-07-15-yoshitomo-nara-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A cartoon-simple child glowing in dusk color, sweet for one second before the guarded eyes give the loneliness away."
+    },
     {
       "id": "sonia-delaunay-inspired",
       "title": "After Sonia Delaunay",
@@ -1398,6 +1409,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-15",
+      "artist": {
+        "name": "Yoshitomo Nara",
+        "slug": "yoshitomo-nara",
+        "intro": "Yoshitomo Nara (born 1959, Hirosaki, Aomori) is a Japanese painter and illustrator, one of the defining figures of Japan's Neo-Pop generation alongside Takashi Murakami — though temperamentally his opposite. Raised in the quiet, snowbound rural north of Japan, often alone while his parents worked, he grew up on manga, picture books, and the American and European rock records that crackled through Far East Network radio. He studied at Aichi and then, pivotally, in Germany at the Düsseldorf Academy under the influence of German Neo-Expressionism (\"new painting\" — vibrant color, rough expressive brushwork).",
+        "insight": "A small child, drawn simply, can hold an enormous emotional charge. Nara's signature figure — a big-headed girl with wide, slightly-too-far-apart eyes — looks cute for exactly one second before you notice the glare, the knife, the flaming torch, the sulk. The \"cuteness\" is bait; underneath is defiance, loneliness, and quiet resistance. He weaponizes innocence.",
+        "principles": [
+          "Cute is a Trojan horse. Let a friendly surface smuggle in a harder feeling.",
+          "The eyes do the work — subtract everything else and let the gaze carry the whole emotion.",
+          "Simple shape, rich surface — a plain form earns depth through many quiet color layers.",
+          "Sincerity over irony. Real feeling, unhidden, is the disarming move."
+        ],
+        "noteFile": "art-studies/2026-07-15-yoshitomo-nara.md"
+      },
+      "rationale": "The thread today: A small child, drawn simply, can hold an enormous emotional charge. Nara's signature figure — a big-headed girl with wide, slightly-too-far-apart eyes — looks cute for exactly one second before you notice the glare, the knife, the flaming torch, the sulk. The \"cuteness\" is bait; underneath is defiance, loneliness, and quiet resistance. He weaponizes innocence.",
+      "artwork": {
+        "file": "visual-art/2026-07-15-yoshitomo-nara-inspired.png",
+        "title": "After Yoshitomo Nara",
+        "description": "A cartoon-simple child glowing in dusk color, sweet for one second before the guarded eyes give the loneliness away."
+      }
+    },
     {
       "date": "2026-07-14",
       "artist": {
