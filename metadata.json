@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-16",
   "visualArt": [
+    {
+      "id": "sempe-inspired",
+      "title": "After Jean-Jacques Sempé",
+      "date": "2026-07-16",
+      "file": "visual-art/2026-07-16-sempe-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single small figure adrift at the foot of a vast dawn-lit world, held tenderly by silence and space."
+    },
     {
       "id": "yoshitomo-nara-inspired",
       "title": "After Yoshitomo Nara",
@@ -1409,6 +1420,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-16",
+      "artist": {
+        "name": "Sempé",
+        "slug": "sempe",
+        "intro": "Jean-Jacques Sempé (1932–2022) was a French illustrator and cartoonist, largely self-taught, who rose from a difficult childhood in Bordeaux to become one of the most beloved graphic humorists of the 20th century. He co-created the *Le Petit Nicolas* books with René Goscinny, published some forty albums of drawings beginning with *Rien n'est simple* (1962), and was one of the very few French artists to draw covers for *The New Yorker*, a relationship that began in the 1970s.",
+        "insight": "Scale carries the feeling. Sempé draws people tiny and the world enormous — a lone cyclist under a cathedral of trees, one open window lit among a hundred dark ones. The gap between the small figure and the vast space *is* the emotion: solitude, wonder, gentle absurdity, tenderness. He doesn't illustrate the joke; he stages the human being inside a world too big for them, and lets us feel our own smallness with affection instead of dread.",
+        "principles": [
+          "Let scale do the emotional work — a small figure in a large frame says more than a big figure filling it.",
+          "Trust empty space. Don't fill every corner; silence is content.",
+          "One confident, unfussy line beats heavy rendering.",
+          "Be tender, not cruel — observe human smallness with warmth.",
+          "Atmosphere via restraint — a few gray washes, not a flood of color."
+        ],
+        "noteFile": "art-studies/2026-07-16-sempe.md"
+      },
+      "rationale": "The thread today: Scale carries the feeling. Sempé draws people tiny and the world enormous — a lone cyclist under a cathedral of trees, one open window lit among a hundred dark ones. The gap between the small figure and the vast space *is* the emotion: solitude, wonder, gentle absurdity, tenderness. He doesn't illustrate the joke; he stages the human being inside a world too big for them, and lets us feel our own smallness with affection instead of dread.",
+      "artwork": {
+        "file": "visual-art/2026-07-16-sempe-inspired.png",
+        "title": "After Jean-Jacques Sempé",
+        "description": "A single small figure adrift at the foot of a vast dawn-lit world, held tenderly by silence and space."
+      }
+    },
     {
       "date": "2026-07-15",
       "artist": {
