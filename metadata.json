@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "visualArt": [
+    {
+      "id": "forrest-bess-inspired",
+      "title": "After Forrest Bess",
+      "date": "2026-07-17",
+      "file": "visual-art/2026-07-17-forrest-bess-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A private alphabet of glowing forms surfacing from a warm dark ground — each mark received, not chosen, evidence of a vision rather than decoration."
+    },
     {
       "id": "sempe-inspired",
       "title": "After Jean-Jacques Sempé",
@@ -1420,6 +1431,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-17",
+      "artist": {
+        "name": "Forrest Bess",
+        "slug": "forrest-bess",
+        "intro": "A near-hermit fisherman-painter working out of a tiny bait camp on the Texas Gulf Coast, near Bay City. Forrest Bess lived largely off the grid, hauling shrimp by day and painting small, luminous abstractions by night. Improbably, he was picked up by the legendary New York dealer Betty Parsons (who also showed Rothko, Newman, Pollock) and exhibited alongside the Abstract Expressionists — yet he never belonged to their world.",
+        "insight": "Bess did not invent his symbols — he *received* them. He painted only the forms that appeared to him in the dark behind his eyelids, treating himself as a transcriber of an inner language rather than a designer of compositions. The picture was evidence of a vision, not a decoration.",
+        "principles": [],
+        "noteFile": "art-studies/2026-07-17-forrest-bess.md"
+      },
+      "rationale": "The thread today: Bess did not invent his symbols — he *received* them. He painted only the forms that appeared to him in the dark behind his eyelids, treating himself as a transcriber of an inner language rather than a designer of compositions. The picture was evidence of a vision, not a decoration.",
+      "artwork": {
+        "file": "visual-art/2026-07-17-forrest-bess-inspired.png",
+        "title": "After Forrest Bess",
+        "description": "A private alphabet of glowing forms surfacing from a warm dark ground — each mark received, not chosen, evidence of a vision rather than decoration."
+      }
+    },
     {
       "date": "2026-07-16",
       "artist": {
