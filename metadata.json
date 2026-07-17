@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-17",
+  "lastUpdated": "2026-07-18",
   "visualArt": [
+    {
+      "id": "joseph-yoakum-inspired",
+      "title": "After Joseph Yoakum",
+      "date": "2026-07-18",
+      "file": "visual-art/2026-07-18-joseph-yoakum-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Mountains remembered rather than seen, their ridges rippling in stacked contour bands like earth breathing in slow, chalky waves."
+    },
     {
       "id": "forrest-bess-inspired",
       "title": "After Forrest Bess",
@@ -1431,6 +1442,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-18",
+      "artist": {
+        "name": "Joseph Yoakum",
+        "slug": "joseph-yoakum",
+        "intro": "Joseph Elmer Yoakum was an American self-taught \"visionary\" landscapist of African-American and Native descent whose life reads like tall-tale folklore: a nomadic youth spent riding the rails, traveling with circuses, stowing away on ships, and serving as a soldier in WWI. He didn't begin drawing seriously until the 1950s, and only in the last decade of his life — roughly 1962–1972 — did he draw obsessively, producing over 2,000 landscapes, sometimes several a day. He said the work came to him by \"spiritual unfoldment.\"",
+        "insight": "Landscape as *memory reconstructed*, not observed. Yoakum drew mountains, rivers, and valleys of real places (Mount Cloubelle Jamaica, the Rockies, distant continents) entirely from imagination and recollection. The truth of the place matters less than the felt sensation of terrain — the swell, fold, and flow of the earth as it lived in his mind.",
+        "principles": [],
+        "noteFile": "art-studies/2026-07-18-joseph-yoakum.md"
+      },
+      "rationale": "The thread today: Landscape as *memory reconstructed*, not observed. Yoakum drew mountains, rivers, and valleys of real places (Mount Cloubelle Jamaica, the Rockies, distant continents) entirely from imagination and recollection. The truth of the place matters less than the felt sensation of terrain — the swell, fold, and flow of the earth as it lived in his mind.",
+      "artwork": {
+        "file": "visual-art/2026-07-18-joseph-yoakum-inspired.png",
+        "title": "After Joseph Yoakum",
+        "description": "Mountains remembered rather than seen, their ridges rippling in stacked contour bands like earth breathing in slow, chalky waves."
+      }
+    },
     {
       "date": "2026-07-17",
       "artist": {
