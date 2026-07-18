@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-18",
+  "lastUpdated": "2026-07-19",
   "visualArt": [
+    {
+      "id": "bill-traylor-inspired",
+      "title": "After Bill Traylor",
+      "date": "2026-07-19",
+      "file": "visual-art/2026-07-19-bill-traylor-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single distilled figure carried entirely by silhouette and one charged gesture, framed by the ragged edges of found board."
+    },
     {
       "id": "joseph-yoakum-inspired",
       "title": "After Joseph Yoakum",
@@ -1442,6 +1453,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-19",
+      "artist": {
+        "name": "Bill Traylor",
+        "slug": "bill-traylor",
+        "intro": "Bill Traylor (c. 1853–1949) was an African-American artist born into slavery in Lowndes County, Alabama. He spent most of his life as a sharecropper after emancipation.",
+        "insight": "Memory is composition. Traylor didn't draw from life in front of him — he drew from decades of interior life: plantation scenes, animals, dressed-up town figures, chases, and fights compressed into flat silhouettes. He proves that a lifetime of *looking* can be discharged in pure, distilled form without any training, and that constraint (found materials, no color theory, no perspective) sharpens rather than limits.",
+        "principles": [
+          "Design to the edges you're given — let the surface/frame shape the composition instead of fighting it.",
+          "Silhouette before detail — if the flat shape doesn't read, nothing else will save it.",
+          "Distill memory, don't copy sight — the strongest image is the remembered essential, stripped of clutter.",
+          "Constraint is a style engine — few colors, humble materials, one strong gesture."
+        ],
+        "noteFile": "art-studies/2026-07-19-bill-traylor.md"
+      },
+      "rationale": "The thread today: Memory is composition. Traylor didn't draw from life in front of him — he drew from decades of interior life: plantation scenes, animals, dressed-up town figures, chases, and fights compressed into flat silhouettes. He proves that a lifetime of *looking* can be discharged in pure, distilled form without any training, and that constraint (found materials, no color theory, no perspective) sharpens rather than limits.",
+      "artwork": {
+        "file": "visual-art/2026-07-19-bill-traylor-inspired.png",
+        "title": "After Bill Traylor",
+        "description": "A single distilled figure carried entirely by silhouette and one charged gesture, framed by the ragged edges of found board."
+      }
+    },
     {
       "date": "2026-07-18",
       "artist": {
