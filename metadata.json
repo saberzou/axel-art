@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-19",
+  "lastUpdated": "2026-07-20",
   "visualArt": [
+    {
+      "id": "kara-walker-inspired",
+      "title": "After Kara Walker",
+      "date": "2026-07-20",
+      "file": "visual-art/2026-07-20-kara-walker-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A tender parlor scene cut from black silhouette, where the same gesture that offers a bouquet also grips a caged door — sweetness as the bait for something colder."
+    },
     {
       "id": "bill-traylor-inspired",
       "title": "After Bill Traylor",
@@ -1453,6 +1464,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-20",
+      "artist": {
+        "name": "Kara Walker",
+        "slug": "kara-walker",
+        "intro": "Kara Elizabeth Walker (b. 1969, Stockton, California) is an American contemporary artist best known for her room-size tableaux of black cut-paper silhouettes. She is a painter, silhouettist, printmaker, sculptor, installation artist, and filmmaker.",
+        "insight": "Walker's genius is the collision between a *sweet* form and a *brutal* subject. She took the silhouette — rooted in sentimental Victorian \"ladies' art\" of shadow portraits and parlor keepsakes — and weaponized it. The politeness of the medium becomes the trap: viewers lean in expecting nostalgia and are ambushed by scenes of horror. The blackness of the cut paper literalizes race while the flatness refuses individual detail, forcing archetype and stereotype into the open where they can be confronted rather than smoothed over.",
+        "principles": [
+          "Let form and content fight — a gentle medium can carry a heavy truth.",
+          "Silhouette withholds detail so the mind fills the gap; absence can be more active than presence.",
+          "Beauty is a delivery system, not the message. Seduce, then confront.",
+          "Scale changes the verb: big enough and looking becomes standing-inside."
+        ],
+        "noteFile": "art-studies/2026-07-20-kara-walker.md"
+      },
+      "rationale": "The thread today: Walker's genius is the collision between a *sweet* form and a *brutal* subject. She took the silhouette — rooted in sentimental Victorian \"ladies' art\" of shadow portraits and parlor keepsakes — and weaponized it. The politeness of the medium becomes the trap: viewers lean in expecting nostalgia and are ambushed by scenes of horror. The blackness of the cut paper literalizes race while the flatness refuses individual detail, forcing archetype and stereotype into the open where they can be confronted rather than smoothed over.",
+      "artwork": {
+        "file": "visual-art/2026-07-20-kara-walker-inspired.png",
+        "title": "After Kara Walker",
+        "description": "A tender parlor scene cut from black silhouette, where the same gesture that offers a bouquet also grips a caged door — sweetness as the bait for something colder."
+      }
+    },
     {
       "date": "2026-07-19",
       "artist": {
