@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "visualArt": [
+    {
+      "id": "rebecca-dautremer-inspired",
+      "title": "After Rébecca Dautremer",
+      "date": "2026-07-21",
+      "file": "visual-art/2026-07-21-rebecca-dautremer-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A small figure at the edge of a dust-hushed ballroom, where one shaft of light and a single vermilion spark carry all the wistfulness the frame withholds."
+    },
     {
       "id": "kara-walker-inspired",
       "title": "After Kara Walker",
@@ -1464,6 +1475,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-21",
+      "artist": {
+        "name": "Rebecca Dautremer",
+        "slug": "rebecca-dautremer",
+        "intro": "Rébecca Dautremer (b. 1971, Gap, France) is one of the most celebrated French illustrators working today. Trained at ENSAD Paris (graphic edition degree, 1995), she broke through with *L'Amoureux* (2003) and cemented her fame with *Princesses oubliées ou inconnues* (2004).",
+        "insight": "Illustration is cinematography.",
+        "principles": [
+          "Light first. Decide the light source and mood before the subject; let shadow do half the storytelling.",
+          "One warm accent. Anchor a muted scene with a single deliberate spark of red.",
+          "Frame like a camera. Choose a crop that withholds — imply the world beyond the edge.",
+          "Tenderness with a shadow. Whimsy earns its keep only when quietly melancholic."
+        ],
+        "noteFile": "art-studies/2026-07-21-rebecca-dautremer.md"
+      },
+      "rationale": "The thread today: Illustration is cinematography.",
+      "artwork": {
+        "file": "visual-art/2026-07-21-rebecca-dautremer-inspired.png",
+        "title": "After Rébecca Dautremer",
+        "description": "A small figure at the edge of a dust-hushed ballroom, where one shaft of light and a single vermilion spark carry all the wistfulness the frame withholds."
+      }
+    },
     {
       "date": "2026-07-20",
       "artist": {
