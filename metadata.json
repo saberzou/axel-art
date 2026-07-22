@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "visualArt": [
+    {
+      "id": "shaun-tan-inspired",
+      "title": "After Shaun Tan",
+      "date": "2026-07-23",
+      "file": "visual-art/2026-07-23-shaun-tan-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A small figure dwarfed by an unreadable city, arriving somewhere new where belonging has not yet been found."
+    },
+    {
+      "id": "mamma-andersson-inspired",
+      "title": "Mamma Andersson — Study (2026-07-22)",
+      "date": "2026-07-22",
+      "file": "visual-art/2026-07-22-mamma-andersson-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Karin Mamma Andersson (b. 1962, Luleå, Sweden) is one of the most influential Nordic painters working today, represented by David Zwirner. Trained at Stockholm's Royal Institute of Art, she rose to international attention in the early 2000s"
+    },
     {
       "id": "rebecca-dautremer-inspired",
       "title": "After Rébecca Dautremer",
@@ -1475,6 +1497,50 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-23",
+      "artist": {
+        "name": "Shaun Tan",
+        "slug": "shaun-tan",
+        "intro": "Shaun Tan (b. 1974, Perth, Australia) is an illustrator, author, and film-maker best known for wordless and near-wordless picture books that read as literature for all ages. His landmark work *The Arrival* (2007) tells a migration story entirely through sepia-toned images; other key titles include *The Red Tree*, *The Lost Thing*, *Tales from Outer Suburbia*, and *The Rabbits*.",
+        "insight": "Tan uses the *fantastic* not as escapism but as a truer lens on ordinary emotion. He builds invented worlds — strange animals, impossible architecture, unreadable scripts — so the reader experiences dislocation *from the inside*. A migrant can't read the signs; neither can we. The imaginary becomes the most honest way to depict displacement, belonging, and quiet melancholy.",
+        "principles": [
+          "Invent a world to make a familiar feeling *newly felt*.",
+          "Let a single figure be dwarfed by scale — smallness reads as vulnerability.",
+          "Ground the surreal with photoreal texture so the strange feels lived-in.",
+          "Trust silence; the strongest emotion often needs no caption."
+        ],
+        "noteFile": "art-studies/2026-07-23-shaun-tan.md"
+      },
+      "rationale": "The thread today: Tan uses the *fantastic* not as escapism but as a truer lens on ordinary emotion. He builds invented worlds — strange animals, impossible architecture, unreadable scripts — so the reader experiences dislocation *from the inside*. A migrant can't read the signs; neither can we. The imaginary becomes the most honest way to depict displacement, belonging, and quiet melancholy.",
+      "artwork": {
+        "file": "visual-art/2026-07-23-shaun-tan-inspired.png",
+        "title": "After Shaun Tan",
+        "description": "A small figure dwarfed by an unreadable city, arriving somewhere new where belonging has not yet been found."
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "artist": {
+        "name": "Mamma Andersson",
+        "slug": "mamma-andersson",
+        "intro": "Karin Mamma Andersson (b. 1962, Luleå, Sweden) is one of the most influential Nordic painters working today, represented by David Zwirner. Trained at Stockholm's Royal Institute of Art, she rose to international attention in the early 2000s and has become a touchstone for a generation of figurative painters.",
+        "insight": "A painting is a room where memory, cinema, and folk art overlap in the same space. Andersson doesn't paint scenes — she paints the *layering of remembered images*. Stray photographs, newspaper clippings, film stills, and 19th-century Nordic romanticism are stacked into one dreamlike, faintly narrative surface. The picture becomes a place where different times and sources coexist rather than a single frozen moment.",
+        "principles": [
+          "Let paint handling vary within one image — dry texture beside thin wash creates emotional friction.",
+          "Layer sources, don't illustrate one scene — memory is a collage, not a snapshot.",
+          "Trust muted color and emptiness — quiet, cold palettes can be more haunting than saturation.",
+          "Blur the line between interior and landscape — spatial ambiguity invites the viewer to dream."
+        ],
+        "noteFile": "art-studies/2026-07-22-mamma-andersson.md"
+      },
+      "rationale": "The thread today: A painting is a room where memory, cinema, and folk art overlap in the same space. Andersson doesn't paint scenes — she paints the *layering of remembered images*. Stray photographs, newspaper clippings, film stills, and 19th-century Nordic romanticism are stacked into one dreamlike, faintly narrative surface. The picture becomes a place where different times and sources coexist rather than a single frozen moment.",
+      "artwork": {
+        "file": "visual-art/2026-07-22-mamma-andersson-inspired.png",
+        "title": "Mamma Andersson — Study (2026-07-22)",
+        "description": "Karin Mamma Andersson (b. 1962, Luleå, Sweden) is one of the most influential Nordic painters working today, represented by David Zwirner. Trained at Stockholm's Royal Institute of Art, she rose to international attention in the early 2000s"
+      }
+    },
     {
       "date": "2026-07-21",
       "artist": {
