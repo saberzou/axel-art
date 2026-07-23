@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "visualArt": [
+    {
+      "id": "florine-stettheimer-inspired",
+      "title": "After Florine Stettheimer",
+      "date": "2026-07-24",
+      "file": "visual-art/2026-07-24-florine-stettheimer-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A weightless rooftop soirée at dusk where gilt, tulle and candy color float free of gravity — decoration turned into a glittering, quietly subversive language."
+    },
     {
       "id": "shaun-tan-inspired",
       "title": "After Shaun Tan",
@@ -1497,6 +1508,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-24",
+      "artist": {
+        "name": "Florine Stettheimer",
+        "slug": "florine-stettheimer",
+        "intro": "Florine Stettheimer (1871–1944) was an American modernist painter, poet, feminist, theatrical designer, and salonnière. A wealthy, largely self-taught New Yorker, she hosted a legendary salon whose regulars included Marcel Duchamp, Georgia O'Keeffe, and Carl Van Vechten. She rarely sold work and refused most exhibitions, painting for herself and her circle rather than the market — which is exactly why her voice stayed so uncompromised.",
+        "insight": "Frivolity can be radical. Stettheimer weaponized decorative excess — bouquets, gilt, tulle, candy colors, floating figures — as a deliberately *feminine* modernist language, then smuggled sharp social observation and gender play inside it. The prettiness is a Trojan horse, not a retreat.",
+        "principles": [],
+        "noteFile": "art-studies/2026-07-24-florine-stettheimer.md"
+      },
+      "rationale": "The thread today: Frivolity can be radical. Stettheimer weaponized decorative excess — bouquets, gilt, tulle, candy colors, floating figures — as a deliberately *feminine* modernist language, then smuggled sharp social observation and gender play inside it. The prettiness is a Trojan horse, not a retreat.",
+      "artwork": {
+        "file": "visual-art/2026-07-24-florine-stettheimer-inspired.png",
+        "title": "After Florine Stettheimer",
+        "description": "A weightless rooftop soirée at dusk where gilt, tulle and candy color float free of gravity — decoration turned into a glittering, quietly subversive language."
+      }
+    },
     {
       "date": "2026-07-23",
       "artist": {
