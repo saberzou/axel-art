@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-25",
+  "lastUpdated": "2026-07-26",
   "visualArt": [
+    {
+      "id": "carson-ellis-inspired",
+      "title": "Carson Ellis",
+      "date": "2026-07-25",
+      "file": "visual-art/2026-07-25-carson-ellis-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Carson Ellis is an American author and illustrator (b. 1975, Vancouver, WA), best known for the bestselling picture books *Home* and *Du Iz Tak?* (a Caldecott Honor book and E.B. White Read Aloud Award winner). She illustrated *The Wildwood"
+    },
     {
       "id": "florine-stettheimer-inspired",
       "title": "After Florine Stettheimer",
@@ -1508,6 +1519,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-25",
+      "artist": {
+        "name": "Carson Ellis",
+        "slug": "carson-ellis",
+        "intro": "Carson Ellis is an American author and illustrator (b. 1975, Vancouver, WA), best known for the bestselling picture books *Home* and *Du Iz Tak?* (a Caldecott Honor book and E.B. White Read Aloud Award winner).",
+        "insight": "Ellis builds whole imagined worlds out of small, quiet, hand-observed detail. She treats illustration less as decoration and more as folklore — inventing invented languages (the bug-speak of *Du Iz Tak?*), invented cultures, invented flora and dwellings — and renders them with the sincerity of a naturalist's field notebook. The magic is grounded in the ordinary.",
+        "principles": [],
+        "noteFile": "art-studies/2026-07-25-carson-ellis.md"
+      },
+      "rationale": "The thread today: Ellis builds whole imagined worlds out of small, quiet, hand-observed detail. She treats illustration less as decoration and more as folklore — inventing invented languages (the bug-speak of *Du Iz Tak?*), invented cultures, invented flora and dwellings — and renders them with the sincerity of a naturalist's field notebook. The magic is grounded in the ordinary.",
+      "artwork": {
+        "file": "visual-art/2026-07-25-carson-ellis-inspired.png",
+        "title": "Carson Ellis",
+        "description": "Carson Ellis is an American author and illustrator (b. 1975, Vancouver, WA), best known for the bestselling picture books *Home* and *Du Iz Tak?* (a Caldecott Honor book and E.B. White Read Aloud Award winner). She illustrated *The Wildwood"
+      }
+    },
     {
       "date": "2026-07-24",
       "artist": {
