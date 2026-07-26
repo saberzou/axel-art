@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-07-27",
   "visualArt": [
+    {
+      "id": "tove-jansson-inspired",
+      "title": "After Tove Jansson",
+      "date": "2026-07-27",
+      "file": "visual-art/2026-07-27-tove-jansson-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single warm-lit cabin on a bare islet at the edge of a gathering Nordic storm — shelter and longing held in the same breath."
+    },
+    {
+      "id": "milton-avery-inspired",
+      "title": "Milton Avery — Study (2026-07-26)",
+      "date": "2026-07-26",
+      "file": "visual-art/2026-07-26-milton-avery-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Milton Avery (1885–1965) was an American modernist painter of landscapes, seascapes, and quiet domestic scenes. Largely self-taught and unfashionable during the era of muscular Abstract Expressionism, he worked patiently for five decades. R"
+    },
     {
       "id": "carson-ellis-inspired",
       "title": "Carson Ellis",
@@ -1519,6 +1541,52 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-27",
+      "artist": {
+        "name": "Tove Jansson",
+        "slug": "tove-jansson",
+        "intro": "Finnish-Swedish painter, illustrator, and author, best known worldwide as the creator of the Moomins — but that fame nearly buried a far broader artist. Jansson trained as a fine-art painter and produced still lifes, landscapes, portraits, self-portraits, large public wall paintings, satirical caricatures (for the anti-fascist magazine *Garm*), picture books, and comic strips. The Moomin comic strip ran in London's *Evening News* (circulation ~12 million) and spread to hundreds of papers in a dozen countries.",
+        "insight": "A single artist can hold \"high\" and \"low\" art in the same hand without apology. Jansson moved fluidly between gallery painting and mass-market illustration, treating both as serious craft. Her deeper insight: warmth and melancholy belong together. The Moomin world is cozy *and* shot through with loneliness, longing, storms, and the threat of winter — comfort earned by acknowledging the dark, not denying it.",
+        "principles": [
+          "Let coziness and melancholy coexist — sweetness without loss is hollow.",
+          "Don't rank your own outputs; illustration deserves the same rigor as painting.",
+          "Economy of line: say the emotion with the fewest marks.",
+          "Soft Nordic light and muted palette can carry more feeling than drama.",
+          "Stay yourself across every medium you touch."
+        ],
+        "noteFile": "art-studies/2026-07-27-tove-jansson.md"
+      },
+      "rationale": "The thread today: A single artist can hold \"high\" and \"low\" art in the same hand without apology. Jansson moved fluidly between gallery painting and mass-market illustration, treating both as serious craft. Her deeper insight: warmth and melancholy belong together. The Moomin world is cozy *and* shot through with loneliness, longing, storms, and the threat of winter — comfort earned by acknowledging the dark, not denying it.",
+      "artwork": {
+        "file": "visual-art/2026-07-27-tove-jansson-inspired.png",
+        "title": "After Tove Jansson",
+        "description": "A single warm-lit cabin on a bare islet at the edge of a gathering Nordic storm — shelter and longing held in the same breath."
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "artist": {
+        "name": "Milton Avery",
+        "slug": "milton-avery",
+        "intro": "Milton Avery (1885–1965) was an American modernist painter of landscapes, seascapes, and quiet domestic scenes. Largely self-taught and unfashionable during the era of muscular Abstract Expressionism, he worked patiently for five decades. Recognition came late, but younger giants — Mark Rothko, Adolph Gottlieb, Barnett Newman — treated him as a mentor and a bridge between European color (Matisse) and American abstraction.",
+        "insight": "Color carries the picture — not perspective, not detail, not narrative.",
+        "principles": [
+          "Decide the color relationships first — the drawing serves them, not the reverse.",
+          "Flatten to the essential shape. If a detail doesn't change the feeling, cut it.",
+          "Seek the unexpected muted pairing over the obvious bold one.",
+          "Depth can come from value and hue temperature, not linear perspective.",
+          "Keep the human warmth — simplification should feel tender, not clinical."
+        ],
+        "noteFile": "art-studies/2026-07-26-milton-avery.md"
+      },
+      "rationale": "The thread today: Color carries the picture — not perspective, not detail, not narrative.",
+      "artwork": {
+        "file": "visual-art/2026-07-26-milton-avery-inspired.png",
+        "title": "Milton Avery — Study (2026-07-26)",
+        "description": "Milton Avery (1885–1965) was an American modernist painter of landscapes, seascapes, and quiet domestic scenes. Largely self-taught and unfashionable during the era of muscular Abstract Expressionism, he worked patiently for five decades. R"
+      }
+    },
     {
       "date": "2026-07-25",
       "artist": {
