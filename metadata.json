@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "visualArt": [
+    {
+      "id": "charley-harper-inspired",
+      "title": "After Charley Harper",
+      "date": "2026-07-28",
+      "file": "visual-art/2026-07-28-charley-harper-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A kingfisher distilled to a beak-triangle, an eye-circle, and a wing-arc — proof that identity survives when everything but the essence is left out."
+    },
     {
       "id": "tove-jansson-inspired",
       "title": "After Tove Jansson",
@@ -1541,6 +1552,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-28",
+      "artist": {
+        "name": "Charley Harper",
+        "slug": "charley-harper",
+        "intro": "Charley Harper (1922–2007) was an American modernist illustrator and wildlife artist based in Cincinnati. Trained at the Art Academy of Cincinnati, he spent his career translating birds, insects, and animals into flat, geometric, poster-like compositions. His work appeared in *Ford Times*, the Golden Book of Biology, national park posters, and countless prints that remain beloved today.",
+        "insight": "\"minimal realism\"",
+        "principles": [
+          "Subtract to the essence — count the wings, not the feathers. Identity survives radical reduction.",
+          "Geometry as vocabulary — circles, triangles, arcs can carry a whole living creature.",
+          "Flat color + bold pattern reads faster and delights more than gradient realism.",
+          "Overlap with purpose — let one shape do two jobs; economy is wit.",
+          "Accuracy of identity, freedom of form — be true to what makes the subject itself, then simplify everything else."
+        ],
+        "noteFile": "art-studies/2026-07-28-charley-harper.md"
+      },
+      "rationale": "The thread today: \"minimal realism\".",
+      "artwork": {
+        "file": "visual-art/2026-07-28-charley-harper-inspired.png",
+        "title": "After Charley Harper",
+        "description": "A kingfisher distilled to a beak-triangle, an eye-circle, and a wing-arc — proof that identity survives when everything but the essence is left out."
+      }
+    },
     {
       "date": "2026-07-27",
       "artist": {
