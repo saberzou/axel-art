@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-07-30",
   "visualArt": [
+    {
+      "id": "jon-klassen-inspired",
+      "title": "After Jon Klassen",
+      "date": "2026-07-30",
+      "file": "visual-art/2026-07-30-jon-klassen-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A small creature holds its breath in an empty field, its gaze aimed at something we are never allowed to see."
+    },
+    {
+      "id": "hayv-kahraman-inspired",
+      "title": "Hayv Kahraman",
+      "date": "2026-07-29",
+      "file": "visual-art/2026-07-29-hayv-kahraman-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Hayv Kahraman (b. 1981, Baghdad) is a Kurdish-Iraqi-American painter who fled Iraq for Sweden during the Gulf War, studied in Florence, and now works in Los Angeles. Her practice addresses racialized gender, body politics, migrant conscious"
+    },
     {
       "id": "charley-harper-inspired",
       "title": "After Charley Harper",
@@ -1552,6 +1574,52 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-30",
+      "artist": {
+        "name": "Jon Klassen",
+        "slug": "jon-klassen",
+        "intro": "Jon Klassen is a Canadian author-illustrator, born 1981, best known for his *Hat* trilogy (*I Want My Hat Back*, *This Is Not My Hat*, *We Found a Hat*) and his collaborations with Mac Barnett (*Sam and Dave Dig a Hole*, *The Dark*). He won the Caldecott Medal for *This Is Not My Hat* and has become one of the most distinctive voices in contemporary picture books. He also worked in animation (Coraline, Kung Fu Panda 2) before books.",
+        "insight": "Withhold. Klassen's whole method is subtraction — of color, of movement, of explanation. The drama lives in what he refuses to show. A character stares out flatly; the *reader* supplies the guilt, dread, or comedy. He trusts the audience to complete the story, so the page becomes a space of implication rather than statement.",
+        "principles": [
+          "Say less; let composition imply the rest.",
+          "A tiny, limited earthy palette can feel richer than a full one.",
+          "Eyes / gaze direction are a whole storytelling engine — aim them deliberately.",
+          "Put the emotional event just off-frame and let the viewer finish it.",
+          "Deadpan calm + hidden stakes = both humor and tension at once."
+        ],
+        "noteFile": "art-studies/2026-07-30-jon-klassen.md"
+      },
+      "rationale": "The thread today: Withhold. Klassen's whole method is subtraction — of color, of movement, of explanation. The drama lives in what he refuses to show. A character stares out flatly; the *reader* supplies the guilt, dread, or comedy. He trusts the audience to complete the story, so the page becomes a space of implication rather than statement.",
+      "artwork": {
+        "file": "visual-art/2026-07-30-jon-klassen-inspired.png",
+        "title": "After Jon Klassen",
+        "description": "A small creature holds its breath in an empty field, its gaze aimed at something we are never allowed to see."
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "artist": {
+        "name": "Hayv Kahraman",
+        "slug": "hayv-kahraman",
+        "intro": "Hayv Kahraman (b. 1981, Baghdad) is a Kurdish-Iraqi-American painter who fled Iraq for Sweden during the Gulf War, studied in Florence, and now works in Los Angeles. Her practice addresses racialized gender, body politics, migrant consciousness, and the marginal spaces of diasporic life.",
+        "insight": "separated from itself",
+        "principles": [
+          "Let beauty carry the wound. Elegant, calm execution can make hard content hit harder than shock does.",
+          "Fragmentation is a language. Detaching, cataloging, and reassembling a body/object is a way to make identity legible as a diagram.",
+          "Fuse incompatible traditions on one surface — Renaissance figure + ornament + flat line — so the collision itself becomes meaning.",
+          "Repeat one figure into a system so the personal reads as structural.",
+          "Restraint of palette and line lets emotional weight, not color noise, do the work."
+        ],
+        "noteFile": "art-studies/2026-07-29-hayv-kahraman.md"
+      },
+      "rationale": "The thread today: separated from itself.",
+      "artwork": {
+        "file": "visual-art/2026-07-29-hayv-kahraman-inspired.png",
+        "title": "Hayv Kahraman",
+        "description": "Hayv Kahraman (b. 1981, Baghdad) is a Kurdish-Iraqi-American painter who fled Iraq for Sweden during the Gulf War, studied in Florence, and now works in Los Angeles. Her practice addresses racialized gender, body politics, migrant conscious"
+      }
+    },
     {
       "date": "2026-07-28",
       "artist": {
