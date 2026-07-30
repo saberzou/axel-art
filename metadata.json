@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-07-31",
   "visualArt": [
+    {
+      "id": "lois-dodd-inspired",
+      "title": "After Lois Dodd",
+      "date": "2026-07-31",
+      "file": "visual-art/2026-07-31-lois-dodd-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A single ochre window burns inside the matte black of a sleeping clapboard house — the ordinary made into silent geometry."
+    },
     {
       "id": "jon-klassen-inspired",
       "title": "After Jon Klassen",
@@ -1574,6 +1585,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-07-31",
+      "artist": {
+        "name": "Lois Dodd",
+        "slug": "lois-dodd",
+        "intro": "Lois Dodd (American, b. 1927) is a plein-air painter who spent over fifty years painting her immediate everyday surroundings — the Lower East Side, rural Mid-Coast Maine, and the Delaware Water Gap. A co-founder of the artist-run Tanager Gallery alongside Alex Katz and others, she worked quietly outside the dominant movements of her era (Abstract Expressionism, then Pop).",
+        "insight": "Look hard enough at the ordinary and it becomes abstract geometry. Dodd finds the extraordinary in the mundane by trusting perception in a single sitting. She isn't inventing drama; she's noticing the gridded structure already present in a window, the perspectival rhythm of trunks, the ghost-shape of a shadow. Observation, stripped of fuss, is the subject.",
+        "principles": [],
+        "noteFile": "art-studies/2026-07-31-lois-dodd.md"
+      },
+      "rationale": "The thread today: Look hard enough at the ordinary and it becomes abstract geometry. Dodd finds the extraordinary in the mundane by trusting perception in a single sitting. She isn't inventing drama; she's noticing the gridded structure already present in a window, the perspectival rhythm of trunks, the ghost-shape of a shadow. Observation, stripped of fuss, is the subject.",
+      "artwork": {
+        "file": "visual-art/2026-07-31-lois-dodd-inspired.png",
+        "title": "After Lois Dodd",
+        "description": "A single ochre window burns inside the matte black of a sleeping clapboard house — the ordinary made into silent geometry."
+      }
+    },
     {
       "date": "2026-07-30",
       "artist": {
