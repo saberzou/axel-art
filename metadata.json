@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-01",
   "visualArt": [
+    {
+      "id": "henri-matisse-inspired",
+      "title": "After Henri Matisse",
+      "date": "2026-08-01",
+      "file": "visual-art/2026-08-01-henri-matisse-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Two dancers dissolve into flat planes of unmixed color, where the gaps between the shapes carry as much movement as the figures themselves."
+    },
     {
       "id": "lois-dodd-inspired",
       "title": "After Lois Dodd",
@@ -1585,6 +1596,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-01",
+      "artist": {
+        "name": "Henri Matisse",
+        "slug": "henri-matisse",
+        "intro": "Henri Matisse (1869–1954) was a French painter, draughtsman, and printmaker, and — with Picasso — one of the twin poles of 20th-century modern art. He led the Fauves (\"wild beasts\") in the early 1900s with paintings of shocking, unmixed color, and spent the last decade of his life, bedridden after cancer surgery, inventing an entirely new medium: the paper cut-out (\"gouaches découpées\"), \"drawing with scissors.\"",
+        "insight": "Color and shape carry emotion directly — you don't need modeled realism to make something feel true. Matisse chased what he called an art of \"balance, purity and serenity,\" where every element earns its place and nothing is decorative filler. His whole career is a march toward *more with less*: strip away detail until only the essential rhythm of color and contour remains.",
+        "principles": [
+          "Simplify to the essential — cut everything that isn't doing emotional work.",
+          "Color is structure, not decoration — let large flat planes carry the composition.",
+          "Negative space is a shape too — design the gaps as carefully as the figures.",
+          "Rhythm over realism — arrange contours for movement and balance.",
+          "Constraint breeds invention — a limited palette and simple tool forced his best work."
+        ],
+        "noteFile": "art-studies/2026-08-01-henri-matisse.md"
+      },
+      "rationale": "The thread today: Color and shape carry emotion directly — you don't need modeled realism to make something feel true. Matisse chased what he called an art of \"balance, purity and serenity,\" where every element earns its place and nothing is decorative filler. His whole career is a march toward *more with less*: strip away detail until only the essential rhythm of color and contour remains.",
+      "artwork": {
+        "file": "visual-art/2026-08-01-henri-matisse-inspired.png",
+        "title": "After Henri Matisse",
+        "description": "Two dancers dissolve into flat planes of unmixed color, where the gaps between the shapes carry as much movement as the figures themselves."
+      }
+    },
     {
       "date": "2026-07-31",
       "artist": {
