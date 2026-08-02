@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-03",
   "visualArt": [
+    {
+      "id": "njideka-akunyili-crosby-inspired",
+      "title": "After Njideka Akunyili Crosby",
+      "date": "2026-08-03",
+      "file": "visual-art/2026-08-03-njideka-akunyili-crosby-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A quiet figure at a table whose every surface dissolves, up close, into a mosaic of embedded found images — a body woven from two cultures at once."
+    },
+    {
+      "id": "beatrice-alemagna-inspired",
+      "title": "Beatrice Alemagna",
+      "date": "2026-08-02",
+      "file": "visual-art/2026-08-02-beatrice-alemagna-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Beatrice Alemagna (born 1973, Bologna) is an Italian illustrator and author who moved to Paris in 1997 and has since become one of the most celebrated voices in contemporary picture books. Trained at ISIA Urbino but largely self-taught in i"
+    },
     {
       "id": "henri-matisse-inspired",
       "title": "After Henri Matisse",
@@ -1596,6 +1618,51 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-03",
+      "artist": {
+        "name": "Njideka Akunyili Crosby",
+        "slug": "njideka-akunyili-crosby",
+        "intro": "Njideka Akunyili Crosby (born 1983, Enugu, Nigeria) is a Los Angeles–based painter and 2017 MacArthur \"Genius\" Fellow. She moved to the United States at sixteen and built her mature body of work around the lived experience of belonging to two worlds at once — her native Nigeria and her adopted America. She is represented by David Zwirner and has shown at the Whitney, the Modern Art Museum of Fort Worth, and internationally.",
+        "insight": "Identity is not a single surface — it is *layered*. Rather than choosing one culture or the other, Crosby literally builds her images out of both. She combines painted portraiture of family, domestic interiors, and everyday life with photographic transfers pulled from her own image archive and from Nigerian magazines, advertising, and mass media. The transferred imagery is embedded into skin, clothing, walls, and furniture, so the \"background\" of Nigerian visual culture becomes the very material the figures are made of.",
+        "principles": [
+          "Let material *be* the meaning — don't illustrate a theme, embody it in how the image is made.",
+          "Reward two viewing distances: a whole from far, a swarm of detail up close.",
+          "Treat the domestic and everyday as worthy of monumental attention.",
+          "Layer sources rather than choosing one — hybridity as strength, not compromise."
+        ],
+        "noteFile": "art-studies/2026-08-03-njideka-akunyili-crosby.md"
+      },
+      "rationale": "The thread today: Identity is not a single surface — it is *layered*. Rather than choosing one culture or the other, Crosby literally builds her images out of both. She combines painted portraiture of family, domestic interiors, and everyday life with photographic transfers pulled from her own image archive and from Nigerian magazines, advertising, and mass media. The transferred imagery is embedded into skin, clothing, walls, and furniture, so the \"background\" of Nigerian visual culture becomes the very material the figures are made of.",
+      "artwork": {
+        "file": "visual-art/2026-08-03-njideka-akunyili-crosby-inspired.png",
+        "title": "After Njideka Akunyili Crosby",
+        "description": "A quiet figure at a table whose every surface dissolves, up close, into a mosaic of embedded found images — a body woven from two cultures at once."
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "artist": {
+        "name": "Beatrice Alemagna",
+        "slug": "beatrice-alemagna",
+        "intro": "Beatrice Alemagna (born 1973, Bologna) is an Italian illustrator and author who moved to Paris in 1997 and has since become one of the most celebrated voices in contemporary picture books. Trained at ISIA Urbino but largely self-taught in illustration, she learned by making books themselves. Her honors include the Premio Andersen, multiple White Ravens and Baobab Prizes, and a Bologna Ragazzi Mention.",
+        "insight": "The book is a *physical object*, not just a surface for pictures. Alemagna treats the page-turn, the paper's texture, the gatefold, even vellum and Swiss binding as narrative tools. Meaning lives in materiality — how something feels and reveals itself, not only how it looks. She refuses a fixed \"signature look\": each book invents its own material language while staying unmistakably hers.",
+        "principles": [
+          "Let material carry meaning. Texture, collage, and surface aren't decoration — they're emotion made touchable.",
+          "Imperfection is expression. Lumpy, awkward forms can feel more alive than smooth ones.",
+          "Reinvent per project. A recognizable soul doesn't require a repeated style; invent a new visual language each time.",
+          "Design the reveal. Think about how the image unfolds to the viewer, not just the final frame.",
+          "Warmth over slickness. Aim for tenderness and character before polish."
+        ],
+        "noteFile": "art-studies/2026-08-02-beatrice-alemagna.md"
+      },
+      "rationale": "The thread today: The book is a *physical object*, not just a surface for pictures. Alemagna treats the page-turn, the paper's texture, the gatefold, even vellum and Swiss binding as narrative tools. Meaning lives in materiality — how something feels and reveals itself, not only how it looks. She refuses a fixed \"signature look\": each book invents its own material language while staying unmistakably hers.",
+      "artwork": {
+        "file": "visual-art/2026-08-02-beatrice-alemagna-inspired.png",
+        "title": "Beatrice Alemagna",
+        "description": "Beatrice Alemagna (born 1973, Bologna) is an Italian illustrator and author who moved to Paris in 1997 and has since become one of the most celebrated voices in contemporary picture books. Trained at ISIA Urbino but largely self-taught in i"
+      }
+    },
     {
       "date": "2026-08-01",
       "artist": {
