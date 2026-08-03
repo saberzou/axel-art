@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "visualArt": [
+    {
+      "id": "pierre-bonnard-inspired",
+      "title": "After Pierre Bonnard",
+      "date": "2026-08-04",
+      "file": "visual-art/2026-08-04-pierre-bonnard-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A breakfast table remembered rather than seen, its light dissolving into a shimmering mosaic of warmth where joy and quiet melancholy share one glowing surface."
+    },
     {
       "id": "njideka-akunyili-crosby-inspired",
       "title": "After Njideka Akunyili Crosby",
@@ -1618,6 +1629,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-04",
+      "artist": {
+        "name": "Pierre Bonnard",
+        "slug": "pierre-bonnard",
+        "intro": "A French Post-Impressionist painter and founding member of Les Nabis, the young \"prophets\" of modern art who admired Gauguin and Japanese prints. Bonnard began as an \"Intimist,\" painting quiet bourgeois interiors, and evolved into one of the great colorists of the 20th century. His life's subject was the ordinary: dining tables, gardens, sunlit rooms, and above all his companion Marthe, who appears throughout his work over decades.",
+        "insight": "Bonnard didn't paint what was in front of him — he painted what stayed with him.",
+        "principles": [
+          "Paint the memory, not the reference — let feeling reorganize the facts.",
+          "No color is single; build glow from many small touches.",
+          "Break perspective deliberately to make the ordinary feel intimate and strange.",
+          "Let brightness carry emotion — joy and melancholy can share one surface."
+        ],
+        "noteFile": "art-studies/2026-08-04-pierre-bonnard.md"
+      },
+      "rationale": "The thread today: Bonnard didn't paint what was in front of him — he painted what stayed with him.",
+      "artwork": {
+        "file": "visual-art/2026-08-04-pierre-bonnard-inspired.png",
+        "title": "After Pierre Bonnard",
+        "description": "A breakfast table remembered rather than seen, its light dissolving into a shimmering mosaic of warmth where joy and quiet melancholy share one glowing surface."
+      }
+    },
     {
       "date": "2026-08-03",
       "artist": {
