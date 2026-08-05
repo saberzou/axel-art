@@ -2,6 +2,17 @@
   "lastUpdated": "2026-08-05",
   "visualArt": [
     {
+      "id": "naoto-fukasawa-inspired",
+      "title": "Naoto Fukasawa",
+      "date": "2026-08-05",
+      "file": "visual-art/2026-08-05-naoto-fukasawa-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Naoto Fukasawa (b. 1956) is one of Japan's most influential industrial designers. After years at IDEO in San Francisco, he returned to Japan, founded his own studio, and became a design advisor and board member at Muji, art director at Maru"
+    },
+    {
       "id": "pierre-bonnard-inspired",
       "title": "After Pierre Bonnard",
       "date": "2026-08-04",
@@ -1629,6 +1640,28 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-05",
+      "artist": {
+        "name": "Naoto Fukasawa",
+        "slug": "naoto-fukasawa",
+        "intro": "Naoto Fukasawa (b. 1956) is one of Japan's most influential industrial designers. After years at IDEO in San Francisco, he returned to Japan, founded his own studio, and became a design advisor and board member at Muji, art director at Maruni, and curator of the Japan Folk Crafts Museum.",
+        "insight": "\"Without Thought\"",
+        "principles": [
+          "Design the behavior, not the object. Find the gesture people already make.",
+          "Inevitability beats novelty. Aim for \"of course,\" not \"wow.\"",
+          "Restraint is precision. Remove anything a behavior didn't ask for.",
+          "Give one honest interaction and let it carry the whole feeling."
+        ],
+        "noteFile": "art-studies/2026-08-05-naoto-fukasawa.md"
+      },
+      "rationale": "The thread today: \"Without Thought\".",
+      "artwork": {
+        "file": "visual-art/2026-08-05-naoto-fukasawa-inspired.png",
+        "title": "Naoto Fukasawa",
+        "description": "Naoto Fukasawa (b. 1956) is one of Japan's most influential industrial designers. After years at IDEO in San Francisco, he returned to Japan, founded his own studio, and became a design advisor and board member at Muji, art director at Maru"
+      }
+    },
     {
       "date": "2026-08-04",
       "artist": {
