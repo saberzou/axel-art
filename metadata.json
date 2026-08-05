@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "visualArt": [
+    {
+      "id": "luis-barragan-inspired",
+      "title": "After Luis Barragán",
+      "date": "2026-08-06",
+      "file": "visual-art/2026-08-06-luis-barragan-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A silent courtyard of saturated planes, hard sunlight, still water, and a small green threshold holds warmth like memory."
+    },
     {
       "id": "naoto-fukasawa-inspired",
       "title": "Naoto Fukasawa",
@@ -1640,6 +1651,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-06",
+      "artist": {
+        "name": "Luis Barragán",
+        "slug": "luis-barragan",
+        "intro": "Luis Barragán (1902-1988) was a Mexican architect and engineer from Guadalajara, later based in Mexico City. Although architecture is only an occasional detour in this study queue, he belongs here as a maker who treated color, light, water, wall, and silence with a painter's intensity. Self-taught as an architect after engineering training, he absorbed European modernism through travel, but refused to let modern form become cold machinery.",
+        "insight": "Barragán's core insight is that restraint does not have to mean emotional absence. A plain wall can hold heat, memory, and spiritual pressure when its color, texture, shadow, and proportion are tuned precisely. He made space behave like a slow painting: planes of saturated pink, ochre, white, and blue are activated by sun, water, thresholds, and long pauses.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-06-luis-barragan.md"
+      },
+      "rationale": "The thread today: Barragán's core insight is that restraint does not have to mean emotional absence. A plain wall can hold heat, memory, and spiritual pressure when its color, texture, shadow, and proportion are tuned precisely. He made space behave like a slow painting: planes of saturated pink, ochre, white, and blue are activated by sun, water, thresholds, and long pauses.",
+      "artwork": {
+        "file": "visual-art/2026-08-06-luis-barragan-inspired.png",
+        "title": "After Luis Barragán",
+        "description": "A silent courtyard of saturated planes, hard sunlight, still water, and a small green threshold holds warmth like memory."
+      }
+    },
     {
       "date": "2026-08-05",
       "artist": {
