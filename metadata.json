@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "visualArt": [
+    {
+      "id": "donald-judd-inspired",
+      "title": "After Donald Judd",
+      "date": "2026-08-07",
+      "file": "visual-art/2026-08-07-donald-judd-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A sunlit room turns repeated material volumes into a measured encounter between object, interval, and space."
+    },
     {
       "id": "luis-barragan-inspired",
       "title": "After Luis Barragán",
@@ -1651,6 +1662,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-07",
+      "artist": {
+        "name": "Donald Judd",
+        "slug": "donald-judd",
+        "intro": "Donald Judd (1928-1994) was an American artist, critic, and central figure in postwar Minimalism. He began as a painter and printmaker, studied philosophy and art history, and wrote extensively before arriving at the three-dimensional works that made him influential. Judd disliked reductive labels, but his 1965 essay \"Specific Objects\" helped define a new territory between painting and sculpture: objects that did not depict, symbolize, or dramatize, but existed with clarity in real space.",
+        "insight": "Judd's core insight is that an artwork can gain force by refusing composition as theater. Instead of balancing parts into an image, he made industrially fabricated boxes, stacks, progressions, and room-scaled installations where material, interval, color, surface, and surrounding space carry the experience. The work is not a window; it is a physical fact.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-07-donald-judd.md"
+      },
+      "rationale": "The thread today: Judd's core insight is that an artwork can gain force by refusing composition as theater. Instead of balancing parts into an image, he made industrially fabricated boxes, stacks, progressions, and room-scaled installations where material, interval, color, surface, and surrounding space carry the experience. The work is not a window; it is a physical fact.",
+      "artwork": {
+        "file": "visual-art/2026-08-07-donald-judd-inspired.png",
+        "title": "After Donald Judd",
+        "description": "A sunlit room turns repeated material volumes into a measured encounter between object, interval, and space."
+      }
+    },
     {
       "date": "2026-08-06",
       "artist": {
