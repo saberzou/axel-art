@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-09",
   "visualArt": [
+    {
+      "id": "isabelle-arsenault-inspired",
+      "title": "After Isabelle Arsenault",
+      "date": "2026-08-09",
+      "file": "visual-art/2026-08-09-isabelle-arsenault-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A quiet city afternoon opens around one child as a single bright inner signal gathers from pencil-soft air."
+    },
     {
       "id": "donald-judd-inspired",
       "title": "After Donald Judd",
@@ -1662,6 +1673,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-09",
+      "artist": {
+        "name": "Isabelle Arsenault",
+        "slug": "isabelle-arsenault",
+        "intro": "Isabelle Arsenault is a French-Canadian illustrator and author based in Montreal, widely recognized for children's books and graphic novels that hold emotional complexity without becoming visually heavy. Her books include collaborations such as *Jane, the Fox and Me* and *Louis Undercover* with Fanny Britt, *Spork* and *Virginia Wolf* with Kyo Maclear, and *Cloth Lullaby* with Amy Novesky. Her own *Colette's Lost Pet* marked her debut as an author-illustrator.",
+        "insight": "Arsenault's strongest lesson is that delicacy can carry force. Her images often feel lightly touched: pencil, wash, spare line, restrained palettes, and breathing room around figures. But that softness is not decorative. It lets small gestures, silences, and shifts of color become the emotional engine of the page. She builds interior weather from omission.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-09-isabelle-arsenault.md"
+      },
+      "rationale": "The thread today: Arsenault's strongest lesson is that delicacy can carry force. Her images often feel lightly touched: pencil, wash, spare line, restrained palettes, and breathing room around figures. But that softness is not decorative. It lets small gestures, silences, and shifts of color become the emotional engine of the page. She builds interior weather from omission.",
+      "artwork": {
+        "file": "visual-art/2026-08-09-isabelle-arsenault-inspired.png",
+        "title": "After Isabelle Arsenault",
+        "description": "A quiet city afternoon opens around one child as a single bright inner signal gathers from pencil-soft air."
+      }
+    },
     {
       "date": "2026-08-07",
       "artist": {
