@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-11",
   "visualArt": [
+    {
+      "id": "kitty-crowther-inspired",
+      "title": "After Kitty Crowther",
+      "date": "2026-08-11",
+      "file": "visual-art/2026-08-11-kitty-crowther-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A small lamp steadies a nocturnal room-garden where loneliness learns to look closely and finds a gentle presence looking back."
+    },
     {
       "id": "sydney-smith-inspired",
       "title": "After Sydney Smith",
@@ -1684,6 +1695,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-11",
+      "artist": {
+        "name": "Kitty Crowther",
+        "slug": "kitty-crowther",
+        "intro": "Kitty Crowther is a Belgian author and illustrator of picture books, born in Brussels in 1970 to an English father and Swedish mother. She studied graphic arts at Institut Saint-Luc in Brussels and has been making children's books since 1994. Her body of work, now more than forty books, earned the 2010 Astrid Lindgren Memorial Award, where she was praised as a master of both line and atmosphere.",
+        "insight": "Crowther's books treat childhood not as a simplified emotional zone, but as a place where loneliness, fear, grief, tenderness, and oddness can all sit together. Her great move is to make the uncanny feel intimate. Animals, insects, small girls, shadows, darkness, lakes, and strange presences appear without theatrical shock. They are drawn as if the reader has always known them. The fantastic is not an escape from ordinary life; it is the shape ordinary life takes when seen honestly by a child.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-11-kitty-crowther.md"
+      },
+      "rationale": "The thread today: Crowther's books treat childhood not as a simplified emotional zone, but as a place where loneliness, fear, grief, tenderness, and oddness can all sit together. Her great move is to make the uncanny feel intimate. Animals, insects, small girls, shadows, darkness, lakes, and strange presences appear without theatrical shock. They are drawn as if the reader has always known them. The fantastic is not an escape from ordinary life; it is the shape ordinary life takes when seen honestly by a child.",
+      "artwork": {
+        "file": "visual-art/2026-08-11-kitty-crowther-inspired.png",
+        "title": "After Kitty Crowther",
+        "description": "A small lamp steadies a nocturnal room-garden where loneliness learns to look closely and finds a gentle presence looking back."
+      }
+    },
     {
       "date": "2026-08-10",
       "artist": {
