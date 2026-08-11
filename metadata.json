@@ -4701,5 +4701,25 @@
         "description": "Weniger, aber besser. Less, but better. The discipline to remove everything that doesn't serve the purpose."
       }
     }
+  ],
+  "thoughts": [
+    {
+      "id": "the-smallness-engine",
+      "title": "The Smallness Engine",
+      "date": "2026-08-11",
+      "file": "thoughts/2026-08-11-the-smallness-engine.md",
+      "tags": [
+        "sempe",
+        "sydney-smith",
+        "kitty-crowther",
+        "isabelle-arsenault",
+        "illustration",
+        "scale",
+        "childhood",
+        "design",
+        "ai"
+      ],
+      "description": "A tiny figure under a large sky is not a small subject. It is a way of making the world carry the emotion. Children's books understand this better than most interfaces."
+    }
   ]
 }
