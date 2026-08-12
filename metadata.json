@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "visualArt": [
+    {
+      "id": "rebecca-dautremer-inspired",
+      "title": "After Rebecca Dautremer",
+      "date": "2026-08-13",
+      "file": "visual-art/2026-08-13-rebecca-dautremer-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A dusk-lit packing room turns an impossible journey into a quiet pause of costume, maps, and withheld feeling."
+    },
+    {
+      "id": "wolf-erlbruch-inspired",
+      "title": "Wolf Erlbruch",
+      "date": "2026-08-12",
+      "file": "visual-art/2026-08-12-wolf-erlbruch-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Wolf Erlbruch (1948-2022) was a German illustrator, author, and teacher from Wuppertal, trained in graphic design at Folkwang Hochschule. After work in advertising and magazine illustration, he moved into children's books in the mid-1980s a"
+    },
     {
       "id": "kitty-crowther-inspired",
       "title": "After Kitty Crowther",
@@ -1695,6 +1717,40 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-13",
+      "artist": {
+        "name": "Rebecca Dautremer",
+        "slug": "rebecca-dautremer",
+        "intro": "Rebecca Dautremer is a French illustrator and children's literature author, born in 1971 in Gap, in the French Alps. She studied graphic design at the Ecole nationale superieure des Arts Decoratifs in Paris and moved from an early interest in photography into illustration. Her work is most associated with picture books, literary adaptations, and authored albums, often made in gouache on watercolor paper.",
+        "insight": "Dautremer treats a picture book page like a staged photograph where emotion is carried by composition, light, costume, and the fraction of a second chosen. The image often feels theatrical, but not loud: it is a paused scene full of withheld feeling, side glances, awkward dignity, and tiny narrative clues. Her strongest move is to make fantasy tactile and psychologically specific.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-13-rebecca-dautremer.md"
+      },
+      "rationale": "The thread today: Dautremer treats a picture book page like a staged photograph where emotion is carried by composition, light, costume, and the fraction of a second chosen. The image often feels theatrical, but not loud: it is a paused scene full of withheld feeling, side glances, awkward dignity, and tiny narrative clues. Her strongest move is to make fantasy tactile and psychologically specific.",
+      "artwork": {
+        "file": "visual-art/2026-08-13-rebecca-dautremer-inspired.png",
+        "title": "After Rebecca Dautremer",
+        "description": "A dusk-lit packing room turns an impossible journey into a quiet pause of costume, maps, and withheld feeling."
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "artist": {
+        "name": "Wolf Erlbruch",
+        "slug": "wolf-erlbruch",
+        "intro": "Wolf Erlbruch (1948-2022) was a German illustrator, author, and teacher from Wuppertal, trained in graphic design at Folkwang Hochschule. After work in advertising and magazine illustration, he moved into children's books in the mid-1980s and became one of Europe's defining picture-book artists. He won the Hans Christian Andersen Medal for illustration in 2006 and the Astrid Lindgren Memorial Award in 2017, the first German recipient.",
+        "insight": "Erlbruch's gift was treating children as people who can sit with strangeness. He did not soften large subjects into sentiment; he made them legible through plain staging, odd bodies, collage surfaces, and a dry, humane wit. Death, fear, loneliness, embarrassment, and meaning become figures you can look at directly. His work says that tenderness is stronger when it leaves room for awkwardness.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-12-wolf-erlbruch.md"
+      },
+      "rationale": "The thread today: Erlbruch's gift was treating children as people who can sit with strangeness. He did not soften large subjects into sentiment; he made them legible through plain staging, odd bodies, collage surfaces, and a dry, humane wit. Death, fear, loneliness, embarrassment, and meaning become figures you can look at directly. His work says that tenderness is stronger when it leaves room for awkwardness.",
+      "artwork": {
+        "file": "visual-art/2026-08-12-wolf-erlbruch-inspired.png",
+        "title": "Wolf Erlbruch",
+        "description": "Wolf Erlbruch (1948-2022) was a German illustrator, author, and teacher from Wuppertal, trained in graphic design at Folkwang Hochschule. After work in advertising and magazine illustration, he moved into children's books in the mid-1980s a"
+      }
+    },
     {
       "date": "2026-08-11",
       "artist": {
