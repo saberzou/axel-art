@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-15",
+  "lastUpdated": "2026-08-16",
   "visualArt": [
+    {
+      "id": "jillian-tamaki-inspired",
+      "title": "After Jillian Tamaki",
+      "date": "2026-08-16",
+      "file": "visual-art/2026-08-16-jillian-tamaki-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Late-night kitchen steam turns small hesitations into visible weather, letting posture, pattern, and silence carry the room's private mood."
+    },
+    {
+      "id": "julie-morstad-inspired",
+      "title": "Julie Morstad",
+      "date": "2026-08-15",
+      "file": "visual-art/2026-08-15-julie-morstad-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Julie Morstad is a Canadian author, artist, and illustrator based in Vancouver, best known for picture books that make childhood perception feel precise, strange, and quietly expansive. She came through the Vancouver arts scene and began il"
+    },
     {
       "id": "manuele-fior-inspired",
       "title": "After Manuele Fior",
@@ -1728,6 +1750,40 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-16",
+      "artist": {
+        "name": "Jillian Tamaki",
+        "slug": "jillian-tamaki",
+        "intro": "Jillian Tamaki is a Canadian American cartoonist and illustrator, born in Ottawa in 1980 and raised in Calgary. She studied visual communication design at the Alberta College of Art and Design, worked in games, taught illustration, and built a career that moves fluidly between editorial illustration, picture books, webcomics, and graphic novels. Her notable books include *Skim* and *This One Summer* with Mariko Tamaki, the solo collection *Boundless*, *SuperMutant Magic Academy*, *They Say Blue*, *Our Little Kitchen*, and the later collaboration *Roaming*.",
+        "insight": "Tamaki's strongest gift is making inner life visible without flattening it into explanation. Her drawings often feel casual at first, but they carry precise emotional temperature: awkwardness, boredom, envy, tenderness, social performance, drift. She treats the page as a thinking space where realism can bend into metaphor, where a character's mood can leak into pattern, landscape, body language, or decorative excess.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-16-jillian-tamaki.md"
+      },
+      "rationale": "The thread today: Tamaki's strongest gift is making inner life visible without flattening it into explanation. Her drawings often feel casual at first, but they carry precise emotional temperature: awkwardness, boredom, envy, tenderness, social performance, drift. She treats the page as a thinking space where realism can bend into metaphor, where a character's mood can leak into pattern, landscape, body language, or decorative excess.",
+      "artwork": {
+        "file": "visual-art/2026-08-16-jillian-tamaki-inspired.png",
+        "title": "After Jillian Tamaki",
+        "description": "Late-night kitchen steam turns small hesitations into visible weather, letting posture, pattern, and silence carry the room's private mood."
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "artist": {
+        "name": "Julie Morstad",
+        "slug": "julie-morstad",
+        "intro": "Julie Morstad is a Canadian author, artist, and illustrator based in Vancouver, best known for picture books that make childhood perception feel precise, strange, and quietly expansive. She came through the Vancouver arts scene and began illustrating books in the mid-2000s, later writing and illustrating her own titles. Her work moves across children's books, editorial illustration, animation, design, and cover art, but the picture book remains her strongest arena because it lets her pace visual discovery across time.",
+        "insight": "Morstad's core insight is that small observations can become whole worlds when the image gives them enough room. She often builds scenes from modest gestures: a body leaning, a garment floating, a room flattened like a stage, a child watching something adults might miss. The result is not spectacle. It is attention turned into atmosphere.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-15-julie-morstad.md"
+      },
+      "rationale": "The thread today: Morstad's core insight is that small observations can become whole worlds when the image gives them enough room. She often builds scenes from modest gestures: a body leaning, a garment floating, a room flattened like a stage, a child watching something adults might miss. The result is not spectacle. It is attention turned into atmosphere.",
+      "artwork": {
+        "file": "visual-art/2026-08-15-julie-morstad-inspired.png",
+        "title": "Julie Morstad",
+        "description": "Julie Morstad is a Canadian author, artist, and illustrator based in Vancouver, best known for picture books that make childhood perception feel precise, strange, and quietly expansive. She came through the Vancouver arts scene and began il"
+      }
+    },
     {
       "date": "2026-08-14",
       "artist": {
