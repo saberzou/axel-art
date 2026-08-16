@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "visualArt": [
+    {
+      "id": "sophie-blackall-inspired",
+      "title": "After Sophie Blackall",
+      "date": "2026-08-17",
+      "file": "visual-art/2026-08-17-sophie-blackall-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A dawn room gathers sea, memory, and small domestic evidence into one quiet act of attention."
+    },
     {
       "id": "jillian-tamaki-inspired",
       "title": "After Jillian Tamaki",
@@ -1750,6 +1761,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-17",
+      "artist": {
+        "name": "Sophie Blackall",
+        "slug": "sophie-blackall",
+        "intro": "Sophie Blackall is an Australian-born, Brooklyn-based author and illustrator whose work sits at the center of contemporary children's books. She has illustrated more than fifty books, including the long-running *Ivy and Bean* series, and won the Caldecott Medal twice: in 2016 for illustrating Lindsay Mattick's *Finding Winnie* and in 2019 for writing and illustrating *Hello Lighthouse*. Her career also extends into grown-up books, public projects, and literacy and health initiatives with UNICEF and Save the Children.",
+        "insight": "Blackall's deepest strength is making careful looking feel like tenderness. Her pictures do not rush toward spectacle. They notice tools on a shelf, waves around a lighthouse, a child's posture, the emotional weight of an object saved from the past. She turns research and domestic detail into intimacy, so history and daily routine feel breathable rather than remote.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-17-sophie-blackall.md"
+      },
+      "rationale": "The thread today: Blackall's deepest strength is making careful looking feel like tenderness. Her pictures do not rush toward spectacle. They notice tools on a shelf, waves around a lighthouse, a child's posture, the emotional weight of an object saved from the past. She turns research and domestic detail into intimacy, so history and daily routine feel breathable rather than remote.",
+      "artwork": {
+        "file": "visual-art/2026-08-17-sophie-blackall-inspired.png",
+        "title": "After Sophie Blackall",
+        "description": "A dawn room gathers sea, memory, and small domestic evidence into one quiet act of attention."
+      }
+    },
     {
       "date": "2026-08-16",
       "artist": {
