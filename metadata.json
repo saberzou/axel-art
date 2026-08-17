@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "visualArt": [
+    {
+      "id": "oliver-jeffers-inspired",
+      "title": "After Oliver Jeffers",
+      "date": "2026-08-18",
+      "file": "visual-art/2026-08-18-oliver-jeffers-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A tiny handmade gesture opens a pale field into a map of belonging, night, and return."
+    },
     {
       "id": "sophie-blackall-inspired",
       "title": "After Sophie Blackall",
@@ -1761,6 +1772,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-18",
+      "artist": {
+        "name": "Oliver Jeffers",
+        "slug": "oliver-jeffers",
+        "intro": "Oliver Jeffers is an Australian-born, Northern Irish visual artist, author, and illustrator whose practice moves across picture books, painting, collage, installation, performance, sculpture, film, and animation. He is widely known for books such as *How to Catch a Star*, *Lost and Found*, *The Incredible Book Eating Boy*, *Here We Are: Notes for Living on Planet Earth*, and his illustration work on *The Day the Crayons Quit*. Institutional summaries emphasize both his broad studio practice and his picture-book reach: the High Museum described his work as translated into more than fifty languages and selling more than fourteen million copies by 2022.",
+        "insight": "Jeffers makes scale emotional. A child, a star, a penguin, a crayon, a globe, a boat, or a bottle can become a complete philosophical system if the composition gives it enough air. His best images often feel simple at first: spare figures, generous blankness, deadpan humor, a hand-made line. Then the space around the figure starts doing the thinking. Loneliness, curiosity, ownership, grief, planetary responsibility, and absurdity are made approachable because they are staged as clear visual problems.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-18-oliver-jeffers.md"
+      },
+      "rationale": "The thread today: Jeffers makes scale emotional. A child, a star, a penguin, a crayon, a globe, a boat, or a bottle can become a complete philosophical system if the composition gives it enough air. His best images often feel simple at first: spare figures, generous blankness, deadpan humor, a hand-made line. Then the space around the figure starts doing the thinking. Loneliness, curiosity, ownership, grief, planetary responsibility, and absurdity are made approachable because they are staged as clear visual problems.",
+      "artwork": {
+        "file": "visual-art/2026-08-18-oliver-jeffers-inspired.png",
+        "title": "After Oliver Jeffers",
+        "description": "A tiny handmade gesture opens a pale field into a map of belonging, night, and return."
+      }
+    },
     {
       "date": "2026-08-17",
       "artist": {
