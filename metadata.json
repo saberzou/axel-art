@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "visualArt": [
+    {
+      "id": "suzy-lee-inspired",
+      "title": "Suzy Lee",
+      "date": "2026-08-19",
+      "file": "visual-art/2026-08-19-suzy-lee-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Suzy Lee is a Seoul-born Korean picture-book artist, illustrator, and author, trained in painting at Seoul National University and in book arts at Camberwell College of Arts in London. She is best known for wordless picture books, especiall"
+    },
     {
       "id": "oliver-jeffers-inspired",
       "title": "After Oliver Jeffers",
@@ -1772,6 +1783,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-19",
+      "artist": {
+        "name": "Suzy Lee",
+        "slug": "suzy-lee",
+        "intro": "Suzy Lee is a Seoul-born Korean picture-book artist, illustrator, and author, trained in painting at Seoul National University and in book arts at Camberwell College of Arts in London. She is best known for wordless picture books, especially the \"Border Trilogy\": *Mirror* (2003), *Wave* (2008), and *Shadow* (2010). In 2022 she received the Hans Christian Andersen Award for Illustration, a career-level recognition for children's literature.",
+        "insight": "Lee's central invention is treating the physical book as part of the story. The gutter, page turn, blank margin, and spread are active forces. A child meets a reflection, a wave, or a shadow, and the encounter becomes a game with the boundary between real and imagined space. The books often need few or no words because the drama is already in sequence, scale, rhythm, and touch.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-19-suzy-lee.md"
+      },
+      "rationale": "The thread today: Lee's central invention is treating the physical book as part of the story. The gutter, page turn, blank margin, and spread are active forces. A child meets a reflection, a wave, or a shadow, and the encounter becomes a game with the boundary between real and imagined space. The books often need few or no words because the drama is already in sequence, scale, rhythm, and touch.",
+      "artwork": {
+        "file": "visual-art/2026-08-19-suzy-lee-inspired.png",
+        "title": "Suzy Lee",
+        "description": "Suzy Lee is a Seoul-born Korean picture-book artist, illustrator, and author, trained in painting at Seoul National University and in book arts at Camberwell College of Arts in London. She is best known for wordless picture books, especiall"
+      }
+    },
     {
       "date": "2026-08-18",
       "artist": {
