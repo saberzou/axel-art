@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "visualArt": [
+    {
+      "id": "tara-booth-inspired",
+      "title": "After Tara Booth",
+      "date": "2026-08-20",
+      "file": "visual-art/2026-08-20-tara-booth-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A cramped bathroom turns private discomfort into a loud, tender pattern of survival."
+    },
     {
       "id": "suzy-lee-inspired",
       "title": "Suzy Lee",
@@ -1783,6 +1794,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-20",
+      "artist": {
+        "name": "Tara Booth",
+        "slug": "tara-booth",
+        "intro": "Tara Booth is an Ignatz Award-winning comics artist, illustrator, and painter from Philadelphia, known for autobiographical work that turns private discomfort into bright, awkward, pattern-rich scenes. Their comics and paintings often move through mental health, addiction, sexuality, anxiety, and recovery without flattening those subjects into confession alone. The visual language is painterly, usually associated with gouache: dense color, restless surface pattern, chunky figures, and deadpan emotional timing.",
+        "insight": "Booth's core insight is that vulnerability becomes more legible when it is allowed to be funny, messy, decorative, and embodied. Instead of separating the serious subject from the playful surface, they let both exist in the same frame. A shower curtain pattern, a cramped room, a body posture, or an absurd facial expression can carry as much emotional truth as a caption. The work trusts small daily rituals and humiliations as worthy narrative material.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-20-tara-booth.md"
+      },
+      "rationale": "The thread today: Booth's core insight is that vulnerability becomes more legible when it is allowed to be funny, messy, decorative, and embodied. Instead of separating the serious subject from the playful surface, they let both exist in the same frame. A shower curtain pattern, a cramped room, a body posture, or an absurd facial expression can carry as much emotional truth as a caption. The work trusts small daily rituals and humiliations as worthy narrative material.",
+      "artwork": {
+        "file": "visual-art/2026-08-20-tara-booth-inspired.png",
+        "title": "After Tara Booth",
+        "description": "A cramped bathroom turns private discomfort into a loud, tender pattern of survival."
+      }
+    },
     {
       "date": "2026-08-19",
       "artist": {
