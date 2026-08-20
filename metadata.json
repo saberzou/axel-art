@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-21",
   "visualArt": [
+    {
+      "id": "amy-sherald-inspired",
+      "title": "After Amy Sherald",
+      "date": "2026-08-21",
+      "file": "visual-art/2026-08-21-amy-sherald-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A poised figure holds a quiet field of color as if stillness itself has become a room for self-possession."
+    },
     {
       "id": "tara-booth-inspired",
       "title": "After Tara Booth",
@@ -1794,6 +1805,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-21",
+      "artist": {
+        "name": "Amy Sherald",
+        "slug": "amy-sherald",
+        "intro": "Amy Sherald is an American painter born in Columbus, Georgia in 1973, now based around the New York City area. She is best known for large, carefully staged portraits of Black Americans, including the official National Portrait Gallery portrait of Michelle Obama, the Vanity Fair portrait of Breonna Taylor, and major works gathered in the traveling retrospective *Amy Sherald: American Sublime*. Her paintings often begin with selected sitters, clothing, props, and photographs, but the final images are not documentary records.",
+        "insight": "Sherald's central move is to separate identity from easy visual coding. Her gray-toned skin interrupts habitual readings of race while brilliant clothing, flat color fields, and direct gazes rebuild the sitter as a sovereign presence. The person is specific, but the scene feels suspended outside ordinary time.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-21-amy-sherald.md"
+      },
+      "rationale": "The thread today: Sherald's central move is to separate identity from easy visual coding. Her gray-toned skin interrupts habitual readings of race while brilliant clothing, flat color fields, and direct gazes rebuild the sitter as a sovereign presence. The person is specific, but the scene feels suspended outside ordinary time.",
+      "artwork": {
+        "file": "visual-art/2026-08-21-amy-sherald-inspired.png",
+        "title": "After Amy Sherald",
+        "description": "A poised figure holds a quiet field of color as if stillness itself has become a room for self-possession."
+      }
+    },
     {
       "date": "2026-08-20",
       "artist": {
