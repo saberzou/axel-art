@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-21",
+  "lastUpdated": "2026-08-22",
   "visualArt": [
+    {
+      "id": "salman-toor-inspired",
+      "title": "After Salman Toor",
+      "date": "2026-08-22",
+      "file": "visual-art/2026-08-22-salman-toor-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A midnight hallway gathers tender, separate figures in green and lamplight, where ordinary objects carry the pressure of being seen."
+    },
     {
       "id": "amy-sherald-inspired",
       "title": "After Amy Sherald",
@@ -1805,6 +1816,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-22",
+      "artist": {
+        "name": "Salman Toor",
+        "slug": "salman-toor",
+        "intro": "Salman Toor is a Lahore-born, New York-based painter, born in 1983, whose work centers queer South Asian men in intimate, imagined scenes between private rooms, bars, checkpoints, bedrooms, and art-historical memory. He studied at Ohio Wesleyan University and Pratt Institute, and his first museum solo exhibition, *How Will I Know*, appeared at the Whitney Museum of American Art in 2020-2021. Later projects such as *No Ordinary Love* brought his recent paintings and works on paper into conversation with European collection histories.",
+        "insight": "Toor's strongest idea is that art history can be entered through tenderness instead of conquest. He borrows the compositional charge of Old Master painting, genre scenes, and theatrical light, but redirects that inheritance toward brown, queer, diasporic presence. The result is not quotation for its own sake; it is a change in who gets to be pictured as luminous, awkward, bored, desired, scrutinized, or at home.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-22-salman-toor.md"
+      },
+      "rationale": "The thread today: Toor's strongest idea is that art history can be entered through tenderness instead of conquest. He borrows the compositional charge of Old Master painting, genre scenes, and theatrical light, but redirects that inheritance toward brown, queer, diasporic presence. The result is not quotation for its own sake; it is a change in who gets to be pictured as luminous, awkward, bored, desired, scrutinized, or at home.",
+      "artwork": {
+        "file": "visual-art/2026-08-22-salman-toor-inspired.png",
+        "title": "After Salman Toor",
+        "description": "A midnight hallway gathers tender, separate figures in green and lamplight, where ordinary objects carry the pressure of being seen."
+      }
+    },
     {
       "date": "2026-08-21",
       "artist": {
