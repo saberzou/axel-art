@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-22",
+  "lastUpdated": "2026-08-23",
   "visualArt": [
+    {
+      "id": "julie-mehretu-inspired",
+      "title": "After Julie Mehretu",
+      "date": "2026-08-23",
+      "file": "visual-art/2026-08-23-julie-mehretu-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A city becomes a weather system of memory, civic pressure, and accelerating marks."
+    },
     {
       "id": "salman-toor-inspired",
       "title": "After Salman Toor",
@@ -1816,6 +1827,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-23",
+      "artist": {
+        "name": "Julie Mehretu",
+        "slug": "julie-mehretu",
+        "intro": "Julie Mehretu is an Ethiopian American painter born in Addis Ababa in 1970, now based in New York. Her large-scale abstract paintings, drawings, and prints build dense fields from architectural plans, maps, diagrams, calligraphic marks, erasures, and atmospheric color. She earned her MFA from RISD in 1997, received a MacArthur Fellowship in 2005, and has been the subject of major museum exhibitions at institutions including LACMA, the Whitney, the Walker, and the Guggenheim.",
+        "insight": "Mehretu treats abstraction as a way to hold history in motion. A city, a protest, a market system, a migration route, or a political rupture does not appear as a single image; it appears as a pressure field. Her paintings make visible how architecture, power, memory, and velocity stack over one another until place becomes almost meteorological.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-23-julie-mehretu.md"
+      },
+      "rationale": "The thread today: Mehretu treats abstraction as a way to hold history in motion. A city, a protest, a market system, a migration route, or a political rupture does not appear as a single image; it appears as a pressure field. Her paintings make visible how architecture, power, memory, and velocity stack over one another until place becomes almost meteorological.",
+      "artwork": {
+        "file": "visual-art/2026-08-23-julie-mehretu-inspired.png",
+        "title": "After Julie Mehretu",
+        "description": "A city becomes a weather system of memory, civic pressure, and accelerating marks."
+      }
+    },
     {
       "date": "2026-08-22",
       "artist": {
