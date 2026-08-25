@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-08-26",
   "visualArt": [
     {
       "id": "hernan-bas-inspired",
@@ -11,6 +11,17 @@
       ],
       "category": "artist-study",
       "description": "A private mythology gathers into a room where ritual, clutter, and one impossible light turn self-invention into architecture."
+    },
+    {
+      "id": "dana-schutz-inspired",
+      "title": "Dana Schutz",
+      "date": "2026-08-24",
+      "file": "visual-art/2026-08-24-dana-schutz-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Dana Schutz is a New York-based American painter, born in 1976 in Livonia, Michigan. She studied at the Cleveland Institute of Art and Columbia University, and came to wide attention in the early 2000s with the imagined project \"Frank from "
     },
     {
       "id": "julie-mehretu-inspired",
@@ -1853,6 +1864,23 @@
         "file": "visual-art/2026-08-25-hernan-bas-inspired.png",
         "title": "After Hernan Bas",
         "description": "A private mythology gathers into a room where ritual, clutter, and one impossible light turn self-invention into architecture."
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "artist": {
+        "name": "Dana Schutz",
+        "slug": "dana-schutz",
+        "intro": "Dana Schutz is a New York-based American painter, born in 1976 in Livonia, Michigan. She studied at the Cleveland Institute of Art and Columbia University, and came to wide attention in the early 2000s with the imagined project \"Frank from Observation\": a painter inventing pictures of the last man on earth. That premise already shows her central gift.",
+        "insight": "Schutz treats figuration as a pressure chamber. Her bodies are not stable portraits; they are arguments, accidents, jokes, collapses, and rituals made visible. She often invents scenes that cannot quite happen in real life, then paints them with enough physical conviction that they feel emotionally true. The work asks what painting can do when the subject is awkward, grotesque, comic, shameful, or too tangled to summarize.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-24-dana-schutz.md"
+      },
+      "rationale": "The thread today: Schutz treats figuration as a pressure chamber. Her bodies are not stable portraits; they are arguments, accidents, jokes, collapses, and rituals made visible. She often invents scenes that cannot quite happen in real life, then paints them with enough physical conviction that they feel emotionally true. The work asks what painting can do when the subject is awkward, grotesque, comic, shameful, or too tangled to summarize.",
+      "artwork": {
+        "file": "visual-art/2026-08-24-dana-schutz-inspired.png",
+        "title": "Dana Schutz",
+        "description": "Dana Schutz is a New York-based American painter, born in 1976 in Livonia, Michigan. She studied at the Cleveland Institute of Art and Columbia University, and came to wide attention in the early 2000s with the imagined project \"Frank from "
       }
     },
     {
