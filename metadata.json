@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "visualArt": [
+    {
+      "id": "tschabalala-self-inspired",
+      "title": "After Tschabalala Self",
+      "date": "2026-08-28",
+      "file": "visual-art/2026-08-28-tschabalala-self-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A self-possessed figure holds the night shop like a stage, their layered surfaces making identity feel built, guarded, and alive."
+    },
+    {
+      "id": "jessie-makinson-inspired",
+      "title": "Jessie Makinson",
+      "date": "2026-08-27",
+      "file": "visual-art/2026-08-27-jessie-makinson-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Jessie Makinson is a London-born, London-based painter, born in 1985, whose work builds dense figurative worlds from drawing, oil paint, literary fragments, folklore, erotica, science fiction, and art-historical memory. She studied at Cambe"
+    },
     {
       "id": "hilary-pecis-inspired",
       "title": "After Hilary Pecis",
@@ -1860,6 +1882,40 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-28",
+      "artist": {
+        "name": "Tschabalala Self",
+        "slug": "tschabalala-self",
+        "intro": "Tschabalala Self is a Harlem-born American artist, born in 1990, now working in New York's Hudson Valley. She studied at Bard College and Yale, and has built an instantly recognizable practice across painting, printmaking, collage, sewing, sculpture, and installation. Her subjects are usually Black figures, especially women, constructed from painted canvas, printed passages, patterned fabric, recycled fragments, and stitched edges.",
+        "insight": "Self treats the figure as something assembled, inhabited, and self-authored rather than passively observed. The body in her work is not a smooth academic container; it is a field of pressure, memory, fantasy, humor, sexuality, and social projection. By making the seams visible, she turns construction into meaning: identity is layered, public, private, defended, performed, and alive.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-28-tschabalala-self.md"
+      },
+      "rationale": "The thread today: Self treats the figure as something assembled, inhabited, and self-authored rather than passively observed. The body in her work is not a smooth academic container; it is a field of pressure, memory, fantasy, humor, sexuality, and social projection. By making the seams visible, she turns construction into meaning: identity is layered, public, private, defended, performed, and alive.",
+      "artwork": {
+        "file": "visual-art/2026-08-28-tschabalala-self-inspired.png",
+        "title": "After Tschabalala Self",
+        "description": "A self-possessed figure holds the night shop like a stage, their layered surfaces making identity feel built, guarded, and alive."
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "artist": {
+        "name": "Jessie Makinson",
+        "slug": "jessie-makinson",
+        "intro": "Jessie Makinson is a London-born, London-based painter, born in 1985, whose work builds dense figurative worlds from drawing, oil paint, literary fragments, folklore, erotica, science fiction, and art-historical memory. She studied at Camberwell College of Arts, Edinburgh College of Art, and the Royal Drawing School, and her paintings have been shown internationally through galleries including Lyles & King, Francois Ghebaly, Galeria OMR, and Frestonian Gallery. Her work sits in a contemporary lineage of figurative painting that treats the canvas as a charged social stage rather than a neutral picture plane.",
+        "insight": "Makinson's core insight is that fantasy can be a method of analysis. Her worlds are not escapes from history; they are pressure chambers where old structures of looking, desire, gender, ritual, and social power are made unstable. Figures bend, conspire, lounge, hunt, and perform within ornate environments that feel half myth, half party, half trap. The ambiguity is the point: the image refuses a single moral or narrative key.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-27-jessie-makinson.md"
+      },
+      "rationale": "The thread today: Makinson's core insight is that fantasy can be a method of analysis. Her worlds are not escapes from history; they are pressure chambers where old structures of looking, desire, gender, ritual, and social power are made unstable. Figures bend, conspire, lounge, hunt, and perform within ornate environments that feel half myth, half party, half trap. The ambiguity is the point: the image refuses a single moral or narrative key.",
+      "artwork": {
+        "file": "visual-art/2026-08-27-jessie-makinson-inspired.png",
+        "title": "Jessie Makinson",
+        "description": "Jessie Makinson is a London-born, London-based painter, born in 1985, whose work builds dense figurative worlds from drawing, oil paint, literary fragments, folklore, erotica, science fiction, and art-historical memory. She studied at Cambe"
+      }
+    },
     {
       "date": "2026-08-26",
       "artist": {
@@ -5120,26 +5176,6 @@
         "title": "After Dieter Rams",
         "description": "Weniger, aber besser. Less, but better. The discipline to remove everything that doesn't serve the purpose."
       }
-    }
-  ],
-  "thoughts": [
-    {
-      "id": "decoration-is-evidence",
-      "title": "Decoration Is Evidence",
-      "date": "2026-08-27",
-      "file": "thoughts/2026-08-27-decoration-is-evidence.md",
-      "tags": [
-        "hilary-pecis",
-        "jessie-makinson",
-        "dana-schutz",
-        "hernan-bas",
-        "painting",
-        "ornament",
-        "evidence",
-        "design",
-        "ai"
-      ],
-      "description": "What looks decorative is often where the intelligence lives. Rooms, props, patterns, and surfaces are not extra. They are how a scene tells you what kind of life made it."
     }
   ]
 }
