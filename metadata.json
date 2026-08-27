@@ -5121,5 +5121,25 @@
         "description": "Weniger, aber besser. Less, but better. The discipline to remove everything that doesn't serve the purpose."
       }
     }
+  ],
+  "thoughts": [
+    {
+      "id": "decoration-is-evidence",
+      "title": "Decoration Is Evidence",
+      "date": "2026-08-27",
+      "file": "thoughts/2026-08-27-decoration-is-evidence.md",
+      "tags": [
+        "hilary-pecis",
+        "jessie-makinson",
+        "dana-schutz",
+        "hernan-bas",
+        "painting",
+        "ornament",
+        "evidence",
+        "design",
+        "ai"
+      ],
+      "description": "What looks decorative is often where the intelligence lives. Rooms, props, patterns, and surfaces are not extra. They are how a scene tells you what kind of life made it."
+    }
   ]
 }
