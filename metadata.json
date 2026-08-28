@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-29",
   "visualArt": [
+    {
+      "id": "christina-quarles-inspired",
+      "title": "After Christina Quarles",
+      "date": "2026-08-29",
+      "file": "visual-art/2026-08-29-christina-quarles-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Interlocked bodies press against a shallow patterned room, holding their own ambiguity as the space tries and fails to define them."
+    },
     {
       "id": "tschabalala-self-inspired",
       "title": "After Tschabalala Self",
@@ -1882,6 +1893,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-29",
+      "artist": {
+        "name": "Christina Quarles",
+        "slug": "christina-quarles",
+        "intro": "Christina Quarles, born in 1985, is a Los Angeles-based contemporary painter known for charged figurative works that refuse fixed readings of body, identity, gender, race, and space. Born in Chicago and raised in Los Angeles, she built a deep drawing practice early, later studying art and philosophy at Hampshire College and earning an MFA in painting from Yale. Her work has appeared in major institutional contexts including the Hammer Museum's Made in L.A., the Venice Biennale, MCA Chicago, Hamburger Bahnhof, and public collections such as the Whitney, Tate, Walker Art Center, and PAMM.",
+        "insight": "Quarles treats the body as something lived from within but constantly misread from outside. Her figures bend, interlock, multiply, and press against patterned grounds, architectural frames, and impossible planes. The point is not distortion for spectacle; it is ambiguity as truth. A body can be intimate and illegible at once. Space can hold you, classify you, and fail to contain you.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-29-christina-quarles.md"
+      },
+      "rationale": "The thread today: Quarles treats the body as something lived from within but constantly misread from outside. Her figures bend, interlock, multiply, and press against patterned grounds, architectural frames, and impossible planes. The point is not distortion for spectacle; it is ambiguity as truth. A body can be intimate and illegible at once. Space can hold you, classify you, and fail to contain you.",
+      "artwork": {
+        "file": "visual-art/2026-08-29-christina-quarles-inspired.png",
+        "title": "After Christina Quarles",
+        "description": "Interlocked bodies press against a shallow patterned room, holding their own ambiguity as the space tries and fails to define them."
+      }
+    },
     {
       "date": "2026-08-28",
       "artist": {
