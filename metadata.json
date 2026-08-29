@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-29",
+  "lastUpdated": "2026-08-30",
   "visualArt": [
+    {
+      "id": "genieve-figgis-inspired",
+      "title": "After Genieve Figgis",
+      "date": "2026-08-30",
+      "file": "visual-art/2026-08-30-genieve-figgis-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A candlelit society room liquefies into comic dread, where inherited elegance slips into masks, stains, and remembering walls."
+    },
     {
       "id": "christina-quarles-inspired",
       "title": "After Christina Quarles",
@@ -1893,6 +1904,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-30",
+      "artist": {
+        "name": "Genieve Figgis",
+        "slug": "genieve-figgis",
+        "intro": "Genieve Figgis is an Irish contemporary painter, born in Dublin in 1972 and based in County Wicklow. She came to wider attention unusually late and unusually directly: after completing an MFA at the National College of Art and Design in Dublin in 2012, she began sharing work online, where Richard Prince noticed it and helped introduce her to the New York art world. Since 2015 she has been represented by Almine Rech.",
+        "insight": "Figgis treats art history as a haunted social room. Rococo parties, aristocratic portraits, elegant interiors, mythological scenes, and Victorian manners are not copied as reverent images; they are allowed to melt, grin, leak, and misbehave. Her key move is to make the canon feel less like a museum wall and more like a memory that has started decomposing. The old image remains legible, but its authority is ruined by paint's wetness, humor, and bodily energy.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-30-genieve-figgis.md"
+      },
+      "rationale": "The thread today: Figgis treats art history as a haunted social room. Rococo parties, aristocratic portraits, elegant interiors, mythological scenes, and Victorian manners are not copied as reverent images; they are allowed to melt, grin, leak, and misbehave. Her key move is to make the canon feel less like a museum wall and more like a memory that has started decomposing. The old image remains legible, but its authority is ruined by paint's wetness, humor, and bodily energy.",
+      "artwork": {
+        "file": "visual-art/2026-08-30-genieve-figgis-inspired.png",
+        "title": "After Genieve Figgis",
+        "description": "A candlelit society room liquefies into comic dread, where inherited elegance slips into masks, stains, and remembering walls."
+      }
+    },
     {
       "date": "2026-08-29",
       "artist": {
