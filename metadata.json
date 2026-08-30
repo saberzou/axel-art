@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-30",
+  "lastUpdated": "2026-08-31",
   "visualArt": [
+    {
+      "id": "shara-hughes-inspired",
+      "title": "After Shara Hughes",
+      "date": "2026-08-31",
+      "file": "visual-art/2026-08-31-shara-hughes-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "An invented landscape bends inward, letting color, pressure, and unstable space turn weather into feeling."
+    },
     {
       "id": "genieve-figgis-inspired",
       "title": "After Genieve Figgis",
@@ -1904,6 +1915,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-08-31",
+      "artist": {
+        "name": "Shara Hughes",
+        "slug": "shara-hughes",
+        "intro": "Shara Hughes is an American painter born in Atlanta in 1981 and based in Brooklyn. She studied at the Rhode Island School of Design and Skowhegan, and became widely known for vivid, invented landscapes that helped re-open contemporary landscape painting as a place for psychological pressure, improvisation, and abstract invention. Her work has appeared in major exhibitions including the 2017 Whitney Biennial, and is held by museums including the Met, the Whitney, the Denver Art Museum, and the Smithsonian American Art Museum.",
+        "insight": "Hughes treats landscape less as scenery than as an emotional weather system. The mountain, sun, tree, window, river, or moon is not copied from a place; it is discovered through painting. Her canvases often feel like a mind constructing nature in real time, letting each mark provoke the next. The result is pictorial space that is believable without being naturalistic: a world held together by rhythm, color, and pressure rather than conventional perspective.",
+        "principles": [],
+        "noteFile": "art-studies/2026-08-31-shara-hughes.md"
+      },
+      "rationale": "The thread today: Hughes treats landscape less as scenery than as an emotional weather system. The mountain, sun, tree, window, river, or moon is not copied from a place; it is discovered through painting. Her canvases often feel like a mind constructing nature in real time, letting each mark provoke the next. The result is pictorial space that is believable without being naturalistic: a world held together by rhythm, color, and pressure rather than conventional perspective.",
+      "artwork": {
+        "file": "visual-art/2026-08-31-shara-hughes-inspired.png",
+        "title": "After Shara Hughes",
+        "description": "An invented landscape bends inward, letting color, pressure, and unstable space turn weather into feeling."
+      }
+    },
     {
       "date": "2026-08-30",
       "artist": {
