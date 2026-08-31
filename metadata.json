@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-01",
   "visualArt": [
+    {
+      "id": "katherine-bradford-inspired",
+      "title": "After Katherine Bradford",
+      "date": "2026-09-01",
+      "file": "visual-art/2026-09-01-katherine-bradford-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A luminous drift of awkward swimmers and reaching bodies turns exposure into a shared, tender courage."
+    },
     {
       "id": "shara-hughes-inspired",
       "title": "After Shara Hughes",
@@ -1915,6 +1926,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-01",
+      "artist": {
+        "name": "Katherine Bradford",
+        "slug": "katherine-bradford",
+        "intro": "Katherine Bradford is an American painter born in New York in 1942, now associated with New York and Maine. She came to art comparatively late, began in abstraction, and developed a body of work that moves freely between color-field painting, eccentric figuration, marine imagery, and tender social allegory. Her best-known subjects include swimmers, boats, caped figures, mothers, crowds, and people floating through vast zones of color.",
+        "insight": "Bradford's strongest insight is that vulnerability can be monumental. She paints heroic gestures without conventional heroism: a swimmer is awkward, a superhero is unsure, a group at sea is both comic and exposed. The figures often look provisional, but the color fields around them are emotionally immense. Scale, color, and atmosphere do the work that anatomy or detail might do in another painter's hands.",
+        "principles": [],
+        "noteFile": "art-studies/2026-09-01-katherine-bradford.md"
+      },
+      "rationale": "The thread today: Bradford's strongest insight is that vulnerability can be monumental. She paints heroic gestures without conventional heroism: a swimmer is awkward, a superhero is unsure, a group at sea is both comic and exposed. The figures often look provisional, but the color fields around them are emotionally immense. Scale, color, and atmosphere do the work that anatomy or detail might do in another painter's hands.",
+      "artwork": {
+        "file": "visual-art/2026-09-01-katherine-bradford-inspired.png",
+        "title": "After Katherine Bradford",
+        "description": "A luminous drift of awkward swimmers and reaching bodies turns exposure into a shared, tender courage."
+      }
+    },
     {
       "date": "2026-08-31",
       "artist": {
