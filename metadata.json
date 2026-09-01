@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-02",
   "visualArt": [
+    {
+      "id": "nina-chanel-abney-inspired",
+      "title": "After Nina Chanel Abney",
+      "date": "2026-09-02",
+      "file": "visual-art/2026-09-02-nina-chanel-abney-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A bright public square fractures into signage, performance, surveillance, and celebration until its cheerful rhythm starts to feel unstable."
+    },
     {
       "id": "katherine-bradford-inspired",
       "title": "After Katherine Bradford",
@@ -1926,6 +1937,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-02",
+      "artist": {
+        "name": "Nina Chanel Abney",
+        "slug": "nina-chanel-abney",
+        "intro": "Nina Chanel Abney is an American contemporary painter from Harvey, Illinois, now based in New York. Trained at Augustana College and Parsons, she became widely noticed with \"Class of 2007,\" a thesis painting that reversed racial positions of authority and captivity among her classmates. Her work is held by major museums including MoMA, the Whitney, Brooklyn Museum, Nasher Museum, and others, and she has moved across painting, murals, prints, public projects, and object-based editions without losing the charge of the painted image.",
+        "insight": "Abney treats contemporary life as a compressed visual feed: politics, pleasure, violence, sport, race, sexuality, advertising, celebrity, and art history arrive at once. The insight is not simply that modern images are chaotic, but that their chaos has grammar. She flattens figures into signs, swaps identities, breaks narrative continuity, and lets bold color operate as both invitation and alarm.",
+        "principles": [],
+        "noteFile": "art-studies/2026-09-02-nina-chanel-abney.md"
+      },
+      "rationale": "The thread today: Abney treats contemporary life as a compressed visual feed: politics, pleasure, violence, sport, race, sexuality, advertising, celebrity, and art history arrive at once. The insight is not simply that modern images are chaotic, but that their chaos has grammar. She flattens figures into signs, swaps identities, breaks narrative continuity, and lets bold color operate as both invitation and alarm.",
+      "artwork": {
+        "file": "visual-art/2026-09-02-nina-chanel-abney-inspired.png",
+        "title": "After Nina Chanel Abney",
+        "description": "A bright public square fractures into signage, performance, surveillance, and celebration until its cheerful rhythm starts to feel unstable."
+      }
+    },
     {
       "date": "2026-09-01",
       "artist": {
