@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-02",
+  "lastUpdated": "2026-09-03",
   "visualArt": [
+    {
+      "id": "raqib-shaw-inspired",
+      "title": "After Raqib Shaw",
+      "date": "2026-09-03",
+      "file": "visual-art/2026-09-03-raqib-shaw-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A luminous threshold garden turns memory, ornament, and hidden menace into a fragile paradise rebuilt after loss."
+    },
     {
       "id": "nina-chanel-abney-inspired",
       "title": "After Nina Chanel Abney",
@@ -1937,6 +1948,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-03",
+      "artist": {
+        "name": "Raqib Shaw",
+        "slug": "raqib-shaw",
+        "intro": "Raqib Shaw is an Indian-born, London-based painter, born in Calcutta in 1974 and raised mainly in Kashmir. His family trade in antiques, jewelry, fabrics, carpets, and decorative objects gave him an early education in surface, craft, ornament, and cultural mixture. After moving to London, he studied at Central Saint Martins, completing his MA in 2002.",
+        "insight": "Shaw turns paradise into a contested stage. Beauty is never only decorative; it is a trapdoor into exile, violence, memory, desire, and myth. His work suggests that ornament can carry psychological pressure as strongly as gesture or expression. The paradise is gorgeous because it has been lost, reconstructed, and overbuilt in the imagination.",
+        "principles": [],
+        "noteFile": "art-studies/2026-09-03-raqib-shaw.md"
+      },
+      "rationale": "The thread today: Shaw turns paradise into a contested stage. Beauty is never only decorative; it is a trapdoor into exile, violence, memory, desire, and myth. His work suggests that ornament can carry psychological pressure as strongly as gesture or expression. The paradise is gorgeous because it has been lost, reconstructed, and overbuilt in the imagination.",
+      "artwork": {
+        "file": "visual-art/2026-09-03-raqib-shaw-inspired.png",
+        "title": "After Raqib Shaw",
+        "description": "A luminous threshold garden turns memory, ornament, and hidden menace into a fragile paradise rebuilt after loss."
+      }
+    },
     {
       "date": "2026-09-02",
       "artist": {
@@ -5316,61 +5344,6 @@
         "title": "After Dieter Rams",
         "description": "Weniger, aber besser. Less, but better. The discipline to remove everything that doesn't serve the purpose."
       }
-    }
-  ],
-  "thoughts": [
-    {
-      "id": "the-feed-needs-choreography",
-      "title": "The Feed Needs Choreography",
-      "date": "2026-09-02",
-      "file": "thoughts/2026-09-02-the-feed-needs-choreography.md",
-      "tags": [
-        "katherine-bradford",
-        "nina-chanel-abney",
-        "painting",
-        "attention",
-        "feeds",
-        "choreography",
-        "design",
-        "ai"
-      ],
-      "description": "Modern life arrives as a feed, but the answer is not less complexity. It is better choreography: rhythm, scale, placement, and tension that make attention humane."
-    },
-    {
-      "id": "decoration-is-evidence",
-      "title": "Decoration Is Evidence",
-      "date": "2026-08-27",
-      "file": "thoughts/2026-08-27-decoration-is-evidence.md",
-      "tags": [
-        "hilary-pecis",
-        "jessie-makinson",
-        "dana-schutz",
-        "hernan-bas",
-        "painting",
-        "ornament",
-        "evidence",
-        "design",
-        "ai"
-      ],
-      "description": "What looks decorative is often where the intelligence lives. Rooms, props, patterns, and surfaces are not extra. They are how a scene tells you what kind of life made it."
-    },
-    {
-      "id": "the-smallness-engine",
-      "title": "The Smallness Engine",
-      "date": "2026-08-11",
-      "file": "thoughts/2026-08-11-the-smallness-engine.md",
-      "tags": [
-        "sempe",
-        "sydney-smith",
-        "kitty-crowther",
-        "isabelle-arsenault",
-        "illustration",
-        "scale",
-        "childhood",
-        "design",
-        "ai"
-      ],
-      "description": "A tiny figure under a large sky is not a small subject. It is a way of making the world carry the emotion. Children's books understand this better than most interfaces."
     }
   ]
 }
