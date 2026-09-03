@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-04",
   "visualArt": [
+    {
+      "id": "cecily-brown-inspired",
+      "title": "After Cecily Brown",
+      "date": "2026-09-04",
+      "file": "visual-art/2026-09-04-cecily-brown-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A twilight garden-interior churns with almost-bodies, broken objects, and restless marks that keep recognition just out of reach."
+    },
     {
       "id": "raqib-shaw-inspired",
       "title": "After Raqib Shaw",
@@ -1948,6 +1959,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-04",
+      "artist": {
+        "name": "Cecily Brown",
+        "slug": "cecily-brown",
+        "intro": "Cecily Brown is a British painter born in London in 1969 and based in New York. Trained at the Slade School of Fine Art, she became known in the 1990s for paintings that refused to choose between figuration and abstraction. Her work is often discussed in relation to Rubens, Goya, Fragonard, Poussin, de Kooning, Bacon, and Joan Mitchell, but it feels contemporary because it treats those references as unstable matter rather than fixed quotation.",
+        "insight": "Brown's core insight is that a painting can withhold its subject without becoming empty. She builds scenes where bodies, animals, interiors, gardens, and historical motifs seem to surface, dissolve, and re-form inside the same field. The viewer is not given a clean image to consume; looking becomes an active, physical search. Desire, violence, comedy, and decay arrive as glimpses in motion.",
+        "principles": [],
+        "noteFile": "art-studies/2026-09-04-cecily-brown.md"
+      },
+      "rationale": "The thread today: Brown's core insight is that a painting can withhold its subject without becoming empty. She builds scenes where bodies, animals, interiors, gardens, and historical motifs seem to surface, dissolve, and re-form inside the same field. The viewer is not given a clean image to consume; looking becomes an active, physical search. Desire, violence, comedy, and decay arrive as glimpses in motion.",
+      "artwork": {
+        "file": "visual-art/2026-09-04-cecily-brown-inspired.png",
+        "title": "After Cecily Brown",
+        "description": "A twilight garden-interior churns with almost-bodies, broken objects, and restless marks that keep recognition just out of reach."
+      }
+    },
     {
       "date": "2026-09-03",
       "artist": {
