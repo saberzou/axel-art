@@ -5373,5 +5373,77 @@
         "description": "Weniger, aber besser. Less, but better. The discipline to remove everything that doesn't serve the purpose."
       }
     }
+  ],
+  "thoughts": [
+    {
+      "id": "clarity-should-arrive-late",
+      "title": "Clarity Should Arrive Late",
+      "date": "2026-09-04",
+      "file": "thoughts/2026-09-04-clarity-should-arrive-late.md",
+      "tags": [
+        "raqib-shaw",
+        "cecily-brown",
+        "painting",
+        "clarity",
+        "ambiguity",
+        "attention",
+        "design",
+        "ai"
+      ],
+      "description": "Not every good interface should explain itself instantly. Some truths need delayed recognition, because the search is part of the meaning."
+    },
+    {
+      "id": "the-feed-needs-choreography",
+      "title": "The Feed Needs Choreography",
+      "date": "2026-09-02",
+      "file": "thoughts/2026-09-02-the-feed-needs-choreography.md",
+      "tags": [
+        "katherine-bradford",
+        "nina-chanel-abney",
+        "painting",
+        "attention",
+        "feeds",
+        "choreography",
+        "design",
+        "ai"
+      ],
+      "description": "Modern life arrives as a feed, but the answer is not less complexity. It is better choreography: rhythm, scale, placement, and tension that make attention humane."
+    },
+    {
+      "id": "decoration-is-evidence",
+      "title": "Decoration Is Evidence",
+      "date": "2026-08-27",
+      "file": "thoughts/2026-08-27-decoration-is-evidence.md",
+      "tags": [
+        "hilary-pecis",
+        "jessie-makinson",
+        "dana-schutz",
+        "hernan-bas",
+        "painting",
+        "ornament",
+        "evidence",
+        "design",
+        "ai"
+      ],
+      "description": "What looks decorative is often where the intelligence lives. Rooms, props, patterns, and surfaces are not extra. They are how a scene tells you what kind of life made it."
+    },
+    {
+      "id": "the-smallness-engine",
+      "title": "The Smallness Engine",
+      "date": "2026-08-11",
+      "file": "thoughts/2026-08-11-the-smallness-engine.md",
+      "tags": [
+        "sempe",
+        "sydney-smith",
+        "kitty-crowther",
+        "isabelle-arsenault",
+        "illustration",
+        "scale",
+        "childhood",
+        "design",
+        "ai"
+      ],
+      "description": "A tiny figure under a large sky is not a small subject. It is a way of making the world carry the emotion. Children's books understand this better than most interfaces."
+    }
   ]
 }
