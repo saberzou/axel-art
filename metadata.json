@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-05",
+  "lastUpdated": "2026-09-06",
   "visualArt": [
+    {
+      "id": "lisa-yuskavage-inspired",
+      "title": "After Lisa Yuskavage",
+      "date": "2026-09-06",
+      "file": "visual-art/2026-09-06-lisa-yuskavage-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "At blue hour, a painter and her unfinished double inhabit overlapping climates of tenderness, vigilance, and quiet unease."
+    },
     {
       "id": "nicole-eisenman-inspired",
       "title": "After Nicole Eisenman",
@@ -1970,6 +1981,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-06",
+      "artist": {
+        "name": "Lisa Yuskavage",
+        "slug": "lisa-yuskavage",
+        "intro": "Lisa Yuskavage (born 1962 in Philadelphia) is an American figurative painter based in New York. She earned a BFA from Tyler School of Art in 1984 and an MFA from Yale in 1986. Across more than three decades, she has made technically sumptuous, psychologically unruly paintings that place invented women in glowing interiors and landscapes.",
+        "insight": "Yuskavage’s central achievement is to make beauty carry contradiction rather than resolve it. Seductive color and painstaking illusionism attract the eye, but the figures refuse a stable reading: they may seem powerful and exposed, comic and mournful, self-possessed and objectified at once. She calls this fusion of feeling and structure “emotional formalism.” Color is not decoration; it creates the atmosphere, psychology, and moral temperature of the scene. The viewer’s shifting reactions—desire, discomfort, tenderness, judgment—become part of the painting’s subject.",
+        "principles": [],
+        "noteFile": "art-studies/2026-09-06-lisa-yuskavage.md"
+      },
+      "rationale": "The thread today: Yuskavage’s central achievement is to make beauty carry contradiction rather than resolve it. Seductive color and painstaking illusionism attract the eye, but the figures refuse a stable reading: they may seem powerful and exposed, comic and mournful, self-possessed and objectified at once. She calls this fusion of feeling and structure “emotional formalism.” Color is not decoration; it creates the atmosphere, psychology, and moral temperature of the scene. The viewer’s shifting reactions—desire, discomfort, tenderness, judgment—become part of the painting’s subject.",
+      "artwork": {
+        "file": "visual-art/2026-09-06-lisa-yuskavage-inspired.png",
+        "title": "After Lisa Yuskavage",
+        "description": "At blue hour, a painter and her unfinished double inhabit overlapping climates of tenderness, vigilance, and quiet unease."
+      }
+    },
     {
       "date": "2026-09-05",
       "artist": {
