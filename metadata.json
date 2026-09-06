@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-06",
+  "lastUpdated": "2026-09-07",
   "visualArt": [
+    {
+      "id": "toyin-ojih-odutola-inspired",
+      "title": "After Toyin Ojih Odutola",
+      "date": "2026-09-07",
+      "file": "visual-art/2026-09-07-toyin-ojih-odutola-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A poised archivist sits amid maps, specimens, and inherited objects, her striated world opening quietly onto an unwritten lineage."
+    },
     {
       "id": "lisa-yuskavage-inspired",
       "title": "After Lisa Yuskavage",
@@ -1981,6 +1992,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-07",
+      "artist": {
+        "name": "Toyin Ojih Odutola",
+        "slug": "toyin-ojih-odutola",
+        "intro": "Toyin Ojih Odutola (born 1985 in Ile-Ife, Nigeria) is a Nigerian American artist raised in Alabama and based in New York. Best known for drawings on paper, she uses ballpoint pen, charcoal, pastel, pencil, chalk, and marker to reconsider portraiture, identity, and the social meanings attached to skin. Her practice has expanded from tightly cropped figures into elaborate fictional worlds, often presented as interconnected narrative cycles.",
+        "insight": "Drawing can do more than describe a person: it can manufacture an alternate history. Ojih Odutola treats every mark as both surface and evidence. Dense striations turn skin into terrain, while clothing, interiors, posture, and sequence build identities that remain deliberately mutable. Her imagined families and civilizations are not escapist decoration; they expose how readily viewers accept visual codes of race, class, gender, lineage, and power as fact.",
+        "principles": [
+          "Let marks carry narrative meaning, not merely texture.",
+          "Build a world through clues rather than exhaustive explanation.",
+          "Use fiction to reveal the assumptions hidden inside “reality.”",
+          "Give every figure interiority, agency, and a life beyond the frame.",
+          "Make medium, scale, and sequence part of the argument."
+        ],
+        "noteFile": "art-studies/2026-09-07-toyin-ojih-odutola.md"
+      },
+      "rationale": "The thread today: Drawing can do more than describe a person: it can manufacture an alternate history. Ojih Odutola treats every mark as both surface and evidence. Dense striations turn skin into terrain, while clothing, interiors, posture, and sequence build identities that remain deliberately mutable. Her imagined families and civilizations are not escapist decoration; they expose how readily viewers accept visual codes of race, class, gender, lineage, and power as fact.",
+      "artwork": {
+        "file": "visual-art/2026-09-07-toyin-ojih-odutola-inspired.png",
+        "title": "After Toyin Ojih Odutola",
+        "description": "A poised archivist sits amid maps, specimens, and inherited objects, her striated world opening quietly onto an unwritten lineage."
+      }
+    },
     {
       "date": "2026-09-06",
       "artist": {
