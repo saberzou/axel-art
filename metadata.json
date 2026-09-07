@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-07",
+  "lastUpdated": "2026-09-08",
   "visualArt": [
+    {
+      "id": "firelei-baez-inspired",
+      "title": "After Firelei Báez",
+      "date": "2026-09-08",
+      "file": "visual-art/2026-09-08-firelei-baez-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A watchful future body blooms through a failing survey grid, turning inherited borders into currents, shelter, and self-authored life."
+    },
     {
       "id": "toyin-ojih-odutola-inspired",
       "title": "After Toyin Ojih Odutola",
@@ -1992,6 +2003,23 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-08",
+      "artist": {
+        "name": "Firelei Báez",
+        "slug": "firelei-baez",
+        "intro": "Firelei Báez (born 1981 in Santiago de los Caballeros, Dominican Republic) is a New York–based Dominican American painter whose work moves between portraiture, abstraction, folklore, archival research, and speculative fiction. Raised near the border between the Dominican Republic and Haiti and later in Miami, she developed an acute awareness of how race, nationality, gender, and class are made unstable by history. She studied painting and printmaking at Cooper Union, attended Skowhegan, and earned an MFA from Hunter College.",
+        "insight": "Báez treats history as a surface that can be overwritten without being erased. She often paints lush, metamorphic bodies over old maps, manuals, travelogues, and diagrams—documents that once classified land and people. The archival structure remains visible, but color, ornament, myth, and bodily presence interrupt its authority. Her recurring figures—including the ciguapa of Hispaniolan folklore, women wearing tignons, forgotten Haitian historical figures, and Octavia Butler’s Lauren Olamina—are not illustrations of fixed identities. They are agents of self-invention.",
+        "principles": [],
+        "noteFile": "art-studies/2026-09-08-firelei-baez.md"
+      },
+      "rationale": "The thread today: Báez treats history as a surface that can be overwritten without being erased. She often paints lush, metamorphic bodies over old maps, manuals, travelogues, and diagrams—documents that once classified land and people. The archival structure remains visible, but color, ornament, myth, and bodily presence interrupt its authority. Her recurring figures—including the ciguapa of Hispaniolan folklore, women wearing tignons, forgotten Haitian historical figures, and Octavia Butler’s Lauren Olamina—are not illustrations of fixed identities. They are agents of self-invention.",
+      "artwork": {
+        "file": "visual-art/2026-09-08-firelei-baez-inspired.png",
+        "title": "After Firelei Báez",
+        "description": "A watchful future body blooms through a failing survey grid, turning inherited borders into currents, shelter, and self-authored life."
+      }
+    },
     {
       "date": "2026-09-07",
       "artist": {
