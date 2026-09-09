@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-09-09",
+  "lastUpdated": "2026-09-10",
   "visualArt": [
+    {
+      "id": "jordan-casteel-inspired",
+      "title": "After Jordan Casteel",
+      "date": "2026-09-10",
+      "file": "visual-art/2026-09-10-jordan-casteel-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "At the threshold of a bicycle workshop, a mechanic meets our gaze while tools, photographs, and evening light hold the quiet evidence of a life in motion."
+    },
+    {
+      "id": "loie-hollowell-inspired",
+      "title": "After Loie Hollowell",
+      "date": "2026-09-09",
+      "file": "visual-art/2026-09-09-loie-hollowell-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A compressed central pulse opens into breathing bands of dusk color, where pressure becomes luminous release."
+    },
     {
       "id": "firelei-baez-inspired",
       "title": "After Firelei Báez",
@@ -2003,6 +2025,46 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-10",
+      "artist": {
+        "name": "Jordan Casteel",
+        "slug": "jordan-casteel",
+        "intro": "Jordan Casteel (born 1989, Denver) is an American figurative painter based in New York. After earning an MFA from Yale in 2014, she became a 2015–16 artist-in-residence at the Studio Museum in Harlem. Her large-scale portraits grow from sustained attention to friends, family, students, neighbors, vendors, and subway passengers.",
+        "insight": "Casteel treats portraiture as reciprocal recognition. A sitter is not raw visual material but a collaborator whose posture, gaze, clothing, and surroundings help determine how they are seen. Direct gazes return the viewer’s scrutiny; domestic objects, storefront signs, merchandise, plants, and photographs expand identity beyond facial likeness. Her recurring tension is between intimacy and distance: a monumental public image can preserve the specificity of a private encounter.",
+        "principles": [],
+        "noteFile": "art-studies/2026-09-10-jordan-casteel.md"
+      },
+      "rationale": "The thread today: Casteel treats portraiture as reciprocal recognition. A sitter is not raw visual material but a collaborator whose posture, gaze, clothing, and surroundings help determine how they are seen. Direct gazes return the viewer’s scrutiny; domestic objects, storefront signs, merchandise, plants, and photographs expand identity beyond facial likeness. Her recurring tension is between intimacy and distance: a monumental public image can preserve the specificity of a private encounter.",
+      "artwork": {
+        "file": "visual-art/2026-09-10-jordan-casteel-inspired.png",
+        "title": "After Jordan Casteel",
+        "description": "At the threshold of a bicycle workshop, a mechanic meets our gaze while tools, photographs, and evening light hold the quiet evidence of a life in motion."
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "artist": {
+        "name": "Loie Hollowell",
+        "slug": "loie-hollowell",
+        "intro": "Loie Hollowell (born 1983, raised in Woodland, California) is a New York–based painter whose work occupies the threshold between geometric abstraction, bodily figuration, and low-relief sculpture. After a BFA at UC Santa Barbara and an MFA in painting at Virginia Commonwealth University, she developed a visual language grounded in autobiographical experiences of sexuality, pregnancy, birth, breastfeeding, and postpartum pain. Her paintings often use bilateral symmetry, a central vertical axis, and symbolic forms such as mandorlas, ogees, orbs, and lingams.",
+        "insight": "The body can be translated without being erased. Hollowell compresses private physical sensation into color, geometry, scale, texture, and light, making an intimate event legible as an almost cosmic system. The central insight is not simply that abstract forms can resemble anatomy; it is that formal choices can behave like bodily states. A gradient can throb, concentric rings can contract, symmetry can stabilize or trap, and a bulging surface can make pressure physically present.",
+        "principles": [
+          "Translate sensation into formal behavior, not literal illustration.",
+          "Let real light and shadow participate in the image.",
+          "Use symmetry as an emotional structure, not mere decoration.",
+          "Anchor scale to the body so abstraction remains felt.",
+          "Preserve contradiction: beauty can carry pressure, pain, and vulnerability."
+        ],
+        "noteFile": "art-studies/2026-09-09-loie-hollowell.md"
+      },
+      "rationale": "The thread today: The body can be translated without being erased. Hollowell compresses private physical sensation into color, geometry, scale, texture, and light, making an intimate event legible as an almost cosmic system. The central insight is not simply that abstract forms can resemble anatomy; it is that formal choices can behave like bodily states. A gradient can throb, concentric rings can contract, symmetry can stabilize or trap, and a bulging surface can make pressure physically present.",
+      "artwork": {
+        "file": "visual-art/2026-09-09-loie-hollowell-inspired.png",
+        "title": "After Loie Hollowell",
+        "description": "A compressed central pulse opens into breathing bands of dusk color, where pressure becomes luminous release."
+      }
+    },
     {
       "date": "2026-09-08",
       "artist": {
