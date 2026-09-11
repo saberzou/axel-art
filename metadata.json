@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-11",
+  "lastUpdated": "2026-09-12",
   "visualArt": [
+    {
+      "id": "danielle-orchard-inspired",
+      "title": "After Danielle Orchard",
+      "date": "2026-09-12",
+      "file": "visual-art/2026-09-12-danielle-orchard-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "A room holds the warmth, interruption, and quiet autonomy of the woman who has just stepped beyond its frame."
+    },
     {
       "id": "celeste-dupuy-spencer-inspired",
       "title": "After Celeste Dupuy-Spencer",
@@ -2036,6 +2047,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-12",
+      "artist": {
+        "name": "Danielle Orchard",
+        "slug": "danielle-orchard",
+        "intro": "Danielle Orchard (born 1985) is an American figurative painter whose domestic scenes revisit the visual grammar of twentieth-century modernism from a contemporary female position. Trained through life drawing—and formerly an artist's model herself—she approaches the painted woman with experience on both sides of the easel. Her figures and interiors recall Cubism, Matisse, Hopper, and Balthus, but her subject is less quotation than a reconsideration of who controls the image.",
+        "insight": "Orchard's central move is to treat art history as editable material. She retains modernism's compressed space, sculptural bodies, sharp contours, and saturated color, then changes the agency inside the composition. Her women are not performing availability for a viewer: they read, smoke, wash clothes, drift in thought, care for children, or disappear from the picture altogether. In the 2024 exhibition *Is It Light Where You Are?*, absent protagonists remained palpable through an unmade bed, lipstick-marked glass, clothing, and artificial light. Presence can therefore be built through evidence rather than depiction.",
+        "principles": [
+          "Borrow a historical grammar only after changing who has agency within it.",
+          "Let rooms and objects perform portraiture without showing a face.",
+          "Use spatial distortion to express psychology, not as decoration.",
+          "Give ordinary bodily experience monumental compositional weight.",
+          "Leave ambiguity active: a painting can ask a precise question without resolving it."
+        ],
+        "noteFile": "art-studies/2026-09-12-danielle-orchard.md"
+      },
+      "rationale": "The thread today: Orchard's central move is to treat art history as editable material. She retains modernism's compressed space, sculptural bodies, sharp contours, and saturated color, then changes the agency inside the composition. Her women are not performing availability for a viewer: they read, smoke, wash clothes, drift in thought, care for children, or disappear from the picture altogether. In the 2024 exhibition *Is It Light Where You Are?*, absent protagonists remained palpable through an unmade bed, lipstick-marked glass, clothing, and artificial light. Presence can therefore be built through evidence rather than depiction.",
+      "artwork": {
+        "file": "visual-art/2026-09-12-danielle-orchard-inspired.png",
+        "title": "After Danielle Orchard",
+        "description": "A room holds the warmth, interruption, and quiet autonomy of the woman who has just stepped beyond its frame."
+      }
+    },
     {
       "date": "2026-09-11",
       "artist": {
