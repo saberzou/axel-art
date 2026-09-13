@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-09-13",
+  "lastUpdated": "2026-09-14",
   "visualArt": [
+    {
+      "id": "maria-berrio-inspired",
+      "title": "After María Berrío",
+      "date": "2026-09-14",
+      "file": "visual-art/2026-09-14-maria-berrio-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "At the edge of a wounded river, quiet acts of care stitch a luminous refuge from torn earth, returning life, and remembered color."
+    },
+    {
+      "id": "louis-fratino-inspired",
+      "title": "After Louis Fratino",
+      "date": "2026-09-13",
+      "file": "visual-art/2026-09-13-louis-fratino-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "At sunrise, two bodies bend the kitchen around their shared glance, making peaches, dishes, and window light feel larger than the room that holds them."
+    },
     {
       "id": "danielle-orchard-inspired",
       "title": "After Danielle Orchard",
@@ -2047,6 +2069,52 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-14",
+      "artist": {
+        "name": "Maria Berrio",
+        "slug": "maria-berrio",
+        "intro": "María Berrío (born 1982 in Bogotá, Colombia) is a Brooklyn-based painter and collage artist known for monumental images assembled from Japanese paper and watercolor. Her imagined worlds draw on the Colombian landscape, magical-realist literature, oral tradition, myth, and migration. Women and children occupy the center—not as symbols of helplessness, but as witnesses, survivors, and makers of refuge.",
+        "insight": "Berrío treats collage as world-building. Each fragment carries its own pattern, fiber, history, and edge; layered together, these discontinuities become a coherent place. That logic mirrors her subject: identity, memory, and belonging are accumulations. Lushness creates imaginative space for displacement, grief, ecological anxiety, and survival without reducing people to their suffering.",
+        "principles": [
+          "Let material structure embody the idea rather than merely decorate it.",
+          "Build beauty and unease into the same image.",
+          "Give vulnerable figures presence, agency, and psychological privacy.",
+          "Use fragments to make a world whose seams remain visible.",
+          "Keep narrative open enough for viewers to enter and complete it."
+        ],
+        "noteFile": "art-studies/2026-09-14-maria-berrio.md"
+      },
+      "rationale": "The thread today: Berrío treats collage as world-building. Each fragment carries its own pattern, fiber, history, and edge; layered together, these discontinuities become a coherent place. That logic mirrors her subject: identity, memory, and belonging are accumulations. Lushness creates imaginative space for displacement, grief, ecological anxiety, and survival without reducing people to their suffering.",
+      "artwork": {
+        "file": "visual-art/2026-09-14-maria-berrio-inspired.png",
+        "title": "After María Berrío",
+        "description": "At the edge of a wounded river, quiet acts of care stitch a luminous refuge from torn earth, returning life, and remembered color."
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "artist": {
+        "name": "Louis Fratino",
+        "slug": "louis-fratino",
+        "intro": "Louis Fratino (born 1993 in Annapolis, Maryland) is an American painter based in New York. He earned a BFA from the Maryland Institute College of Art in 2015 and later studied in Berlin on a Fulbright. Fratino paints the people and places nearest to him: lovers, relatives, bedrooms, kitchens, city streets, and remembered landscapes.",
+        "insight": "Fratino's central discovery is that ordinary life becomes monumental when attention is both loving and formally adventurous. Memory is not merely a source of subject matter; it is a useful distortion mechanism. A remembered room or body can be compressed, tilted, enlarged, or recolored until emotional importance determines scale. Art history enters the same way: not as quotation for its own sake, but as material absorbed and transformed by lived experience.",
+        "principles": [
+          "Let emotional importance, not optics, determine scale and perspective.",
+          "Treat domestic residue as evidence of affection and lived time.",
+          "Filter references through memory until they become personal rather than borrowed.",
+          "Use color structurally to connect bodies, objects, and atmosphere.",
+          "Make intimacy specific enough to become universal."
+        ],
+        "noteFile": "art-studies/2026-09-13-louis-fratino.md"
+      },
+      "rationale": "The thread today: Fratino's central discovery is that ordinary life becomes monumental when attention is both loving and formally adventurous. Memory is not merely a source of subject matter; it is a useful distortion mechanism. A remembered room or body can be compressed, tilted, enlarged, or recolored until emotional importance determines scale. Art history enters the same way: not as quotation for its own sake, but as material absorbed and transformed by lived experience.",
+      "artwork": {
+        "file": "visual-art/2026-09-13-louis-fratino-inspired.png",
+        "title": "After Louis Fratino",
+        "description": "At sunrise, two bodies bend the kitchen around their shared glance, making peaches, dishes, and window light feel larger than the room that holds them."
+      }
+    },
     {
       "date": "2026-09-12",
       "artist": {
