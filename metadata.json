@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-18",
   "visualArt": [
+    {
+      "id": "christina-kimeze-inspired",
+      "title": "After Christina Kimeze",
+      "date": "2026-09-18",
+      "file": "visual-art/2026-09-18-christina-kimeze-inspired.png",
+      "tags": [
+        "artist-study"
+      ],
+      "category": "artist-study",
+      "description": "Three figures turn stillness into orbit, gliding between the drag of memory and the sudden grace of flight."
+    },
     {
       "id": "jade-fadojutimi-inspired",
       "title": "After Jadé Fadojutimi",
@@ -2102,6 +2113,29 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-18",
+      "artist": {
+        "name": "Christina Kimeze",
+        "slug": "christina-kimeze",
+        "intro": "Christina Kimeze (born 1986) is a British painter based in London. She studied Biological Sciences at Oxford before completing the Royal Drawing School’s Drawing Year in 2022, where she received the Sir Denis Mahon Award. Her practice draws on life, memory, cinema, literature, and Ugandan family history.",
+        "insight": "Kimeze treats interior life as action. Stillness is not emptiness, passivity, or withdrawal; it is a sovereign state where identity can develop beyond the public demand that Black experience always be explained through struggle or resistance. More recently, roller-skating has let her give that inward freedom a physical language: looping, balancing, gliding, and briefly escaping gravity. The strongest tension in the work is between friction and flight. Absorbent suede slows every mark while the depicted body seems ready to soar.",
+        "principles": [
+          "Give invisible emotional states a concrete physical verb.",
+          "Let the surface resist the hand; friction can deepen meaning.",
+          "Use geometry to hold expressive color together.",
+          "Preserve a figure’s privacy while making their feeling legible.",
+          "Treat quiet, indecision, and reflection as events—not pauses between events."
+        ],
+        "noteFile": "art-studies/2026-09-18-christina-kimeze.md"
+      },
+      "rationale": "The thread today: Kimeze treats interior life as action. Stillness is not emptiness, passivity, or withdrawal; it is a sovereign state where identity can develop beyond the public demand that Black experience always be explained through struggle or resistance. More recently, roller-skating has let her give that inward freedom a physical language: looping, balancing, gliding, and briefly escaping gravity. The strongest tension in the work is between friction and flight. Absorbent suede slows every mark while the depicted body seems ready to soar.",
+      "artwork": {
+        "file": "visual-art/2026-09-18-christina-kimeze-inspired.png",
+        "title": "After Christina Kimeze",
+        "description": "Three figures turn stillness into orbit, gliding between the drag of memory and the sudden grace of flight."
+      }
+    },
     {
       "date": "2026-09-17",
       "artist": {
